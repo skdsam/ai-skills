@@ -66,8 +66,8 @@ The detailed skill-inventory.local.json is also excluded from Git.
 Do not sync entire account/configuration folders or credentials.
 
 VERIFICATION (20 November 2026)
-1,235 primary folders have nonempty names/descriptions and unique discovery names.
-Codex app-server skills/list loaded all 1,235, plus nested skills, with zero errors.
+1,243 primary folders have nonempty names/descriptions and unique discovery names.
+Codex app-server skills/list loaded all 1,243, plus nested skills, with zero errors.
 All five connected user skill directories resolve to this repository's skills/.
 Antigravity in-app discovery needs checking after restarting the application.
 Setup was checked with an isolated profile, WhatIf and repeated execution.
@@ -85,6 +85,24 @@ third-party-notices/ retains upstream licenses and attribution.
 
 ENGINE PREFERENCES
 38 Unity, Godot and Roblox skill folders were removed at the user request.
-1,235 primary skill folders remain. Unreal and engine-neutral skills are retained.
+1,243 primary skill folders remain after adding Google browser skills. Unreal and engine-neutral skills are retained.
 skill-exclusions.json prevents the local collector from reimporting those engines.
 The import/source manifests retain historical provenance with removed status.
+
+GOOGLE BROWSER TOOLS
+Chrome DevTools MCP 1.13.0 and Modern Web Guidance 1.0.1 are installed on this PC.
+Eight Chrome DevTools skills were added; existing Modern Web Guidance skills
+were retained. The shared library now has 1,243 primary skill folders.
+After cloning/pulling on your other Windows PC and running the shared-folder
+setup, run .\setup-google-browser-tools.ps1 to install the command-line packages
+and configure Chrome DevTools for Codex and Antigravity. Node.js/npm and Chrome
+must be installed on that PC. Restart the applications afterward.
+This setup preserves other MCP entries and keeps local configuration backups
+in .local-backups/, excluded from Git. Existing chrome-devtools entries are kept.
+Browser tools use headless Chrome with isolated temporary profiles.
+Chrome tool usage statistics and CrUX trace-URL lookups are disabled.
+Modern Web Guidance is a command-line skill, not a second MCP server.
+Verification: Chrome MCP initialized, listed 33 tools, opened a local test page,
+and listed browser pages. Modern Web Guidance returned modal/accessibility guides.
+Upstream skill revisions, package versions and licenses are recorded in
+google-browser-skills.json and third-party-notices/.

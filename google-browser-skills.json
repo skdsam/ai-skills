@@ -1,0 +1,55 @@
+{
+  "installed_on": "2026-11-20",
+  "chrome_devtools": {
+    "repository": "ChromeDevTools/chrome-devtools-mcp",
+    "commit": "eb9b030280e028df0b33a1d8721349002b3cf18f",
+    "npm_version": "1.13.0",
+    "skills": [
+      {
+        "source_path": "skills/a11y-debugging",
+        "destination": "skills/a11y-debugging",
+        "sha256": "e6e1620e4c1d54bef04c3de1bdabb327602b62b7b3db703557865eac84b871b1"
+      },
+      {
+        "source_path": "skills/chrome-devtools",
+        "destination": "skills/chrome-devtools",
+        "sha256": "76a8190930095c7f6fda65f88779384070934e37a2261c5186b145b7611c5af2"
+      },
+      {
+        "source_path": "skills/chrome-devtools-cli",
+        "destination": "skills/chrome-devtools-cli",
+        "sha256": "3544faec2e9d27ffd4e1f134d7b77e823c913ceae7cdf4e26f7f8418dd27d80f"
+      },
+      {
+        "source_path": "skills/cookie-debugging",
+        "destination": "skills/cookie-debugging",
+        "sha256": "f0f0daa1d75def39492c7430ccd5d98e7ff54ba370f3677147dd3b93b0712e05"
+      },
+      {
+        "source_path": "skills/debug-optimize-lcp",
+        "destination": "skills/debug-optimize-lcp",
+        "sha256": "d6486b728d7c891ed67280d05880dc396499242b02f3041d9e62c8e83c1ba5f3"
+      },
+      {
+        "source_path": "skills/inspect-in-devtools",
+        "destination": "skills/inspect-in-devtools",
+        "sha256": "8db63e9a5dd93a1f77df31c786c5d0815614533a5321de0904eff9887f7c5f18"
+      },
+      {
+        "source_path": "skills/memory-leak-debugging",
+        "destination": "skills/memory-leak-debugging",
+        "sha256": "895127ac55a3f2c4e0ca9be496e84165eee6408637c2bcc5516d69170a8de80e"
+      },
+      {
+        "source_path": "skills/troubleshooting",
+        "destination": "skills/troubleshooting",
+        "sha256": "80357d865f9604c12403b9754c1a513d4ee8afcfda84423c7a0e62a246c472f7"
+      }
+    ]
+  },
+  "modern_web_guidance": {
+    "repository": "GoogleChrome/modern-web-guidance",
+    "npm_version": "1.0.1",
+    "status": "Previously installed skills retained; command-line runtime installed and verified with this setup."
+  }
+}
