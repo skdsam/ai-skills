@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+skill-inventory.local.json
+.local-backups/
+last-collection.local.json
+setup-state.local.json

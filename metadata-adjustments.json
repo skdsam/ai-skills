@@ -1,0 +1,54 @@
+[
+  {
+    "folder": "agent-blender",
+    "change": "unique discovery name: agent-blender"
+  },
+  {
+    "folder": "brand-guidelines-anthropic",
+    "change": "unique discovery name: brand-guidelines-anthropic"
+  },
+  {
+    "folder": "brand-guidelines-community",
+    "change": "unique discovery name: brand-guidelines-community"
+  },
+  {
+    "folder": "docx-official",
+    "change": "unique discovery name: docx-official"
+  },
+  {
+    "folder": "internal-comms-anthropic",
+    "change": "unique discovery name: internal-comms-anthropic"
+  },
+  {
+    "folder": "internal-comms-community",
+    "change": "unique discovery name: internal-comms-community"
+  },
+  {
+    "folder": "mcp-builder-ms",
+    "change": "unique discovery name: mcp-builder-ms"
+  },
+  {
+    "folder": "pdf-official",
+    "change": "unique discovery name: pdf-official"
+  },
+  {
+    "folder": "pptx-official",
+    "change": "unique discovery name: pptx-official"
+  },
+  {
+    "folder": "skill-creator-ms",
+    "change": "unique discovery name: skill-creator-ms"
+  },
+  {
+    "folder": "xlsx-official",
+    "change": "unique discovery name: xlsx-official"
+  },
+  {
+    "folder": "skill-creator",
+    "change": "unique discovery name: skill-creator-community"
+  },
+  {
+    "folder": "imagen",
+    "change": "description repaired"
+  }
+]

@@ -1,0 +1,3 @@
+https://github.com/addyosmani/agent-skills
+Commit: aeac41d4d005999432bb7312f7ff06383a91d59d
+Installed 2026-10-24. Local paths adapted for Codex; supporting reference and license included.
