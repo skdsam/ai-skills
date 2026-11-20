@@ -1,0 +1,215 @@
+{
+  "checked_on": "2026-11-20",
+  "popularity_source": "GitHub REST repository metadata. Stars measure repository popularity, not individual skill quality or per-skill install counts.",
+  "weekly_trending_source": "https://github.com/trending?since=weekly",
+  "weekly_trending": [
+    {
+      "repo": "backnotprop / plannotator",
+      "weekly_gain": "3,468 stars this week"
+    },
+    {
+      "repo": "google-labs-code / stitch-skills",
+      "weekly_gain": "1,829 stars this week"
+    },
+    {
+      "repo": "GoogleChrome / modern-web-guidance-src",
+      "weekly_gain": "6,858 stars this week"
+    },
+    {
+      "repo": "alibaba / open-code-review",
+      "weekly_gain": "4,492 stars this week"
+    },
+    {
+      "repo": "mvanhorn / last30days-skill",
+      "weekly_gain": "3,179 stars this week"
+    },
+    {
+      "repo": "ChromeDevTools / chrome-devtools-mcp",
+      "weekly_gain": "3,229 stars this week"
+    },
+    {
+      "repo": "tradermonty / claude-trading-skills",
+      "weekly_gain": "3,385 stars this week"
+    },
+    {
+      "repo": "ag-ui-protocol / ag-ui",
+      "weekly_gain": "3,455 stars this week"
+    },
+    {
+      "repo": "meta / astryx",
+      "weekly_gain": "4,977 stars this week"
+    },
+    {
+      "repo": "pookjw / HermesEnabler",
+      "weekly_gain": "904 stars this week"
+    },
+    {
+      "repo": "we-promise / sure",
+      "weekly_gain": "3,226 stars this week"
+    },
+    {
+      "repo": "dream-num / univer",
+      "weekly_gain": "7,248 stars this week"
+    },
+    {
+      "repo": "kajisho5 / ffmpeg-skill",
+      "weekly_gain": "2,998 stars this week"
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "arjun988/blender-skills",
+      "url": "https://github.com/arjun988/blender-skills",
+      "github_stars": 4478,
+      "license": "MIT",
+      "added_skills": 94
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "github_stars": 2529,
+      "license": "MIT",
+      "added_skills": 17
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "github_stars": 152124,
+      "license": "MIT",
+      "added_skills": 0
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "github_stars": 113984,
+      "license": "Apache-2.0",
+      "added_skills": 1
+    },
+    {
+      "repository": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "github_stars": 119284,
+      "license": "MIT",
+      "added_skills": 1
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "url": "https://github.com/emilkowalski/skills",
+      "github_stars": 58396,
+      "license": "MIT",
+      "added_skills": 18
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "url": "https://github.com/jakubkrehel/skills",
+      "github_stars": 12496,
+      "license": "MIT",
+      "added_skills": 13
+    },
+    {
+      "repository": "MengTo/Skills",
+      "url": "https://github.com/MengTo/Skills",
+      "github_stars": 7835,
+      "license": "MIT",
+      "added_skills": 73
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+      "github_stars": 9680,
+      "license": "Apache-2.0",
+      "added_skills": 80
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "github_stars": 2864,
+      "license": "MIT",
+      "added_skills": 9
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "url": "https://github.com/danielraffel/juce-agent-toolkit",
+      "github_stars": 4,
+      "license": "MIT",
+      "added_skills": 10
+    },
+    {
+      "repository": "danielraffel/generous-corp-marketplace",
+      "url": "https://github.com/danielraffel/generous-corp-marketplace",
+      "github_stars": 12,
+      "license": "MIT",
+      "added_skills": 0
+    },
+    {
+      "repository": "mcaserta/juce-ui-fidelity",
+      "url": "https://github.com/mcaserta/juce-ui-fidelity",
+      "github_stars": 0,
+      "license": "MIT",
+      "added_skills": 1
+    },
+    {
+      "repository": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "github_stars": 40382,
+      "license": "MIT",
+      "added_skills": 0
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "url": "https://github.com/greensock/gsap-skills",
+      "github_stars": 18822,
+      "license": "MIT",
+      "added_skills": 8
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "url": "https://github.com/kunitoki/sonic-skills",
+      "github_stars": 25,
+      "license": "Unlicense",
+      "added_skills": 18
+    },
+    {
+      "repository": "bman654/audio-lens",
+      "url": "https://github.com/bman654/audio-lens",
+      "github_stars": 0,
+      "license": "MIT",
+      "added_skills": 0
+    },
+    {
+      "repository": "FunwayHQ/sound-design-skill",
+      "url": "https://github.com/FunwayHQ/sound-design-skill",
+      "github_stars": 1,
+      "license": "MIT",
+      "added_skills": 1
+    },
+    {
+      "repository": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "github_stars": 5312,
+      "license": "MIT",
+      "added_skills": 2
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "github_stars": 10985,
+      "license": "Apache-2.0",
+      "added_skills": 15
+    },
+    {
+      "repository": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "github_stars": 9499,
+      "license": "Apache-2.0",
+      "added_skills": 0
+    },
+    {
+      "repository": "GoogleChrome/modern-web-guidance",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "github_stars": 23903,
+      "license": "Apache-2.0",
+      "added_skills": 2
+    }
+  ]
+}

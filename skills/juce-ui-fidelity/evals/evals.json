@@ -1,0 +1,58 @@
+{
+  "skill_name": "juce-ui-fidelity",
+  "evals": [
+    {
+      "id": 1,
+      "name": "html-knob-phosphor-to-juce",
+      "prompt": "I have an HTML mockup of a rotary knob design at evals/fixtures/knob_phosphor_mockup.html (relative to this skill's repo root) — it's a dark-panel knob with a cyan phosphor arc (around #4ffbe0), a radial-gradient matte knob body, an inset well shadow, a glowing pointer line, and a label + value readout underneath. Build me a JUCE custom LookAndFeel override (a subclass of juce::LookAndFeel_V4) that overrides drawRotarySlider to match this design at 120x120 pixels, plus a story file that registers three states (min/mid/max) for snapshot testing. Assume I'm dropping this into a fresh JUCE 8 project with no existing theme system — parameterize colors via a plain struct I can initialize at construction. Deliver the C++ files I need (LookAndFeel header+cpp, story TU) and a short note on how to invoke the snapshot harness once wired up.",
+      "files": [
+        "evals/fixtures/knob_phosphor_mockup.html"
+      ],
+      "assertions": [
+        "LookAndFeel subclasses juce::LookAndFeel_V4",
+        "drawRotarySlider is overridden in the LookAndFeel",
+        "Arc is drawn with juce::Path and addCentredArc rather than a filmstrip",
+        "Phosphor glow uses multi-pass strokePath (at least 3 passes with varied alpha or width)",
+        "Knob body is painted with a juce::ColourGradient",
+        "Colors are parameterized via a struct (not hardcoded hex literals in paint)",
+        "Story TU registers at least three slider-value states",
+        "All C++ string literals are ASCII-only"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "themed-compressor-panel",
+      "prompt": "I'm working in a JUCE 8 polyphonic synth that already uses a central ProjectLookAndFeel + ThemeData system (see source/ui/ProjectLookAndFeel.{h,cpp} and source/ui/ThemeData.h). I need a new CompressorPanel Component that lives in source/ui/fx/ alongside the existing effect editors. Target design: 420x140 panel; four rotary knobs in a row (labelled THRESHOLD, RATIO, ATTACK, RELEASE) each with a small caption below; a vertical gain-reduction meter on the right edge (8px wide, 100px tall, red gradient bar filling downward from 0 when the compressor reduces gain); a label at top-left reading 'COMP' in the theme's typeface. Must integrate with the existing theme system (no hardcoded colors — use theme colours via ProjectLookAndFeel or standard JUCE colour IDs), use FlexBox or Grid for layout, and keep C++ string literals ASCII-only. Deliver: source/ui/fx/CompressorEditor.{h,cpp}, a snapshot story TU (tests/snapshots/stories/CompressorEditor_stories.cpp), and the exact diff to CMakeLists.txt to add it to the build.",
+      "files": [],
+      "assertions": [
+        "CompressorEditor is a juce::Component subclass with four juce::Slider children",
+        "Layout uses juce::FlexBox or juce::Grid",
+        "Paint/draw code contains no hardcoded juce::Colour hex literals (except 0 for black/white if any)",
+        "Theme is accessed via ProjectLookAndFeel cast or standard JUCE Slider/Component colour IDs",
+        "A gain-reduction meter sub-component or inline drawing exists",
+        "Story TU registers CompressorEditor at 420x140",
+        "CMakeLists.diff appends the new sources to the existing target_sources list",
+        "All C++ string literals are ASCII-only",
+        "Editor uses setLookAndFeel discipline (either none, or sets+clears in ctor/dtor)",
+        "Knob labels include the four targets: THRESHOLD, RATIO, ATTACK, RELEASE"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "setup-visual-regression-greenfield",
+      "prompt": "Walk me through adding visual regression testing to a JUCE 8 + CMake 3.22 plugin repo that already wires ccache in its top-level CMakeLists.txt. I want to pick one existing Component (LFOScope) as the first one to snapshot-test, and I want to end up with a <10-second iteration loop (edit paint() -> see diff). Give me: (1) the exact files I need to create (full contents, including a minimal headless harness) and where they go; (2) the exact diff to CMakeLists.txt to wire them up without disturbing existing targets; (3) the shell commands to configure, build the snapshot target, and run the first diff against a newly-accepted golden; (4) the specific tuning knobs that take the edit-to-result loop down to 10 seconds; (5) what I should expect to see when the LFOScope drawing changes and how to accept or reject the new rendering.",
+      "files": [],
+      "assertions": [
+        "Runbook addresses all five requested points (files/CMake/commands/tuning/diff-workflow)",
+        "Harness uses juce::SoftwareImageType for the output Image",
+        "Compile flags include JUCE_DISABLE_COREGRAPHICS_FONT_SMOOTHING=1",
+        "LFOScope story uses REGISTER_COMPONENT or the registry macro",
+        "Diff tool recommendation is odiff (or the bundled diff_images.py)",
+        "CMake addition is opt-in (EXCLUDE_FROM_ALL or option()-gated)",
+        "Golden-PNG acceptance workflow is explained (cp current to golden)",
+        "Iteration-speed tuning mentions at least two of ccache / Ninja / PCH / unity / OBJECT-library",
+        "Harness initialises juce::ScopedJuceInitialiser_GUI before painting"
+      ]
+    }
+  ]
+}

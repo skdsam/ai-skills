@@ -1,0 +1,3355 @@
+{
+  "reviewed_on": "2026-11-20",
+  "method": "GitHub repository star snapshot, weekly trending discovery, content and dependency review; repository stars are not per-skill rankings.",
+  "imports": [
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/analog-found-footage-horror",
+      "destination": "skills/analog-found-footage-horror",
+      "source_skill_sha256": "d847723638791210fa207b08fa97c6b32a096ab2bda779fe4c9aeb475fcd84ae",
+      "modifications": [],
+      "installed_skill_sha256": "d847723638791210fa207b08fa97c6b32a096ab2bda779fe4c9aeb475fcd84ae"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/animation",
+      "destination": "skills/animation",
+      "source_skill_sha256": "a7c5fcef13d4f68c017a3f5052194cea3b359e38fb0807eb308f8075b1f398d6",
+      "modifications": [],
+      "installed_skill_sha256": "a7c5fcef13d4f68c017a3f5052194cea3b359e38fb0807eb308f8075b1f398d6"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/anime-style",
+      "destination": "skills/anime-style",
+      "source_skill_sha256": "db0cd6332505265cca20828f5a4042db8fb5db5751fb3fc020c49b97f31ea74f",
+      "modifications": [],
+      "installed_skill_sha256": "db0cd6332505265cca20828f5a4042db8fb5db5751fb3fc020c49b97f31ea74f"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/apocalypse-worlds",
+      "destination": "skills/apocalypse-worlds",
+      "source_skill_sha256": "20231b4b129f9c07fa169e47a53193152dbaa5b5a861ca283e7c3f63a849ac88",
+      "modifications": [],
+      "installed_skill_sha256": "20231b4b129f9c07fa169e47a53193152dbaa5b5a861ca283e7c3f63a849ac88"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/archviz",
+      "destination": "skills/archviz",
+      "source_skill_sha256": "3b74d2914d7ff31a017d1948fca6c746676f71b4ab80bc87c25c9a7aca1d28b8",
+      "modifications": [],
+      "installed_skill_sha256": "3b74d2914d7ff31a017d1948fca6c746676f71b4ab80bc87c25c9a7aca1d28b8"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/asset-optimization",
+      "destination": "skills/asset-optimization",
+      "source_skill_sha256": "37a0f4a04b9015ca892a4c87529737e900e77e58f3022b886e932ab5cb28533c",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "ea16ae2e9ed11145479772be72019b3b10c5f9206400c34fcc78190706b58e64"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/biome-worlds",
+      "destination": "skills/biome-worlds",
+      "source_skill_sha256": "3989f679d289b1d4455fe9b40804a6351d61587caf893c90f04e25469a799423",
+      "modifications": [],
+      "installed_skill_sha256": "3989f679d289b1d4455fe9b40804a6351d61587caf893c90f04e25469a799423"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/blender-director",
+      "destination": "skills/blender-director",
+      "source_skill_sha256": "ba10ae3243590f94fb114b6cb1e476f8f0510f0a99de100e8c14651d081bc008",
+      "modifications": [
+        "Remove duplicated YAML metadata key",
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "772e7810998d456fa587a726201365640fd701a12c960bda521b99f37d6fb012"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/blender-modeler",
+      "destination": "skills/blender-modeler",
+      "source_skill_sha256": "00835b5d2281ae056e4bd4b167540a10c39ae95d9a9a4f12828ce875dce8c12c",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "981bc6a9f4c57e52c6e73fec0f6bf0ee13c87ab0ba62877c8c1bb47dffbbb359"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/body-horror-style",
+      "destination": "skills/body-horror-style",
+      "source_skill_sha256": "a4fb0440ef386441a98eaafdae5b80e9488eae2ec7e8490036fbedfde05317d3",
+      "modifications": [],
+      "installed_skill_sha256": "a4fb0440ef386441a98eaafdae5b80e9488eae2ec7e8490036fbedfde05317d3"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/brutalist-mood",
+      "destination": "skills/brutalist-mood",
+      "source_skill_sha256": "b59a857a600d8c7c38ae7bf6663dad494ce64f30a03edae527bdb449774e3141",
+      "modifications": [],
+      "installed_skill_sha256": "b59a857a600d8c7c38ae7bf6663dad494ce64f30a03edae527bdb449774e3141"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/camera-cinematography",
+      "destination": "skills/camera-cinematography",
+      "source_skill_sha256": "0838fe51a882af69b47d598b09ef3c921852e498a394d35b793d607826e43ece",
+      "modifications": [],
+      "installed_skill_sha256": "0838fe51a882af69b47d598b09ef3c921852e498a394d35b793d607826e43ece"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/cartoon-style",
+      "destination": "skills/cartoon-style",
+      "source_skill_sha256": "9825cdd0501fed306ee94f05820d1a84198b9a007c50a16bf3a5aee4ea43b0fe",
+      "modifications": [],
+      "installed_skill_sha256": "9825cdd0501fed306ee94f05820d1a84198b9a007c50a16bf3a5aee4ea43b0fe"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/character-archetypes",
+      "destination": "skills/character-archetypes",
+      "source_skill_sha256": "8a105e03c2b67e6d129cc72016640b0ba0e2cafd36bc8560b1d1c993bebf57d4",
+      "modifications": [],
+      "installed_skill_sha256": "8a105e03c2b67e6d129cc72016640b0ba0e2cafd36bc8560b1d1c993bebf57d4"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/character-artist",
+      "destination": "skills/character-artist",
+      "source_skill_sha256": "bf51f1a2be3e8804b83a7ef97278e37308870aaff81c7aa2a3e012ff8c837054",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "2d72caa702bc32fe2e0fa18c6bdba5ef5f96ca2c5cc9d6bec46d652158197bc5"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/chibi-style",
+      "destination": "skills/chibi-style",
+      "source_skill_sha256": "8359bbfaba12b298c4028c7a0bb1d1ed9a0c28ab40ea18d44e021c1ea28030fd",
+      "modifications": [],
+      "installed_skill_sha256": "8359bbfaba12b298c4028c7a0bb1d1ed9a0c28ab40ea18d44e021c1ea28030fd"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/cloth-sim",
+      "destination": "skills/cloth-sim",
+      "source_skill_sha256": "adc458f300a734c647ff3d4f83ea8c06fbb73859f0be89693d7057848175ea22",
+      "modifications": [],
+      "installed_skill_sha256": "adc458f300a734c647ff3d4f83ea8c06fbb73859f0be89693d7057848175ea22"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/collision-proxy",
+      "destination": "skills/collision-proxy",
+      "source_skill_sha256": "35c3b05ea2b31591cfe9c480730e2963887d7dcc88c80eb891d0c4abdc820af6",
+      "modifications": [],
+      "installed_skill_sha256": "35c3b05ea2b31591cfe9c480730e2963887d7dcc88c80eb891d0c4abdc820af6"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/comic-book-style",
+      "destination": "skills/comic-book-style",
+      "source_skill_sha256": "82833b34215774d2ee2df3f2ef3055340322e3b0112f869e60fd6f6c4cd09735",
+      "modifications": [],
+      "installed_skill_sha256": "82833b34215774d2ee2df3f2ef3055340322e3b0112f869e60fd6f6c4cd09735"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/compositing",
+      "destination": "skills/compositing",
+      "source_skill_sha256": "d33e636d269511fb3b4bb5769562ded33533d9d4b2dce7c67b128d6cbe65ddbd",
+      "modifications": [],
+      "installed_skill_sha256": "d33e636d269511fb3b4bb5769562ded33533d9d4b2dce7c67b128d6cbe65ddbd"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/cosmic-eldritch-horror",
+      "destination": "skills/cosmic-eldritch-horror",
+      "source_skill_sha256": "e8300004e948d25dfe22fd203234b5788797790e81b71f2bdb8af27f5ba28621",
+      "modifications": [],
+      "installed_skill_sha256": "e8300004e948d25dfe22fd203234b5788797790e81b71f2bdb8af27f5ba28621"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/cozy-wholesome-mood",
+      "destination": "skills/cozy-wholesome-mood",
+      "source_skill_sha256": "66acfd75a99beb56174e5b318a8af23d364daede3f81999a0525d767ecd2e9c3",
+      "modifications": [],
+      "installed_skill_sha256": "66acfd75a99beb56174e5b318a8af23d364daede3f81999a0525d767ecd2e9c3"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/creature-artist",
+      "destination": "skills/creature-artist",
+      "source_skill_sha256": "06176b12ab1b84fcfc0bc0d15952ff744948496908461a947da42c6f5ec3a0c7",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "195a7c3e9bc7a98f3b472bacf77fcceb9adda237f132aa3233eace01cef60e0d"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/dark-gritty-mood",
+      "destination": "skills/dark-gritty-mood",
+      "source_skill_sha256": "30de630a0278f4b0e8690bca0858f127448cfbb4b3884d45b54853f2a5f9c53e",
+      "modifications": [],
+      "installed_skill_sha256": "30de630a0278f4b0e8690bca0858f127448cfbb4b3884d45b54853f2a5f9c53e"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/dream-surreal-mood",
+      "destination": "skills/dream-surreal-mood",
+      "source_skill_sha256": "610484250488b7f5ce6ed0dc0ef2a5567a792550cda8de1209b84ebf65dc1003",
+      "modifications": [],
+      "installed_skill_sha256": "610484250488b7f5ce6ed0dc0ef2a5567a792550cda8de1209b84ebf65dc1003"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/dream-weirdcore-style",
+      "destination": "skills/dream-weirdcore-style",
+      "source_skill_sha256": "0d932dc319e043ae748bd99bee57b4a35d587f70633ce396ff6868a38ccb7d72",
+      "modifications": [],
+      "installed_skill_sha256": "0d932dc319e043ae748bd99bee57b4a35d587f70633ce396ff6868a38ccb7d72"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/environment-artist",
+      "destination": "skills/environment-artist",
+      "source_skill_sha256": "989c55a26e5db78bf719bfbbe0ba00e0fb1319a4816bce07c08a11472b2cd321",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "8b6142a8a79a8162d6301e95ebdc60135a910957d2895e640a6d4b868392be65"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/export-pipeline",
+      "destination": "skills/export-pipeline",
+      "source_skill_sha256": "5e754b14b0cad83a6a9fa939c64082be3b2358c74f4cdad637c8bd179d3314e1",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "80c38145ac7061c1996e8f410334f94fb06554778a00e9fe9294eb3a7360747d"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/fantasy-worlds",
+      "destination": "skills/fantasy-worlds",
+      "source_skill_sha256": "6586b1353684f32be7a5aee74e7e0746b67d706d155e05395c69622b22412887",
+      "modifications": [],
+      "installed_skill_sha256": "6586b1353684f32be7a5aee74e7e0746b67d706d155e05395c69622b22412887"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/folk-horror-style",
+      "destination": "skills/folk-horror-style",
+      "source_skill_sha256": "2244503d14789a67ef575110b5021532903649ee057b3d6b41d78cd93bce9987",
+      "modifications": [],
+      "installed_skill_sha256": "2244503d14789a67ef575110b5021532903649ee057b3d6b41d78cd93bce9987"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/frutiger-aero-style",
+      "destination": "skills/frutiger-aero-style",
+      "source_skill_sha256": "df1f254eb43008ec596929bf5a4637edca7890efacff01175b0ad29c08be8d4d",
+      "modifications": [],
+      "installed_skill_sha256": "df1f254eb43008ec596929bf5a4637edca7890efacff01175b0ad29c08be8d4d"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-action-combat",
+      "destination": "skills/genre-action-combat",
+      "source_skill_sha256": "ddc4f4337e4393a719686fbb361ea301068117785d437bc3786bd84dae6a5874",
+      "modifications": [],
+      "installed_skill_sha256": "ddc4f4337e4393a719686fbb361ea301068117785d437bc3786bd84dae6a5874"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-card-party-idle",
+      "destination": "skills/genre-card-party-idle",
+      "source_skill_sha256": "c99cc3778d6116478fb5e429145fbbf547f146caa49a61d2fbc7bd903a84b4ae",
+      "modifications": [],
+      "installed_skill_sha256": "c99cc3778d6116478fb5e429145fbbf547f146caa49a61d2fbc7bd903a84b4ae"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-metroidvania-roguelike",
+      "destination": "skills/genre-metroidvania-roguelike",
+      "source_skill_sha256": "76a2081f80e1cae07e0965de51a5598f27faa202c5bfa24dc6dc5ae7ab1d0adf",
+      "modifications": [],
+      "installed_skill_sha256": "76a2081f80e1cae07e0965de51a5598f27faa202c5bfa24dc6dc5ae7ab1d0adf"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-narrative-vn",
+      "destination": "skills/genre-narrative-vn",
+      "source_skill_sha256": "1735186be7eac4a163bb386710935303140b9b643f9595a5e3597eb93f49f122",
+      "modifications": [],
+      "installed_skill_sha256": "1735186be7eac4a163bb386710935303140b9b643f9595a5e3597eb93f49f122"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-open-world-sandbox",
+      "destination": "skills/genre-open-world-sandbox",
+      "source_skill_sha256": "13ecd9b25663d115e5295df190c1660c64e467362588ef7c7bd7f34ebf4bc589",
+      "modifications": [],
+      "installed_skill_sha256": "13ecd9b25663d115e5295df190c1660c64e467362588ef7c7bd7f34ebf4bc589"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-puzzle-platformer",
+      "destination": "skills/genre-puzzle-platformer",
+      "source_skill_sha256": "bc84121ef1cbaa8848d7f896e7de50984cafada33781d9cae949ad5b044b6fef",
+      "modifications": [],
+      "installed_skill_sha256": "bc84121ef1cbaa8848d7f896e7de50984cafada33781d9cae949ad5b044b6fef"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-racing-sports",
+      "destination": "skills/genre-racing-sports",
+      "source_skill_sha256": "76d5979443d3c1064453a1d93c5c99668f7d98fff5081a7c12437b4cb04532c8",
+      "modifications": [],
+      "installed_skill_sha256": "76d5979443d3c1064453a1d93c5c99668f7d98fff5081a7c12437b4cb04532c8"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-rpg",
+      "destination": "skills/genre-rpg",
+      "source_skill_sha256": "677769b0c5ecaa6d88922a9f0e388ab78311f600480d076d459dbdd0dc7ef2d9",
+      "modifications": [],
+      "installed_skill_sha256": "677769b0c5ecaa6d88922a9f0e388ab78311f600480d076d459dbdd0dc7ef2d9"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-shooter",
+      "destination": "skills/genre-shooter",
+      "source_skill_sha256": "2e26afab8838150687ed3120b5f9b62d8bf14f0ad7522f730699fc30ecd5f12e",
+      "modifications": [],
+      "installed_skill_sha256": "2e26afab8838150687ed3120b5f9b62d8bf14f0ad7522f730699fc30ecd5f12e"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-soulslike",
+      "destination": "skills/genre-soulslike",
+      "source_skill_sha256": "5aed9670100a27af1873f29eef7f0438d41c23b46711bac26d5399ca006352c4",
+      "modifications": [],
+      "installed_skill_sha256": "5aed9670100a27af1873f29eef7f0438d41c23b46711bac26d5399ca006352c4"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-stealth",
+      "destination": "skills/genre-stealth",
+      "source_skill_sha256": "c0f465acb37d661ee9712d85e2a164f8f4f4a2c4a4cdbabe2441ca499385737e",
+      "modifications": [],
+      "installed_skill_sha256": "c0f465acb37d661ee9712d85e2a164f8f4f4a2c4a4cdbabe2441ca499385737e"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-strategy-sim",
+      "destination": "skills/genre-strategy-sim",
+      "source_skill_sha256": "18caa20a9f0b306a2bcd72377b5bb82f2dc1a97d0de647e83caaf5269cdea1e5",
+      "modifications": [],
+      "installed_skill_sha256": "18caa20a9f0b306a2bcd72377b5bb82f2dc1a97d0de647e83caaf5269cdea1e5"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/genre-survival",
+      "destination": "skills/genre-survival",
+      "source_skill_sha256": "489f09af57c57bfb89a7c08ed37f05ee68a25715953515465cf87859ff31fd53",
+      "modifications": [],
+      "installed_skill_sha256": "489f09af57c57bfb89a7c08ed37f05ee68a25715953515465cf87859ff31fd53"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/geometry-nodes",
+      "destination": "skills/geometry-nodes",
+      "source_skill_sha256": "f04add65d17201c3d58d09575fc1da7408e95e270b35614e66bf0928663196d9",
+      "modifications": [],
+      "installed_skill_sha256": "f04add65d17201c3d58d09575fc1da7408e95e270b35614e66bf0928663196d9"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/godot-export",
+      "destination": "skills/blender-godot-export",
+      "source_skill_sha256": "262eeeffea3a67c7ab5c8165f8ec92f7605b63fd97c878acc92e4c25812ee96b",
+      "modifications": [
+        "Disambiguate Blender export from Godot engine export"
+      ],
+      "installed_skill_sha256": "7121dc73c70f3bf6a37a4c51ea3e13315d1a4de223663755f3764e184e5c4a64"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/hair-groom",
+      "destination": "skills/hair-groom",
+      "source_skill_sha256": "e812c1c8a205515a811dbbd405e2529250bacee7726e8efa222bbd5b58400476",
+      "modifications": [],
+      "installed_skill_sha256": "e812c1c8a205515a811dbbd405e2529250bacee7726e8efa222bbd5b58400476"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/hand-painted-style",
+      "destination": "skills/hand-painted-style",
+      "source_skill_sha256": "fd8c4418c2f3c51ddb494d51a558b935dc6c3de7aa9bf65f45349e4b1aa0022f",
+      "modifications": [],
+      "installed_skill_sha256": "fd8c4418c2f3c51ddb494d51a558b935dc6c3de7aa9bf65f45349e4b1aa0022f"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/hard-surface",
+      "destination": "skills/hard-surface",
+      "source_skill_sha256": "353ea5be095fd3cc9d3b4651a23087e3b20b43eb8a0759f99c227031ae96cb37",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "79af49e833b913a18a2cec6fa90315e0000744168963cdaba30395f88c706952"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/hd-2d-style",
+      "destination": "skills/hd-2d-style",
+      "source_skill_sha256": "99e8833cee66d720b662643f51eb5ca42643ed35228d953a178eafe86c25b9c3",
+      "modifications": [],
+      "installed_skill_sha256": "99e8833cee66d720b662643f51eb5ca42643ed35228d953a178eafe86c25b9c3"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/historical-worlds",
+      "destination": "skills/historical-worlds",
+      "source_skill_sha256": "4c1dfa736de10462bd362e4f438ce3d8f1862aeb04502d7a3cfbd8b1b3cbb2d3",
+      "modifications": [],
+      "installed_skill_sha256": "4c1dfa736de10462bd362e4f438ce3d8f1862aeb04502d7a3cfbd8b1b3cbb2d3"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/horror-style",
+      "destination": "skills/horror-style",
+      "source_skill_sha256": "ba007d86309da1569e30972f04d67ff2f2ed405b3c6d6a806642c0180ecae847",
+      "modifications": [],
+      "installed_skill_sha256": "ba007d86309da1569e30972f04d67ff2f2ed405b3c6d6a806642c0180ecae847"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/indie-horror-aesthetics",
+      "destination": "skills/indie-horror-aesthetics",
+      "source_skill_sha256": "1017c5f6adf8b3b6cc83a7a41ce4fda573f662be6d026641ae6905da509f0e1e",
+      "modifications": [],
+      "installed_skill_sha256": "1017c5f6adf8b3b6cc83a7a41ce4fda573f662be6d026641ae6905da509f0e1e"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/isometric-style",
+      "destination": "skills/isometric-style",
+      "source_skill_sha256": "e6d15bb0b630709116109a60176c96e284a6a7760aacd53c6578c1f6c3e04a91",
+      "modifications": [],
+      "installed_skill_sha256": "e6d15bb0b630709116109a60176c96e284a6a7760aacd53c6578c1f6c3e04a91"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/lighting",
+      "destination": "skills/lighting",
+      "source_skill_sha256": "a9ad1a183a4294c3e87101b63d26303ea499cfe8edc25c3b9a4c73f5e7b34232",
+      "modifications": [],
+      "installed_skill_sha256": "a9ad1a183a4294c3e87101b63d26303ea499cfe8edc25c3b9a4c73f5e7b34232"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/liminal-space-style",
+      "destination": "skills/liminal-space-style",
+      "source_skill_sha256": "b048ac56ef898ef3a4c528cc91581f51bb73e8a43442abf9d00a71f7ab31c6eb",
+      "modifications": [],
+      "installed_skill_sha256": "b048ac56ef898ef3a4c528cc91581f51bb73e8a43442abf9d00a71f7ab31c6eb"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/lod-pipeline",
+      "destination": "skills/lod-pipeline",
+      "source_skill_sha256": "8025238b3ef5238e9d5304d8014645df2889e0fc09aa5d86de5fea57eafd5b0e",
+      "modifications": [],
+      "installed_skill_sha256": "8025238b3ef5238e9d5304d8014645df2889e0fc09aa5d86de5fea57eafd5b0e"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/lookdev",
+      "destination": "skills/lookdev",
+      "source_skill_sha256": "7eb0de0bebf2c3235f46272f93aafc66c72b10493e0e84d42a5cb7c79395e6ce",
+      "modifications": [],
+      "installed_skill_sha256": "7eb0de0bebf2c3235f46272f93aafc66c72b10493e0e84d42a5cb7c79395e6ce"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/lowpoly-style",
+      "destination": "skills/lowpoly-style",
+      "source_skill_sha256": "614123f0f61c42963be1fc854b87d6f4f57a1ac601c724bb81355dd83230d57f",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "18ac879f5439328cecb90e3418ebfd558354b9d4f1a0ef32885e11415c3c83d5"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/manga-style",
+      "destination": "skills/manga-style",
+      "source_skill_sha256": "32895485256920528b4d56794f4dfbbf4a317e6b5f0d328ea5088df438b6da08",
+      "modifications": [],
+      "installed_skill_sha256": "32895485256920528b4d56794f4dfbbf4a317e6b5f0d328ea5088df438b6da08"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/mascot-puppet-horror",
+      "destination": "skills/mascot-puppet-horror",
+      "source_skill_sha256": "21de6064e1a8dafea6be9a4050f033d47b49db93db604dbd58f35eae075efd47",
+      "modifications": [],
+      "installed_skill_sha256": "21de6064e1a8dafea6be9a4050f033d47b49db93db604dbd58f35eae075efd47"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/materials",
+      "destination": "skills/materials",
+      "source_skill_sha256": "fc86c8f2e292791a3bc4f238ae0f2120c52d61b393ef922c55860dd2b78e43b6",
+      "modifications": [],
+      "installed_skill_sha256": "fc86c8f2e292791a3bc4f238ae0f2120c52d61b393ef922c55860dd2b78e43b6"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/minimalist-style",
+      "destination": "skills/minimalist-style",
+      "source_skill_sha256": "cd4cf9141a1c5c0b16b25c53c7fa9958addaddb4051e8eb9ce24f95565001b6d",
+      "modifications": [],
+      "installed_skill_sha256": "cd4cf9141a1c5c0b16b25c53c7fa9958addaddb4051e8eb9ce24f95565001b6d"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/neon-retrofuturism",
+      "destination": "skills/neon-retrofuturism",
+      "source_skill_sha256": "06cf7b0d833b698e2129bf4285791ff616c45a738af84f3212fdbc4c45a4aed5",
+      "modifications": [],
+      "installed_skill_sha256": "06cf7b0d833b698e2129bf4285791ff616c45a738af84f3212fdbc4c45a4aed5"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/noir-style",
+      "destination": "skills/noir-style",
+      "source_skill_sha256": "f8179d4612fa288606116dfa42ac95bdba5cc9117677dc092ef716070616e039",
+      "modifications": [],
+      "installed_skill_sha256": "f8179d4612fa288606116dfa42ac95bdba5cc9117677dc092ef716070616e039"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/painterly-style",
+      "destination": "skills/painterly-style",
+      "source_skill_sha256": "a5b263460a1a384d56151bedf7163611df1df6bcb9fe298b74066c87ffbadbbe",
+      "modifications": [],
+      "installed_skill_sha256": "a5b263460a1a384d56151bedf7163611df1df6bcb9fe298b74066c87ffbadbbe"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/physics-sim",
+      "destination": "skills/physics-sim",
+      "source_skill_sha256": "fa6a137145e5917b819b9948fcbae3614d3373190175193269ad152c67082d7c",
+      "modifications": [],
+      "installed_skill_sha256": "fa6a137145e5917b819b9948fcbae3614d3373190175193269ad152c67082d7c"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/pixel-art-style",
+      "destination": "skills/pixel-art-style",
+      "source_skill_sha256": "456abb3101ed885ec733ecbdeb9b9834b77d48e3fdb0b13a10e0040d54f15a34",
+      "modifications": [],
+      "installed_skill_sha256": "456abb3101ed885ec733ecbdeb9b9834b77d48e3fdb0b13a10e0040d54f15a34"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/procedural-modeling",
+      "destination": "skills/procedural-modeling",
+      "source_skill_sha256": "143556702f08e2bcab1d61dc38c0ee953bf90835483ebbaf1058c9e8c2364e03",
+      "modifications": [],
+      "installed_skill_sha256": "143556702f08e2bcab1d61dc38c0ee953bf90835483ebbaf1058c9e8c2364e03"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/prop-artist",
+      "destination": "skills/prop-artist",
+      "source_skill_sha256": "f8db44db9707474893cf265592242148cbe7b4a597eed1f017c25131fb2b91ff",
+      "modifications": [],
+      "installed_skill_sha256": "f8db44db9707474893cf265592242148cbe7b4a597eed1f017c25131fb2b91ff"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/psx-horror-style",
+      "destination": "skills/psx-horror-style",
+      "source_skill_sha256": "50e981f2544c40cebd765d13ea487568b9ff50ac173e38d167d5373fa303d815",
+      "modifications": [],
+      "installed_skill_sha256": "50e981f2544c40cebd765d13ea487568b9ff50ac173e38d167d5373fa303d815"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/qa-review",
+      "destination": "skills/qa-review",
+      "source_skill_sha256": "14bd366e4c7831973d67e74580ebfeafb1749ce1530ef64ba900d097ac38fce0",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "1f0f2014a4e4fee1701e430be0293846d78b2807c4154967ffd6f77581a8c865"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/realistic-style",
+      "destination": "skills/realistic-style",
+      "source_skill_sha256": "1e61757ec4f9fed5502e7a2c145bf1a8b01da3a6e0988b32c042d1eeeab1b491",
+      "modifications": [],
+      "installed_skill_sha256": "1e61757ec4f9fed5502e7a2c145bf1a8b01da3a6e0988b32c042d1eeeab1b491"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/rendering",
+      "destination": "skills/rendering",
+      "source_skill_sha256": "abf41a30b17a29cc09efcbecf9e163e7f0d30a2b5d6c2f2700acf85a788deff1",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "cc8a37725e9bc4264f5e4b099b30e2de565f1c887d9c72c441e44efe0fac39c6"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/retopology",
+      "destination": "skills/retopology",
+      "source_skill_sha256": "cbb994cb58dae09252fada1304f1de9f01a4eff1faec6dac5120427d10fff083",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "19478883a4af4b2966f7b9cde587e0e5316736466ee622225f8437303cecfda5"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/retro-16bit-style",
+      "destination": "skills/retro-16bit-style",
+      "source_skill_sha256": "ed44909913fc534a1960533b82381a35baca326830a52f2969af2a52997f7223",
+      "modifications": [],
+      "installed_skill_sha256": "ed44909913fc534a1960533b82381a35baca326830a52f2969af2a52997f7223"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/retro-8bit-style",
+      "destination": "skills/retro-8bit-style",
+      "source_skill_sha256": "0a079ab1525070e824d19da58f691a42ea9768e7ed17b37e6a0c2cf9d45eaa4a",
+      "modifications": [],
+      "installed_skill_sha256": "0a079ab1525070e824d19da58f691a42ea9768e7ed17b37e6a0c2cf9d45eaa4a"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/rigging",
+      "destination": "skills/rigging",
+      "source_skill_sha256": "a5469b3a46f46e659b17e0afd0fb0b1c41751e60246205af785d1dc316a32f9a",
+      "modifications": [],
+      "installed_skill_sha256": "a5469b3a46f46e659b17e0afd0fb0b1c41751e60246205af785d1dc316a32f9a"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/scene-assembly",
+      "destination": "skills/scene-assembly",
+      "source_skill_sha256": "9aad0ebdeac897304989b9a06efdaa566a76962ef9409e6e4076474dec23e34f",
+      "modifications": [],
+      "installed_skill_sha256": "9aad0ebdeac897304989b9a06efdaa566a76962ef9409e6e4076474dec23e34f"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/sci-fi-punk-worlds",
+      "destination": "skills/sci-fi-punk-worlds",
+      "source_skill_sha256": "e1aaeddf86711bad2547b8ef445347a3f51c1e580472a06c91612fc60e2356f9",
+      "modifications": [],
+      "installed_skill_sha256": "e1aaeddf86711bad2547b8ef445347a3f51c1e580472a06c91612fc60e2356f9"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/sculpting",
+      "destination": "skills/sculpting",
+      "source_skill_sha256": "fa84c5b530fe66ab335c6c766ffb10e49152b05b45adfbe316b0de306e3a98a0",
+      "modifications": [],
+      "installed_skill_sha256": "fa84c5b530fe66ab335c6c766ffb10e49152b05b45adfbe316b0de306e3a98a0"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/set-dressing",
+      "destination": "skills/set-dressing",
+      "source_skill_sha256": "c35d19573a97282de73f1fe1e1ab9e447d279052a98db76c8faec8a3cd3fbd6b",
+      "modifications": [],
+      "installed_skill_sha256": "c35d19573a97282de73f1fe1e1ab9e447d279052a98db76c8faec8a3cd3fbd6b"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/stop-motion-craft-style",
+      "destination": "skills/stop-motion-craft-style",
+      "source_skill_sha256": "4459f37cfbbd0f9c812fa9c36c1a7206296413ec998ddb5d25f5299c29443cce",
+      "modifications": [],
+      "installed_skill_sha256": "4459f37cfbbd0f9c812fa9c36c1a7206296413ec998ddb5d25f5299c29443cce"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/stylized-style",
+      "destination": "skills/stylized-style",
+      "source_skill_sha256": "3e819081e503a6de37ae4f2e9ffc2fa54ba4b08808eeb764c2f2a19519094129",
+      "modifications": [],
+      "installed_skill_sha256": "3e819081e503a6de37ae4f2e9ffc2fa54ba4b08808eeb764c2f2a19519094129"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/texture-workflow",
+      "destination": "skills/texture-workflow",
+      "source_skill_sha256": "9f8b86bc7fb7350d3195c7a641fa6fc33e6350fbf1364ed55330ff8b04249a9b",
+      "modifications": [
+        "Resolve shared Blender reference library"
+      ],
+      "installed_skill_sha256": "d4e7dc6d3d77889ee4bcac8302eaa1361e4bd20d33a2f4115fa2648f07f3485c"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/unity-export",
+      "destination": "skills/unity-export",
+      "source_skill_sha256": "a3d58deb6512e979a4a3cdcfeafde97c6bfb5c743975025bd58279a73bcb452a",
+      "modifications": [],
+      "installed_skill_sha256": "a3d58deb6512e979a4a3cdcfeafde97c6bfb5c743975025bd58279a73bcb452a"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/unreal-export",
+      "destination": "skills/unreal-export",
+      "source_skill_sha256": "9109f7964bb14d3bbad2a5f97fc7a0612317f5790dff638642801d1ea81f5a01",
+      "modifications": [],
+      "installed_skill_sha256": "9109f7964bb14d3bbad2a5f97fc7a0612317f5790dff638642801d1ea81f5a01"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/uv-workflow",
+      "destination": "skills/uv-workflow",
+      "source_skill_sha256": "1e55a08843199640cc9d6a957ff40f96d077c00d74d6e1d95b81da8adceaba8b",
+      "modifications": [],
+      "installed_skill_sha256": "1e55a08843199640cc9d6a957ff40f96d077c00d74d6e1d95b81da8adceaba8b"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/vector-style",
+      "destination": "skills/vector-style",
+      "source_skill_sha256": "ed736c9aaeb13152087dd743e3b3d9dadbbc14b10f764545413bb596338767e9",
+      "modifications": [],
+      "installed_skill_sha256": "ed736c9aaeb13152087dd743e3b3d9dadbbc14b10f764545413bb596338767e9"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/vegetation-artist",
+      "destination": "skills/vegetation-artist",
+      "source_skill_sha256": "3b1f43f0f456b95f5c00f1372f64db75f34967c581b02068d80ee6ef63d476ec",
+      "modifications": [],
+      "installed_skill_sha256": "3b1f43f0f456b95f5c00f1372f64db75f34967c581b02068d80ee6ef63d476ec"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/vehicle-artist",
+      "destination": "skills/vehicle-artist",
+      "source_skill_sha256": "5a2414566399167883d947e0cbf5149ca056b52334d2a5ad341948f6241db6b8",
+      "modifications": [],
+      "installed_skill_sha256": "5a2414566399167883d947e0cbf5149ca056b52334d2a5ad341948f6241db6b8"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/vfx-fx",
+      "destination": "skills/vfx-fx",
+      "source_skill_sha256": "4ea783380362cab44aa635f5cc967e46d6b1bf74061341a576aa4f37b3c72b0c",
+      "modifications": [],
+      "installed_skill_sha256": "4ea783380362cab44aa635f5cc967e46d6b1bf74061341a576aa4f37b3c72b0c"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/visual-console-eras",
+      "destination": "skills/visual-console-eras",
+      "source_skill_sha256": "1f8b5bd4909902ae48f3408cc8f5aa15f027fe95a35dc4929318a15ba315be6a",
+      "modifications": [],
+      "installed_skill_sha256": "1f8b5bd4909902ae48f3408cc8f5aa15f027fe95a35dc4929318a15ba315be6a"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "commit": "904f095d8f36a6e72adaebb08d07f884a074743d",
+      "source_path": ".claude/skills/voxel-style",
+      "destination": "skills/voxel-style",
+      "source_skill_sha256": "1c1f73db79a3b1bab0a6ca90805a766328b1200965c6b4d70a34268514e52309",
+      "modifications": [],
+      "installed_skill_sha256": "1c1f73db79a3b1bab0a6ca90805a766328b1200965c6b4d70a34268514e52309"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-animation",
+      "destination": "skills/blender-animation",
+      "source_skill_sha256": "f2ec65cdf89f36dbf4066223a68e29990d031f1f9bc3a99ec72f14b51c0861d5",
+      "modifications": [],
+      "installed_skill_sha256": "f2ec65cdf89f36dbf4066223a68e29990d031f1f9bc3a99ec72f14b51c0861d5"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-character-rigging",
+      "destination": "skills/blender-character-rigging",
+      "source_skill_sha256": "c10ccac932b023af9c3252e2a46b0bb9c8bb2cd706ecfcad0ae3ac8eba0a1a3d",
+      "modifications": [],
+      "installed_skill_sha256": "c10ccac932b023af9c3252e2a46b0bb9c8bb2cd706ecfcad0ae3ac8eba0a1a3d"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-clothing",
+      "destination": "skills/blender-clothing",
+      "source_skill_sha256": "90d6d9704addb022b3f002eeec74c737ecf76d077c84a86b20d5d87ba411c85f",
+      "modifications": [],
+      "installed_skill_sha256": "90d6d9704addb022b3f002eeec74c737ecf76d077c84a86b20d5d87ba411c85f"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-export-pipelines",
+      "destination": "skills/blender-export-pipelines",
+      "source_skill_sha256": "300f2f9d0632744ea73ce68eccd2fbdb485febef0d1743a773b34d2f13080c16",
+      "modifications": [],
+      "installed_skill_sha256": "300f2f9d0632744ea73ce68eccd2fbdb485febef0d1743a773b34d2f13080c16"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-facial-shapekeys",
+      "destination": "skills/blender-facial-shapekeys",
+      "source_skill_sha256": "8d86473487e06ddc97a745baa794573a2cc36319c28a426079fd328e0c35b7ea",
+      "modifications": [],
+      "installed_skill_sha256": "8d86473487e06ddc97a745baa794573a2cc36319c28a426079fd328e0c35b7ea"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-game-optimization",
+      "destination": "skills/blender-game-optimization",
+      "source_skill_sha256": "15c900a72556e1a638c95ff78e03021601affa315d710bbdb55429247ffd9b96",
+      "modifications": [],
+      "installed_skill_sha256": "15c900a72556e1a638c95ff78e03021601affa315d710bbdb55429247ffd9b96"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-geometry-nodes",
+      "destination": "skills/blender-geometry-nodes",
+      "source_skill_sha256": "64cf885688c36a25ae00d8cf7bed2a0ae4c1641f46a16f5904856fbd67818b06",
+      "modifications": [],
+      "installed_skill_sha256": "64cf885688c36a25ae00d8cf7bed2a0ae4c1641f46a16f5904856fbd67818b06"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-hair-grooming",
+      "destination": "skills/blender-hair-grooming",
+      "source_skill_sha256": "4708ab11848b8f3a7fbf2ec887174d0db2a1756a2db718dee831c6e7236569a9",
+      "modifications": [],
+      "installed_skill_sha256": "4708ab11848b8f3a7fbf2ec887174d0db2a1756a2db718dee831c6e7236569a9"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-pipeline-automation",
+      "destination": "skills/blender-pipeline-automation",
+      "source_skill_sha256": "1b59d80395ebb270347c64f3e148f873a782c2ff68c64e2239720517c15e8abb",
+      "modifications": [],
+      "installed_skill_sha256": "1b59d80395ebb270347c64f3e148f873a782c2ff68c64e2239720517c15e8abb"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-retopology-uv",
+      "destination": "skills/blender-retopology-uv",
+      "source_skill_sha256": "54c4ff16de9873c819ff4ab60dee3b10a2e0bf2c29301a1b2ff1575b5abd7e06",
+      "modifications": [],
+      "installed_skill_sha256": "54c4ff16de9873c819ff4ab60dee3b10a2e0bf2c29301a1b2ff1575b5abd7e06"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-sculpting",
+      "destination": "skills/blender-sculpting",
+      "source_skill_sha256": "cc5fe10def24140f78a0911b5338c87c489cf38fe6c735385c64330705e1c738",
+      "modifications": [],
+      "installed_skill_sha256": "cc5fe10def24140f78a0911b5338c87c489cf38fe6c735385c64330705e1c738"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-simulation",
+      "destination": "skills/blender-simulation",
+      "source_skill_sha256": "b4c80843a7bbc5e6e31266837f16cab973ed7d4cab45d204d8a7dedb9114f5ce",
+      "modifications": [],
+      "installed_skill_sha256": "b4c80843a7bbc5e6e31266837f16cab973ed7d4cab45d204d8a7dedb9114f5ce"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-stylized-npr",
+      "destination": "skills/blender-stylized-npr",
+      "source_skill_sha256": "78042e1fbfc1e095767e6c84657668c6e051014ab544d595e12016451e8746dd",
+      "modifications": [],
+      "installed_skill_sha256": "78042e1fbfc1e095767e6c84657668c6e051014ab544d595e12016451e8746dd"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-texture-baking",
+      "destination": "skills/blender-texture-baking",
+      "source_skill_sha256": "bf94f8054b6a9483214d2ceb3e160e44d2593b51154c553defa190272431ccb4",
+      "modifications": [],
+      "installed_skill_sha256": "bf94f8054b6a9483214d2ceb3e160e44d2593b51154c553defa190272431ccb4"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-video-editing",
+      "destination": "skills/blender-video-editing",
+      "source_skill_sha256": "aa8c6d53e47b17666383f91497ba1564b5b2537dbca71880619c9ff81e0b82b4",
+      "modifications": [],
+      "installed_skill_sha256": "aa8c6d53e47b17666383f91497ba1564b5b2537dbca71880619c9ff81e0b82b4"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-weather-fx",
+      "destination": "skills/blender-weather-fx",
+      "source_skill_sha256": "7fa1633e5cfa5f183a6d5a451f9b021a305c53e5d14071708a503ecdac687dc7",
+      "modifications": [],
+      "installed_skill_sha256": "7fa1633e5cfa5f183a6d5a451f9b021a305c53e5d14071708a503ecdac687dc7"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "9e7e04a603c125a0d17447ab97112fa70a865067",
+      "source_path": "skills/blender-workflow-recipes",
+      "destination": "skills/blender-workflow-recipes",
+      "source_skill_sha256": "94de00b0a0a7284cd9d997924478be5cc7a8c7e4d26cbdac56adc86634d15324",
+      "modifications": [],
+      "installed_skill_sha256": "94de00b0a0a7284cd9d997924478be5cc7a8c7e4d26cbdac56adc86634d15324"
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "source_path": ".agents/skills/impeccable",
+      "destination": "skills/impeccable",
+      "source_skill_sha256": "dc7c49c1ad645d0ab8737e852419bba0a9db27cdceebad3630e88d5f772813be",
+      "modifications": [],
+      "installed_skill_sha256": "dc7c49c1ad645d0ab8737e852419bba0a9db27cdceebad3630e88d5f772813be"
+    },
+    {
+      "repository": "Leonxlnx/taste-skill",
+      "commit": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "source_path": "skills/taste-skill",
+      "destination": "skills/taste-skill",
+      "source_skill_sha256": "0c7a5852a5217be79cab422c6d58329b776f0c25bd6da8a7a01707ce75be6206",
+      "modifications": [],
+      "installed_skill_sha256": "0c7a5852a5217be79cab422c6d58329b776f0c25bd6da8a7a01707ce75be6206"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/animate",
+      "destination": "skills/animate",
+      "source_skill_sha256": "4ce49ea635ec175b45552bae070ea07b2d6aa5367047994250c1c095b71c8585",
+      "modifications": [],
+      "installed_skill_sha256": "4ce49ea635ec175b45552bae070ea07b2d6aa5367047994250c1c095b71c8585"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/animate-expo",
+      "destination": "skills/animate-expo",
+      "source_skill_sha256": "67e5d2ebe23b3edf52ce9d399532f2ead2bd7eff127919dd1c3bbe489b04dd4d",
+      "modifications": [],
+      "installed_skill_sha256": "67e5d2ebe23b3edf52ce9d399532f2ead2bd7eff127919dd1c3bbe489b04dd4d"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/animation-performance",
+      "destination": "skills/animation-performance",
+      "source_skill_sha256": "6481e7a611b54c0d1d229ac3ac516c05648e63aa79de88c0a1bdc5ae2666ab80",
+      "modifications": [],
+      "installed_skill_sha256": "6481e7a611b54c0d1d229ac3ac516c05648e63aa79de88c0a1bdc5ae2666ab80"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/animation-vocabulary",
+      "destination": "skills/animation-vocabulary",
+      "source_skill_sha256": "42df33f1583483cc441fcd76693b3399148602705d2e9b8a26665d6b1951cd0b",
+      "modifications": [],
+      "installed_skill_sha256": "42df33f1583483cc441fcd76693b3399148602705d2e9b8a26665d6b1951cd0b"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/apple-design",
+      "destination": "skills/apple-design",
+      "source_skill_sha256": "7fbacf928637e136da6d475358d0639667a3637ba772f03f8e815bb4c0b86946",
+      "modifications": [],
+      "installed_skill_sha256": "7fbacf928637e136da6d475358d0639667a3637ba772f03f8e815bb4c0b86946"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/break-ui",
+      "destination": "skills/break-ui",
+      "source_skill_sha256": "fb126d176f3b6bf7dfe71f2ae6620ab3dd81e6282c672a1801720055addfce18",
+      "modifications": [],
+      "installed_skill_sha256": "fb126d176f3b6bf7dfe71f2ae6620ab3dd81e6282c672a1801720055addfce18"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/choreograph",
+      "destination": "skills/choreograph",
+      "source_skill_sha256": "0a6802bb2fd5a3993842d48332b8ab56ae5bab369ffa8700f85f6fcff56b8478",
+      "modifications": [],
+      "installed_skill_sha256": "0a6802bb2fd5a3993842d48332b8ab56ae5bab369ffa8700f85f6fcff56b8478"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/emil-design-eng",
+      "destination": "skills/emil-design-eng",
+      "source_skill_sha256": "cdbfe467e6c9a4940c3a19e795cecf1ba659378d7412e06c245c6ae49da47da6",
+      "modifications": [],
+      "installed_skill_sha256": "cdbfe467e6c9a4940c3a19e795cecf1ba659378d7412e06c245c6ae49da47da6"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/find-animation-opportunities",
+      "destination": "skills/find-animation-opportunities",
+      "source_skill_sha256": "331479e0d867f90d637ef3ef1bdbbd38498d144ab493442afdfbc138abc751b4",
+      "modifications": [],
+      "installed_skill_sha256": "331479e0d867f90d637ef3ef1bdbbd38498d144ab493442afdfbc138abc751b4"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/gestures",
+      "destination": "skills/gestures",
+      "source_skill_sha256": "1928c86cce924a2a178ddd156ba5ed0f184665a1f95b549724ffb5ae703e994f",
+      "modifications": [],
+      "installed_skill_sha256": "1928c86cce924a2a178ddd156ba5ed0f184665a1f95b549724ffb5ae703e994f"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/improve-animations",
+      "destination": "skills/improve-animations",
+      "source_skill_sha256": "632be90e04261192112571b05abd5708fbb846808a4a7780717ee206daa6c6f6",
+      "modifications": [],
+      "installed_skill_sha256": "632be90e04261192112571b05abd5708fbb846808a4a7780717ee206daa6c6f6"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/learn-taste",
+      "destination": "skills/learn-taste",
+      "source_skill_sha256": "d624b8cd475eec24c5dc3f49b0380b56c8dab8399df11b92d7c9685aa8d4d33e",
+      "modifications": [],
+      "installed_skill_sha256": "d624b8cd475eec24c5dc3f49b0380b56c8dab8399df11b92d7c9685aa8d4d33e"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/mobile-native",
+      "destination": "skills/mobile-native",
+      "source_skill_sha256": "705e267bc47ea61e4c6f94d121efeebdb994055f482673b8a72f4a0dd62f1968",
+      "modifications": [],
+      "installed_skill_sha256": "705e267bc47ea61e4c6f94d121efeebdb994055f482673b8a72f4a0dd62f1968"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/pick-ui-library",
+      "destination": "skills/pick-ui-library",
+      "source_skill_sha256": "db10dc6b2a0c340d873f69e35140ceb3c929e15664b33fcacd1ecb25c5574df3",
+      "modifications": [],
+      "installed_skill_sha256": "db10dc6b2a0c340d873f69e35140ceb3c929e15664b33fcacd1ecb25c5574df3"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/prototype",
+      "destination": "skills/prototype",
+      "source_skill_sha256": "30def86c5a5a0794a954b2a046d24c847c7129f316d79892abff73d54d79adc0",
+      "modifications": [],
+      "installed_skill_sha256": "30def86c5a5a0794a954b2a046d24c847c7129f316d79892abff73d54d79adc0"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/remove-animations",
+      "destination": "skills/remove-animations",
+      "source_skill_sha256": "228d98a3d05637f2ff8fc2d1c2bd88c14783c8c901105cac39a7ae24a4d3e408",
+      "modifications": [],
+      "installed_skill_sha256": "228d98a3d05637f2ff8fc2d1c2bd88c14783c8c901105cac39a7ae24a4d3e408"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/review-animations",
+      "destination": "skills/review-animations",
+      "source_skill_sha256": "9ceb5072ce5d5e51b07efa60817c66d06fc6492b7900b44dff5ff0f8f7bcf188",
+      "modifications": [],
+      "installed_skill_sha256": "9ceb5072ce5d5e51b07efa60817c66d06fc6492b7900b44dff5ff0f8f7bcf188"
+    },
+    {
+      "repository": "emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "source_path": "skills/write-swift",
+      "destination": "skills/write-swift",
+      "source_skill_sha256": "ad8f3af70b627c165ecd73ecdba49449e35301dd845c397cf813f06582bbdac2",
+      "modifications": [],
+      "installed_skill_sha256": "ad8f3af70b627c165ecd73ecdba49449e35301dd845c397cf813f06582bbdac2"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-accessibility",
+      "destination": "skills/better-accessibility",
+      "source_skill_sha256": "7f943812c4f3e89372fc2b094f73148dc1eb424676e8532dd57730b89016e32a",
+      "modifications": [],
+      "installed_skill_sha256": "7f943812c4f3e89372fc2b094f73148dc1eb424676e8532dd57730b89016e32a"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-colors",
+      "destination": "skills/better-colors",
+      "source_skill_sha256": "9337ae0216848e5fde233e6aa101c98286d8e70b967c5bd96bde08a29436b17e",
+      "modifications": [],
+      "installed_skill_sha256": "9337ae0216848e5fde233e6aa101c98286d8e70b967c5bd96bde08a29436b17e"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-interface",
+      "destination": "skills/better-interface",
+      "source_skill_sha256": "e93f1b6e60337ccca0b7caaea9da7cc60ba9dd86b08f958e03b0d1defa23100c",
+      "modifications": [],
+      "installed_skill_sha256": "e93f1b6e60337ccca0b7caaea9da7cc60ba9dd86b08f958e03b0d1defa23100c"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-layout",
+      "destination": "skills/better-layout",
+      "source_skill_sha256": "59599cf3087df9c28a1ada41532274704d16b23a1486288609b8943516d5be31",
+      "modifications": [],
+      "installed_skill_sha256": "59599cf3087df9c28a1ada41532274704d16b23a1486288609b8943516d5be31"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-motion",
+      "destination": "skills/better-motion",
+      "source_skill_sha256": "cb2da9e1ad468e2c3c80ec8070c0c3d1ecddd585834418cf0b45cc49e8dc82c3",
+      "modifications": [],
+      "installed_skill_sha256": "cb2da9e1ad468e2c3c80ec8070c0c3d1ecddd585834418cf0b45cc49e8dc82c3"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-typography",
+      "destination": "skills/better-typography",
+      "source_skill_sha256": "b3ce4facc8a774baa5b456d1f1958e91bf4b12e489789ea4308a25dcdc9bf2b4",
+      "modifications": [],
+      "installed_skill_sha256": "b3ce4facc8a774baa5b456d1f1958e91bf4b12e489789ea4308a25dcdc9bf2b4"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-ui",
+      "destination": "skills/better-ui",
+      "source_skill_sha256": "6e1d613ee9f8fd03cbfb9eb321252855779e88cff2c941e18f84b31f35faaff1",
+      "modifications": [],
+      "installed_skill_sha256": "6e1d613ee9f8fd03cbfb9eb321252855779e88cff2c941e18f84b31f35faaff1"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/better-writing",
+      "destination": "skills/better-writing",
+      "source_skill_sha256": "4e7f745ae1f6def19da579cbaa69f19d26ce7c5200d21e7bd14eb4e88fae51ce",
+      "modifications": [],
+      "installed_skill_sha256": "4e7f745ae1f6def19da579cbaa69f19d26ce7c5200d21e7bd14eb4e88fae51ce"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/build-design",
+      "destination": "skills/build-design",
+      "source_skill_sha256": "91f92c3dc0a85b882ac83daabd09b47e05770a4f6c8348b1ae830606cf126664",
+      "modifications": [],
+      "installed_skill_sha256": "91f92c3dc0a85b882ac83daabd09b47e05770a4f6c8348b1ae830606cf126664"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/explain-interface",
+      "destination": "skills/explain-interface",
+      "source_skill_sha256": "6795aff9a133b94c6398a95b5c8958a2eaccade5db18f58e752bc02460a356e0",
+      "modifications": [],
+      "installed_skill_sha256": "6795aff9a133b94c6398a95b5c8958a2eaccade5db18f58e752bc02460a356e0"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/interface-review",
+      "destination": "skills/interface-review",
+      "source_skill_sha256": "57dbc1dae8b3386a4dbd8ff8b359af255af4b9d3abea905a8959544a10b8efea",
+      "modifications": [],
+      "installed_skill_sha256": "57dbc1dae8b3386a4dbd8ff8b359af255af4b9d3abea905a8959544a10b8efea"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/state-machine",
+      "destination": "skills/state-machine",
+      "source_skill_sha256": "658ff671aaa710424520a99734adf44fc8b97baaf69e604b38776e7e96a7ae7e",
+      "modifications": [],
+      "installed_skill_sha256": "658ff671aaa710424520a99734adf44fc8b97baaf69e604b38776e7e96a7ae7e"
+    },
+    {
+      "repository": "jakubkrehel/skills",
+      "commit": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578",
+      "source_path": "skills/variant",
+      "destination": "skills/variant",
+      "source_skill_sha256": "4cfaf9113efa0ce3b41d6ece1c077067fbf1d4baf9bbd1f4ef902e69eff3abea",
+      "modifications": [],
+      "installed_skill_sha256": "4cfaf9113efa0ce3b41d6ece1c077067fbf1d4baf9bbd1f4ef902e69eff3abea"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-cloth-material",
+      "destination": "skills/3d-cloth-material",
+      "source_skill_sha256": "1b73bc70e68d865c0c7cdffc9671ce264550f2683ab4664620c98060ea2f8869",
+      "modifications": [],
+      "installed_skill_sha256": "1b73bc70e68d865c0c7cdffc9671ce264550f2683ab4664620c98060ea2f8869"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-construction-sequence",
+      "destination": "skills/3d-construction-sequence",
+      "source_skill_sha256": "5442024f6c66557b8bfd332f595e3faa151d3cba2a94a06b32917502da791cc6",
+      "modifications": [],
+      "installed_skill_sha256": "5442024f6c66557b8bfd332f595e3faa151d3cba2a94a06b32917502da791cc6"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-falling-leaves",
+      "destination": "skills/3d-falling-leaves",
+      "source_skill_sha256": "962d7b2ed3c70ca2de9cba4ccd7ddf5d63ccda8370006631152ea3f23f33a7ed",
+      "modifications": [],
+      "installed_skill_sha256": "962d7b2ed3c70ca2de9cba4ccd7ddf5d63ccda8370006631152ea3f23f33a7ed"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-four-seasons",
+      "destination": "skills/3d-four-seasons",
+      "source_skill_sha256": "76d93b3dd5465ab2ff6082bf2daef18fde12ad90d42187cc7d47895064cca4be",
+      "modifications": [],
+      "installed_skill_sha256": "76d93b3dd5465ab2ff6082bf2daef18fde12ad90d42187cc7d47895064cca4be"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-harbour-water",
+      "destination": "skills/3d-harbour-water",
+      "source_skill_sha256": "20c2367055c76debe6f93f263a3c15b8360e9d7853bbccb3aa03210720db616c",
+      "modifications": [],
+      "installed_skill_sha256": "20c2367055c76debe6f93f263a3c15b8360e9d7853bbccb3aa03210720db616c"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-high-poly-models",
+      "destination": "skills/3d-high-poly-models",
+      "source_skill_sha256": "f4f1d9dd4a38f5f91aedc690c15b74c6348082142e24d32d3767b937e0c748ef",
+      "modifications": [],
+      "installed_skill_sha256": "f4f1d9dd4a38f5f91aedc690c15b74c6348082142e24d32d3767b937e0c748ef"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-high-resolution-textures",
+      "destination": "skills/3d-high-resolution-textures",
+      "source_skill_sha256": "32aec1e104f8ac5a4d9ca549e9cf4188489ace20b9417ed64cd87811533bdc5d",
+      "modifications": [],
+      "installed_skill_sha256": "32aec1e104f8ac5a4d9ca549e9cf4188489ace20b9417ed64cd87811533bdc5d"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-metal-material",
+      "destination": "skills/3d-metal-material",
+      "source_skill_sha256": "8efb3e29651547b373770e2b1e2c7a7881b18e7a0ddd205a1c2a64d9f2680ae3",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "904bcf43073e4e0375b1e4cbd34738b1c1be8a932033e79b706198d8846e661a"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-modular-buildings",
+      "destination": "skills/3d-modular-buildings",
+      "source_skill_sha256": "0df18803756be13f3ea19a323b20d066e352c82c3074146202f491899a1041ac",
+      "modifications": [],
+      "installed_skill_sha256": "0df18803756be13f3ea19a323b20d066e352c82c3074146202f491899a1041ac"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-orbit-inspect-demo",
+      "destination": "skills/3d-orbit-inspect-demo",
+      "source_skill_sha256": "18f5dd29bb2f8d8337d17e1eb2581571da56e2fae64b8ef9008c70910287f248",
+      "modifications": [],
+      "installed_skill_sha256": "18f5dd29bb2f8d8337d17e1eb2581571da56e2fae64b8ef9008c70910287f248"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-paper-material",
+      "destination": "skills/3d-paper-material",
+      "source_skill_sha256": "ac994af36740647a2edd69450114b70feefe22dc98a3f768e255177cfc7bdab7",
+      "modifications": [],
+      "installed_skill_sha256": "ac994af36740647a2edd69450114b70feefe22dc98a3f768e255177cfc7bdab7"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-retina-resolution",
+      "destination": "skills/3d-retina-resolution",
+      "source_skill_sha256": "8fdbb0cf11babcfa591583c9fe50b1b3e7d51c99b1ab7255c8e50eaaae911612",
+      "modifications": [],
+      "installed_skill_sha256": "8fdbb0cf11babcfa591583c9fe50b1b3e7d51c99b1ab7255c8e50eaaae911612"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-sky-background",
+      "destination": "skills/3d-sky-background",
+      "source_skill_sha256": "fa6c1483e402c36780a895aab312575ece1a567f64c8086591f38bf25507b685",
+      "modifications": [],
+      "installed_skill_sha256": "fa6c1483e402c36780a895aab312575ece1a567f64c8086591f38bf25507b685"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-sky-rays",
+      "destination": "skills/3d-sky-rays",
+      "source_skill_sha256": "7d9c90817e1ad5161a2b26586ba7909c9c758abbf71637b30d847f0dc6a546f9",
+      "modifications": [],
+      "installed_skill_sha256": "7d9c90817e1ad5161a2b26586ba7909c9c758abbf71637b30d847f0dc6a546f9"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-survey-scan",
+      "destination": "skills/3d-survey-scan",
+      "source_skill_sha256": "3f7ce51f91e2e8cea559048d7e9d48182e317875c766fbb7f884eba440dac606",
+      "modifications": [],
+      "installed_skill_sha256": "3f7ce51f91e2e8cea559048d7e9d48182e317875c766fbb7f884eba440dac606"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-ultra-realistic-water",
+      "destination": "skills/3d-ultra-realistic-water",
+      "source_skill_sha256": "eb5f338b56436b289885a493d62ca67cd990f603c925d28d367108736ceaee86",
+      "modifications": [],
+      "installed_skill_sha256": "eb5f338b56436b289885a493d62ca67cd990f603c925d28d367108736ceaee86"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-underwater-god-rays",
+      "destination": "skills/3d-underwater-god-rays",
+      "source_skill_sha256": "2cb257a9852733a16038aa3ac4177b245dd320e92ac5cbdced48436860c5a373",
+      "modifications": [],
+      "installed_skill_sha256": "2cb257a9852733a16038aa3ac4177b245dd320e92ac5cbdced48436860c5a373"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-virtual-tour",
+      "destination": "skills/3d-virtual-tour",
+      "source_skill_sha256": "f6ccb82c58cfbae960753ef4b60b06b4b5b2fd19331806b9c118e9eecf6b39ac",
+      "modifications": [],
+      "installed_skill_sha256": "f6ccb82c58cfbae960753ef4b60b06b4b5b2fd19331806b9c118e9eecf6b39ac"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-wood-lighting-scorecard",
+      "destination": "skills/3d-wood-lighting-scorecard",
+      "source_skill_sha256": "2f0e53b236b252b1eea9c4ace9159c8c526bc69f3de40499055b4f436e8b1c9f",
+      "modifications": [],
+      "installed_skill_sha256": "2f0e53b236b252b1eea9c4ace9159c8c526bc69f3de40499055b4f436e8b1c9f"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/3d-wood-material",
+      "destination": "skills/3d-wood-material",
+      "source_skill_sha256": "0ba0a910347b3079acdb8446954724be07a09b99462b794fa366557acf3e5994",
+      "modifications": [],
+      "installed_skill_sha256": "0ba0a910347b3079acdb8446954724be07a09b99462b794fa366557acf3e5994"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/ui/audit-ai-design-slop",
+      "destination": "skills/audit-ai-design-slop",
+      "source_skill_sha256": "d33dd0d3dd8609f5c1141eb36bc480910c88c2f969ef6d8a049d69d9e33bb54b",
+      "modifications": [],
+      "installed_skill_sha256": "d33dd0d3dd8609f5c1141eb36bc480910c88c2f969ef6d8a049d69d9e33bb54b"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/author-game-levels",
+      "destination": "skills/author-game-levels",
+      "source_skill_sha256": "cf0904f6c3ed0ae3887197ee91eebed61c61ea2b60e3130a461a64a4528219f6",
+      "modifications": [],
+      "installed_skill_sha256": "cf0904f6c3ed0ae3887197ee91eebed61c61ea2b60e3130a461a64a4528219f6"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-3d-character-selector",
+      "destination": "skills/build-3d-character-selector",
+      "source_skill_sha256": "97404433b1db4673622dff6e563773b9bc09c246ad98cb5e2a79176c630f2aa3",
+      "modifications": [],
+      "installed_skill_sha256": "97404433b1db4673622dff6e563773b9bc09c246ad98cb5e2a79176c630f2aa3"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/build-awwwards-quality-sites",
+      "destination": "skills/build-awwwards-quality-sites",
+      "source_skill_sha256": "955df3fef8ee1262ff40fc8fb5bca97498867855ccfc8e4b016a1aea60b04c9e",
+      "modifications": [],
+      "installed_skill_sha256": "955df3fef8ee1262ff40fc8fb5bca97498867855ccfc8e4b016a1aea60b04c9e"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-audio-feedback",
+      "destination": "skills/build-game-audio-feedback",
+      "source_skill_sha256": "43d3e4032dfa4e364634ba2357bc68d295f8664a8348207e0f04fab1331a0cca",
+      "modifications": [],
+      "installed_skill_sha256": "43d3e4032dfa4e364634ba2357bc68d295f8664a8348207e0f04fab1331a0cca"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-camera-controls",
+      "destination": "skills/build-game-camera-controls",
+      "source_skill_sha256": "2b61e6a024eb49394b94913a6a15a06588108ace5e476bd946b6c32f406deb2d",
+      "modifications": [],
+      "installed_skill_sha256": "2b61e6a024eb49394b94913a6a15a06588108ace5e476bd946b6c32f406deb2d"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-changelog",
+      "destination": "skills/build-game-changelog",
+      "source_skill_sha256": "899c8131af9b7aea06a2a73196e2cefee82b1e27df1ad3fefb5b31409ba79e89",
+      "modifications": [],
+      "installed_skill_sha256": "899c8131af9b7aea06a2a73196e2cefee82b1e27df1ad3fefb5b31409ba79e89"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-inventory",
+      "destination": "skills/build-game-inventory",
+      "source_skill_sha256": "2d17037698045d77296b52b4ca960a211d6325d78ba0faeff36648a527508e32",
+      "modifications": [],
+      "installed_skill_sha256": "2d17037698045d77296b52b4ca960a211d6325d78ba0faeff36648a527508e32"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-map-editor",
+      "destination": "skills/build-game-map-editor",
+      "source_skill_sha256": "b551ec847589b1fbe486210b3da82f95a85801a02c69a34d386ddb65a12ef21a",
+      "modifications": [],
+      "installed_skill_sha256": "b551ec847589b1fbe486210b3da82f95a85801a02c69a34d386ddb65a12ef21a"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-game-monster-system",
+      "destination": "skills/build-game-monster-system",
+      "source_skill_sha256": "f28e9595a7637bca85c66dcaed3a10fd587415d03b11a6c5dfefed09b08d4dc2",
+      "modifications": [],
+      "installed_skill_sha256": "f28e9595a7637bca85c66dcaed3a10fd587415d03b11a6c5dfefed09b08d4dc2"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-hybrid-game-assets",
+      "destination": "skills/build-hybrid-game-assets",
+      "source_skill_sha256": "aa99f9a7ed55056036a918466010b94e0dab12e54658cf28cf7fbe8b02230b75",
+      "modifications": [],
+      "installed_skill_sha256": "aa99f9a7ed55056036a918466010b94e0dab12e54658cf28cf7fbe8b02230b75"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-isometric-arpg",
+      "destination": "skills/build-isometric-arpg",
+      "source_skill_sha256": "1e27ba94dcf0298a307d43619670bad5d1cea4bead001410d86f127d6775fc2c",
+      "modifications": [],
+      "installed_skill_sha256": "1e27ba94dcf0298a307d43619670bad5d1cea4bead001410d86f127d6775fc2c"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-lens-raindrops",
+      "destination": "skills/build-lens-raindrops",
+      "source_skill_sha256": "3b42f4203e71e18dfd577a5405c35ce8083d6a413bb6b638d64ae6f48e2621cc",
+      "modifications": [],
+      "installed_skill_sha256": "3b42f4203e71e18dfd577a5405c35ce8083d6a413bb6b638d64ae6f48e2621cc"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-mobile-threejs-games",
+      "destination": "skills/build-mobile-threejs-games",
+      "source_skill_sha256": "a46471b1b0b4e4e9ebc554556315ae82c74f7cc51c60f162397123d52de475c4",
+      "modifications": [],
+      "installed_skill_sha256": "a46471b1b0b4e4e9ebc554556315ae82c74f7cc51c60f162397123d52de475c4"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-point-cloud-scan",
+      "destination": "skills/build-point-cloud-scan",
+      "source_skill_sha256": "7d42b609e8b10d10b2a48bfec8b96574ca2d3db9d11caa998edf40c61be936c2",
+      "modifications": [],
+      "installed_skill_sha256": "7d42b609e8b10d10b2a48bfec8b96574ca2d3db9d11caa998edf40c61be936c2"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-rigged-game-assets",
+      "destination": "skills/build-rigged-game-assets",
+      "source_skill_sha256": "812f3da2a3803a9465dfb6976b3b389da3f28f1c25f7721b4b53a9d8f8aa9a52",
+      "modifications": [],
+      "installed_skill_sha256": "812f3da2a3803a9465dfb6976b3b389da3f28f1c25f7721b4b53a9d8f8aa9a52"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-threejs-enemy-systems",
+      "destination": "skills/build-threejs-enemy-systems",
+      "source_skill_sha256": "dc5a3c42c39c38b52458c4a3a2e9159d0f7aaddda96e7124bc0c91d027b59174",
+      "modifications": [],
+      "installed_skill_sha256": "dc5a3c42c39c38b52458c4a3a2e9159d0f7aaddda96e7124bc0c91d027b59174"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/build-threejs-scroll-worlds",
+      "destination": "skills/build-threejs-scroll-worlds",
+      "source_skill_sha256": "0af3ee649bb67ccf461261527b4aaff8842650e80169262a7b296a6168820fcb",
+      "modifications": [],
+      "installed_skill_sha256": "0af3ee649bb67ccf461261527b4aaff8842650e80169262a7b296a6168820fcb"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/build-ultra-realistic-game-interiors",
+      "destination": "skills/build-ultra-realistic-game-interiors",
+      "source_skill_sha256": "b936012249ff84839c86eee32433008814980a5048454ee1c554f6950ab6f31b",
+      "modifications": [],
+      "installed_skill_sha256": "b936012249ff84839c86eee32433008814980a5048454ee1c554f6950ab6f31b"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/cinematic-gsap-lenis-motion-system",
+      "destination": "skills/cinematic-gsap-lenis-motion-system",
+      "source_skill_sha256": "b7935fe9496355cc74304219aeed8e99b5f1a87bb787c3eee73e0cbb93f432aa",
+      "modifications": [],
+      "installed_skill_sha256": "b7935fe9496355cc74304219aeed8e99b5f1a87bb787c3eee73e0cbb93f432aa"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/cinematic-scroll-storytelling",
+      "destination": "skills/cinematic-scroll-storytelling",
+      "source_skill_sha256": "d5388ae08facbf0a65d8f22304fa4fdbb334d270940c4157fd34f9cdf481518c",
+      "modifications": [],
+      "installed_skill_sha256": "d5388ae08facbf0a65d8f22304fa4fdbb334d270940c4157fd34f9cdf481518c"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/create-game-vfx",
+      "destination": "skills/create-game-vfx",
+      "source_skill_sha256": "1ed9ee167cf2f9ac966784e00893f48593d42e57e285aa0a1ca8cbe4bc794e17",
+      "modifications": [],
+      "installed_skill_sha256": "1ed9ee167cf2f9ac966784e00893f48593d42e57e285aa0a1ca8cbe4bc794e17"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/design-action-combat",
+      "destination": "skills/design-action-combat",
+      "source_skill_sha256": "60cf29fc323099eb2a666c6962ea00df0316a0ba8d9b62754868955bb895bbc1",
+      "modifications": [],
+      "installed_skill_sha256": "60cf29fc323099eb2a666c6962ea00df0316a0ba8d9b62754868955bb895bbc1"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/ui/design-first-ui-prompting",
+      "destination": "skills/design-first-ui-prompting",
+      "source_skill_sha256": "6c3545d7753be6ea5c5638b041b4baab5d349bbef01b546e7ad17e6a177e0d2f",
+      "modifications": [],
+      "installed_skill_sha256": "6c3545d7753be6ea5c5638b041b4baab5d349bbef01b546e7ad17e6a177e0d2f"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/design-game-encounters",
+      "destination": "skills/design-game-encounters",
+      "source_skill_sha256": "af14c35ed59c30b0ad15196b68be6277d7d73a8407c4fec1dbeb7a201ec29d86",
+      "modifications": [],
+      "installed_skill_sha256": "af14c35ed59c30b0ad15196b68be6277d7d73a8407c4fec1dbeb7a201ec29d86"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/fire-smoke-skill-vfx",
+      "destination": "skills/fire-smoke-skill-vfx",
+      "source_skill_sha256": "e286aa72239fffcea6891f5cbfa40aa6e10c298993b4cc93db0c619f7820f804",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "cf49842d21c3897b34aa8a188373e70d3a995ed3d4a71e117129cfd12a19b3f3"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/forest-floor-specimen",
+      "destination": "skills/forest-floor-specimen",
+      "source_skill_sha256": "ded43a85117f7a0a357eda65370fcf11a14562d34e9f8c61da79a6758cc82de5",
+      "modifications": [],
+      "installed_skill_sha256": "ded43a85117f7a0a357eda65370fcf11a14562d34e9f8c61da79a6758cc82de5"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/game-dev-character-model",
+      "destination": "skills/game-dev-character-model",
+      "source_skill_sha256": "576053f98b2b05593030d4ab563930172c142b957b64886e9a4ad923f3242807",
+      "modifications": [],
+      "installed_skill_sha256": "576053f98b2b05593030d4ab563930172c142b957b64886e9a4ad923f3242807"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/game-dev-combat-animation",
+      "destination": "skills/game-dev-combat-animation",
+      "source_skill_sha256": "ebfd4beac0e7e27a110ca3457df6ce9409ec0ba8c49b0c59463812df8f0c3dd4",
+      "modifications": [],
+      "installed_skill_sha256": "ebfd4beac0e7e27a110ca3457df6ce9409ec0ba8c49b0c59463812df8f0c3dd4"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/game-dev-combat-skill-polish",
+      "destination": "skills/game-dev-combat-skill-polish",
+      "source_skill_sha256": "56e82a03b3af51580539807995557776cce5682ecfdd75359731047eb5824747",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "3d62372a034fcd7501eed6329251014ee6482dd188fb93aea5159fa8d02010b4"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/gsap-scrolltrigger-storytelling",
+      "destination": "skills/gsap-scrolltrigger-storytelling",
+      "source_skill_sha256": "9e560fdb05c67880102c35e26be6c77adcec7db0fa1de0ed07367503a79753ff",
+      "modifications": [],
+      "installed_skill_sha256": "9e560fdb05c67880102c35e26be6c77adcec7db0fa1de0ed07367503a79753ff"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/horizontal-scroll-scenes",
+      "destination": "skills/horizontal-scroll-scenes",
+      "source_skill_sha256": "c8193602f239f6302c81baaf1c643075d62064945232bc1e1e92de5449b22abb",
+      "modifications": [],
+      "installed_skill_sha256": "c8193602f239f6302c81baaf1c643075d62064945232bc1e1e92de5449b22abb"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/ice-frost-skill-vfx",
+      "destination": "skills/ice-frost-skill-vfx",
+      "source_skill_sha256": "b641e52191a303414121264de7d1bada7f0b0b49c0f8780117ff02aa1c03af38",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "dbfe4798480872edcfd7588aa5ded72a40048e2c54d258f92e5534468eb79851"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/landing-page",
+      "destination": "skills/landing-page",
+      "source_skill_sha256": "a75f6e8e2d4b2f4ffd0fe793af496de226d3897de359a84a39ddb6d971e694db",
+      "modifications": [],
+      "installed_skill_sha256": "a75f6e8e2d4b2f4ffd0fe793af496de226d3897de359a84a39ddb6d971e694db"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/lightning-energy-skill-vfx",
+      "destination": "skills/lightning-energy-skill-vfx",
+      "source_skill_sha256": "54ec9dd81fc6c2d9d3da7ab42a0a8e250c6e3c58cde9285608275700991daf68",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "d05bb871c6dab72b2238483f05e8e50ecf1b6c97bbff4ff3d57ece1464c1fce8"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/ui/moss-glass-controls",
+      "destination": "skills/moss-glass-controls",
+      "source_skill_sha256": "a433b1304b6aa8735fce5b868bd8a458801911b41408b54118762db472684fc0",
+      "modifications": [],
+      "installed_skill_sha256": "a433b1304b6aa8735fce5b868bd8a458801911b41408b54118762db472684fc0"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/ui/no-ai-design-slop",
+      "destination": "skills/no-ai-design-slop",
+      "source_skill_sha256": "3f12f8fb09c67bcaee0718f2b7e3488f0ccb38b045d30f14f3b9a040c6f80c16",
+      "modifications": [],
+      "installed_skill_sha256": "3f12f8fb09c67bcaee0718f2b7e3488f0ccb38b045d30f14f3b9a040c6f80c16"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/optimize-threejs-games",
+      "destination": "skills/optimize-threejs-games",
+      "source_skill_sha256": "674e9e2825e0d8654e2e8c4b87870119159457687301e97151895a1de3867d93",
+      "modifications": [],
+      "installed_skill_sha256": "674e9e2825e0d8654e2e8c4b87870119159457687301e97151895a1de3867d93"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/perching-butterfly",
+      "destination": "skills/perching-butterfly",
+      "source_skill_sha256": "74d9dd6fa29180a054e8ffa645fabdc0818e15d3794593286abb9bf5d1abffa6",
+      "modifications": [],
+      "installed_skill_sha256": "74d9dd6fa29180a054e8ffa645fabdc0818e15d3794593286abb9bf5d1abffa6"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/pricing-page",
+      "destination": "skills/pricing-page",
+      "source_skill_sha256": "dfcf2976aa9497b88dfe253a10a8ac008ac1c175399b0823a126500a9795e77f",
+      "modifications": [],
+      "installed_skill_sha256": "dfcf2976aa9497b88dfe253a10a8ac008ac1c175399b0823a126500a9795e77f"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/progressive-blur",
+      "destination": "skills/progressive-blur",
+      "source_skill_sha256": "166f43eeef4bc77accb0ae60149cfdec66d0ed67c4fba190a7a812f43931c39c",
+      "modifications": [],
+      "installed_skill_sha256": "166f43eeef4bc77accb0ae60149cfdec66d0ed67c4fba190a7a812f43931c39c"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/relight-painted-surfaces",
+      "destination": "skills/relight-painted-surfaces",
+      "source_skill_sha256": "ad321ccf0300c9d1cec328f8d0a961a7e0816784e35c42adc4b84d66d17de037",
+      "modifications": [],
+      "installed_skill_sha256": "ad321ccf0300c9d1cec328f8d0a961a7e0816784e35c42adc4b84d66d17de037"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/scroll-world-storytelling",
+      "destination": "skills/scroll-world-storytelling",
+      "source_skill_sha256": "28b93103f59927b17dae4f528dd81ada4354092c49359fad1c5d0927d8face18",
+      "modifications": [],
+      "installed_skill_sha256": "28b93103f59927b17dae4f528dd81ada4354092c49359fad1c5d0927d8face18"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/ui/segmented-field-menu",
+      "destination": "skills/segmented-field-menu",
+      "source_skill_sha256": "a2aac4c6ca24b8f1b48afec9301e87be85f2cafe07ea09d19082fcf505155f49",
+      "modifications": [],
+      "installed_skill_sha256": "a2aac4c6ca24b8f1b48afec9301e87be85f2cafe07ea09d19082fcf505155f49"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/ship-web-games",
+      "destination": "skills/ship-web-games",
+      "source_skill_sha256": "f6610e102268411e607353f1ab502eb0ae807092f4fe9316e10de44979fcaa44",
+      "modifications": [],
+      "installed_skill_sha256": "f6610e102268411e607353f1ab502eb0ae807092f4fe9316e10de44979fcaa44"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/skeuomorphic-ui",
+      "destination": "skills/skeuomorphic-ui",
+      "source_skill_sha256": "e1d7aa6b70622c313ac268342ea42c9e16ddd746e3c6ae0d5e8b6585f1a701fa",
+      "modifications": [],
+      "installed_skill_sha256": "e1d7aa6b70622c313ac268342ea42c9e16ddd746e3c6ae0d5e8b6585f1a701fa"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/tailwindcss",
+      "destination": "skills/tailwindcss",
+      "source_skill_sha256": "a92dd36c740146a2ccac242051e23c4240ca060e47988050da6498e8354fa7c1",
+      "modifications": [],
+      "installed_skill_sha256": "a92dd36c740146a2ccac242051e23c4240ca060e47988050da6498e8354fa7c1"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/test-playable-web-games",
+      "destination": "skills/test-playable-web-games",
+      "source_skill_sha256": "dbb8b6214b1aef08b7952c9247a9d97eaac097498ac7ad168945c85f628d9c83",
+      "modifications": [],
+      "installed_skill_sha256": "dbb8b6214b1aef08b7952c9247a9d97eaac097498ac7ad168945c85f628d9c83"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/threejs",
+      "destination": "skills/threejs",
+      "source_skill_sha256": "4168d6d78a5a348c353f603ef33c74085965febb515e0e70cf7966f35cb5cead",
+      "modifications": [],
+      "installed_skill_sha256": "4168d6d78a5a348c353f603ef33c74085965febb515e0e70cf7966f35cb5cead"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-development/tune-enemy-ai",
+      "destination": "skills/tune-enemy-ai",
+      "source_skill_sha256": "2592157ac12325c36eb745d92787721455fa708116c6706986df05cd8773d18a",
+      "modifications": [],
+      "installed_skill_sha256": "2592157ac12325c36eb745d92787721455fa708116c6706986df05cd8773d18a"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/game-combat/water-crystal-skill-vfx",
+      "destination": "skills/water-crystal-skill-vfx",
+      "source_skill_sha256": "fdee3f3cd4aa5d2a0bba5c1781fd7ca639b0ce352e937265b0e720f076158c84",
+      "modifications": [
+        "Repair YAML description / discovery length"
+      ],
+      "installed_skill_sha256": "78e4189da2da5fb98bdfefa997b8b6f9b4aadadac3a188a4239de295640aa2cc"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/web-design/webgl-3d-object",
+      "destination": "skills/webgl-3d-object",
+      "source_skill_sha256": "c58ef1d5be5e59138100548cc4c87f7d7bab6b3b600450577807cc3dd1b18c1a",
+      "modifications": [],
+      "installed_skill_sha256": "c58ef1d5be5e59138100548cc4c87f7d7bab6b3b600450577807cc3dd1b18c1a"
+    },
+    {
+      "repository": "MengTo/Skills",
+      "commit": "3ec2dc0857d36e45d032d10063f62f2c773329a3",
+      "source_path": "agent-skills/3d/woodland-chapter-cameras",
+      "destination": "skills/woodland-chapter-cameras",
+      "source_skill_sha256": "c772125df29dbbcbd3ca203e3e3801ea1823810403436a2b85913ed074c2b652",
+      "modifications": [],
+      "installed_skill_sha256": "c772125df29dbbcbd3ca203e3e3801ea1823810403436a2b85913ed074c2b652"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/ai-behavior-trees-utility-ai",
+      "destination": "skills/ai-behavior-trees-utility-ai",
+      "source_skill_sha256": "d16da2b8b09893d8fcfef715953aa535b254942fde1495d76cabddc7750d9731",
+      "modifications": [],
+      "installed_skill_sha256": "d16da2b8b09893d8fcfef715953aa535b254942fde1495d76cabddc7750d9731"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/audio-design",
+      "destination": "skills/audio-design",
+      "source_skill_sha256": "ad31e41ac14d10a4dfa89403dc96632fcda21bd1710017210846afcd7b52fd5d",
+      "modifications": [],
+      "installed_skill_sha256": "ad31e41ac14d10a4dfa89403dc96632fcda21bd1710017210846afcd7b52fd5d"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/bevy-ecs",
+      "destination": "skills/bevy-ecs",
+      "source_skill_sha256": "ffd1b30fb9b896600731f7dd7e16fd066b42f12b350520f0bec061b4f14d1be3",
+      "modifications": [],
+      "installed_skill_sha256": "ffd1b30fb9b896600731f7dd7e16fd066b42f12b350520f0bec061b4f14d1be3"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/camera-systems",
+      "destination": "skills/camera-systems",
+      "source_skill_sha256": "a240892c3a049e19f3fb011c1648896d35fc2bf907906c5f6fcffa1fd37f5f3c",
+      "modifications": [],
+      "installed_skill_sha256": "a240892c3a049e19f3fb011c1648896d35fc2bf907906c5f6fcffa1fd37f5f3c"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/card-game",
+      "destination": "skills/card-game",
+      "source_skill_sha256": "1f0ca2b470467cb0faa0b80b5a6b48f64112525af4bcda296f38180d5be38e32",
+      "modifications": [],
+      "installed_skill_sha256": "1f0ca2b470467cb0faa0b80b5a6b48f64112525af4bcda296f38180d5be38e32"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/create-game-assets",
+      "destination": "skills/create-game-assets",
+      "source_skill_sha256": "6e023c9f98b1cb292972c05803b624bc8820ca17919176384b2b707c48e53194",
+      "modifications": [],
+      "installed_skill_sha256": "6e023c9f98b1cb292972c05803b624bc8820ca17919176384b2b707c48e53194"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/defold-core",
+      "destination": "skills/defold-core",
+      "source_skill_sha256": "d5f177ecd84a67b61a5df2605e3547fcb396a5ff325b3d775cadcd4a08d3e791",
+      "modifications": [],
+      "installed_skill_sha256": "d5f177ecd84a67b61a5df2605e3547fcb396a5ff325b3d775cadcd4a08d3e791"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/dialogue-systems",
+      "destination": "skills/dialogue-systems",
+      "source_skill_sha256": "4df2872fc43e66c9f1844ffceb1479a08d670cff6a7e01e46454fda455a2c621",
+      "modifications": [],
+      "installed_skill_sha256": "4df2872fc43e66c9f1844ffceb1479a08d670cff6a7e01e46454fda455a2c621"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/ebitengine/ebitengine-game",
+      "destination": "skills/ebitengine-game",
+      "source_skill_sha256": "b6b3d5d20d0df515afb9f694a6ef5d6e5333688dba5045a754dad7ca6a39e20b",
+      "modifications": [],
+      "installed_skill_sha256": "b6b3d5d20d0df515afb9f694a6ef5d6e5333688dba5045a754dad7ca6a39e20b"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/fps-shooter",
+      "destination": "skills/fps-shooter",
+      "source_skill_sha256": "d8650c874bb25651c57d8fa12c6421a83c1f4dcbac7fe3db7e09c95cca2215d7",
+      "modifications": [],
+      "installed_skill_sha256": "d8650c874bb25651c57d8fa12c6421a83c1f4dcbac7fe3db7e09c95cca2215d7"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/game-ai",
+      "destination": "skills/game-ai",
+      "source_skill_sha256": "5b36c3d22fbe60b3fdfd4baefaee4a8781cb1067a7ef7fa638cb04b4455491ca",
+      "modifications": [],
+      "installed_skill_sha256": "5b36c3d22fbe60b3fdfd4baefaee4a8781cb1067a7ef7fa638cb04b4455491ca"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/workflows/game-docs",
+      "destination": "skills/game-docs",
+      "source_skill_sha256": "210b192c944357ca24dcc6ca8054a1138f1f60667d0d8a256d26f51fe1873294",
+      "modifications": [],
+      "installed_skill_sha256": "210b192c944357ca24dcc6ca8054a1138f1f60667d0d8a256d26f51fe1873294"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/game-feel",
+      "destination": "skills/game-feel",
+      "source_skill_sha256": "a3591662e732f1540887570f584bd18778f4f728708afa013a33e20bcc949a06",
+      "modifications": [],
+      "installed_skill_sha256": "a3591662e732f1540887570f584bd18778f4f728708afa013a33e20bcc949a06"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/workflows/game-jam",
+      "destination": "skills/game-jam",
+      "source_skill_sha256": "4d76a404c1ccd2439459620295e2aa934e9e48da60d03df0d435301497774d48",
+      "modifications": [],
+      "installed_skill_sha256": "4d76a404c1ccd2439459620295e2aa934e9e48da60d03df0d435301497774d48"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/game-ui-ux",
+      "destination": "skills/game-ui-ux",
+      "source_skill_sha256": "69140650cd9a28dc208bd1540358f47829aabb3f0834311c3d39b7a451e8b163",
+      "modifications": [],
+      "installed_skill_sha256": "69140650cd9a28dc208bd1540358f47829aabb3f0834311c3d39b7a451e8b163"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-2d-movement",
+      "destination": "skills/godot-2d-movement",
+      "source_skill_sha256": "efd1a178184275e5870596e69fdabc84b4daf664cd4f324905d7f1e433fe0baa",
+      "modifications": [],
+      "installed_skill_sha256": "efd1a178184275e5870596e69fdabc84b4daf664cd4f324905d7f1e433fe0baa"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-3d-essentials",
+      "destination": "skills/godot-3d-essentials",
+      "source_skill_sha256": "5955e7c95c59961cda0957c3dac2365382ccdd89a78851a02c5cb578daa3fec7",
+      "modifications": [],
+      "installed_skill_sha256": "5955e7c95c59961cda0957c3dac2365382ccdd89a78851a02c5cb578daa3fec7"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-animation",
+      "destination": "skills/godot-animation",
+      "source_skill_sha256": "9010eaffda19ca17a3671097a327c7c6845603f2528c2a16b0eda7adc5ef7a9a",
+      "modifications": [],
+      "installed_skill_sha256": "9010eaffda19ca17a3671097a327c7c6845603f2528c2a16b0eda7adc5ef7a9a"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-audio",
+      "destination": "skills/godot-audio",
+      "source_skill_sha256": "191b743fbaca3ebc4fcb30d39aa15b39eb64052dd4e5594e961624ade05e9f56",
+      "modifications": [],
+      "installed_skill_sha256": "191b743fbaca3ebc4fcb30d39aa15b39eb64052dd4e5594e961624ade05e9f56"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-csharp",
+      "destination": "skills/godot-csharp",
+      "source_skill_sha256": "335e97176fb69e718b81462afca1ec694db8ebbe63ab020935e484fd804f300d",
+      "modifications": [],
+      "installed_skill_sha256": "335e97176fb69e718b81462afca1ec694db8ebbe63ab020935e484fd804f300d"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-export",
+      "destination": "skills/godot-export",
+      "source_skill_sha256": "0861e1d9204c33110f8f729b221641584ec43a76b028da7ada7a34f6aa2137b3",
+      "modifications": [],
+      "installed_skill_sha256": "0861e1d9204c33110f8f729b221641584ec43a76b028da7ada7a34f6aa2137b3"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-gdscript",
+      "destination": "skills/godot-gdscript",
+      "source_skill_sha256": "a8b29cb9d2fb66ca96e822d4c95e828806d18829d6fd04213059459c70bd45e4",
+      "modifications": [],
+      "installed_skill_sha256": "a8b29cb9d2fb66ca96e822d4c95e828806d18829d6fd04213059459c70bd45e4"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-gdscript-headless-testing",
+      "destination": "skills/godot-gdscript-headless-testing",
+      "source_skill_sha256": "8f817a05c6e3c3f34c2c64271dae2acb0465f50c6b173c1f836393c532f1efb5",
+      "modifications": [],
+      "installed_skill_sha256": "8f817a05c6e3c3f34c2c64271dae2acb0465f50c6b173c1f836393c532f1efb5"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-multiplayer",
+      "destination": "skills/godot-multiplayer",
+      "source_skill_sha256": "0549fa69506f8204fc30f578d28143b36ab5e8537189b3dbaf8f5280c4c6fa3f",
+      "modifications": [],
+      "installed_skill_sha256": "0549fa69506f8204fc30f578d28143b36ab5e8537189b3dbaf8f5280c4c6fa3f"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-nodes-scenes",
+      "destination": "skills/godot-nodes-scenes",
+      "source_skill_sha256": "4ac964c1351db1ea29d05ab72891e6ca02e044026edf92f63a98198770a192d4",
+      "modifications": [],
+      "installed_skill_sha256": "4ac964c1351db1ea29d05ab72891e6ca02e044026edf92f63a98198770a192d4"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-physics",
+      "destination": "skills/godot-physics",
+      "source_skill_sha256": "3dee5fc83be1a940f0a6bbdb27c07e35cd71aa838a6b02e3e155270ff5ef324b",
+      "modifications": [],
+      "installed_skill_sha256": "3dee5fc83be1a940f0a6bbdb27c07e35cd71aa838a6b02e3e155270ff5ef324b"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-resources",
+      "destination": "skills/godot-resources",
+      "source_skill_sha256": "d15ac3c84af58a86d12e2a9f7bcf1d23d298348d1118a3fa479ae1cb2e16263e",
+      "modifications": [],
+      "installed_skill_sha256": "d15ac3c84af58a86d12e2a9f7bcf1d23d298348d1118a3fa479ae1cb2e16263e"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-shaders",
+      "destination": "skills/godot-shaders",
+      "source_skill_sha256": "ea6233ccdf34d8d1defdb6a9d83d9df84e14b4317e3ae95855577e7aea628847",
+      "modifications": [],
+      "installed_skill_sha256": "ea6233ccdf34d8d1defdb6a9d83d9df84e14b4317e3ae95855577e7aea628847"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-signals-groups",
+      "destination": "skills/godot-signals-groups",
+      "source_skill_sha256": "da4a2f5df6dc7b70a2533e25bf504113eda0746689d8d78f523a2be5380b8025",
+      "modifications": [],
+      "installed_skill_sha256": "da4a2f5df6dc7b70a2533e25bf504113eda0746689d8d78f523a2be5380b8025"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-tilemap",
+      "destination": "skills/godot-tilemap",
+      "source_skill_sha256": "e130bf3d6c2be5ef5570759d86cf830470013e4d4fd96ecb420d8f91a96c9442",
+      "modifications": [],
+      "installed_skill_sha256": "e130bf3d6c2be5ef5570759d86cf830470013e4d4fd96ecb420d8f91a96c9442"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/godot/godot-ui-control",
+      "destination": "skills/godot-ui-control",
+      "source_skill_sha256": "aaca3aa929d5889de1ef2b4bfe807522726f49939b1e932b8910526c93462f14",
+      "modifications": [],
+      "installed_skill_sha256": "aaca3aa929d5889de1ef2b4bfe807522726f49939b1e932b8910526c93462f14"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/input-systems",
+      "destination": "skills/input-systems",
+      "source_skill_sha256": "3fccea4c4d81061538d5844b918f1193ceb5e753d4e4b2fa8ef53a853742c949",
+      "modifications": [],
+      "installed_skill_sha256": "3fccea4c4d81061538d5844b918f1193ceb5e753d4e4b2fa8ef53a853742c949"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/workflows/itch-publish",
+      "destination": "skills/itch-publish",
+      "source_skill_sha256": "3ae1d2c6e3ac5fffdbe2b444a8f148cf8bff7163e38ca91c2e106a1399336631",
+      "modifications": [],
+      "installed_skill_sha256": "3ae1d2c6e3ac5fffdbe2b444a8f148cf8bff7163e38ca91c2e106a1399336631"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/level-design",
+      "destination": "skills/level-design",
+      "source_skill_sha256": "aa5d7a8f97987e12b7127460735da9ec73141452068c15801965057006ba8bec",
+      "modifications": [],
+      "installed_skill_sha256": "aa5d7a8f97987e12b7127460735da9ec73141452068c15801965057006ba8bec"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/love2d-core",
+      "destination": "skills/love2d-core",
+      "source_skill_sha256": "dd0333a6bb44d7949bc74f176b3092b0d7086c949ca85b0621ed101c447779c8",
+      "modifications": [],
+      "installed_skill_sha256": "dd0333a6bb44d7949bc74f176b3092b0d7086c949ca85b0621ed101c447779c8"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/performance-optimization",
+      "destination": "skills/performance-optimization",
+      "source_skill_sha256": "61538ac2e3ef68aca3194aec7eb9f54510762e86ac81ff1a4451e9fead31a3be",
+      "modifications": [],
+      "installed_skill_sha256": "61538ac2e3ef68aca3194aec7eb9f54510762e86ac81ff1a4451e9fead31a3be"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/phaser-arcade-physics",
+      "destination": "skills/phaser-arcade-physics",
+      "source_skill_sha256": "272819281e6ca95222bd0cc73bd84601c2e19acf277bad47231de65ac04c9b10",
+      "modifications": [],
+      "installed_skill_sha256": "272819281e6ca95222bd0cc73bd84601c2e19acf277bad47231de65ac04c9b10"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/phaser-core",
+      "destination": "skills/phaser-core",
+      "source_skill_sha256": "bf03dae45e690dfa78f255a0580ff8b331c81232bf1fba45ea6e431bd0796e7c",
+      "modifications": [],
+      "installed_skill_sha256": "bf03dae45e690dfa78f255a0580ff8b331c81232bf1fba45ea6e431bd0796e7c"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/physics-tuning",
+      "destination": "skills/physics-tuning",
+      "source_skill_sha256": "0a1731f5752670547e10e0fa894cf6d383a07c2a691d4ee62e7155092b35ab27",
+      "modifications": [],
+      "installed_skill_sha256": "0a1731f5752670547e10e0fa894cf6d383a07c2a691d4ee62e7155092b35ab27"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/pixijs-rendering",
+      "destination": "skills/pixijs-rendering",
+      "source_skill_sha256": "b707d1ee6968ef45115c84a4e15db129280b46e0e5d82fb704c45ea7c38b9141",
+      "modifications": [],
+      "installed_skill_sha256": "b707d1ee6968ef45115c84a4e15db129280b46e0e5d82fb704c45ea7c38b9141"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/platformer",
+      "destination": "skills/platformer",
+      "source_skill_sha256": "dbc4fbcbcdedc5f1630bd709afc5da0a814207661d87909af259ac264361c8cb",
+      "modifications": [],
+      "installed_skill_sha256": "dbc4fbcbcdedc5f1630bd709afc5da0a814207661d87909af259ac264361c8cb"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/procedural-gen",
+      "destination": "skills/procedural-gen",
+      "source_skill_sha256": "9b6d6c8e64313b1d05bed7aa64cf2afb8163d9dadec85a0f8197e572efadb8f3",
+      "modifications": [],
+      "installed_skill_sha256": "9b6d6c8e64313b1d05bed7aa64cf2afb8163d9dadec85a0f8197e572efadb8f3"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/workflows/prototype-fast",
+      "destination": "skills/prototype-fast",
+      "source_skill_sha256": "7ec735cb0d87631ea482ea134caf7f5293918cf72a18b77b9e7d677d6aff3bb2",
+      "modifications": [],
+      "installed_skill_sha256": "7ec735cb0d87631ea482ea134caf7f5293918cf72a18b77b9e7d677d6aff3bb2"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/puzzle",
+      "destination": "skills/puzzle",
+      "source_skill_sha256": "c361d9b010c4ad74c72391e1f36f7433d96f88b2b6f75ebfc5726feeb11a30ba",
+      "modifications": [],
+      "installed_skill_sha256": "c361d9b010c4ad74c72391e1f36f7433d96f88b2b6f75ebfc5726feeb11a30ba"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/pygame-core",
+      "destination": "skills/pygame-core",
+      "source_skill_sha256": "38369a63fb48bb2d0e1fd011ebb16868f95485d187fecfe7da44edf5f7e871fe",
+      "modifications": [],
+      "installed_skill_sha256": "38369a63fb48bb2d0e1fd011ebb16868f95485d187fecfe7da44edf5f7e871fe"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-characters",
+      "destination": "skills/roblox-characters",
+      "source_skill_sha256": "73040c7901eabfa21f2c6afac193386e3305b83c6a1cc8787f9cf1c38fa0b279",
+      "modifications": [],
+      "installed_skill_sha256": "73040c7901eabfa21f2c6afac193386e3305b83c6a1cc8787f9cf1c38fa0b279"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-datastores",
+      "destination": "skills/roblox-datastores",
+      "source_skill_sha256": "6a5e3fdc64d37161b1664f23de47aae2f7ed8f51ab49214c38708b818d41bba7",
+      "modifications": [],
+      "installed_skill_sha256": "6a5e3fdc64d37161b1664f23de47aae2f7ed8f51ab49214c38708b818d41bba7"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-luau",
+      "destination": "skills/roblox-luau",
+      "source_skill_sha256": "20866b3481288d559ff03c6ab90254720126c8296c15bc815db14ba1fc6f8e41",
+      "modifications": [],
+      "installed_skill_sha256": "20866b3481288d559ff03c6ab90254720126c8296c15bc815db14ba1fc6f8e41"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-networking",
+      "destination": "skills/roblox-networking",
+      "source_skill_sha256": "75ec2f140221111d05e9a54c8eda5ce7f61f9bda0df4fc544fd90cd4670bf540",
+      "modifications": [],
+      "installed_skill_sha256": "75ec2f140221111d05e9a54c8eda5ce7f61f9bda0df4fc544fd90cd4670bf540"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-physics",
+      "destination": "skills/roblox-physics",
+      "source_skill_sha256": "b6342800d52c3e9336507c6776cddebb4ae7cebce49f0ec0440046c4aefbf285",
+      "modifications": [],
+      "installed_skill_sha256": "b6342800d52c3e9336507c6776cddebb4ae7cebce49f0ec0440046c4aefbf285"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-simulator-economy",
+      "destination": "skills/roblox-simulator-economy",
+      "source_skill_sha256": "9d34c4020feed1a74f680898b1bece550c5cbf5a44ab54f9e67aa30d6f952b22",
+      "modifications": [],
+      "installed_skill_sha256": "9d34c4020feed1a74f680898b1bece550c5cbf5a44ab54f9e67aa30d6f952b22"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-studio-workflow",
+      "destination": "skills/roblox-studio-workflow",
+      "source_skill_sha256": "45293f0051a8eaae30ddd12c43dd7c80250901bb089c4647c90793bb9243d462",
+      "modifications": [],
+      "installed_skill_sha256": "45293f0051a8eaae30ddd12c43dd7c80250901bb089c4647c90793bb9243d462"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/other-engines/roblox-ui",
+      "destination": "skills/roblox-ui",
+      "source_skill_sha256": "00c25dc1a2ba633e81289e3f1003203f14f6027f3f56fff39d3be564b69c0daf",
+      "modifications": [],
+      "installed_skill_sha256": "00c25dc1a2ba633e81289e3f1003203f14f6027f3f56fff39d3be564b69c0daf"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/roguelike",
+      "destination": "skills/roguelike",
+      "source_skill_sha256": "45d5fd26ec2bbf35620af873bf437473816c6771b30426b446f0415ec1aad052",
+      "modifications": [],
+      "installed_skill_sha256": "45d5fd26ec2bbf35620af873bf437473816c6771b30426b446f0415ec1aad052"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "router",
+      "destination": "skills/gamedev-router",
+      "source_skill_sha256": "6b2002d7c2b729c052dd993c8cc755c7c3f79e960a47347ab27b214bb92f9c3c",
+      "modifications": [
+        "Disambiguate router and document flat shared-library paths"
+      ],
+      "installed_skill_sha256": "12dc897f625f5cc799cbdd6a536cbd5827631e234aab2b06d00fb7782d265620"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/rpg",
+      "destination": "skills/rpg",
+      "source_skill_sha256": "d62e3327dba436b697bfbecf34e7af022e54d3eca451d9fea5d814fe6f791caa",
+      "modifications": [],
+      "installed_skill_sha256": "d62e3327dba436b697bfbecf34e7af022e54d3eca451d9fea5d814fe6f791caa"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/save-systems",
+      "destination": "skills/save-systems",
+      "source_skill_sha256": "84620777d23dd018665ba86254fcf52fbd88e517d4cfe41b112c720711d6c908",
+      "modifications": [],
+      "installed_skill_sha256": "84620777d23dd018665ba86254fcf52fbd88e517d4cfe41b112c720711d6c908"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/disciplines/shader-programming",
+      "destination": "skills/shader-programming",
+      "source_skill_sha256": "85ed2918a801afd183361a3452f6879a711cabcc6b0ed3da60de3b07b9ad8c52",
+      "modifications": [],
+      "installed_skill_sha256": "85ed2918a801afd183361a3452f6879a711cabcc6b0ed3da60de3b07b9ad8c52"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/workflows/steam-publish",
+      "destination": "skills/steam-publish",
+      "source_skill_sha256": "997f46efe8f63a1865fecd1b5b188279fefbe864c734418adeedf3ed778d3373",
+      "modifications": [],
+      "installed_skill_sha256": "997f46efe8f63a1865fecd1b5b188279fefbe864c734418adeedf3ed778d3373"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/survival-crafting",
+      "destination": "skills/survival-crafting",
+      "source_skill_sha256": "371227f620b439b0047355bd7b3cccd22f965574bc25ab89dc671ce5857b4601",
+      "modifications": [],
+      "installed_skill_sha256": "371227f620b439b0047355bd7b3cccd22f965574bc25ab89dc671ce5857b4601"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/threejs-gltf-loading",
+      "destination": "skills/threejs-gltf-loading",
+      "source_skill_sha256": "416fdd451118f72c867993e0f44716c0570ab8859d7c5db09b1b5c597c4b4bf4",
+      "modifications": [],
+      "installed_skill_sha256": "416fdd451118f72c867993e0f44716c0570ab8859d7c5db09b1b5c597c4b4bf4"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/threejs-materials-lighting",
+      "destination": "skills/threejs-materials-lighting",
+      "source_skill_sha256": "1384f42a7b05571e2c6f22f98fe82084b3021f1900d01144ed01da86aa9aca01",
+      "modifications": [],
+      "installed_skill_sha256": "1384f42a7b05571e2c6f22f98fe82084b3021f1900d01144ed01da86aa9aca01"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/web-engines/threejs-scene-setup",
+      "destination": "skills/threejs-scene-setup",
+      "source_skill_sha256": "2792b17391e64cbbc9ec2b6339f2c4bc85bfc784a083eb16d69512da15e4828f",
+      "modifications": [],
+      "installed_skill_sha256": "2792b17391e64cbbc9ec2b6339f2c4bc85bfc784a083eb16d69512da15e4828f"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/tower-defense",
+      "destination": "skills/tower-defense",
+      "source_skill_sha256": "28fa0f7e5d0421085d484d817b31119f9732358044516cad5bc73ecfbd239598",
+      "modifications": [],
+      "installed_skill_sha256": "28fa0f7e5d0421085d484d817b31119f9732358044516cad5bc73ecfbd239598"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-animation",
+      "destination": "skills/unity-animation",
+      "source_skill_sha256": "7212ef924d00f125aa50e6acc1d2299319f01e44945b2a3d4968d58b70cc0792",
+      "modifications": [],
+      "installed_skill_sha256": "7212ef924d00f125aa50e6acc1d2299319f01e44945b2a3d4968d58b70cc0792"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-build-pipeline",
+      "destination": "skills/unity-build-pipeline",
+      "source_skill_sha256": "146eb5923b5262b1357553bcd2ba3e28b66d5ef6d3de07488f9ca66d212cc5a6",
+      "modifications": [],
+      "installed_skill_sha256": "146eb5923b5262b1357553bcd2ba3e28b66d5ef6d3de07488f9ca66d212cc5a6"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-build-size",
+      "destination": "skills/unity-build-size",
+      "source_skill_sha256": "258abccbc28f065f793dd6ff7aef7e9028b6130e62c9cf92ed5c1a472d96b035",
+      "modifications": [],
+      "installed_skill_sha256": "258abccbc28f065f793dd6ff7aef7e9028b6130e62c9cf92ed5c1a472d96b035"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-csharp-scripting",
+      "destination": "skills/unity-csharp-scripting",
+      "source_skill_sha256": "78cd50230e01e970ce9b3ac2ec4548157d2050aa784b4844675df118b73115fa",
+      "modifications": [],
+      "installed_skill_sha256": "78cd50230e01e970ce9b3ac2ec4548157d2050aa784b4844675df118b73115fa"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-input-system",
+      "destination": "skills/unity-input-system",
+      "source_skill_sha256": "83458679e3a1ba18ff4e96233cd66529bdc4f231c814c583fb5af76385df9f74",
+      "modifications": [],
+      "installed_skill_sha256": "83458679e3a1ba18ff4e96233cd66529bdc4f231c814c583fb5af76385df9f74"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-navmesh",
+      "destination": "skills/unity-navmesh",
+      "source_skill_sha256": "c28f4d9c1952f66efd9b11c0ccc472b20909d8aa3e5bca0a0f65222b115ab6f7",
+      "modifications": [],
+      "installed_skill_sha256": "c28f4d9c1952f66efd9b11c0ccc472b20909d8aa3e5bca0a0f65222b115ab6f7"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-physics",
+      "destination": "skills/unity-physics",
+      "source_skill_sha256": "7b96c4158cb012fa2030050ba7d67e9233ba3a3dc68c58011a3669f926105fb7",
+      "modifications": [],
+      "installed_skill_sha256": "7b96c4158cb012fa2030050ba7d67e9233ba3a3dc68c58011a3669f926105fb7"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-scriptableobjects",
+      "destination": "skills/unity-scriptableobjects",
+      "source_skill_sha256": "2f1aff412fd83d0b24f0344671c644c5f9825f3f48965bb15018da53f59bb76e",
+      "modifications": [],
+      "installed_skill_sha256": "2f1aff412fd83d0b24f0344671c644c5f9825f3f48965bb15018da53f59bb76e"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unity/unity-tilemap-2d",
+      "destination": "skills/unity-tilemap-2d",
+      "source_skill_sha256": "b2e7808779db188b201ea15699612eaec1d441cade89c0aeb257ef597395ca5e",
+      "modifications": [],
+      "installed_skill_sha256": "b2e7808779db188b201ea15699612eaec1d441cade89c0aeb257ef597395ca5e"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-behavior-trees",
+      "destination": "skills/unreal-behavior-trees",
+      "source_skill_sha256": "994f58a4e1dc8383bd2925c460da2111f65700ac7ea99037d7e83c7d57bcb528",
+      "modifications": [],
+      "installed_skill_sha256": "994f58a4e1dc8383bd2925c460da2111f65700ac7ea99037d7e83c7d57bcb528"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-blueprints",
+      "destination": "skills/unreal-blueprints",
+      "source_skill_sha256": "0e178ac57915bc0ef7ee47391912b78dceff245906aa612f75471b155f381cea",
+      "modifications": [],
+      "installed_skill_sha256": "0e178ac57915bc0ef7ee47391912b78dceff245906aa612f75471b155f381cea"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-cpp-gameplay",
+      "destination": "skills/unreal-cpp-gameplay",
+      "source_skill_sha256": "21d3876da34e70baa9b4c18c3ed7536b2462d8e3b170680388590833811ff708",
+      "modifications": [],
+      "installed_skill_sha256": "21d3876da34e70baa9b4c18c3ed7536b2462d8e3b170680388590833811ff708"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-enhanced-input",
+      "destination": "skills/unreal-enhanced-input",
+      "source_skill_sha256": "8a636bb233cd1f9f1235b0c395c14d6df6c4819b1ee48810c5eb45f95e65f426",
+      "modifications": [],
+      "installed_skill_sha256": "8a636bb233cd1f9f1235b0c395c14d6df6c4819b1ee48810c5eb45f95e65f426"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-niagara",
+      "destination": "skills/unreal-niagara",
+      "source_skill_sha256": "8213c467ffa60ab698dfa9c7531da54bc51593ac6bad401931e4e61f88db887e",
+      "modifications": [],
+      "installed_skill_sha256": "8213c467ffa60ab698dfa9c7531da54bc51593ac6bad401931e4e61f88db887e"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/unreal/unreal-packaging",
+      "destination": "skills/unreal-packaging",
+      "source_skill_sha256": "ffcf2214e19ad8d4170a249e4a9db1b43409a658eaf03eefa6bebe7d6190b8db",
+      "modifications": [],
+      "installed_skill_sha256": "ffcf2214e19ad8d4170a249e4a9db1b43409a658eaf03eefa6bebe7d6190b8db"
+    },
+    {
+      "repository": "gamedev-skills/awesome-gamedev-agent-skills",
+      "commit": "c6ca6c41c839b68319ffc08430b99ab768debc32",
+      "source_path": "skills/genres/visual-novel",
+      "destination": "skills/visual-novel",
+      "source_skill_sha256": "265c29c18250a83c429d24aebb8fe2f26265107815c75708b2296b14a5f3e957",
+      "modifications": [],
+      "installed_skill_sha256": "265c29c18250a83c429d24aebb8fe2f26265107815c75708b2296b14a5f3e957"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-3d-generator",
+      "destination": "skills/threejs-3d-generator",
+      "source_skill_sha256": "f0ace24708a44297183d1763534c0f21cc00b12ffa59ff8882f7ffff60e1c1a7",
+      "modifications": [],
+      "installed_skill_sha256": "f0ace24708a44297183d1763534c0f21cc00b12ffa59ff8882f7ffff60e1c1a7"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-aaa-graphics-builder",
+      "destination": "skills/threejs-aaa-graphics-builder",
+      "source_skill_sha256": "6656c3a0c3553cf78e0e64665bd6e697e06eeebbe2276b10538483820688f7b6",
+      "modifications": [],
+      "installed_skill_sha256": "6656c3a0c3553cf78e0e64665bd6e697e06eeebbe2276b10538483820688f7b6"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-audio-generator",
+      "destination": "skills/threejs-audio-generator",
+      "source_skill_sha256": "6510cdece14c9652f24930d1281f2d1c2aa56d80ea0f18390028a2de9ac3d3bd",
+      "modifications": [],
+      "installed_skill_sha256": "6510cdece14c9652f24930d1281f2d1c2aa56d80ea0f18390028a2de9ac3d3bd"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-debug-profiler",
+      "destination": "skills/threejs-debug-profiler",
+      "source_skill_sha256": "1cf28e596eec23a88d310cb9ca3b652aebb3e70f889202ddd5988f591ff243bf",
+      "modifications": [],
+      "installed_skill_sha256": "1cf28e596eec23a88d310cb9ca3b652aebb3e70f889202ddd5988f591ff243bf"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-game-director",
+      "destination": "skills/threejs-game-director",
+      "source_skill_sha256": "1c7a19cc1af9208bc63913e9b09fd9dbf95511fdb69d5212154aed960bca27e6",
+      "modifications": [],
+      "installed_skill_sha256": "1c7a19cc1af9208bc63913e9b09fd9dbf95511fdb69d5212154aed960bca27e6"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-game-ui-designer",
+      "destination": "skills/threejs-game-ui-designer",
+      "source_skill_sha256": "f68b6a0ad4347ed30fb416d3e5d9ee21e63af6c43dc05a3784f3e333f21e4f85",
+      "modifications": [],
+      "installed_skill_sha256": "f68b6a0ad4347ed30fb416d3e5d9ee21e63af6c43dc05a3784f3e333f21e4f85"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-gameplay-systems",
+      "destination": "skills/threejs-gameplay-systems",
+      "source_skill_sha256": "4d3501c0356673ca99d7559e6b8804bdd8ef79175f546bfdc43bd0ebd4ece245",
+      "modifications": [],
+      "installed_skill_sha256": "4d3501c0356673ca99d7559e6b8804bdd8ef79175f546bfdc43bd0ebd4ece245"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-image-generator",
+      "destination": "skills/threejs-image-generator",
+      "source_skill_sha256": "3abbf9e964133d11bb347ea703ede931ac356f16da29b21499e02f4911117159",
+      "modifications": [],
+      "installed_skill_sha256": "3abbf9e964133d11bb347ea703ede931ac356f16da29b21499e02f4911117159"
+    },
+    {
+      "repository": "majidmanzarpour/threejs-game-skills",
+      "commit": "8286774b22a2566bf894dbc825825c16921866af",
+      "source_path": "skills/threejs-qa-release",
+      "destination": "skills/threejs-qa-release",
+      "source_skill_sha256": "21042d59f3983e487c436f77ce3be0cba6ac4c183e49b40ed495de3a1cdd2d61",
+      "modifications": [],
+      "installed_skill_sha256": "21042d59f3983e487c436f77ce3be0cba6ac4c183e49b40ed495de3a1cdd2d61"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-auto-updates",
+      "destination": "skills/juce-auto-updates",
+      "source_skill_sha256": "5ddd6520928f23abe6e8edda24c4c8c1ebc6429bac4b118294b2a0a7d44c2381",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "336aa235a059d48175191f5a35bbeb834ea3d5f047020e6568eef551f5a451a4"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-build-release",
+      "destination": "skills/juce-build-release",
+      "source_skill_sha256": "376ebb71986661da9b42fc0e5df171e88c7b86e680996ba4b1e67b62a8468d2b",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "995d34e962f04229d744ec73ab4ffde553b4d841a2aba52100b31a1c6f9f8d47"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-ci-release",
+      "destination": "skills/juce-ci-release",
+      "source_skill_sha256": "58a2ee3baefc9ca0af68e66b9e7db72c42bfd58da6f24282345e84b3b3f975ac",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "708fcc5bef278c84b81aff92387dc969e67cf9d8d219a8287fb38a9eba836374"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-cross-platform-port",
+      "destination": "skills/juce-cross-platform-port",
+      "source_skill_sha256": "215d4a28a17850e53546582a63c57af6d3f3227ffddb766af3c670cc02f8cd54",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "49a209759d9acf3cca1562fef81942ef66880423847269c1bf7bbb0006886d60"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-project-create",
+      "destination": "skills/juce-project-create",
+      "source_skill_sha256": "c19920cc824ca2af0af512d44d05a95ae085662c9ce284ef0bb0276667bd0fb3",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "663687f64933d3f6051740893f4c1a5eae72220b2df75caa4f432c553bee12d8"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-project-ops",
+      "destination": "skills/juce-project-ops",
+      "source_skill_sha256": "26602a22029f9fb136598814c9738a9f07726ac97279fe73b532a20a6b9b174a",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "d5cf02ded975e02c07a2b11628c6fe87d45d9a1c3228cae6a5ef19e7eb8d3a03"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-project-starter",
+      "destination": "skills/juce-project-starter",
+      "source_skill_sha256": "729eba5c3f1866b34e1c5c8e6767a56630f2e92c74f7114dd40479ad167ac608",
+      "modifications": [],
+      "installed_skill_sha256": "729eba5c3f1866b34e1c5c8e6767a56630f2e92c74f7114dd40479ad167ac608"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-setup-ios",
+      "destination": "skills/juce-setup-ios",
+      "source_skill_sha256": "8eacfaa62128aa22fd9c0bce505336b4bef9fd74ea6e164f5566283fa0f17059",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "e84dc83da6682b660766c29e22f5296dc812d4bad8cc32916bc586e30f8e53b2"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-setup-visage",
+      "destination": "skills/juce-setup-visage",
+      "source_skill_sha256": "4b551db79af4519aed924d707556a924da5dca217ab067d600ecb79f6d2702ba",
+      "modifications": [
+        "Resolve bundled JUCE shared helpers"
+      ],
+      "installed_skill_sha256": "3bf45184680494344f0e19e6e061fd8751a0bb66c242ce9dd97ddedaa3503835"
+    },
+    {
+      "repository": "danielraffel/juce-agent-toolkit",
+      "commit": "9089b719f7378eba28dd078cdfb8b6e1c062bf13",
+      "source_path": "skills/juce-visage-ui",
+      "destination": "skills/juce-visage-ui",
+      "source_skill_sha256": "cb5b34ac60e796b1e33b74761a7fad058df497861285be72421f71308b72a38c",
+      "modifications": [],
+      "installed_skill_sha256": "cb5b34ac60e796b1e33b74761a7fad058df497861285be72421f71308b72a38c"
+    },
+    {
+      "repository": "mcaserta/juce-ui-fidelity",
+      "commit": "fd687817fbb916861c5bfbece40aa1859c3801ef",
+      "source_path": ".",
+      "destination": "skills/juce-ui-fidelity",
+      "source_skill_sha256": "f10e412a9fae3df09f58a6e7fb4605d62a7be3aca542bcfd876e8b0acbb38999",
+      "modifications": [],
+      "installed_skill_sha256": "f10e412a9fae3df09f58a6e7fb4605d62a7be3aca542bcfd876e8b0acbb38999"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-core",
+      "destination": "skills/gsap-core",
+      "source_skill_sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "modifications": [],
+      "installed_skill_sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-frameworks",
+      "destination": "skills/gsap-frameworks",
+      "source_skill_sha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6",
+      "modifications": [],
+      "installed_skill_sha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-performance",
+      "destination": "skills/gsap-performance",
+      "source_skill_sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e",
+      "modifications": [],
+      "installed_skill_sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-plugins",
+      "destination": "skills/gsap-plugins",
+      "source_skill_sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4",
+      "modifications": [],
+      "installed_skill_sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-react",
+      "destination": "skills/gsap-react",
+      "source_skill_sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74",
+      "modifications": [],
+      "installed_skill_sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-scrolltrigger",
+      "destination": "skills/gsap-scrolltrigger",
+      "source_skill_sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4",
+      "modifications": [],
+      "installed_skill_sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-timeline",
+      "destination": "skills/gsap-timeline",
+      "source_skill_sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "modifications": [],
+      "installed_skill_sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "source_path": "skills/gsap-utils",
+      "destination": "skills/gsap-utils",
+      "source_skill_sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba",
+      "modifications": [],
+      "installed_skill_sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/au-review",
+      "destination": "skills/au-review",
+      "source_skill_sha256": "798cd06b9d5c6978a6ef57a706e9b2b16ae0c504bba0f303b33033ad07358890",
+      "modifications": [],
+      "installed_skill_sha256": "798cd06b9d5c6978a6ef57a706e9b2b16ae0c504bba0f303b33033ad07358890"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-artifacts-debug",
+      "destination": "skills/audio-artifacts-debug",
+      "source_skill_sha256": "b50d6587baec7df6a95de6a09b3b98d8361899e0ea616e185b2fd335913af53d",
+      "modifications": [],
+      "installed_skill_sha256": "b50d6587baec7df6a95de6a09b3b98d8361899e0ea616e185b2fd335913af53d"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-dsp-review",
+      "destination": "skills/audio-dsp-review",
+      "source_skill_sha256": "18f40621e6a383bd944c16635ac70f1a316d63ce78e25f47b917d3bc56ec0fcb",
+      "modifications": [],
+      "installed_skill_sha256": "18f40621e6a383bd944c16635ac70f1a316d63ce78e25f47b917d3bc56ec0fcb"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-math-explainer",
+      "destination": "skills/audio-math-explainer",
+      "source_skill_sha256": "4bcbb483b35264417af6d9b6660ac88009d635ebb19a17e07553115182c915ec",
+      "modifications": [],
+      "installed_skill_sha256": "4bcbb483b35264417af6d9b6660ac88009d635ebb19a17e07553115182c915ec"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-numerics-review",
+      "destination": "skills/audio-numerics-review",
+      "source_skill_sha256": "1959446555f9790cbedca103829d6412bc95b09c4c1e16ab501633409f4d7696",
+      "modifications": [],
+      "installed_skill_sha256": "1959446555f9790cbedca103829d6412bc95b09c4c1e16ab501633409f4d7696"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-performance-debug",
+      "destination": "skills/audio-performance-debug",
+      "source_skill_sha256": "259cd476f47fbe1e6373ff0403384c89152f8eec00798189ee2f353d6d075eb8",
+      "modifications": [],
+      "installed_skill_sha256": "259cd476f47fbe1e6373ff0403384c89152f8eec00798189ee2f353d6d075eb8"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/audio-signal-flow-explainer",
+      "destination": "skills/audio-signal-flow-explainer",
+      "source_skill_sha256": "432a5980f7f638c9077045e68e4afde2e8d82691a91fb1f25e0e15df30665c37",
+      "modifications": [],
+      "installed_skill_sha256": "432a5980f7f638c9077045e68e4afde2e8d82691a91fb1f25e0e15df30665c37"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/clap-review",
+      "destination": "skills/clap-review",
+      "source_skill_sha256": "da34dcf0f5a5b4fc6d7cfafd0fc2f827875835baf43ac7fbfd752273bdb6d54c",
+      "modifications": [],
+      "installed_skill_sha256": "da34dcf0f5a5b4fc6d7cfafd0fc2f827875835baf43ac7fbfd752273bdb6d54c"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/dsp-algorithm-guide",
+      "destination": "skills/dsp-algorithm-guide",
+      "source_skill_sha256": "a1d84107cdca2ea3af0ca290c3bfdfc5543c25002101ad2c3f15021e3e1cae89",
+      "modifications": [],
+      "installed_skill_sha256": "a1d84107cdca2ea3af0ca290c3bfdfc5543c25002101ad2c3f15021e3e1cae89"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/game-audio-guide",
+      "destination": "skills/game-audio-guide",
+      "source_skill_sha256": "f8f63b14a9c8196ba414d32ae0a4dad625c8d8fbc9280aed67f029b9f0aae2bd",
+      "modifications": [],
+      "installed_skill_sha256": "f8f63b14a9c8196ba414d32ae0a4dad625c8d8fbc9280aed67f029b9f0aae2bd"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/game-audio-review",
+      "destination": "skills/game-audio-review",
+      "source_skill_sha256": "64c7995d78046c1d821725a3456a9da41e3d7109918c3b7f59ab9dd8d0fc3037",
+      "modifications": [],
+      "installed_skill_sha256": "64c7995d78046c1d821725a3456a9da41e3d7109918c3b7f59ab9dd8d0fc3037"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/juce-guide",
+      "destination": "skills/juce-guide",
+      "source_skill_sha256": "e13cf9f8714a646db290e1fbde9c2b0eae328bb316d49f54388b22dc17347a33",
+      "modifications": [],
+      "installed_skill_sha256": "e13cf9f8714a646db290e1fbde9c2b0eae328bb316d49f54388b22dc17347a33"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/juce-review",
+      "destination": "skills/juce-review",
+      "source_skill_sha256": "93fc3f875c761986f6bc8cb8ff08fb7f0a86641b84cf5653bfc8eb1d139d8cc8",
+      "modifications": [],
+      "installed_skill_sha256": "93fc3f875c761986f6bc8cb8ff08fb7f0a86641b84cf5653bfc8eb1d139d8cc8"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/vst3-review",
+      "destination": "skills/vst3-review",
+      "source_skill_sha256": "2ecf9490cc053759552d22a0b9715f75f8f6ff8bf207ec276f5d9096064df256",
+      "modifications": [],
+      "installed_skill_sha256": "2ecf9490cc053759552d22a0b9715f75f8f6ff8bf207ec276f5d9096064df256"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/webaudio-guide",
+      "destination": "skills/webaudio-guide",
+      "source_skill_sha256": "38c9985fca1ba4bf055f0c81645c111101f5d1515cd5087fb7961c7ea1b2ac10",
+      "modifications": [],
+      "installed_skill_sha256": "38c9985fca1ba4bf055f0c81645c111101f5d1515cd5087fb7961c7ea1b2ac10"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/webaudio-review",
+      "destination": "skills/webaudio-review",
+      "source_skill_sha256": "60f3b2342635a328652f9b8ab6cbca31ed8f25f71bf4e4b7001395212f84af9a",
+      "modifications": [],
+      "installed_skill_sha256": "60f3b2342635a328652f9b8ab6cbca31ed8f25f71bf4e4b7001395212f84af9a"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/yup-guide",
+      "destination": "skills/yup-guide",
+      "source_skill_sha256": "963335d384cc2bfa6f70475477a4a077a918fde49680c69ed4a8136d4969599e",
+      "modifications": [],
+      "installed_skill_sha256": "963335d384cc2bfa6f70475477a4a077a918fde49680c69ed4a8136d4969599e"
+    },
+    {
+      "repository": "kunitoki/sonic-skills",
+      "commit": "8b6dcfe89030d7de9ba9d6afcc2d927fb11fe7fa",
+      "source_path": "skills/yup-review",
+      "destination": "skills/yup-review",
+      "source_skill_sha256": "e7341d1c83de46c1c101f5c36905d71b8afe4f2141d8edda4fc7375d856a5ae8",
+      "modifications": [],
+      "installed_skill_sha256": "e7341d1c83de46c1c101f5c36905d71b8afe4f2141d8edda4fc7375d856a5ae8"
+    },
+    {
+      "repository": "FunwayHQ/sound-design-skill",
+      "commit": "6859d210e2b9def5c77f081d388b7ff2a1dd4b2f",
+      "source_path": "skills/sound-design",
+      "destination": "skills/sound-design",
+      "source_skill_sha256": "ada1b0ba9dc1de61fa3e3a19a6b3a3e80000966f02d40e4727a650040261dd07",
+      "modifications": [],
+      "installed_skill_sha256": "ada1b0ba9dc1de61fa3e3a19a6b3a3e80000966f02d40e4727a650040261dd07"
+    },
+    {
+      "repository": "Leonxlnx/earshot",
+      "commit": "4ac3d2ac2b151e1c23376f9ce7f3047a17050013",
+      "source_path": "skills/earshot",
+      "destination": "skills/earshot",
+      "source_skill_sha256": "57b984a602ae1881cb3cfe58cedf61cc89b5c443c0b315fe5b8767471cb6c1ec",
+      "modifications": [],
+      "installed_skill_sha256": "57b984a602ae1881cb3cfe58cedf61cc89b5c443c0b315fe5b8767471cb6c1ec"
+    },
+    {
+      "repository": "Leonxlnx/earshot",
+      "commit": "4ac3d2ac2b151e1c23376f9ce7f3047a17050013",
+      "source_path": "skills/real-sound",
+      "destination": "skills/real-sound",
+      "source_skill_sha256": "4810cd9a42676d927ca3cee29933bdbf2ddb92976e869fa439f38531bbc59a0e",
+      "modifications": [],
+      "installed_skill_sha256": "4810cd9a42676d927ca3cee29933bdbf2ddb92976e869fa439f38531bbc59a0e"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/code-to-design",
+      "destination": "skills/stitch-code-to-design",
+      "source_skill_sha256": "1daafb1d89d6e18574edc33818b992b7af59aaeb2960134dfc818ea0f53b2455",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "d41d97c14db2ac46d9987e2474d4b7f410aa0341c926800192ef6feef7596c67"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-utilities/skills/enhance-prompt",
+      "destination": "skills/enhance-prompt",
+      "source_skill_sha256": "ccb200c798072438b642b1fa6a5c515563159e2fab3d56e813d76d8afa9a7ce6",
+      "modifications": [],
+      "installed_skill_sha256": "ccb200c798072438b642b1fa6a5c515563159e2fab3d56e813d76d8afa9a7ce6"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/extract-design-md",
+      "destination": "skills/stitch-extract-design-md",
+      "source_skill_sha256": "f9c32b30acd9fea3dba7306bf38e3a859f49c1f27bcf44f9cf16d3a60a730276",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "66a6c501679b74ea4455e6bc775427ab2009ac2af5d544d6b4574dc419ed13c4"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/extract-static-html",
+      "destination": "skills/stitch-extract-static-html",
+      "source_skill_sha256": "87ebabb29c37f903541bb6c32ee5f2c84e322d140d6b83bb3a0872943ebc1356",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "5909c2c332cf443a281097e4e18c74eca6a366ccaba8f665a14fd40309073573"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/generate-design",
+      "destination": "skills/stitch-generate-design",
+      "source_skill_sha256": "d03d2de3a0cefbde2ca7b8cdc2c96e8164a8b9400fe3a9b97a3aa6ce37ee638d",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "f13d8113b71c20cbd3f257ad7b1626584f4b0327f867fb6e7d634f78d3d0618a"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/manage-design-system",
+      "destination": "skills/stitch-manage-design-system",
+      "source_skill_sha256": "5ce0b8adb5261e8a926fc0942d679cda0421ac29e8159a6ee38e5d940bc9658e",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "062991dc9f25e19e6cd5320d4235d3e41688442a262c3d29bd6dd3e7f738f853"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-build/skills/react-components",
+      "destination": "skills/stitch-react-components",
+      "source_skill_sha256": "a978bf8fb135c69f944432dfa4166d6a88903c524ed4be51899a226f7daa223e",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "2b7e07318d9c32c4ec81173a273b999cbccbee25beac51df57c5e569b155d91d"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-build/skills/react-native",
+      "destination": "skills/stitch-react-native",
+      "source_skill_sha256": "fb83197d834142b89459d883c5029716387e73fb6441d32019f4f8ad3b8b3784",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "c97f1f733a62784ade15a1250bfb99a5f7b0d6680a2d2ae24775b37009875504"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-build/skills/react-vite-dashboard",
+      "destination": "skills/react-vite-dashboard",
+      "source_skill_sha256": "87b624265ad4509ce8a3d31e7394749bce088a44f92498bfb65f096afb98701b",
+      "modifications": [],
+      "installed_skill_sha256": "87b624265ad4509ce8a3d31e7394749bce088a44f92498bfb65f096afb98701b"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-build/skills/remotion",
+      "destination": "skills/remotion",
+      "source_skill_sha256": "7147fc5a627081fceb7b6ab6191426643747e738bb857587de1d3c1b6eecd755",
+      "modifications": [],
+      "installed_skill_sha256": "7147fc5a627081fceb7b6ab6191426643747e738bb857587de1d3c1b6eecd755"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-build/skills/shadcn-ui",
+      "destination": "skills/shadcn-ui",
+      "source_skill_sha256": "2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304",
+      "modifications": [],
+      "installed_skill_sha256": "2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-utilities/skills/site-md",
+      "destination": "skills/site-md",
+      "source_skill_sha256": "679a0020ea2fbfdc4c4db84c32936eaea203263ebccb4d217eff1cf418d3de60",
+      "modifications": [],
+      "installed_skill_sha256": "679a0020ea2fbfdc4c4db84c32936eaea203263ebccb4d217eff1cf418d3de60"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-utilities/skills/stitch-loop",
+      "destination": "skills/stitch-loop",
+      "source_skill_sha256": "05f39ecf81b0664872e6f3d6be01c53cf8c1f8b9ef14c741fe01d1ac424ce634",
+      "modifications": [],
+      "installed_skill_sha256": "05f39ecf81b0664872e6f3d6be01c53cf8c1f8b9ef14c741fe01d1ac424ce634"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-utilities/skills/taste-design",
+      "destination": "skills/taste-design",
+      "source_skill_sha256": "e425fdb7ab250764f6229c48941f97e20bd6a7ba9e25a628f1e0ebeb008e8bff",
+      "modifications": [],
+      "installed_skill_sha256": "e425fdb7ab250764f6229c48941f97e20bd6a7ba9e25a628f1e0ebeb008e8bff"
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+      "source_path": "plugins/stitch-design/skills/upload-to-stitch",
+      "destination": "skills/stitch-upload-to-stitch",
+      "source_skill_sha256": "e8ddf11677a916e6a4ccf608fafcf0f2a03d548677763c0ca7de6671799c0f99",
+      "modifications": [
+        "Use a portable discovery name without colon separators"
+      ],
+      "installed_skill_sha256": "8d8e8808951d1a2f9a954300f69459300b2c850bfb7118504697d9f7f577270c"
+    },
+    {
+      "repository": "GoogleChrome/modern-web-guidance",
+      "commit": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+      "source_path": "skills/chrome-extensions",
+      "destination": "skills/chrome-extensions",
+      "source_skill_sha256": "c67d9e4ba9da93ed0da8b0147235e5890aa24e659548f65b7765c5af0a470c3f",
+      "modifications": [],
+      "installed_skill_sha256": "c67d9e4ba9da93ed0da8b0147235e5890aa24e659548f65b7765c5af0a470c3f"
+    },
+    {
+      "repository": "GoogleChrome/modern-web-guidance",
+      "commit": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+      "source_path": "skills/modern-web-guidance",
+      "destination": "skills/modern-web-guidance",
+      "source_skill_sha256": "1292f0ce14794a5bc49af58e99d5f6d4edf10acd9472cade94ab0c5590892716",
+      "modifications": [],
+      "installed_skill_sha256": "1292f0ce14794a5bc49af58e99d5f6d4edf10acd9472cade94ab0c5590892716"
+    }
+  ],
+  "skipped_duplicates": [],
+  "excluded": [
+    {
+      "repository": "Donchitos/Claude-Code-Game-Studios",
+      "reason": "Claude-specific dynamic prompts, hook scripts and agent roles; not a standalone portable skill install."
+    }
+  ]
+}

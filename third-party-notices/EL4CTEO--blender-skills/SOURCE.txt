@@ -1,0 +1,3 @@
+https://github.com/EL4CTEO/blender-skills
+Revision: 9e7e04a603c125a0d17447ab97112fa70a865067
+License: MIT

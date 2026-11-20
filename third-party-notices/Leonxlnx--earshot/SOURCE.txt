@@ -1,0 +1,3 @@
+https://github.com/Leonxlnx/earshot
+Revision: 4ac3d2ac2b151e1c23376f9ce7f3047a17050013
+License: MIT

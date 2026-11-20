@@ -1,0 +1,3 @@
+https://github.com/danielraffel/juce-agent-toolkit
+Revision: 9089b719f7378eba28dd078cdfb8b6e1c062bf13
+License: MIT

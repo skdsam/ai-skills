@@ -1,0 +1,3 @@
+https://github.com/jakubkrehel/skills
+Revision: 672ae44ace6aaed65b86cbb1e2fd6fbea0e79578
+License: MIT

@@ -1,0 +1,3 @@
+https://github.com/gamedev-skills/awesome-gamedev-agent-skills
+Revision: c6ca6c41c839b68319ffc08430b99ab768debc32
+License: Apache-2.0

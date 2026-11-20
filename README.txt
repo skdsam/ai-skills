@@ -66,8 +66,8 @@ The detailed skill-inventory.local.json is also excluded from Git.
 Do not sync entire account/configuration folders or credentials.
 
 VERIFICATION (20 November 2026)
-910 primary folders have nonempty names/descriptions and unique discovery names.
-Codex app-server skills/list loaded all 910, plus nested skills, with zero errors.
+1,273 primary folders have nonempty names/descriptions and unique discovery names.
+Codex app-server skills/list loaded all 1,273, plus nested skills, with zero errors.
 All five connected user skill directories resolve to this repository's skills/.
 Antigravity in-app discovery needs checking after restarting the application.
 Setup was checked with an isolated profile, WhatIf and repeated execution.
@@ -75,3 +75,10 @@ Setup was checked with an isolated profile, WhatIf and repeated execution.
 REFERENCES
 https://learn.chatgpt.com/docs/build-skills
 https://antigravity.google/docs/skills
+
+GITHUB ADDITIONS (20 November 2026)
+363 missing skills added from 17 upstream collections. See
+SKILL-ADDITIONS-2026-11-20.txt for the selection, sources and dependencies.
+github-skill-imports-2026-11-20.json pins revisions and records compatibility edits.
+github-skill-research-2026-11-20.json records repository stars and weekly trending.
+third-party-notices/ retains upstream licenses and attribution.

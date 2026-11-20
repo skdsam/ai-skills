@@ -1,0 +1,3 @@
+https://github.com/google-labs-code/stitch-skills
+Revision: 62fdcd679747aca0792e5dd6591b10ddfad56825
+License: Apache-2.0

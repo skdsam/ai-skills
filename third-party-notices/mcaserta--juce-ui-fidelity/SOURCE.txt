@@ -1,0 +1,3 @@
+https://github.com/mcaserta/juce-ui-fidelity
+Revision: fd687817fbb916861c5bfbece40aa1859c3801ef
+License: MIT

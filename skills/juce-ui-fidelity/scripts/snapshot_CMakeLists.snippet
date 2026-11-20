@@ -1,0 +1,66 @@
+# --------------------------------------------------------------------
+# snapshot harness: headless component-to-PNG renderer for the
+# juce-ui-fidelity workflow. Not built by default — opt in via
+#   cmake -B build -DENABLE_SNAPSHOT_TESTS=ON
+# then
+#   cmake --build build --target snapshot
+#
+# Opt-in secondary target (EXCLUDE_FROM_ALL, JUCE_WEB_BROWSER=0,
+# juce_core + juce_gui_basics only) so the default build is unaffected.
+#
+# For full context see references/screenshot-testing.md in this repo
+# (or ~/.claude/skills/juce-ui-fidelity/references/ once the skill is
+# installed).
+# --------------------------------------------------------------------
+option(ENABLE_SNAPSHOT_TESTS "Build the component snapshot harness" OFF)
+
+if(ENABLE_SNAPSHOT_TESTS)
+    add_executable(snapshot
+        tests/snapshots/main.cpp
+        # Add one story TU per panel as you go:
+        # tests/snapshots/stories/VoicePanel_stories.cpp
+        # tests/snapshots/stories/FilterPanel_stories.cpp
+    )
+
+    set_target_properties(snapshot PROPERTIES EXCLUDE_FROM_ALL TRUE)
+
+    target_compile_definitions(snapshot PRIVATE
+        JUCE_STANDALONE_APPLICATION=1
+        JUCE_WEB_BROWSER=0
+        JUCE_USE_CURL=0
+        JUCE_SNAPSHOT_HARNESS=1
+        # Kill macOS subpixel AA — the single biggest lever for stable
+        # cross-machine snapshots. Harmless on Windows/Linux.
+        JUCE_DISABLE_COREGRAPHICS_FONT_SMOOTHING=1)
+
+    # If you factor UI into an OBJECT library (recommended once you have
+    # more than ~3 stories), link that here instead of listing .cpp files
+    # individually. See references/screenshot-testing.md §2.2.
+    #
+    # add_library(plugin_ui_objects OBJECT ${plugin_ui_sources})
+    # target_link_libraries(snapshot PRIVATE plugin_ui_objects)
+    target_sources(snapshot PRIVATE
+        # Components under test — same sources the plugin target links.
+        source/ui/YourLookAndFeel.cpp
+        source/ui/YourComponent.cpp
+    )
+
+    target_include_directories(snapshot PRIVATE source)
+
+    target_link_libraries(snapshot PRIVATE
+        # Match the plugin's binary-data target if your Components read
+        # fonts/images from it.
+        # e.g. PluginAssets — rename to match your juce_add_binary_data target.
+        PluginAssets
+        juce::juce_core
+        juce::juce_data_structures
+        juce::juce_events
+        juce::juce_graphics
+        juce::juce_gui_basics
+        juce::juce_gui_extra)
+
+    # PCH cuts ~2s per TU of JUCE header parse time. Worth it once you
+    # have more than a handful of stories.
+    target_precompile_headers(snapshot PRIVATE
+        <juce_gui_basics/juce_gui_basics.h>)
+endif()

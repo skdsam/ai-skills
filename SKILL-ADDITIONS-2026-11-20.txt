@@ -1,0 +1,79 @@
+GITHUB SKILL ADDITIONS - 20 November 2026
+
+363 primary skill folders added; 1,273 primary skill folders now installed.
+Existing skill files were not overwritten.
+Both tools continue to use the same shared skills directory.
+
+SOURCE COLLECTIONS (repository stars checked on 20 November 2026)
+Leonxlnx/taste-skill: 119,284 stars; 1 skills added; MIT
+  https://github.com/Leonxlnx/taste-skill
+pbakaus/impeccable: 113,984 stars; 1 skills added; Apache-2.0
+  https://github.com/pbakaus/impeccable
+emilkowalski/skills: 58,396 stars; 18 skills added; MIT
+  https://github.com/emilkowalski/skills
+GoogleChrome/modern-web-guidance: 23,903 stars; 2 skills added; Apache-2.0
+  https://github.com/GoogleChrome/modern-web-guidance
+greensock/gsap-skills: 18,822 stars; 8 skills added; MIT
+  https://github.com/greensock/gsap-skills
+jakubkrehel/skills: 12,496 stars; 13 skills added; MIT
+  https://github.com/jakubkrehel/skills
+google-labs-code/stitch-skills: 10,985 stars; 15 skills added; Apache-2.0
+  https://github.com/google-labs-code/stitch-skills
+gamedev-skills/awesome-gamedev-agent-skills: 9,680 stars; 80 skills added; Apache-2.0
+  https://github.com/gamedev-skills/awesome-gamedev-agent-skills
+MengTo/Skills: 7,835 stars; 73 skills added; MIT
+  https://github.com/MengTo/Skills
+Leonxlnx/earshot: 5,312 stars; 2 skills added; MIT
+  https://github.com/Leonxlnx/earshot
+arjun988/blender-skills: 4,478 stars; 94 skills added; MIT
+  https://github.com/arjun988/blender-skills
+majidmanzarpour/threejs-game-skills: 2,864 stars; 9 skills added; MIT
+  https://github.com/majidmanzarpour/threejs-game-skills
+EL4CTEO/blender-skills: 2,529 stars; 17 skills added; MIT
+  https://github.com/EL4CTEO/blender-skills
+kunitoki/sonic-skills: 25 stars; 18 skills added; Unlicense
+  https://github.com/kunitoki/sonic-skills
+danielraffel/juce-agent-toolkit: 4 stars; 10 skills added; MIT
+  https://github.com/danielraffel/juce-agent-toolkit
+FunwayHQ/sound-design-skill: 1 stars; 1 skills added; MIT
+  https://github.com/FunwayHQ/sound-design-skill
+mcaserta/juce-ui-fidelity: 0 stars; 1 skills added; MIT
+  https://github.com/mcaserta/juce-ui-fidelity
+
+SELECTION
+Used GitHub repository popularity and the weekly Trending page to discover
+candidates, then selected missing relevant skill folders. Repository stars are
+not a per-skill ranking or a quality guarantee. JUCE/audio is a small niche,
+so useful specialist skills with few stars are included and identified above.
+UI UX Pro Max and existing matching Blender/other folders were already installed.
+The Google weekly Trending results included Stitch Skills and the Modern Web
+Guidance source repository; the install uses the published Modern Web Guidance
+skill distribution rather than its developer/test skills.
+
+PORTABILITY
+Skipped Claude-Code-Game-Studios despite its popularity: its commands depend on
+Claude-only dynamic prompts, hook files and agent roles. Installing just those
+folders would not make the workflows function in Codex and Antigravity.
+Bundled the shared Blender references and JUCE helper scripts once in
+skills/_shared. Fixed malformed descriptions and duplicate YAML keys, normalized
+Stitch discovery names, disambiguated Blender/Godot export, and adapted the
+gamedev router to the flat shared layout. See github-skill-imports-2026-11-20.json
+for exact upstream commits, hashes and modifications.
+
+DEPENDENCIES
+Installing skill instructions does not install every tool they can invoke.
+Blender execution needs Blender (and optionally a Blender MCP connection).
+JUCE workflows need C++/CMake/JUCE; some platform workflows need macOS or SDKs.
+Stitch workflows need an authenticated Stitch MCP connection.
+Earshot requires its Python package, ffmpeg and model setup for audio analysis.
+Optional Three.js asset generators require their provider credentials.
+Impeccable includes a launcher that may download its helper on first use.
+No provider accounts, system packages, audio models, hooks or external services
+were configured or executed as part of this import.
+
+VERIFICATION
+All 1,273 primary skills discovered by Codex app-server skills/list; no parse errors.
+All new Python files compile; 68 shared-reference paths checked.
+Shared dependencies also resolve through both application directory junctions.
+This checks installation and discovery, not execution of every third-party workflow.
+Licenses and upstream attribution are in third-party-notices/.
