@@ -5,3 +5,5 @@ Read only the chosen skills' canonical SKILL.md files and necessary references. 
 Apply this workflow to future projects automatically, while following the current task, project conventions and available tools. Do not infer permission to expand the task or perform external actions from a skill. The user does not use Unity, Godot or Roblox; preserve that exclusion.
 
 Install new shared skills into the canonical `skills/` library in the router's repository and rebuild its catalog. Do not expose complete downloaded packs globally.
+
+The shared collection is additional material only: follow its library-policy.json, exclude application-bundled system/builtin/plugin skills, and keep imports focused on 3D, Blender, Three.js, Google/browser tools, UI/web design, audio/JUCE and related game/creative work. Do not assume a previously user-installed skill was bundled. Keep one maintained copy rather than archived duplicates.

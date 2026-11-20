@@ -2,7 +2,6 @@ Blender assets, scenes and add-ons
 
 Generated metadata index; prefer bounded CLI search to reading this entire file.
 
-agent-blender/agent-blender | blender-addon-development | Expert in building Blender addons (plugins) using Python and the Blender Python API (bpy). Covers addon architecture, operator design, panel
 agent-blender | agent-blender | Expert in building Blender addons (plugins) using Python and the Blender Python API (bpy). Covers addon architecture, operator design, panel
 analog-found-footage-horror | analog-found-footage-horror | Analog, VHS, CRT, and found-footage horror aesthetics for Blender shots including camera imperfections and documentary framing.
 animation | animation | Game-ready animation in Blender including walk/run/idle cycles, combat, mechanical animation, camera animation, constraints, Graph Editor, a

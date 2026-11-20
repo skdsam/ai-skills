@@ -82,3 +82,8 @@ SUBSEQUENT ENGINE CLEANUP
 38 dedicated Unity, Godot and Roblox folders were subsequently removed at the
 user request. The counts above describe the original import; the current library
 has 1,235 primary skill folders. Import records mark removed items explicitly.
+
+FINAL ADDITIONAL-ONLY CURATION
+After scope cleanup the current library has 456 primary additional skills,
+466 total catalog entries, no bundled matches and no duplicate instruction bodies.
+See LIBRARY-AUDIT.json and library-policy.json. Older counts above are historical.

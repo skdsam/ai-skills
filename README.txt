@@ -1,7 +1,7 @@
 SHARED SKILLS WITH SELECTIVE PROJECT ROUTING
 
 One canonical library, available to Codex and Antigravity.
-1,243 primary skills remain in skills/ (1,255 catalog entries including nested skills).
+456 primary additional skills remain in skills/ (466 catalog entries including nested skills).
 Only project-skill-router is globally discoverable. The complete library stays
 available through bounded metadata search and selected canonical instruction files.
 
@@ -11,7 +11,6 @@ LAYOUT
   catalog/INDEX.txt Small entry point, category indexes and starter profile definitions.
   catalog/skills.json Generated searchable names, descriptions, paths and dependencies.
   routing/         Standing guidance installed for both applications.
-  archive/         Previous differing skill versions, outside normal discovery.
   third-party-notices/ Upstream licenses and source revisions.
   .local-backups/  Machine-specific recovery files; excluded from Git.
 
@@ -60,7 +59,7 @@ Restore a project's saved selection after cloning on another device:
   python $router use --project "D:/Projects/MyProject" --apply
 
 Starter profiles: general, blender, blender-addon, web, react, threejs, unreal,
-juce, audio, browser, documents. Multiple --profile or --skill options can be used.
+juce, audio, browser. Multiple --profile or --skill options can be used.
 Profiles are small starting sets, not full-category activation. The generic profile
 can contain no skills. Project fingerprints preserve the chosen stack; recommendations
 are heuristics and can be overridden with explicit profiles or skill IDs.
@@ -90,11 +89,20 @@ not transferred by Git. If the repository moves, rerun setup-shared-skills.ps1.
 The installer replaces links themselves without moving their target contents.
 
 ADDING OR REMOVING LIBRARY SKILLS
-Import canonical skill folders into skills/, preserve licenses/provenance, then:
+Review new skills against library-policy.json and the local managed inventory.
+Approve only non-bundled skills within the listed creative/development areas,
+add reviewed IDs to approved_primary_ids, and preserve licenses/provenance.
+Import the canonical folders into skills/, then:
   python discovery/project-skill-router/scripts/skills.py build
 Catalog rebuilding requires PyYAML (python -m pip install -r catalog/requirements-build.txt).
 Normal search, recommendations and project selection use only the standard library.
 The generated catalog is committed, so another PC does not need to rebuild on pull.
+Rebuilds also audit current local system/builtin/plugin skills and reject copied
+managed names, matching instruction files/bodies, and unapproved folders.
+Run python tools/audit-library.py for the standalone read-only audit.
+An existing user-installed skill is not automatically an application-bundled skill.
+The collector skips unapproved/bundled material and alternate versions; old
+versions are retained in Git history rather than duplicate archive folders.
 collect-skills.py uses the canonical library, skips the discovery links and rebuilds
 after new imports. Do not install large packs into the global discovery directory.
 Unity, Godot and Roblox are excluded by the user's preference; Unreal remains.
@@ -110,14 +118,14 @@ setup-google-browser-tools.ps1 after installing Node.js/npm and Chrome.
 
 VALIDATION AND LIMITS
 ROUTING-VERIFICATION.json records fresh Codex runtime discovery before/after and
-example web/JUCE project selections. Before: 1,255 library skills globally exposed;
+example web/JUCE project selections. Original broad-library baseline: 1,255 skills globally exposed;
 after: one router. Their name/description metadata fell from 339,918 to 213
 characters before adding a project's selection. These are characters, not token
 counts or total-context measurements. Built-ins, plugins and MCP tools retain
 their own overhead. Antigravity links and documented discovery paths were checked;
-its in-app refresh requires restarting. Nine routing tests cover profile changes,
+its in-app refresh requires restarting. Ten routing/policy tests cover profile changes,
 read-only previews, conflict preservation, clone restoration and Windows cross-drive
-junction safety. All original canonical skill instruction hashes were retained.
+junction safety. All retained canonical skill instruction hashes are unchanged.
   python -m unittest discover -s tests -v
 Shared discovery does not prove every third-party workflow runs in both apps.
 External tools, credentials, SDKs and models required by a skill still need setup.
@@ -133,3 +141,21 @@ OFFICIAL DISCOVERY REFERENCES
 https://learn.chatgpt.com/docs/build-skills
 https://antigravity.google/docs/skills
 https://antigravity.google/docs/rules
+
+ADDITIONAL-ONLY CURATION
+The collection is focused on 3D, Blender, Three.js, Google/browser tools, UI/UX,
+web design, audio/JUCE, Unreal, games and related creative/interface helpers.
+787 unrelated primary skill folders, 18 old archived variants, and one identical
+nested Blender copy were removed. legal-advisor was third-party user-installed
+material and was removed as outside scope, not mislabeled as an app default.
+The final audit checked 63 managed instruction files and found no name, exact-file
+or normalized-body matches; no identical retained instruction bodies remain.
+LIBRARY-AUDIT.json records the cleanup and library-policy.json limits future imports.
+Application-owned system/builtin/plugin files were not modified.
+Recovery copies and research downloads are excluded from GitHub. Relocatable
+material is in the ai-skills-recovery directory beside this repository; Windows-
+locked recovery folders remain in the ignored .local-backups directory. Neither
+location is scanned as the installed skill library.
+Local backup filenames remain ignored for future setup/maintenance operations.
+Historical source manifests can mention removed skills with an explicit status;
+only the current catalog and approved skill folders represent installed extras.

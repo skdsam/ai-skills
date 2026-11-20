@@ -22,12 +22,8 @@ CATEGORY_LABELS = {
     "threejs": "Three.js, shaders and 3D web graphics",
     "ui-web": "UI/UX, frontend and web design",
     "games": "Engine-neutral game development and other engines",
-    "documents": "Documents, spreadsheets and presentations",
-    "security": "Security reviews and testing",
-    "automation": "Service integrations and automation",
-    "backend": "Backend, databases, cloud and APIs",
-    "engineering": "Languages, development workflow and testing",
-    "other": "Other specialist workflows",
+    "google": "Google, Chrome, Stitch and browser tools",
+    "other": "Related creative and interface helpers",
 }
 
 
@@ -82,10 +78,18 @@ def build_catalog():
     except ImportError:
         raise ValueError("Catalog rebuilding requires PyYAML: python -m pip install PyYAML. Lookup and project selection do not.")
     records = []
+    policy = read_json(REPO / "library-policy.json")
+    approved = set(policy["approved_primary_ids"])
+    managed = set(policy["application_managed_names"])
+    google_ids = {Path(i["destination"]).name for i in read_json(REPO / "google-browser-skills.json")["chrome_devtools"]["skills"]}
+    google_ids.update(Path(i["destination"]).name for i in read_json(REPO / "github-skill-imports-2026-11-20.json")["imports"] if i["repository"].startswith(("GoogleChrome/", "google-labs-code/")))
+    google_ids.update({"gemini-api-dev", "imagen"})
     for file in sorted(LIBRARY.rglob("SKILL.md")):
         if file.is_symlink() or "_shared" in file.relative_to(LIBRARY).parts:
             continue
         identifier = file.parent.relative_to(LIBRARY).as_posix()
+        if identifier.split("/")[0] not in approved:
+            raise ValueError(f"Unreviewed skill outside library policy: {identifier}")
         if excluded(identifier):
             continue
         text = file.read_text(encoding="utf-8-sig")
@@ -102,8 +106,13 @@ def build_catalog():
         description = " ".join(metadata["description"].split())
         if not name or not description:
             raise ValueError(f"Missing name/description: {identifier}")
+        if name in managed:
+            raise ValueError(f"Application-managed skill must not be copied into the additional library: {identifier}")
+        group = "google" if identifier in google_ids else category(name, description)
+        if group not in CATEGORY_LABELS:
+            group = "other"
         records.append({"id": identifier, "name": name, "description": description,
-                        "category": category(name, description), "path": file.relative_to(REPO).as_posix(),
+                        "category": group, "path": file.relative_to(REPO).as_posix(),
                         "primary": "/" not in identifier, "dependencies": [],
                         "sha256": hashlib.sha256(file.read_bytes()).hexdigest()})
     ids = {r["id"] for r in records}
@@ -119,6 +128,9 @@ def build_catalog():
         unknown = set(profile["skills"]) - ids
         if unknown:
             raise ValueError(f"Profile {name} has unknown skills: {sorted(unknown)}")
+    audit = subprocess.run([sys.executable, str(REPO / "tools/audit-library.py")], capture_output=True, text=True, encoding="utf-8")
+    if audit.returncode != 0 or json.loads(audit.stdout).get("identical_instruction_bodies"):
+        raise ValueError("Bundled, duplicate or invalid instructions detected. Run python tools/audit-library.py to review before publishing the catalog.")
     write_json(CATALOG / "skills.json", {"version": 1, "skills": records})
     counts = collections.Counter(r["category"] for r in records)
     lines = ["SHARED SKILL CATALOG", "", "Start with project-skill-router; query metadata before reading selected instructions.",

@@ -1,7 +1,7 @@
 {
   "verified_on": "2026-11-20",
-  "canonical_primary_skills": 1243,
-  "catalog_entries_including_nested": 1255,
+  "canonical_primary_skills": 456,
+  "catalog_entries_including_nested": 466,
   "baseline": {
     "automatically_discovered_library_skills": 1255,
     "custom_metadata_characters": 339918
@@ -36,8 +36,9 @@
   ],
   "checks": [
     "Canonical instruction hashes unchanged",
-    "Nine automated routing tests passed, including cross-volume junction preservation",
+    "Ten automated routing tests passed, including cross-volume junction preservation",
     "Project preview is read-only; selected folders are links, not copies",
     "Unmanaged project skills and existing global preferences retained"
-  ]
+  ],
+  "curation_note": "Original baseline predates focused-library cleanup. The current additional-only library has 456 primary skills; global discovery still exposes one router."
 }

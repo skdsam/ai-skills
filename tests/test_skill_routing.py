@@ -46,6 +46,18 @@ class RoutingTests(unittest.TestCase):
         self.assertFalse(any(router.excluded(r["id"]) for r in self.records))
         self.assertFalse(router.excluded("brand-guidelines-community"))
 
+    def test_additional_only_policy_blocks_bundled_and_unrelated_imports(self):
+        policy = router.read_json(REPO / "library-policy.json")
+        self.assertNotIn("legal-advisor", policy["approved_primary_ids"])
+        self.assertTrue(all(r["name"] not in policy["application_managed_names"] for r in self.records))
+        self.assertEqual({r["id"] for r in self.records if r["primary"]}, set(policy["approved_primary_ids"]))
+        collector_spec = importlib.util.spec_from_file_location("skill_collector", REPO / "collect-skills.py")
+        collector = importlib.util.module_from_spec(collector_spec)
+        collector_spec.loader.exec_module(collector)
+        self.assertFalse(collector.approved_skill("legal-advisor"))
+        self.assertFalse(collector.approved_skill("skill-creator"))
+        self.assertTrue(collector.approved_skill("frontend-design"))
+
     def test_name_alias_and_dependency_closure(self):
         self.assertEqual(router.lookup(self.records, "vercel-react-best-practices")["id"], "react-best-practices")
         result = router.expand_selection(self.records, ["blender-animation"])

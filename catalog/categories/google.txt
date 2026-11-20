@@ -1,0 +1,31 @@
+Google, Chrome, Stitch and browser tools
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+a11y-debugging | a11y-debugging | Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA l
+chrome-devtools | chrome-devtools | Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating brows
+chrome-devtools-cli | chrome-devtools-cli | Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome DevTools via CLI.
+chrome-extensions | chrome-extensions | Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or und
+cookie-debugging | cookie-debugging | Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cookie consent compliance
+debug-optimize-lcp | debug-optimize-lcp | Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever the user asks about 
+enhance-prompt | enhance-prompt | Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context,
+gemini-api-dev | gemini-api-dev | Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), impl
+imagen | imagen | Generate images with the Gemini image API for illustrations, icons, mockups, and other requested raster assets. Requires Gemini API credenti
+inspect-in-devtools | inspect-in-devtools | Use this skill to connect to the Chrome DevTools UI for interactive debugging, UI/UX review, Q&A, showing elements/network requests/panels t
+memory-leak-debugging | memory-leak-debugging | Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM errors, or wants to c
+modern-web-guidance | modern-web-guidance | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web 
+react-vite-dashboard | react-vite-dashboard | Convert Stitch designs into production React + Vite dashboards with TanStack Query, accessible tokens from DESIGN.md, and Web3-ready pattern
+remotion | remotion | Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
+shadcn-ui | shadcn-ui | Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customizat
+site-md | site-md | Analyze a project description or site requirements and synthesize a project constitution into SITE.md for the Stitch Build Loop
+stitch-code-to-design | stitch-code-to-design | Convert frontend code (Vite, React, Angular, Vue, etc.) to a Stitch Design by chaining static HTML extraction, design system extraction, and
+stitch-extract-design-md | stitch-extract-design-md | Extract a comprehensive design system (DESIGN.md) directly from frontend source code — React, Vue, Svelte, Angular, plain HTML/CSS, or any w
+stitch-extract-static-html | stitch-extract-static-html | Extract self-contained static HTML from a built web application or React components by inlining CSS and images. Use this skill whenever you 
+stitch-generate-design | stitch-generate-design | Generate new screens from text prompts or images, edit existing screens with prompts and design system tokens, and generate design variants 
+stitch-loop | stitch-loop | Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+stitch-manage-design-system | stitch-manage-design-system | Manage design systems in Stitch using MCP tools. Includes retrieval of assets, creating/updating design systems in Stitch, and applying them
+stitch-react-components | stitch-react-components | Converts Stitch designs into modular Vite and React components, or syncs/updates existing React components to align with the latest Stitch d
+stitch-react-native | stitch-react-native | Convert Stitch HTML designs to React Native components, or syncs/updates existing native components to align with the latest Stitch designs,
+stitch-upload-to-stitch | stitch-upload-to-stitch | Upload local assets (images, mockups, extracted HTML, design markdown) to a Stitch project. ALWAYS use this skill when you need to upload vi
+taste-design | taste-design | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — s
+troubleshooting | troubleshooting | Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pages, new_page, or na

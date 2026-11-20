@@ -69,9 +69,5 @@
     "skills": [
       "chrome-devtools"
     ]
-  },
-  "documents": {
-    "description": "Choose the document-format skill that matches the actual deliverable.",
-    "skills": []
   }
 }
