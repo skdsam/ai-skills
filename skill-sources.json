@@ -2512,7 +2512,8 @@
   {
     "source": ".gemini/config/skills/godot-gdscript-patterns",
     "destination": "skills/godot-gdscript-patterns",
-    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5"
+    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/config/skills/golang-pro",
@@ -4327,12 +4328,14 @@
   {
     "source": ".gemini/config/skills/unity-developer",
     "destination": "skills/unity-developer",
-    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c"
+    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/config/skills/unity-ecs-patterns",
     "destination": "skills/unity-ecs-patterns",
-    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109"
+    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/config/skills/unreal-engine-cpp-pro",
@@ -7247,7 +7250,8 @@
   {
     "source": ".gemini/antigravity-ide/skills/godot-gdscript-patterns",
     "destination": "skills/godot-gdscript-patterns",
-    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5"
+    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-ide/skills/golang-pro",
@@ -9052,12 +9056,14 @@
   {
     "source": ".gemini/antigravity-ide/skills/unity-developer",
     "destination": "skills/unity-developer",
-    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c"
+    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-ide/skills/unity-ecs-patterns",
     "destination": "skills/unity-ecs-patterns",
-    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109"
+    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-ide/skills/unreal-engine-cpp-pro",
@@ -11957,7 +11963,8 @@
   {
     "source": ".gemini/antigravity-backup/skills/godot-gdscript-patterns",
     "destination": "skills/godot-gdscript-patterns",
-    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5"
+    "sha256": "d58513d20076cbe1ce595bdd13d42a377ddab27a3cd7160d3c71d773cb1b76e5",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-backup/skills/golang-pro",
@@ -13762,12 +13769,14 @@
   {
     "source": ".gemini/antigravity-backup/skills/unity-developer",
     "destination": "skills/unity-developer",
-    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c"
+    "sha256": "faa6062869410ac27a0ccc34e264962acd00949c5f27df66f72d4019fba08a4c",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-backup/skills/unity-ecs-patterns",
     "destination": "skills/unity-ecs-patterns",
-    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109"
+    "sha256": "32f1344ddfa74bafc5f4e30005e0794d46cdf72cbebf488cc6b07ca2ba748109",
+    "status": "removed_by_user_preference"
   },
   {
     "source": ".gemini/antigravity-backup/skills/unreal-engine-cpp-pro",

@@ -431,7 +431,9 @@
       "modifications": [
         "Disambiguate Blender export from Godot engine export"
       ],
-      "installed_skill_sha256": "7121dc73c70f3bf6a37a4c51ea3e13315d1a4de223663755f3764e184e5c4a64"
+      "installed_skill_sha256": "7121dc73c70f3bf6a37a4c51ea3e13315d1a4de223663755f3764e184e5c4a64",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "arjun988/blender-skills",
@@ -803,7 +805,9 @@
       "destination": "skills/unity-export",
       "source_skill_sha256": "a3d58deb6512e979a4a3cdcfeafde97c6bfb5c743975025bd58279a73bcb452a",
       "modifications": [],
-      "installed_skill_sha256": "a3d58deb6512e979a4a3cdcfeafde97c6bfb5c743975025bd58279a73bcb452a"
+      "installed_skill_sha256": "a3d58deb6512e979a4a3cdcfeafde97c6bfb5c743975025bd58279a73bcb452a",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "arjun988/blender-skills",
@@ -2138,7 +2142,9 @@
       "destination": "skills/godot-2d-movement",
       "source_skill_sha256": "efd1a178184275e5870596e69fdabc84b4daf664cd4f324905d7f1e433fe0baa",
       "modifications": [],
-      "installed_skill_sha256": "efd1a178184275e5870596e69fdabc84b4daf664cd4f324905d7f1e433fe0baa"
+      "installed_skill_sha256": "efd1a178184275e5870596e69fdabc84b4daf664cd4f324905d7f1e433fe0baa",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2147,7 +2153,9 @@
       "destination": "skills/godot-3d-essentials",
       "source_skill_sha256": "5955e7c95c59961cda0957c3dac2365382ccdd89a78851a02c5cb578daa3fec7",
       "modifications": [],
-      "installed_skill_sha256": "5955e7c95c59961cda0957c3dac2365382ccdd89a78851a02c5cb578daa3fec7"
+      "installed_skill_sha256": "5955e7c95c59961cda0957c3dac2365382ccdd89a78851a02c5cb578daa3fec7",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2156,7 +2164,9 @@
       "destination": "skills/godot-animation",
       "source_skill_sha256": "9010eaffda19ca17a3671097a327c7c6845603f2528c2a16b0eda7adc5ef7a9a",
       "modifications": [],
-      "installed_skill_sha256": "9010eaffda19ca17a3671097a327c7c6845603f2528c2a16b0eda7adc5ef7a9a"
+      "installed_skill_sha256": "9010eaffda19ca17a3671097a327c7c6845603f2528c2a16b0eda7adc5ef7a9a",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2165,7 +2175,9 @@
       "destination": "skills/godot-audio",
       "source_skill_sha256": "191b743fbaca3ebc4fcb30d39aa15b39eb64052dd4e5594e961624ade05e9f56",
       "modifications": [],
-      "installed_skill_sha256": "191b743fbaca3ebc4fcb30d39aa15b39eb64052dd4e5594e961624ade05e9f56"
+      "installed_skill_sha256": "191b743fbaca3ebc4fcb30d39aa15b39eb64052dd4e5594e961624ade05e9f56",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2174,7 +2186,9 @@
       "destination": "skills/godot-csharp",
       "source_skill_sha256": "335e97176fb69e718b81462afca1ec694db8ebbe63ab020935e484fd804f300d",
       "modifications": [],
-      "installed_skill_sha256": "335e97176fb69e718b81462afca1ec694db8ebbe63ab020935e484fd804f300d"
+      "installed_skill_sha256": "335e97176fb69e718b81462afca1ec694db8ebbe63ab020935e484fd804f300d",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2183,7 +2197,9 @@
       "destination": "skills/godot-export",
       "source_skill_sha256": "0861e1d9204c33110f8f729b221641584ec43a76b028da7ada7a34f6aa2137b3",
       "modifications": [],
-      "installed_skill_sha256": "0861e1d9204c33110f8f729b221641584ec43a76b028da7ada7a34f6aa2137b3"
+      "installed_skill_sha256": "0861e1d9204c33110f8f729b221641584ec43a76b028da7ada7a34f6aa2137b3",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2192,7 +2208,9 @@
       "destination": "skills/godot-gdscript",
       "source_skill_sha256": "a8b29cb9d2fb66ca96e822d4c95e828806d18829d6fd04213059459c70bd45e4",
       "modifications": [],
-      "installed_skill_sha256": "a8b29cb9d2fb66ca96e822d4c95e828806d18829d6fd04213059459c70bd45e4"
+      "installed_skill_sha256": "a8b29cb9d2fb66ca96e822d4c95e828806d18829d6fd04213059459c70bd45e4",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2201,7 +2219,9 @@
       "destination": "skills/godot-gdscript-headless-testing",
       "source_skill_sha256": "8f817a05c6e3c3f34c2c64271dae2acb0465f50c6b173c1f836393c532f1efb5",
       "modifications": [],
-      "installed_skill_sha256": "8f817a05c6e3c3f34c2c64271dae2acb0465f50c6b173c1f836393c532f1efb5"
+      "installed_skill_sha256": "8f817a05c6e3c3f34c2c64271dae2acb0465f50c6b173c1f836393c532f1efb5",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2210,7 +2230,9 @@
       "destination": "skills/godot-multiplayer",
       "source_skill_sha256": "0549fa69506f8204fc30f578d28143b36ab5e8537189b3dbaf8f5280c4c6fa3f",
       "modifications": [],
-      "installed_skill_sha256": "0549fa69506f8204fc30f578d28143b36ab5e8537189b3dbaf8f5280c4c6fa3f"
+      "installed_skill_sha256": "0549fa69506f8204fc30f578d28143b36ab5e8537189b3dbaf8f5280c4c6fa3f",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2219,7 +2241,9 @@
       "destination": "skills/godot-nodes-scenes",
       "source_skill_sha256": "4ac964c1351db1ea29d05ab72891e6ca02e044026edf92f63a98198770a192d4",
       "modifications": [],
-      "installed_skill_sha256": "4ac964c1351db1ea29d05ab72891e6ca02e044026edf92f63a98198770a192d4"
+      "installed_skill_sha256": "4ac964c1351db1ea29d05ab72891e6ca02e044026edf92f63a98198770a192d4",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2228,7 +2252,9 @@
       "destination": "skills/godot-physics",
       "source_skill_sha256": "3dee5fc83be1a940f0a6bbdb27c07e35cd71aa838a6b02e3e155270ff5ef324b",
       "modifications": [],
-      "installed_skill_sha256": "3dee5fc83be1a940f0a6bbdb27c07e35cd71aa838a6b02e3e155270ff5ef324b"
+      "installed_skill_sha256": "3dee5fc83be1a940f0a6bbdb27c07e35cd71aa838a6b02e3e155270ff5ef324b",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2237,7 +2263,9 @@
       "destination": "skills/godot-resources",
       "source_skill_sha256": "d15ac3c84af58a86d12e2a9f7bcf1d23d298348d1118a3fa479ae1cb2e16263e",
       "modifications": [],
-      "installed_skill_sha256": "d15ac3c84af58a86d12e2a9f7bcf1d23d298348d1118a3fa479ae1cb2e16263e"
+      "installed_skill_sha256": "d15ac3c84af58a86d12e2a9f7bcf1d23d298348d1118a3fa479ae1cb2e16263e",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2246,7 +2274,9 @@
       "destination": "skills/godot-shaders",
       "source_skill_sha256": "ea6233ccdf34d8d1defdb6a9d83d9df84e14b4317e3ae95855577e7aea628847",
       "modifications": [],
-      "installed_skill_sha256": "ea6233ccdf34d8d1defdb6a9d83d9df84e14b4317e3ae95855577e7aea628847"
+      "installed_skill_sha256": "ea6233ccdf34d8d1defdb6a9d83d9df84e14b4317e3ae95855577e7aea628847",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2255,7 +2285,9 @@
       "destination": "skills/godot-signals-groups",
       "source_skill_sha256": "da4a2f5df6dc7b70a2533e25bf504113eda0746689d8d78f523a2be5380b8025",
       "modifications": [],
-      "installed_skill_sha256": "da4a2f5df6dc7b70a2533e25bf504113eda0746689d8d78f523a2be5380b8025"
+      "installed_skill_sha256": "da4a2f5df6dc7b70a2533e25bf504113eda0746689d8d78f523a2be5380b8025",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2264,7 +2296,9 @@
       "destination": "skills/godot-tilemap",
       "source_skill_sha256": "e130bf3d6c2be5ef5570759d86cf830470013e4d4fd96ecb420d8f91a96c9442",
       "modifications": [],
-      "installed_skill_sha256": "e130bf3d6c2be5ef5570759d86cf830470013e4d4fd96ecb420d8f91a96c9442"
+      "installed_skill_sha256": "e130bf3d6c2be5ef5570759d86cf830470013e4d4fd96ecb420d8f91a96c9442",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2273,7 +2307,9 @@
       "destination": "skills/godot-ui-control",
       "source_skill_sha256": "aaca3aa929d5889de1ef2b4bfe807522726f49939b1e932b8910526c93462f14",
       "modifications": [],
-      "installed_skill_sha256": "aaca3aa929d5889de1ef2b4bfe807522726f49939b1e932b8910526c93462f14"
+      "installed_skill_sha256": "aaca3aa929d5889de1ef2b4bfe807522726f49939b1e932b8910526c93462f14",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2408,7 +2444,9 @@
       "destination": "skills/roblox-characters",
       "source_skill_sha256": "73040c7901eabfa21f2c6afac193386e3305b83c6a1cc8787f9cf1c38fa0b279",
       "modifications": [],
-      "installed_skill_sha256": "73040c7901eabfa21f2c6afac193386e3305b83c6a1cc8787f9cf1c38fa0b279"
+      "installed_skill_sha256": "73040c7901eabfa21f2c6afac193386e3305b83c6a1cc8787f9cf1c38fa0b279",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2417,7 +2455,9 @@
       "destination": "skills/roblox-datastores",
       "source_skill_sha256": "6a5e3fdc64d37161b1664f23de47aae2f7ed8f51ab49214c38708b818d41bba7",
       "modifications": [],
-      "installed_skill_sha256": "6a5e3fdc64d37161b1664f23de47aae2f7ed8f51ab49214c38708b818d41bba7"
+      "installed_skill_sha256": "6a5e3fdc64d37161b1664f23de47aae2f7ed8f51ab49214c38708b818d41bba7",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2426,7 +2466,9 @@
       "destination": "skills/roblox-luau",
       "source_skill_sha256": "20866b3481288d559ff03c6ab90254720126c8296c15bc815db14ba1fc6f8e41",
       "modifications": [],
-      "installed_skill_sha256": "20866b3481288d559ff03c6ab90254720126c8296c15bc815db14ba1fc6f8e41"
+      "installed_skill_sha256": "20866b3481288d559ff03c6ab90254720126c8296c15bc815db14ba1fc6f8e41",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2435,7 +2477,9 @@
       "destination": "skills/roblox-networking",
       "source_skill_sha256": "75ec2f140221111d05e9a54c8eda5ce7f61f9bda0df4fc544fd90cd4670bf540",
       "modifications": [],
-      "installed_skill_sha256": "75ec2f140221111d05e9a54c8eda5ce7f61f9bda0df4fc544fd90cd4670bf540"
+      "installed_skill_sha256": "75ec2f140221111d05e9a54c8eda5ce7f61f9bda0df4fc544fd90cd4670bf540",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2444,7 +2488,9 @@
       "destination": "skills/roblox-physics",
       "source_skill_sha256": "b6342800d52c3e9336507c6776cddebb4ae7cebce49f0ec0440046c4aefbf285",
       "modifications": [],
-      "installed_skill_sha256": "b6342800d52c3e9336507c6776cddebb4ae7cebce49f0ec0440046c4aefbf285"
+      "installed_skill_sha256": "b6342800d52c3e9336507c6776cddebb4ae7cebce49f0ec0440046c4aefbf285",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2453,7 +2499,9 @@
       "destination": "skills/roblox-simulator-economy",
       "source_skill_sha256": "9d34c4020feed1a74f680898b1bece550c5cbf5a44ab54f9e67aa30d6f952b22",
       "modifications": [],
-      "installed_skill_sha256": "9d34c4020feed1a74f680898b1bece550c5cbf5a44ab54f9e67aa30d6f952b22"
+      "installed_skill_sha256": "9d34c4020feed1a74f680898b1bece550c5cbf5a44ab54f9e67aa30d6f952b22",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2462,7 +2510,9 @@
       "destination": "skills/roblox-studio-workflow",
       "source_skill_sha256": "45293f0051a8eaae30ddd12c43dd7c80250901bb089c4647c90793bb9243d462",
       "modifications": [],
-      "installed_skill_sha256": "45293f0051a8eaae30ddd12c43dd7c80250901bb089c4647c90793bb9243d462"
+      "installed_skill_sha256": "45293f0051a8eaae30ddd12c43dd7c80250901bb089c4647c90793bb9243d462",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2471,7 +2521,9 @@
       "destination": "skills/roblox-ui",
       "source_skill_sha256": "00c25dc1a2ba633e81289e3f1003203f14f6027f3f56fff39d3be564b69c0daf",
       "modifications": [],
-      "installed_skill_sha256": "00c25dc1a2ba633e81289e3f1003203f14f6027f3f56fff39d3be564b69c0daf"
+      "installed_skill_sha256": "00c25dc1a2ba633e81289e3f1003203f14f6027f3f56fff39d3be564b69c0daf",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2489,9 +2541,10 @@
       "destination": "skills/gamedev-router",
       "source_skill_sha256": "6b2002d7c2b729c052dd993c8cc755c7c3f79e960a47347ab27b214bb92f9c3c",
       "modifications": [
-        "Disambiguate router and document flat shared-library paths"
+        "Disambiguate router and document flat shared-library paths",
+        "Exclude user-unwanted Unity, Godot and Roblox routes"
       ],
-      "installed_skill_sha256": "12dc897f625f5cc799cbdd6a536cbd5827631e234aab2b06d00fb7782d265620"
+      "installed_skill_sha256": "8bb02a64cf6a901be162dc1da0da391352319a01799e0110ae976910532ad035"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2581,7 +2634,9 @@
       "destination": "skills/unity-animation",
       "source_skill_sha256": "7212ef924d00f125aa50e6acc1d2299319f01e44945b2a3d4968d58b70cc0792",
       "modifications": [],
-      "installed_skill_sha256": "7212ef924d00f125aa50e6acc1d2299319f01e44945b2a3d4968d58b70cc0792"
+      "installed_skill_sha256": "7212ef924d00f125aa50e6acc1d2299319f01e44945b2a3d4968d58b70cc0792",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2590,7 +2645,9 @@
       "destination": "skills/unity-build-pipeline",
       "source_skill_sha256": "146eb5923b5262b1357553bcd2ba3e28b66d5ef6d3de07488f9ca66d212cc5a6",
       "modifications": [],
-      "installed_skill_sha256": "146eb5923b5262b1357553bcd2ba3e28b66d5ef6d3de07488f9ca66d212cc5a6"
+      "installed_skill_sha256": "146eb5923b5262b1357553bcd2ba3e28b66d5ef6d3de07488f9ca66d212cc5a6",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2599,7 +2656,9 @@
       "destination": "skills/unity-build-size",
       "source_skill_sha256": "258abccbc28f065f793dd6ff7aef7e9028b6130e62c9cf92ed5c1a472d96b035",
       "modifications": [],
-      "installed_skill_sha256": "258abccbc28f065f793dd6ff7aef7e9028b6130e62c9cf92ed5c1a472d96b035"
+      "installed_skill_sha256": "258abccbc28f065f793dd6ff7aef7e9028b6130e62c9cf92ed5c1a472d96b035",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2608,7 +2667,9 @@
       "destination": "skills/unity-csharp-scripting",
       "source_skill_sha256": "78cd50230e01e970ce9b3ac2ec4548157d2050aa784b4844675df118b73115fa",
       "modifications": [],
-      "installed_skill_sha256": "78cd50230e01e970ce9b3ac2ec4548157d2050aa784b4844675df118b73115fa"
+      "installed_skill_sha256": "78cd50230e01e970ce9b3ac2ec4548157d2050aa784b4844675df118b73115fa",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2617,7 +2678,9 @@
       "destination": "skills/unity-input-system",
       "source_skill_sha256": "83458679e3a1ba18ff4e96233cd66529bdc4f231c814c583fb5af76385df9f74",
       "modifications": [],
-      "installed_skill_sha256": "83458679e3a1ba18ff4e96233cd66529bdc4f231c814c583fb5af76385df9f74"
+      "installed_skill_sha256": "83458679e3a1ba18ff4e96233cd66529bdc4f231c814c583fb5af76385df9f74",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2626,7 +2689,9 @@
       "destination": "skills/unity-navmesh",
       "source_skill_sha256": "c28f4d9c1952f66efd9b11c0ccc472b20909d8aa3e5bca0a0f65222b115ab6f7",
       "modifications": [],
-      "installed_skill_sha256": "c28f4d9c1952f66efd9b11c0ccc472b20909d8aa3e5bca0a0f65222b115ab6f7"
+      "installed_skill_sha256": "c28f4d9c1952f66efd9b11c0ccc472b20909d8aa3e5bca0a0f65222b115ab6f7",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2635,7 +2700,9 @@
       "destination": "skills/unity-physics",
       "source_skill_sha256": "7b96c4158cb012fa2030050ba7d67e9233ba3a3dc68c58011a3669f926105fb7",
       "modifications": [],
-      "installed_skill_sha256": "7b96c4158cb012fa2030050ba7d67e9233ba3a3dc68c58011a3669f926105fb7"
+      "installed_skill_sha256": "7b96c4158cb012fa2030050ba7d67e9233ba3a3dc68c58011a3669f926105fb7",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2644,7 +2711,9 @@
       "destination": "skills/unity-scriptableobjects",
       "source_skill_sha256": "2f1aff412fd83d0b24f0344671c644c5f9825f3f48965bb15018da53f59bb76e",
       "modifications": [],
-      "installed_skill_sha256": "2f1aff412fd83d0b24f0344671c644c5f9825f3f48965bb15018da53f59bb76e"
+      "installed_skill_sha256": "2f1aff412fd83d0b24f0344671c644c5f9825f3f48965bb15018da53f59bb76e",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -2653,7 +2722,9 @@
       "destination": "skills/unity-tilemap-2d",
       "source_skill_sha256": "b2e7808779db188b201ea15699612eaec1d441cade89c0aeb257ef597395ca5e",
       "modifications": [],
-      "installed_skill_sha256": "b2e7808779db188b201ea15699612eaec1d441cade89c0aeb257ef597395ca5e"
+      "installed_skill_sha256": "b2e7808779db188b201ea15699612eaec1d441cade89c0aeb257ef597395ca5e",
+      "status": "removed_by_user_preference",
+      "removed_on": "2026-11-20"
     },
     {
       "repository": "gamedev-skills/awesome-gamedev-agent-skills",

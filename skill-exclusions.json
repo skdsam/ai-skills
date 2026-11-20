@@ -1,0 +1,4 @@
+{
+  "excluded_engines": ["unity", "godot", "roblox"],
+  "reason": "User does not use these engines. Exclude dedicated engine skills and Blender export skills for these engines; keep Unreal and engine-neutral workflows."
+}

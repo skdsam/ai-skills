@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 import shutil
 
 REPO = Path(__file__).resolve().parent
@@ -13,6 +14,11 @@ SOURCES = [HOME / p for p in [
     ".antigravity-sync/antigravity/global_skills", ".gemini/antigravity-backup/skills",
 ]]
 SKIP = {".git", "__pycache__", "node_modules", ".venv", "venv"}
+
+def excluded_skill(name):
+    config = json.loads((REPO / "skill-exclusions.json").read_text(encoding="utf-8"))
+    words = set(re.split(r"[-_]", name.lower()))
+    return bool(words.intersection(config["excluded_engines"]))
 
 def content(folder):
     result = {}
@@ -43,6 +49,8 @@ def main():
             continue
         for source in sorted(root.iterdir()):
             if not source.is_dir() or not (source / "SKILL.md").is_file():
+                continue
+            if excluded_skill(source.name):
                 continue
             files = content(source)
             fingerprint = digest(files)

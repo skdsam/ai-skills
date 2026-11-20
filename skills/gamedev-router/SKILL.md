@@ -357,3 +357,8 @@ and offer to load it if the user confirms.
 ## Shared-library layout
 
 This installation flattens engine/category folders into sibling skills. Resolve a selected skill as `../<name>/SKILL.md` from this folder; category directory names in the tables above describe the upstream organization.
+
+
+## Installed engine preferences
+
+The user does not use Unity, Godot or Roblox. Their dedicated skills and Blender exporters are intentionally excluded from this library. Do not route tasks to those missing skills or reinstall them. Preserve the project engine and use the remaining matching skills, including Unreal; engine-neutral disciplines and genres remain available.
