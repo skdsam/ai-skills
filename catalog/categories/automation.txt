@@ -1,0 +1,90 @@
+Service integrations and automation
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+activecampaign-automation | activecampaign-automation | Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always s
+airtable-automation | airtable-automation | Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas.
+amplitude-automation | amplitude-automation | Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current
+asana-automation | asana-automation | Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
+bamboohr-automation | bamboohr-automation | Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for 
+basecamp-automation | basecamp-automation | Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools fir
+billing-automation | billing-automation | Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing sub
+bitbucket-automation | bitbucket-automation | Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools firs
+box-automation | box-automation | Automate Box cloud storage operations including file upload/download, search, folder management, sharing, collaborations, and metadata queri
+brevo-automation | brevo-automation | Automate Brevo (Sendinblue) tasks via Rube MCP (Composio): manage email campaigns, create/edit templates, track senders, and monitor campaig
+cal-com-automation | cal-com-automation | Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search too
+calendly-automation | calendly-automation | Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composi
+canva-automation | canva-automation | Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current sc
+changelog-automation | changelog-automation | Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, gene
+circleci-automation | circleci-automation | Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always sea
+clickup-automation | clickup-automation | Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always s
+close-automation | close-automation | Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first f
+coda-automation | coda-automation | Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools fi
+confluence-automation | confluence-automation | Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search
+convertkit-automation | convertkit-automation | Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools firs
+datadog-automation | datadog-automation | Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always 
+discord-automation | discord-automation | Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schema
+docusign-automation | docusign-automation | Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for curren
+dropbox-automation | dropbox-automation | Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools fi
+figma-automation | figma-automation | Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current sch
+freshdesk-automation | freshdesk-automation | Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search too
+freshservice-automation | freshservice-automation | Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Alw
+github-automation | github-automation | Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio). Manage code workflows, review
+github-workflow-automation | github-workflow-automation | Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating 
+gitlab-automation | gitlab-automation | Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search 
+gmail-automation | gmail-automation | Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts, attachments. Always search tools first for current schemas
+google-analytics-automation | google-analytics-automation | Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search t
+google-calendar-automation | google-calendar-automation | Automate Google Calendar events, scheduling, availability checks, and attendee management via Rube MCP (Composio). Create events, find free 
+google-drive-automation | google-drive-automation | Automate Google Drive file operations (upload, download, search, share, organize) via Rube MCP (Composio). Upload/download files, manage fol
+googlesheets-automation | googlesheets-automation | Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, 
+helpdesk-automation | helpdesk-automation | Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always searc
+hubspot-automation | hubspot-automation | Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.
+hubspot-integration | hubspot-integration | Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custo
+instagram-automation | instagram-automation | Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search 
+intercom-automation | intercom-automation | Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current
+jira-automation | jira-automation | Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schem
+klaviyo-automation | klaviyo-automation | Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Al
+linear-automation | linear-automation | Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.
+linkedin-automation | linkedin-automation | Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tool
+mailchimp-automation | mailchimp-automation | Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always sear
+make-automation | make-automation | Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for cu
+microsoft-teams-automation | microsoft-teams-automation | Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. 
+miro-automation | miro-automation | Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current
+mixpanel-automation | mixpanel-automation | Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools fir
+monday-automation | monday-automation | Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search t
+notion-automation | notion-automation | Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.
+one-drive-automation | one-drive-automation | Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always s
+outlook-automation | outlook-automation | Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current sche
+outlook-calendar-automation | outlook-calendar-automation | Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always
+pagerduty-automation | pagerduty-automation | Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always 
+payment-integration | payment-integration | Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when 
+paypal-integration | paypal-integration | Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal pa
+pipedrive-automation | pipedrive-automation | Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composi
+posthog-automation | posthog-automation | Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for c
+postmark-automation | postmark-automation | Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces.
+reddit-automation | reddit-automation | Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools
+render-automation | render-automation | Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas.
+salesforce-automation | salesforce-automation | Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for cur
+segment-automation | segment-automation | Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always s
+sendgrid-automation | sendgrid-automation | Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube M
+sentry-automation | sentry-automation | Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always se
+shopify-automation | shopify-automation | Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current s
+slack-automation | slack-automation | Automate Slack messaging, channel management, search, reactions, and threads via Rube MCP (Composio). Send messages, search conversations, m
+square-automation | square-automation | Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.
+stripe-automation | stripe-automation | Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for
+stripe-integration | stripe-integration | Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integr
+supabase-automation | supabase-automation | Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Compo
+telegram-automation | telegram-automation | Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search
+tiktok-automation | tiktok-automation | Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always sear
+todoist-automation | todoist-automation | Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for 
+trello-automation | trello-automation | Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards p
+twitter-automation | twitter-automation | Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schem
+vercel-automation | vercel-automation | Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first fo
+webflow-automation | webflow-automation | Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always sear
+whatsapp-automation | whatsapp-automation | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search 
+workflow-automation | workflow-automation | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step paymen
+wrike-automation | wrike-automation | Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always se
+youtube-automation | youtube-automation | Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always 
+zendesk-automation | zendesk-automation | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas.
+zoho-crm-automation | zoho-crm-automation | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tool
+zoom-automation | zoom-automation | Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools firs

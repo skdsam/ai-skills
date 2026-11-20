@@ -1,0 +1,126 @@
+Blender assets, scenes and add-ons
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+agent-blender/agent-blender | blender-addon-development | Expert in building Blender addons (plugins) using Python and the Blender Python API (bpy). Covers addon architecture, operator design, panel
+agent-blender | agent-blender | Expert in building Blender addons (plugins) using Python and the Blender Python API (bpy). Covers addon architecture, operator design, panel
+analog-found-footage-horror | analog-found-footage-horror | Analog, VHS, CRT, and found-footage horror aesthetics for Blender shots including camera imperfections and documentary framing.
+animation | animation | Game-ready animation in Blender including walk/run/idle cycles, combat, mechanical animation, camera animation, constraints, Graph Editor, a
+anime-style | anime-style | Anime and cel-shaded art direction for Blender with hard color breaks, toon shaders, clean silhouettes, and anime proportion language.
+apocalypse-worlds | apocalypse-worlds | Apocalyptic and dystopian world art direction for Blender including post-apocalyptic, zombie, alien invasion, post-human, dystopian, and uto
+archviz | archviz | Architectural visualization in Blender for interiors/exteriors with real-world scale, camera composition, PBR materials, and still/animation
+asset-optimization | asset-optimization | Validates and optimizes Blender assets for polycount, topology, UV efficiency, material count, naming, collections, and game-ready performan
+biome-worlds | biome-worlds | Biome and setting art direction for Blender covering underwater, desert, arctic, jungle, underground, and floating-island environments.
+blender-addon-development | blender-addon-development | Master framework for creating production-ready Blender addons supporting Blender 3.6 LTS through 5.2+ in a Single Unified Codebase. Implemen
+blender-animation | blender-animation | Animation in Blender 5.3 - slotted/layered actions and the channelbag API, Python keyframing, F-curves, game loops with pop/hitch checks, NL
+blender-asset-qa | blender-asset-qa | Mandatory review gate for any mesh or asset created or edited in Blender. Detects z-fighting, floating/detached parts, inverted or inconsist
+blender-character-rigging | blender-character-rigging | Character rigging in Blender 5.3 - Rigify metarig fit/generate, bone naming/roll/collections, DEF/MCH/control layers, IK/FK, robust skinning
+blender-clothing | blender-clothing | Game clothing in Blender 5.3 - garments from body regions (ease offset, thickness), skin-weight transfer, hiding covered body faces, cloth-s
+blender-core | blender-core | Foundation for any Blender 5.2+ task an agent drives - running bpy via MCP (live) or headless CLI, context overrides, locale-safe node looku
+blender-dev-expert | blender-dev-expert | Expert Blender development assistant with comprehensive knowledge of Blender 3.6 through 5.0+ Python API, bpy module, and addon development.
+blender-director | blender-director | Use when starting any Blender asset task, planning a production pipeline, coordinating multiple disciplines, or matching a reference photo/c
+blender-environment-kits | blender-environment-kits | Game environments in Blender 5.3 - terrain from noise or heightmaps (erosion, terraces, play areas, slope/height materials, 16-bit heightmap
+blender-export-pipelines | blender-export-pipelines | Export from Blender 5.3 with verified presets - Roblox (FBX/glTF, cages, R15, SurfaceAppearance), Unity (FBX, Humanoid), Unreal (FBX skeleta
+blender-facial-shapekeys | blender-facial-shapekeys | Facial rigs and shape keys in Blender 5.3 - ARKit 52 blendshapes, visemes for lip-sync, sculpting expressions, splitting symmetric shapes in
+blender-game-optimization | blender-game-optimization | Optimize Blender assets for real-time engines - triangle/material/texture/bone budgets per platform (mobile, Roblox, web, VR, console, PC), 
+blender-geometry-nodes | blender-geometry-nodes | Geometry Nodes in Blender 5.3 - fields, domains, attributes, instancing, zones (simulation/repeat/for-each), closures/bundles, lists, SDF gr
+blender-hair-grooming | blender-hair-grooming | Hair and fur in Blender 5.3 - hair curves on a surface, guides + interpolated children with the bundled hair node assets (clump, curl, noise
+blender-hardsurface-modeling | blender-hardsurface-modeling | Hard-surface and prop modeling in Blender 5.3 - blockout-to-detail flow, non-destructive modifier stacks (Mirror, Boolean Exact/Manifold, Be
+blender-lighting-lookdev | blender-lighting-lookdev | Lighting, cameras and look-dev in Blender 5.3 - studio 3-point and product lighting, HDRI environments, sun/sky exteriors, interiors, light 
+blender-mcp-automation | blender-mcp-automation | Real-time automation and bidirectional bridge between AI agents and Blender via Model Context Protocol (MCP) and local WebSocket servers. En
+blender-modeler | blender-modeler | Core Blender modeling specialist for Edit Mode, modifiers, collections, precision modeling, and scene organization. Use for general 3D model
+blender-pbr-materials | blender-pbr-materials | Physically based materials in Blender 5.3 - metal/roughness rules, Principled BSDF inputs, color spaces (sRGB vs Non-Color), measured albedo
+blender-pipeline-automation | blender-pipeline-automation | Automate Blender 5.3 at scale - headless CLI flags, batch convert/inventory/run-any-skill-script over folders of .blend/.fbx/.glb/.obj/.usd,
+blender-rendering | blender-rendering | Render with Blender 5.3 Cycles/EEVEE/Workbench - quality presets, GPU setup, adaptive sampling, denoising, light paths, color management (Ag
+blender-retopology-uv | blender-retopology-uv | Retopology and UVs in Blender 5.3 - auto retopo (Quadriflow, Decimate, planar), deformation edge flow, seams, unwrap (Angle Based, Minimum S
+blender-scene-setup | blender-scene-setup | Set up and audit Blender scenes the way studios do - units and real-world scale, collection layout, naming conventions (SM_/SK_/T_/M_), orig
+blender-sculpting | blender-sculpting | Sculpting in Blender 5.3 - base-to-detail workflow, voxel remesh, dyntopo, multires, 5.x brush types, masks/face sets, symmetry, plus headle
+blender-simulation | blender-simulation | Physics in Blender 5.3 - rigid bodies (density mass, shapes, bake to keys), classic cloth presets and pinning, new node-based Cloth/Hair Dyn
+blender-skills-pipeline | blender-skills-pipeline | Production-grade 3D art and scene pipeline in Blender (inspired by arjun988/blender-skills and SOTA technical art workflows). Covers hard-su
+blender-stylized-npr | blender-stylized-npr | Stylized / NPR looks in Blender 5.3 - toon and cel shading (bands, shadow tint, rim, hard specular), anime faces with custom normals, invert
+blender-texture-baking | blender-texture-baking | Bake texture maps in Blender 5.3 Cycles - high-to-low normal maps with cage/extrusion, AO, curvature, ID, thickness, base color/roughness/me
+blender-texturing | blender-texturing | Texture authoring in Blender 5.3 - smart-material layers (edge wear, cavity grime, dust, rust, roughness breakup) from curvature/AO masks, z
+blender-time-of-day | blender-time-of-day | Time of day and atmosphere in Blender 5.3 - measured sky + sun for dawn, morning, noon, golden hour, sunset, blue hour, overcast, night/moon
+blender-video-editing | blender-video-editing | Video in Blender 5.3 - Video Sequencer edits from Python (clips, image sequences, crossfades, titles, music fades, proxies, color management
+blender-weather-fx | blender-weather-fx | Weather effects in Blender 5.3 - looping Geometry Nodes rain, snow, dust, ash and embers with ground hits and splashes, wet surfaces, puddle
+blender-workflow-recipes | blender-workflow-recipes | End-to-end Blender 5.3 playbooks chaining the blender-* skills with QA gates - game props (mid-poly, high-to-low), game characters (sculpt/A
+body-horror-style | body-horror-style | Body horror art direction for Blender focusing on flesh wrongness, mutation, fusion, and visceral material storytelling.
+brutalist-mood | brutalist-mood | Brutalist and concrete-monument mood direction for Blender architecture and scenes with raw concrete, monumental scale, and austere composit
+camera-cinematography | camera-cinematography | Cinematic camera work in Blender including framing, lenses, composition, camera animation, and shot language beyond basic rendering setup vi
+cartoon-style | cartoon-style | Cartoon art direction for Blender with squash-stretch readable shapes, bold colors, and graphic silhouettes for games and animation.
+character-archetypes | character-archetypes | Character archetype art direction for Blender covering fantasy races, horror creatures, roles (knight, assassin, detective), and body types 
+character-artist | character-artist | AAA character modeling for human anatomy, stylization, facial topology, clothing, hair, and animation-ready meshes. Use for game characters,
+chibi-style | chibi-style | Chibi and SD proportion art direction for Blender characters with oversized heads, simplified anatomy, and cute silhouette rules.
+cloth-sim | cloth-sim | Garment blockout, cloth simulation, pin groups, and bake to shape keys or caches for characters and props in Blender via MCP.
+collision-proxy | collision-proxy | Collision proxy authoring for games including UCX/UHX naming, convex hulls, capsules, and simple collider meshes in Blender via MCP.
+comic-book-style | comic-book-style | Comic book and graphic-novel art direction for Blender with ink-line emphasis, halftone cues, and high-contrast framing.
+compositing | compositing | Blender compositor workflows for beauty stacks, render passes, color grade, glare, and delivery outputs via MCP.
+cosmic-eldritch-horror | cosmic-eldritch-horror | Cosmic, eldritch, and Lovecraftian horror art direction for Blender with non-Euclidean cues, impossible scale, and incomprehensible forms.
+cozy-wholesome-mood | cozy-wholesome-mood | Cozy, cute, wholesome, relaxing, and peaceful mood direction for Blender assets and scenes.
+creature-artist | creature-artist | AAA creature modeling for fantasy, aliens, monsters, and organic creature design with believable anatomy and movement. Use for creature bloc
+dark-gritty-mood | dark-gritty-mood | Dark, grim, gritty, rusty, abandoned, decayed, industrial, lonely, and melancholic mood direction for Blender.
+dream-surreal-mood | dream-surreal-mood | Dreamlike, surreal, mysterious, mystical, hopeful, and chaotic mood direction for Blender scenes.
+dream-weirdcore-style | dream-weirdcore-style | Dreamcore, weirdcore, and traumacore-inspired art direction for Blender with nostalgic wrongness, liminal nostalgia, and surreal childhood s
+environment-artist | environment-artist | AAA environment art for modular kits, buildings, terrain, vegetation, architecture, and scene composition. Use for game-optimized environmen
+export-pipeline | export-pipeline | Production export from Blender to FBX, GLTF, OBJ, USD, and Alembic with scale, pivot, rotation, normals, materials, animation, and collision
+fantasy-worlds | fantasy-worlds | Fantasy world-building art direction for Blender covering medieval, high fantasy, dark fantasy, and urban fantasy asset language.
+folk-horror-style | folk-horror-style | Folk horror art direction for Blender with rural ritual uncanny, pastoral daylight dread, and community-wrongness storytelling.
+frutiger-aero-style | frutiger-aero-style | Frutiger Aero art direction for Blender with glossy skeuomorphism, aqua UI cues, nature-tech optimism, and mid-2000s futurism.
+genre-action-combat | genre-action-combat | Art direction for action, hack-and-slash, beat 'em up, and fighting-game readable combat spaces and prop language in Blender.
+genre-card-party-idle | genre-card-party-idle | Art direction for card games, deck builders, party games, idle/incremental, educational, and rhythm game presentational spaces in Blender.
+genre-metroidvania-roguelike | genre-metroidvania-roguelike | Art direction for metroidvania, roguelike, and roguelite games in Blender with biome gates, room modules, and run-readable props.
+genre-narrative-vn | genre-narrative-vn | Art direction for visual novel, interactive movie, walking simulator, and story-driven presentation spaces in Blender.
+genre-open-world-sandbox | genre-open-world-sandbox | Art direction for open world and sandbox games in Blender with biome landmarks, traversable scale, and discovery props.
+genre-puzzle-platformer | genre-puzzle-platformer | Art direction for puzzle and platformer games in Blender with readable interactables, jump volumes, and clear hazard language.
+genre-racing-sports | genre-racing-sports | Art direction for racing and sports games in Blender with track landmarks, stadium kits, and high-speed readability.
+genre-rpg | genre-rpg | Art direction for RPG, JRPG, CRPG, ARPG, and MMORPG worlds in Blender including loot rarity reads and region identity.
+genre-shooter | genre-shooter | Art direction for FPS, TPS, shooter, battle royale, and extraction-shooter maps and props in Blender with sightline and cover language.
+genre-soulslike | genre-soulslike | Art direction for soulslike games in Blender with monumental melancholy spaces, fog gates, bonfire landmarks, and lethal readability.
+genre-stealth | genre-stealth | Art direction for stealth-game spaces in Blender with shadow volumes, patrol-friendly layouts, and concealment materials.
+genre-strategy-sim | genre-strategy-sim | Art direction for strategy, RTS, turn-based strategy, tower defense, MOBA, city builder, colony sim, and simulation games in Blender.
+genre-survival | genre-survival | Art direction for survival and survival-horror gameplay spaces in Blender emphasizing resource props, crafting readability, and tension rout
+geometry-nodes | geometry-nodes | Blender Geometry Nodes for procedural modeling, scatter systems, vegetation, buildings, pipes, cables, and reusable node groups. Use for pro
+hair-groom | hair-groom | Hair and fur grooming in Blender using curves, particle hair, geometry nodes, and game hair-card workflows. Use for characters, creatures, a
+hand-painted-style | hand-painted-style | Hand-painted texture art direction for Blender with brushwork albedo, soft value transitions, and stylized PBR restraint.
+hard-surface | hard-surface | AAA hard surface modeling for sci-fi, industrial, military, vehicles, weapons, robotics, and mechanical props. Use for boolean/bevel workflo
+historical-worlds | historical-worlds | Historical and period world art direction for Blender including Western, pirate, samurai/ninja, Viking, ancient Egypt/Greece/Rome, Victorian
+horror-style | horror-style | Psychological horror art direction for Blender assets inspired by Silent Hill, Resident Evil, Chilla's Art, Fear to Fathom, and Iron Lung. U
+indie-horror-aesthetics | indie-horror-aesthetics | Indie horror aesthetic pack for Blender covering Silent Hill, Fear to Fathom, Puppet Combo, corporate horror, cabin/forest/hospital horror, 
+isometric-style | isometric-style | Isometric and strategy-game art direction for Blender including diorama framing, true-iso camera setup, readable silhouettes, and tile asset
+lighting | lighting | Cinematic and game lighting in Blender including three-point lighting, HDRI, horror lighting, volumetrics, rim lighting, and mood-driven ill
+liminal-space-style | liminal-space-style | Liminal space and Backrooms art direction for Blender with empty transitional architecture, wrong familiarity, and endless repetition.
+lod-pipeline | lod-pipeline | Dedicated LOD generation, naming, screen-size targets, and validation for game meshes in Blender via MCP.
+lookdev | lookdev | Look development loop for Blender assets combining materials, lighting, camera, and screenshot comparison until shading reads correctly via 
+lowpoly-style | lowpoly-style | Low-poly art direction for Blender inspired by PS1/PS2, Lethal Company, Mouthwashing, and Fear to Fathom. Use for readable silhouettes, mini
+manga-style | manga-style | Manga-inspired art direction for Blender emphasizing monochrome value design, speed lines, screentone feel, and manga panel staging.
+mascot-puppet-horror | mascot-puppet-horror | Mascot and puppet horror art direction for Blender with cheerful brand characters made wrong, felt/foam materials, and uncanny performance.
+materials | materials | Blender PBR and stylized material creation for metal, wood, concrete, fabric, glass, dirt, rust, and procedural shaders. Use for look develo
+minimalist-style | minimalist-style | Minimalist and abstract-leaning art direction for Blender with reduced forms, limited palettes, and negative space.
+neon-retrofuturism | neon-retrofuturism | Neon, vaporwave, synthwave, and retrofuturistic mood/art direction for Blender with grid horizons, chrome, and dusk palettes.
+noir-style | noir-style | Noir art direction for Blender with high-contrast lighting, wet streets, silhouettes, and monochrome or limited-color grading.
+painterly-style | painterly-style | Painterly art direction spanning watercolor and oil-painting looks for Blender using soft edges, pigment texture, and illustrative lighting.
+physics-sim | physics-sim | Rigid body, soft body, and destruction setups in Blender including constraints, cell fracture debris, and baked caches via MCP.
+pixel-art-style | pixel-art-style | Pixel-art and texel-constrained art direction for Blender assets destined for pixel rendering, low-res textures, or HD-2D-adjacent pixel rea
+procedural-modeling | procedural-modeling | Procedural asset creation for rocks, buildings, vegetation, roads, terrain, pipes, cables, and sci-fi panels using Geometry Nodes and modifi
+psx-horror-style | psx-horror-style | PS1/PSX-era horror art direction combining low-poly affine textures, limited color depth, fog, and psychological horror staging for Blender 
+qa-review | qa-review | Production QA gate for Blender assets using viewport screenshots, validation checklists, naming audits, and ship/no-ship verdicts via MCP.
+realistic-style | realistic-style | Photorealistic AAA art direction for Blender including photogrammetry cleanup, real-world scale, high-poly workflows, PBR accuracy, and scan
+rendering | rendering | Blender rendering with Cycles and Eevee including sampling, denoising, camera setup, render passes, color management, and render optimizatio
+retopology | retopology | Production retopology for animation-ready, low-poly, quad-dominant meshes with proper edge loops and efficient polygon flow. Use after sculp
+retro-16bit-style | retro-16bit-style | Retro 16-bit art direction for Blender-assisted SNES/Genesis-era color richness, dither cues, and sprite-like clarity.
+retro-8bit-style | retro-8bit-style | Retro 8-bit art direction for Blender-assisted pixel/low-res aesthetics inspired by NES-era constraints.
+rigging | rigging | Production rigging in Blender with armatures, IK/FK, constraints, weight painting, mechanical rigs, facial rigs, and drivers. Use before ani
+scene-assembly | scene-assembly | Large scene layout in Blender with collections, linking, overrides, streaming-friendly organization, and set assembly via MCP.
+sci-fi-punk-worlds | sci-fi-punk-worlds | Sci-fi and punk world art direction for Blender including hard sci-fi, space, cyberpunk, steampunk, dieselpunk, atompunk, solarpunk, biopunk
+sculpting | sculpting | Blender sculpting for organic and hard surface detail using Dyntopo, multiresolution, brushes, alpha workflow, wrinkles, and damage. Use whe
+stop-motion-craft-style | stop-motion-craft-style | Stop-motion and craft aesthetics for Blender including claymation, paper craft, and handmade physical-material cues.
+stylized-style | stylized-style | Stylized art direction for Blender with shape language, exaggeration, color harmony, NPR rendering, and hand-painted asset workflows. Use fo
+texture-workflow | texture-workflow | Production texture workflow for atlases, baking AO/curvature/normal/roughness maps, decals, and texture memory optimization. Use for game-re
+unreal-export | unreal-export | Unreal Engine-specific Blender export for FBX scale, LODs, UCX collision, sockets, materials, and skeletal mesh workflows via MCP.
+uv-workflow | uv-workflow | Production UV unwrapping for seam placement, UV packing, texel density, UDIM, lightmap UVs, and modular UV layouts. Use when preparing meshe
+vector-style | vector-style | Vector-clean art direction for Blender with flat fills, sharp silhouettes, and UI-like graphic clarity.
+vegetation-artist | vegetation-artist | Vegetation and foliage authoring for Blender including trees, plants, grass cards, canopy LODs, and game-friendly leaf atlases via MCP.
+vehicle-artist | vehicle-artist | Dedicated vehicle modeling for cars, trucks, aircraft, ships, boats, mechs, and transit assets with proportion, panel flow, and game LOD awa
+vfx-fx | vfx-fx | Cinematic and game VFX in Blender including smoke, fire, particles, trails, and Geometry Nodes FX setups via MCP.
+visual-console-eras | visual-console-eras | Visual era art direction for Blender covering PS1–PS5 stylistic cues, retro arcade, DOS, CRT, VHS, and film-grain presentation.
+voxel-style | voxel-style | Voxel and Minecraft-adjacent art direction for Blender with block grid modeling, limited palettes, and chunk-friendly assets.

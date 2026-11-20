@@ -1,0 +1,43 @@
+Engine-neutral game development and other engines
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+author-game-levels | author-game-levels | Author or revise readable, flat-world Three.js game levels. Use for movement and camera routes, collision and navigation, encounter zones, l
+bevy-ecs | bevy-ecs | Builds and debugs Bevy 0.20 games in Rust: components, Query and Commands systems, schedules, States, observers and headless tests. Use when
+build-game-camera-controls | build-game-camera-controls | Implement or tune Three.js game cameras. Use for isometric framing, follow behavior, orbit/zoom limits, occlusion, lock-on, camera shake, to
+build-game-changelog | build-game-changelog | Design, implement, backfill, audit, and release in-game changelogs with contiguous versioning, deployment provenance, menu-state navigation,
+build-game-inventory | build-game-inventory | Build or repair game inventory, loot, equipment, tooltips, drag-and-drop, persistence, and progression systems. Use for item schemas, pickup
+build-game-map-editor | build-game-map-editor | Build, extend, or audit production-linked browser map editors for Three.js and isometric games. Use when Codex needs to create a private dir
+build-game-monster-system | build-game-monster-system | Build, integrate, audit, or refactor rigged monsters for Three.js and web action games. Use for monster asset contracts, procedural or impor
+build-hybrid-game-assets | build-hybrid-game-assets | Plan, create, integrate, or audit a hybrid asset pipeline for a Three.js or web game. Use when choosing among imported meshes, procedural 3D
+build-rigged-game-assets | build-rigged-game-assets | Create, integrate, or audit production-ready rigged 3D characters and monsters with a main model, skeleton, animation library, sockets, coll
+build-ultra-realistic-game-interiors | build-ultra-realistic-game-interiors | Build or refine photoreal, walkable first-person interiors in Three.js. Use for the worn cyberpunk look of Nocturne Hotel, for rooms that lo
+card-game | card-game | Designs card games and deckbuilders in any engine: cards as data with one effect interpreter, deck zones, a trigger stack and seeded shuffle
+create-game-assets | create-game-assets | Plans, generates or sources, and validates consistent game art: style guides, sprites, pixel art, tilesets, icons and textures, with QA and 
+create-game-vfx | create-game-vfx | Create readable, performance-safe Three.js game visual effects. Use for attacks, impacts, damage feedback, status effects, spell trails, par
+defold-core | defold-core | Builds and debugs Defold 1.14 games in Lua: collections, game objects, input focus, msg.post messaging, factories, collection proxies and Bo
+ebitengine-game | ebitengine-game | Creates, debugs and packages 2D games in Go with Ebitengine v2: a play-and-retry loop, input, pixel-art scaling, text, audio and desktop, WA
+game-ai | game-ai | Designs engine-neutral enemy and NPC AI: picks FSM, behavior tree, utility or GOAP, and builds perception, steering and A* pathfinding. Use 
+game-dev-character-model | game-dev-character-model | Create a realistic, AAA-looking 3D character model for a game or web scene, from a description or a reference video/image, as a textured, ri
+game-dev-combat-skill-polish | game-dev-combat-skill-polish | Polish an existing Three.js combat skill or ability through readable motion, anticipation, impact, timing, camera response, VFX, and audio f
+game-development/2d-games | 2d-games | 2D game development principles. Sprites, tilemaps, physics, camera.
+game-development/game-art | game-art | Game art principles. Visual style selection, asset pipeline, animation workflow.
+game-development/mobile-games | mobile-games | Mobile game development principles. Touch input, battery, performance, app stores.
+game-development/pc-games | pc-games | PC and console game development principles. Engine selection, platform features, optimization strategies.
+game-development | game-development | Game development orchestrator. Routes to platform-specific skills based on project needs.
+game-docs | game-docs | Writes and maintains a game's design docs: a one-page GDD with a feature index and short feature notes, kept true to the code by a link and 
+game-feel | game-feel | Adds engine-neutral juice to a working mechanic: trauma-based screen shake, hit-stop, eased tweens, squash and stretch, and knockback. Use w
+game-jam | game-jam | Plans and ships a game jam entry against a fixed deadline: reads the jam rules, scopes to the clock, keeps a cut list and checks the build b
+gamedev-router | gamedev-router | Routes any game-development request to the right skills: detects the engine (Godot, Unity, Unreal, Ebitengine, Bevy, Phaser, PixiJS, three.j
+love2d-core | love2d-core | Builds and debugs LÖVE (Love2D) 11.x games in Lua: main.lua callbacks, conf.lua, fixed steps, crisp pixel-art scaling, love.filesystem saves
+phaser-arcade-physics | phaser-arcade-physics | Phaser 4 Arcade Physics movement and collision: bodies, velocity, gravity, colliders vs overlaps, groups and bullet pools. Use for a Phaser 
+phaser-core | phaser-core | Sets up and debugs Phaser 4 games (and pinned Phaser 3.90): Game config, Scene lifecycle, the loader, scene transitions and Phaser 3 to 4 mi
+pixijs-rendering | pixijs-rendering | Builds and debugs 2D browser game rendering with PixiJS v8: async init, Assets loading, the Container and Sprite scene graph, pointer draggi
+platformer | platformer | Designs 2D platformers in any engine: jump feel (coyote time, jump buffering, variable height, fall gravity, corner correction), wall jumps,
+puzzle | puzzle | Designs grid and logic puzzle games in any engine: match-3 cascades, Sokoban pushing, unique-solution grids (nonogram, Sudoku), exact undo a
+pygame-core | pygame-core | Builds and debugs 2D games in Python with pygame-ce (imported as pygame): the event-update-draw loop, delta time, Surfaces and Rects, Sprite
+roguelike | roguelike | Designs run-based roguelikes and roguelites in any engine: run structure, permadeath, meta-progression, seeded and daily runs, turn order an
+rpg | rpg | Designs RPG progression and combat numbers in any engine: stats with a modifier stack, XP curves, damage formulas, items and equipment (slot
+ship-web-games | ship-web-games | Package, deploy, and verify a playable Three.js or web game. Use for release builds, asset delivery, private/public deployment, production s
+test-playable-web-games | test-playable-web-games | Test a playable browser game end to end with deterministic fixtures and real browser evidence. Use for gameplay QA, regression testing, cont
+tower-defense | tower-defense | Designs tower defense games in any engine: lane and maze pathing, wave pacing, targeting priorities, armoured and flying counters, and the g

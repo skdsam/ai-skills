@@ -1,0 +1,77 @@
+{
+  "general": {
+    "description": "Routine coding: add task-specific skills only when useful.",
+    "skills": []
+  },
+  "blender": {
+    "description": "Create or edit Blender scenes and assets.",
+    "skills": [
+      "blender-core",
+      "blender-scene-setup",
+      "blender-asset-qa"
+    ]
+  },
+  "blender-addon": {
+    "description": "Develop a Blender add-on using the user unified packaging preference.",
+    "skills": [
+      "blender-core",
+      "blender-addon-development"
+    ]
+  },
+  "web": {
+    "description": "Build or change a web interface.",
+    "skills": [
+      "frontend-ui-engineering",
+      "frontend-design",
+      "modern-web-guidance"
+    ]
+  },
+  "react": {
+    "description": "React/Next.js interface work.",
+    "skills": [
+      "frontend-ui-engineering",
+      "frontend-design",
+      "react-best-practices",
+      "modern-web-guidance"
+    ]
+  },
+  "threejs": {
+    "description": "Advanced Three.js graphics; choose specialists for the current visual system.",
+    "skills": [
+      "threejs-skill-router",
+      "threejs-visual-validation"
+    ]
+  },
+  "unreal": {
+    "description": "Unreal Engine gameplay and C++ development.",
+    "skills": [
+      "unreal-engine-cpp-pro",
+      "unreal-cpp-gameplay"
+    ]
+  },
+  "juce": {
+    "description": "JUCE audio plug-in development and real-time code review.",
+    "skills": [
+      "juce-guide",
+      "juce-review",
+      "audio-dsp-review"
+    ]
+  },
+  "audio": {
+    "description": "Audio synthesis, DSP, and signal-flow work.",
+    "skills": [
+      "dsp-algorithm-guide",
+      "audio-dsp-review"
+    ]
+  },
+  "browser": {
+    "description": "Browser automation and live page debugging.",
+    "skills": [
+      "chrome-devtools"
+    ]
+  },
+  "documents": {
+    "description": "Choose the document-format skill that matches the actual deliverable.",
+    "skills": []
+  }
+}

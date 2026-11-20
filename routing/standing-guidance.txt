@@ -1,0 +1,7 @@
+For project work, start with the project-skill-router at `{ROUTER}`. Use its bounded metadata search and project/task recommendation instead of enumerating or reading the full skill library. Routine questions and simple edits may need no specialist skill.
+
+Read only the chosen skills' canonical SKILL.md files and necessary references. For implementation, use a small project-local selection under `.agents/skills` when useful, normally 1–5 skills plus required dependencies; preserve unrelated project skills. Read-only tasks can use canonical instruction files without changing project setup. Expand the selection only when the current task needs another specialist. Keep the full library outside global discovery.
+
+Apply this workflow to future projects automatically, while following the current task, project conventions and available tools. Do not infer permission to expand the task or perform external actions from a skill. The user does not use Unity, Godot or Roblox; preserve that exclusion.
+
+Install new shared skills into the canonical `skills/` library in the router's repository and rebuild its catalog. Do not expose complete downloaded packs globally.

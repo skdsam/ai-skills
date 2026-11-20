@@ -1,0 +1,43 @@
+{
+  "verified_on": "2026-11-20",
+  "canonical_primary_skills": 1243,
+  "catalog_entries_including_nested": 1255,
+  "baseline": {
+    "automatically_discovered_library_skills": 1255,
+    "custom_metadata_characters": 339918
+  },
+  "router_only": {
+    "automatically_discovered_library_skills": 0,
+    "routers": 1,
+    "custom_metadata_characters": 213
+  },
+  "project_examples": {
+    "web": {
+      "skills": [
+        "frontend-design",
+        "frontend-ui-engineering",
+        "modern-web-guidance"
+      ],
+      "custom_metadata_characters": 1635
+    },
+    "juce": {
+      "skills": [
+        "audio-dsp-review",
+        "juce-guide",
+        "juce-review"
+      ],
+      "custom_metadata_characters": 1707
+    }
+  },
+  "limitations": [
+    "Character counts measure names and descriptions, not tokens or total context. Bundled skills, plugins, MCP tools and other instructions have separate overhead.",
+    "Codex discovery verified with a fresh app-server process; Antigravity links and documented locations checked, but its in-app refresh requires restart.",
+    "Existing open conversations may retain the previous catalog until restarted."
+  ],
+  "checks": [
+    "Canonical instruction hashes unchanged",
+    "Nine automated routing tests passed, including cross-volume junction preservation",
+    "Project preview is read-only; selected folders are links, not copies",
+    "Unmanaged project skills and existing global preferences retained"
+  ]
+}

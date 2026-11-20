@@ -1,0 +1,106 @@
+UI/UX, frontend and web design
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+accessibility-compliance-accessibility-audit | accessibility-compliance-accessibility-audit | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, i
+animate | animate | Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what p
+animate-expo | animate-expo | Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, wh
+animation-performance | animation-performance | Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and 
+animation-vocabulary | animation-vocabulary | Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term ("the bouncy thing when a pop
+api-design-principles | api-design-principles | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designin
+apple-design | apple-design | Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, s
+audit-ai-design-slop | audit-ai-design-slop | Audit websites, apps, screenshots, mockups, and design code for harmful AI-design clichés, generic generated defaults, and established UI de
+bash-linux | bash-linux | Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.
+better-accessibility | better-accessibility | Reviews and fixes keyboard and focus behavior, ARIA, accessible names, forms, screen-reader announcements, motion and zoom against WCAG 2.2.
+better-interface | better-interface | Reviews a screen, flow or whole interface across accessibility, layout, writing, typography, color, UI polish and motion, and returns one ra
+browser-automation | browser-automation | Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system come
+browser-extension-builder | browser-extension-builder | Expert in building browser extensions that solve real problems - Chrome, Firefox, and cross-browser extensions. Covers extension architectur
+build-design | build-design | Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components.
+canvas-design | canvas-design | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a pos
+cc-skill-frontend-patterns | frontend-patterns | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+chrome-devtools | chrome-devtools | Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating brows
+chrome-devtools-cli | chrome-devtools-cli | Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome DevTools via CLI.
+chrome-extensions | chrome-extensions | Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or und
+cinematic-gsap-lenis-motion-system | cinematic-gsap-lenis-motion-system | Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfoli
+creative-motion-animation | creative-motion-animation | High-end web animation and motion engineering using Framer Motion, GSAP (ScrollTrigger), and CSS spring physics (inspired by freshtechbro/cl
+database-design | database-design | Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
+deployment-pipeline-design | deployment-pipeline-design | Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use when architecting deployment work
+design-action-combat | design-action-combat | Design, implement, tune, or test readable tactical action combat for web games. Use for attack timing, guard and dodge windows, hit contact,
+design-first-ui-prompting | design-first-ui-prompting | Use when you need design-first, spec-driven, skimmable prompts for UI generation. Covers prompt structure, constraints, variations, typograp
+design-game-encounters | design-game-encounters | Design, implement, tune, or test Three.js action-game encounters. Use for arena layout, enemy composition, spawn pacing, objectives, boss ph
+design-md | design-md | Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
+design-orchestration | design-orchestration | Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Preve
+emil-design-eng | emil-design-eng | Emil Kowalski's design-engineering philosophy for UI polish, component design, animation decisions, and the invisible details that make soft
+event-store-design | event-store-design | Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technolog
+explain-interface | explain-interface | Explains how a website, a visual effect or an animation was built, from a live URL or a screenshot.
+find-animation-opportunities | find-animation-opportunities | Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with e
+fp-ts-react | fp-ts-react | Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming
+frontend-design | frontend-design | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typog
+frontend-dev-guidelines | frontend-dev-guidelines | Opinionated frontend development standards for modern React + TypeScript applications. Covers Suspense-first data fetching, lazy loading, fe
+frontend-developer | frontend-developer | Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern fron
+frontend-mobile-development-component-scaffold | frontend-mobile-development-component-scaffold | You are a React component architecture expert specializing in scaffolding production-ready, accessible, and performant components. Generate 
+frontend-mobile-security-xss-scan | frontend-mobile-security-xss-scan | You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, An
+frontend-security-coder | frontend-security-coder | Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROAC
+frontend-slides | frontend-slides | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presen
+frontend-ui-dark-ts | frontend-ui-dark-ts | Build dark-themed React applications using Tailwind CSS with custom theming, glassmorphism effects, and Framer Motion animations. Use when c
+frontend-ui-engineering | frontend-ui-engineering | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components,
+game-dev-combat-animation | game-dev-combat-animation | Build, fix and review character combat animations (melee strikes, bow shots, spell casts, skills, monster attacks, whole move sets) so they 
+game-development/game-design | game-design | Game design principles. GDD structure, balancing, player psychology, progression.
+game-development/web-games | web-games | Web browser game development principles. Framework selection, WebGPU, optimization, PWA.
+game-ui-ux | game-ui-ux | Engine-neutral design rules for game HUDs and menus: anchors and containers, scaling, safe areas, gamepad focus, HUDs driven by events inste
+gsap-core | gsap-core | Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, pref
+gsap-frameworks | gsap-frameworks | Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wa
+gsap-performance | gsap-performance | Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations,
+gsap-plugins | gsap-plugins | Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, Scramble
+gsap-react | gsap-react | Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks 
+gsap-scrolltrigger | gsap-scrolltrigger | Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based a
+gsap-scrolltrigger-storytelling | gsap-scrolltrigger-storytelling | Build cinematic sticky product storytelling with GSAP ScrollTrigger, progressive UI reveals, scroll-synced animation, smooth interpolation, 
+gsap-timeline | gsap-timeline | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing k
+gsap-utils | gsap-utils | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks abou
+improve-animations | improve-animations | Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation
+interface-review | interface-review | Reviews a branch, pull request or uncommitted change for the interface problems it introduced or regressed, across accessibility, layout, wr
+kpi-dashboard-design | kpi-dashboard-design | Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building b
+level-design | level-design | Engine-neutral level design with Godot checks: player metrics from the real controller, key and ability gating with a soft-lock check, and p
+linux-privilege-escalation | Linux Privilege Escalation | This skill should be used when the user asks to "escalate privileges on Linux", "find privesc vectors on Linux systems", "exploit sudo misco
+linux-shell-scripting | Linux Production Shell Scripts | This skill should be used when the user asks to "create bash scripts", "automate Linux tasks", "monitor system resources", "backup files", "
+mobile-design | mobile-design | Mobile-first design and engineering doctrine for iOS and Android apps. Covers touch interaction, performance, platform conventions, offline 
+modern-web-design-systems | modern-web-design-systems | Contemporary aesthetic design system and architectural UI guide. Covers Bento grid modular layouts, intentional typography pairing (editoria
+nextjs-app-router-patterns | nextjs-app-router-patterns | Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js appl
+nextjs-best-practices | nextjs-best-practices | Next.js App Router principles. Server Components, data fetching, routing patterns.
+nextjs-supabase-auth | nextjs-supabase-auth | Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middl
+no-ai-design-slop | no-ai-design-slop | Prevent and remove generic AI-generated design defaults, incoherent visual choices, and established UI defects while creating, revising, or 
+radix-ui-design-system | radix-ui-design-system | Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patte
+react-best-practices | vercel-react-best-practices | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refacto
+react-flow-node-ts | react-flow-node-ts | Create React Flow node components with TypeScript types, handles, and Zustand integration. Use when building custom nodes for React Flow can
+react-modernization | react-modernization | Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing R
+react-native-architecture | react-native-architecture | Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mob
+react-native-skills | vercel-react-native-skills | React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list perform
+react-patterns | react-patterns | Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.
+react-state-management | react-state-management | Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server 
+react-ui-patterns | react-ui-patterns | Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or man
+react-vite-dashboard | react-vite-dashboard | Convert Stitch designs into production React + Vite dashboards with TanStack Query, accessible tokens from DESIGN.md, and Web3-ready pattern
+remove-animations | remove-animations | Find the animations an interface doesn't need and remove them — motion on keyboard actions, high-frequency surfaces, functional data, and de
+review-animations | review-animations | Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; 
+stitch-code-to-design | stitch-code-to-design | Convert frontend code (Vite, React, Angular, Vue, etc.) to a Stitch Design by chaining static HTML extraction, design system extraction, and
+stitch-extract-design-md | stitch-extract-design-md | Extract a comprehensive design system (DESIGN.md) directly from frontend source code — React, Vue, Svelte, Angular, plain HTML/CSS, or any w
+stitch-extract-static-html | stitch-extract-static-html | Extract self-contained static HTML from a built web application or React components by inlining CSS and images. Use this skill whenever you 
+stitch-generate-design | stitch-generate-design | Generate new screens from text prompts or images, edit existing screens with prompts and design system tokens, and generate design variants 
+stitch-loop | stitch-loop | Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern
+stitch-manage-design-system | stitch-manage-design-system | Manage design systems in Stitch using MCP tools. Includes retrieval of assets, creating/updating design systems in Stitch, and applying them
+stitch-react-components | stitch-react-components | Converts Stitch designs into modular Vite and React components, or syncs/updates existing React components to align with the latest Stitch d
+stitch-react-native | stitch-react-native | Convert Stitch HTML designs to React Native components, or syncs/updates existing native components to align with the latest Stitch designs,
+stitch-ui-design | stitch-ui-design | Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app i
+stitch-upload-to-stitch | stitch-upload-to-stitch | Upload local assets (images, mockups, extracted HTML, design markdown) to a Stitch project. ALWAYS use this skill when you need to upload vi
+tailwind-design-system | tailwind-design-system | Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component li
+tailwind-patterns | tailwind-patterns | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+tailwindcss | tailwindcss | Use when designing/implementing UI with Tailwind CSS (layout, typography, responsive, theming, component patterns). Includes quick recipes a
+taste-design | taste-design | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — s
+taste-skill | design-taste-frontend | tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voi
+tool-design | tool-design | Build tools that agents can use effectively, including architectural reduction patterns
+ui-skills | ui-skills | Opinionated, evolving constraints to guide agents when building interfaces
+ui-ux-designer | ui-ux-designer | Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializ
+ui-ux-pro-max | ui-ux-pro-max | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces,
+ui-visual-validator | ui-visual-validator | Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot a
+web-artifacts-builder | web-artifacts-builder | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS,
+web-design-guidelines | web-design-guidelines | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX"
+web-performance-optimization | web-performance-optimization | Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime perf

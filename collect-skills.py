@@ -4,6 +4,8 @@ import hashlib
 import json
 import re
 import shutil
+import subprocess
+import sys
 
 REPO = Path(__file__).resolve().parent
 DEST = REPO / "skills"
@@ -45,7 +47,7 @@ def main():
     records = []
     copied = 0
     for root in SOURCES:
-        if not root.exists() or root.resolve() == DEST.resolve():
+        if not root.exists() or root.resolve() in {DEST.resolve(), (REPO / "discovery").resolve()}:
             continue
         for source in sorted(root.iterdir()):
             if not source.is_dir() or not (source / "SKILL.md").is_file():
@@ -75,6 +77,8 @@ def main():
     print(f"Copied {copied} skill folders; catalogued {len(records)} source folders.")
     print(f"Primary skills: {sum((p / 'SKILL.md').is_file() for p in DEST.iterdir() if p.is_dir())}")
     print(f"Alternate versions: {len(list(variants.iterdir())) if variants.exists() else 0}")
+    if copied:
+        subprocess.run([sys.executable, str(REPO / "discovery/project-skill-router/scripts/skills.py"), "build"], check=True)
 
 if __name__ == "__main__":
     main()

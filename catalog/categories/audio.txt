@@ -1,0 +1,43 @@
+Audio, music, JUCE and DSP
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+ai-music-generation | ai-music-generation | Professional prompt engineering, structural orchestration, and post-production workflows for generative AI music platforms (Suno v3/v4, Udio
+au-review | au-review | Reviews AudioUnit v2/v3 plugin implementations for spec compliance, thread safety, and correctness. Use when the user asks to review an Audi
+audio-artifacts-debug | audio-artifacts-debug | Systematic checklist for diagnosing audio artifacts. Use when the user describes a sound quality problem — clicks, pops, crackling, silence,
+audio-design | audio-design | Engine-neutral game audio technique: bus layout, volume sliders in decibels, loudness, ducking music under dialogue, adaptive music and SFX 
+audio-dsp-review | audio-dsp-review | Reviews audio DSP and audio processing code for realtime safety violations. Use whenever the user asks to review, audit, or check audio proc
+audio-math-explainer | audio-math-explainer | Explains DSP math concepts to developers who need the theory behind an algorithm. Use whenever the user asks how a signal-processing concept
+audio-numerics-review | audio-numerics-review | Reviews audio DSP code for numerical correctness. Use when the user asks to review, audit, or check DSP code for correctness issues — filter
+audio-performance-debug | audio-performance-debug | Profiling strategy for audio CPU issues — xruns, spikes, and buffer underruns. Use when the user reports CPU overload, audio glitches under 
+audio-signal-flow-explainer | audio-signal-flow-explainer | Traces and documents signal paths, bus/aux architecture, and sidechain connections in audio systems. Surfaces hidden coupling between audio 
+audio-transcriber | audio-transcriber | Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration
+build-game-audio-feedback | build-game-audio-feedback | Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio,
+clap-review | clap-review | Reviews CLAP plugin implementations for spec compliance, thread safety, and correctness. Use when the user asks to review a CLAP plugin, aud
+dsp-algorithm-guide | dsp-algorithm-guide | Implementation guide for common DSP algorithms. Use when the user asks "implement a lowpass filter", "how do I write a compressor", "reverb 
+earshot | earshot | Listen with earshot whenever you must judge, choose, trim, verify or compare sound you cannot hear - picking a sound effect, music or ambien
+fal-audio | fal-audio | Text-to-speech and speech-to-text using fal.ai audio models
+game-audio-guide | game-audio-guide | Guides implementation of custom Wwise or FMOD DSP plugins from scratch — effect, source, and mixer plugin types. Use when the user wants to 
+game-audio-review | game-audio-review | Reviews game audio code for Wwise/FMOD integration safety, custom DSP plugin correctness, and audio middleware usage. Use when the user asks
+game-development/game-audio | game-audio | Game audio principles. Sound design, music integration, adaptive audio systems.
+juce-auto-updates | juce-auto-updates | Add, validate, or repair auto-update support in a JUCE-Plugin-Starter project. Use when a project needs Sparkle or WinSparkle setup, EdDSA k
+juce-build-release | juce-build-release | Guide JUCE-Plugin-Starter build, test, sign, notarize, package, publish, and release workflows across macOS, Windows, and Linux. Use when a 
+juce-ci-release | juce-ci-release | Guide portable CI and release operations for JUCE-Plugin-Starter projects. Use when an agent needs the closest cross-host equivalent of `/ju
+juce-cross-platform-port | juce-cross-platform-port | Guide portable cross-platform audits and porting work for JUCE plugin repos. Use when an agent needs the closest cross-host equivalent of `/
+juce-guide | juce-guide | Step-by-step guide for building a JUCE audio plugin from scratch. Use when the user asks "how do I create a JUCE plugin", "set up a JUCE pro
+juce-project-create | juce-project-create | Guide portable creation of a new JUCE plugin project from JUCE-Plugin-Starter. Use when an agent needs the closest cross-host equivalent of 
+juce-project-ops | juce-project-ops | Guide portable project operations for JUCE-Plugin-Starter repos. Use when an agent needs the closest cross-host equivalent of `status`, `web
+juce-project-starter | juce-project-starter | Guide JUCE-Plugin-Starter project setup, .env configuration, build scripts, plugin format conventions, and cross-DAW MIDI generator patterns
+juce-review | juce-review | Reviews JUCE audio plugin code for JUCE-specific correctness issues: thread safety, APVTS parameter patterns, MessageManager usage, ValueTre
+juce-setup-ios | juce-setup-ios | Add or repair an iOS or iPadOS app target in a JUCE-Plugin-Starter project. Use when a project needs the portable equivalent of `setup-ios`:
+juce-setup-visage | juce-setup-visage | Add or repair Visage GPU UI setup in an existing JUCE-Plugin-Starter project. Use when a project needs the `setup_visage.sh` workflow, Visag
+juce-ui-fidelity | juce-ui-fidelity | Build or fix JUCE audio-plugin UI — writing custom LookAndFeel overrides (drawRotarySlider, drawButtonBackground, drawToggleButton, drawComb
+juce-visage-ui | juce-visage-ui | Guide for integrating the Visage GPU-accelerated UI framework with JUCE audio plugins on macOS and iOS/iPadOS. Covers Metal view embedding, 
+music-composition-producer | music-composition-producer | End-to-end music composition, MIDI arrangement, harmonic theory, multi-track production, sound design, and audio mastering (inspired by owoe
+real-sound | real-sound | Build premium, realistic soundtracks for code-made videos and animations from real licensed recordings - launch films, product and feature v
+sound-design | sound-design | Expert sound designer — synthesize any sound from first principles. Reasons from physics, psychoacoustics, and synthesis theory to produce d
+threejs-audio-generator | threejs-audio-generator | Generate, convert, clean, and integrate audio for Three.js browser games with ElevenLabs: sound effects, looping ambience, music tracks and 
+vst3-review | vst3-review | Reviews VST3 plugin implementations for spec compliance, host compatibility, and correctness. Use when the user asks to review a VST3 plugin
+web-audio-sound-design | web-audio-sound-design | Interactive browser audio synthesis, procedural game audio, and UI sound design using the native Web Audio API and Tone.js (inspired by dann
+webaudio-guide | webaudio-guide | Step-by-step guide for building Web Audio processing pipelines — AudioWorklet processors, custom nodes, parameter automation, and WebMIDI in
+webaudio-review | webaudio-review | Reviews Web Audio API JavaScript/TypeScript code for correctness, thread safety, and deprecated patterns. Use when the user asks to review A

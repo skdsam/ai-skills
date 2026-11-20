@@ -1,0 +1,70 @@
+Three.js, shaders and 3D web graphics
+
+Generated metadata index; prefer bounded CLI search to reading this entire file.
+
+3d-cloth-material | 3d-cloth-material | Build convincing woven cloth in Three.js, with a thread-level weave normal map, sheen and anisotropic highlights, folds that never stretch t
+3d-construction-sequence | 3d-construction-sequence | Animate existing Three.js architecture or equipment assembling from a structural wireframe into finished solids. Use for a replayable 3D bui
+3d-falling-leaves | 3d-falling-leaves | Build recognizable falling leaves in world space using instanced geometry, independent tumble, coupled sideways drift, shared wind, scene oc
+3d-four-seasons | 3d-four-seasons | Add coordinated spring, summer, fall, and winter states to a 3D scene, blending foliage, sunlight, sky, ground materials, snow, and particle
+3d-harbour-water | 3d-harbour-water | Build sheltered waterfronts in Three.js with depth-aware reflections of docks and signs, rain rings, boats that ride the swell, and wakes th
+3d-high-poly-models | 3d-high-poly-models | Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepa
+3d-high-resolution-textures | 3d-high-resolution-textures | Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps,
+3d-metal-material | 3d-metal-material | Create physically based metal materials in Three.js: conductor colors, roughness, anisotropy, wear, and HDR studio reflections. Use for stee
+3d-modular-buildings | 3d-modular-buildings | Model human-scale buildings for a real-time 3D environment. Use for believable streets, waterfront districts, modular facades, entrances and
+3d-orbit-inspect-demo | 3d-orbit-inspect-demo | Make a 3D object lean around on hover and open a full inspect view on click. Hover is a damped, bounded camera lean; click lifts the piece o
+3d-paper-material | 3d-paper-material | Build a paper sheet in Three.js that reads as paper up close — washi, cotton rag or kraft with baked fibre and tooth relief, laid and chain 
+3d-retina-resolution | 3d-retina-resolution | Render a 3D canvas sharply on Retina and HiDPI displays, including explicit 200 percent resolution, synchronized renderer and post-processin
+3d-sky-background | 3d-sky-background | Create a camera-correct sky background for a 3D scene with a procedural atmosphere or panorama, horizon haze, aligned sunlight, and coherent
+3d-sky-rays | 3d-sky-rays | Add sun shafts and crepuscular rays to a Three.js or equivalent 3D scene, using scene occlusion, a projected sun position, controlled foregr
+3d-survey-scan | 3d-survey-scan | Add a replayable world-space survey pulse to an existing Three.js scene. Use for a cyan scanner that briefly traces mesh edges and passes ov
+3d-ultra-realistic-water | 3d-ultra-realistic-water | Build an ultra-realistic open ocean in Three.js with a deep-water Gerstner spectrum shaded per pixel from analytic derivatives, each wave fa
+3d-underwater-god-rays | 3d-underwater-god-rays | Add volumetric underwater god rays to a Three.js scene, marching one drifting swell field along every view ray at half resolution so the lig
+3d-virtual-tour | 3d-virtual-tour | Build guided and interactive virtual tours through a 3D environment with authored camera paths, room and floor-plan navigation, orbit inspec
+3d-web-experience | 3d-web-experience | Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product config
+3d-wood-lighting-scorecard | 3d-wood-lighting-scorecard | Light carved wood in a dark room in three.js, with procedural grain and pores, one warm key through a window, soft shadows that touch, light
+3d-wood-material | 3d-wood-material | Build convincing timber for Three.js as one procedural MeshPhysicalMaterial with growth rings, cathedral figure, pores, medullary rays, chec
+build-mobile-threejs-games | build-mobile-threejs-games | Build, tune, or test a Three.js game for mobile web. Use for touch movement, action controls, target selection, touch inventory, safe areas,
+build-threejs-enemy-systems | build-threejs-enemy-systems | Build or refactor reusable, data-driven enemy archetype and moveset systems for Three.js action games. Use for enemy content schemas, model 
+build-threejs-scroll-worlds | build-threejs-scroll-worlds | Build rich, scroll-controlled real-time Three.js experiences as one persistent 3D world whose camera, lighting, atmosphere, materials, objec
+game-development/3d-games | 3d-games | 3D game development principles. Rendering, shaders, physics, cameras.
+optimize-threejs-games | optimize-threejs-games | Profile, diagnose, and improve Three.js or WebGL game performance without regressing gameplay. Use for frame-time drops, CPU/GPU pressure, d
+shader-programming | shader-programming | Engine-neutral shader technique in GLSL with HLSL equivalents: how dissolve, outline, fresnel rim and post effects work, and porting GLSL to
+threejs | threejs | Use when building or debugging interactive 3D scenes on the web with Three.js (scene/camera/renderer, lights/materials, GLTF loading, contro
+threejs-3d-generator | threejs-3d-generator | Generate, texture, rig, animate, stylize, convert, and download 3D assets for Three.js games via the Tripo API. Use for text-to-3D, image-to
+threejs-aaa-graphics-builder | threejs-aaa-graphics-builder | Upgrade Three.js games from prototype visuals to premium browser graphics: art-direction critique, procedural model building, material and t
+threejs-atmosphere-aerial-perspective | threejs-atmosphere-aerial-perspective | Implement physically motivated sky and aerial-perspective systems in Three.js. Use for planetary atmospheres, ground-to-space transitions, R
+threejs-bloom | threejs-bloom | Implement production bloom in advanced Three.js scenes. Use for HDR signal ordering, bloom-node controls, dual selective bloom with guarante
+threejs-camera-direction | threejs-camera-direction | Direct advanced Three.js camera systems. Use for scale-aware chase rigs, thrust lag, side/orbit cameras, body-relative up vectors, quaternio
+threejs-debug-profiler | threejs-debug-profiler | Debug and profile Three.js browser games: blank canvases, render and runtime bugs, asset and audio loading, animation, resize, mobile input,
+threejs-exposure-color-grading | threejs-exposure-color-grading | Build a measured exposure and grading path in Three.js. Use for a 64x36 encoded luminance meter, asynchronous readback, weighted log-average
+threejs-game-director | threejs-game-director | Entrypoint for building, upgrading, and finishing Three.js browser games. Routes work across the sibling threejs-* skills for gameplay, grap
+threejs-game-ui-designer | threejs-game-ui-designer | Design premium Three.js game UI: HUDs, menus, overlays, pause/win/lose screens, settings, icon controls, touch UI, typography, responsive la
+threejs-gameplay-systems | threejs-gameplay-systems | Build and iterate playable Three.js game systems: starter scaffold, architecture, design briefs, core loops, level and encounter design, ent
+threejs-gltf-loading | threejs-gltf-loading | Loads glTF/GLB models into three.js r187 and plays their animations: GLTFLoader, DRACO, Meshopt and KTX2 decoders, AnimationMixer cross-fade
+threejs-image-generator | threejs-image-generator | Generate and edit 2D image assets for Three.js games with Google's Gemini image API: concept sheets, image-to-3D inputs, texture and materia
+threejs-image-pipeline | threejs-image-pipeline | Build a deliberate final-image pipeline for advanced Three.js scenes. Use for depth, normal, albedo, and history ownership; GTAO or bent nor
+threejs-materials-lighting | threejs-materials-lighting | Lights and shades three.js r187 scenes: standard, physical and unlit materials, lights, shadows, HDR environment lighting and tone mapping. 
+threejs-parallax-occlusion-mapping | threejs-parallax-occlusion-mapping | Build silhouette-aware parallax occlusion mapping in Three.js WebGPU and TSL. Use for height-field ray marching, relief UVs, clipped flat or
+threejs-precipitation-surfaces | threejs-precipitation-surfaces | Build coupled precipitation and affected surfaces in Three.js. Use for falling snow, snow accumulation, model snow caps, wet asphalt puddles
+threejs-procedural-animation | threejs-procedural-animation | Build advanced procedural animation in Three.js. Use for launch kinematics, gravity turns, staging, spin docking, target-frame decomposition
+threejs-procedural-architecture | threejs-procedural-architecture | Build authored procedural buildings and architectural kits in Three.js. Use for massing grammars, exposed-edge analysis, façade bays, profil
+threejs-procedural-fields | threejs-procedural-fields | Build coherent procedural scalar and vector fields for Three.js materials and geometry. Use for terrain, planets, wear, biomes, clouds, wate
+threejs-procedural-geometry | threejs-procedural-geometry | Build production procedural mesh systems in Three.js. Use for complete hard-surface object assemblies, tilted shell lofts, UV-owned aperture
+threejs-procedural-materials | threejs-procedural-materials | Author production procedural materials in Three.js. Use for hybrid texture-backed PBR soil and moss with procedural displacement and masks, 
+threejs-procedural-planets | threejs-procedural-planets | Author procedural planetary bodies in Three.js. Use for spherical terrain, continents, ridges, craters, biome masks, coastlines, material va
+threejs-procedural-vegetation | threejs-procedural-vegetation | Generate authored procedural trees, grass, ivy, and vegetation in Three.js. Use for surface-following vines, painted ivy paths, stylized or 
+threejs-procedural-vfx | threejs-procedural-vfx | Author production real-time VFX in Three.js. Use for ship-conforming reentry plasma, generated capsule wakes, instanced analytic sparks, tim
+threejs-qa-release | threejs-qa-release | Verify and release Three.js browser games: playtest QA, automated bot playtests, mobile and responsive checks, production builds, static-hos
+threejs-raymarched-space-effects | threejs-raymarched-space-effects | Build raymarched space phenomena in Three.js. Use for black-hole lensing, accretion disks, wormholes, curved-ray integration, procedural sta
+threejs-scene-setup | threejs-scene-setup | Sets up and debugs a plain three.js r187 game or 3D scene: import maps, Scene, PerspectiveCamera and WebGLRenderer, setAnimationLoop with Ti
+threejs-screen-space-ambient-occlusion | threejs-screen-space-ambient-occlusion | Implement a production GTAO path in Three.js. Use for half-resolution horizon sampling, reversed-depth reconstruction, bent-normal encoding,
+threejs-shadow-systems | threejs-shadow-systems | Implement stable, scalable directional-shadow systems for Three.js. Use for large procedural worlds, city scenes, terrain, moving cameras, W
+threejs-skill-router | threejs-skill-router | Route ambitious Three.js graphics work to the smallest expert skill set. Use for new visual experiences, graphics rewrites, reference matchi
+threejs-skills | threejs-skills | Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visu
+threejs-spectral-ocean | threejs-spectral-ocean | Build large procedural oceans in Three.js from directional wave spectra. Use for WebGPU/TSL FFT oceans, multi-cascade wavelength bands, hybr
+threejs-temporal-surfaces | threejs-temporal-surfaces | Build view-aligned and screen-space surface effects in Three.js. Use for touch-history frost and thaw, ping-pong accumulation, reduced-resol
+threejs-visual-validation | threejs-visual-validation | Validate advanced Three.js graphics as authored systems rather than subjective screenshots. Use for fixed-view visual contracts, field and p
+threejs-volumetric-clouds | threejs-volumetric-clouds | Implement volumetric cloud systems in Three.js. Use for weather-driven density, bounded raymarching, shape/detail erosion, vertical profiles
+threejs-water-optics | threejs-water-optics | Build production analytic and bounded water in Three.js. Use for shared multi-wave displacement and normals, bounded RGBA heightfield pool s
+webgl-3d-object | webgl-3d-object | Create a real 3D WebGL object with geometric mesh depth, physically based material, directional and ambient lighting, perspective camera, su
+webgl-threejs-creative-dev | webgl-threejs-creative-dev | Interactive 3D web experiences, WebGL canvases, Three.js, and React Three Fiber (R3F) (inspired by freshtechbro/claudedesignskills 3D & WebG
