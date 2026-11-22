@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-water",
+  "destination": "skills/c3d-scene-water",
+  "modifications": [],
+  "installed_skill_sha256": "4f41cf53bfea8e6ce207b9d2afb6713fa5d68eeb944b833ddfa72ad81929d0a6"
+}

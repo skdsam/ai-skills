@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-scene-threejs",
+  "destination": "skills/3d-lang-scene-threejs",
+  "modifications": [],
+  "installed_skill_sha256": "50f6957973e8e2a8836220085975c2b6786d5f9b66403cc6d6e210f33ab23f59"
+}

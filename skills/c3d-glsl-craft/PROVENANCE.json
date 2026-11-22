@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-glsl-craft",
+  "destination": "skills/c3d-glsl-craft",
+  "modifications": [],
+  "installed_skill_sha256": "e50b4f73ff129fc908a1fcea4ea049fed27152033fc1ea5d2ad06e33c91a56b5"
+}

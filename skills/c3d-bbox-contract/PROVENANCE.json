@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-bbox-contract",
+  "destination": "skills/c3d-bbox-contract",
+  "modifications": [],
+  "installed_skill_sha256": "de0c8d3f704152e05b0013c00780bab6dbfa271e70a9422b719bb7a1f26a6cc9"
+}

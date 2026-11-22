@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-cadquery",
+  "destination": "skills/3d-lang-cadquery",
+  "modifications": [],
+  "installed_skill_sha256": "d5d707b52e65d19498eb498a900964535c0c46760166b4a5ca915d73a38bb527"
+}

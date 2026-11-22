@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-part-contact",
+  "destination": "skills/c3d-part-contact",
+  "modifications": [],
+  "installed_skill_sha256": "ed816019076cdc44d4d94cd66eac15708f7226519dbb5ad83ef194bb1f15afb7"
+}

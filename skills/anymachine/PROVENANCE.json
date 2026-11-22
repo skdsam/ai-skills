@@ -1,0 +1,10 @@
+{
+  "repository": "apekshik/anymachine",
+  "commit": "d5e8889eef0b33e0bbe62ddca6f713f94b154b68",
+  "source_path": "PIPELINE.md",
+  "destination": "skills/anymachine",
+  "modifications": [
+    "Added local SKILL.md wrapper; preserved upstream PIPELINE.md."
+  ],
+  "installed_skill_sha256": "d7222ad5ddd12b2e077030de8ace334b033bf2e5bef41e8b794e23bf9bbfb067"
+}

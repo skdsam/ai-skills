@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-bpy-scene-materials",
+  "destination": "skills/c3d-bpy-scene-materials",
+  "modifications": [],
+  "installed_skill_sha256": "1e30a86baf3cac7870e65245023c0845bf907a4d4218a620517598069543be18"
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-bpy-scene-placement",
+  "destination": "skills/c3d-bpy-scene-placement",
+  "modifications": [],
+  "installed_skill_sha256": "6c2fac81df322a9b3367d439a0246b3f1c1c944818c29e47e6297b5cd332ba97"
+}

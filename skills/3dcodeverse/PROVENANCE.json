@@ -1,0 +1,10 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3dcodeverse",
+  "destination": "skills/3dcodeverse",
+  "modifications": [
+    "Added shared-library path and missing-runtime guidance."
+  ],
+  "installed_skill_sha256": "739ccfc7f878ad8b4f1e3f2f5e4c603093c5ddc96df02bc062e5e90308646d2a"
+}

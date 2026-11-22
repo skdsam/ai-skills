@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-urdf-blender",
+  "destination": "skills/3d-lang-urdf-blender",
+  "modifications": [],
+  "installed_skill_sha256": "22f3f742b27b333c3f5544beee1980fb0c22b5677b4cfc2e530f778a47274e3e"
+}

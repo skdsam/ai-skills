@@ -2,10 +2,15 @@ Blender assets, scenes and add-ons
 
 Generated metadata index; prefer bounded CLI search to reading this entire file.
 
+3d-lang-blender | 3d-lang-blender | Use when writing, refining or repairing a static_object in Blender bpy (language blender): the files and builder names the lint expects, the
+3d-lang-scene-blender | 3d-lang-scene-blender | Use when writing, refining or repairing a scene in Blender bpy (language scene_blender): the module files and their exact functions (env hei
+3d-lang-urdf-blender | 3d-lang-urdf-blender | Use when writing, refining or repairing an articulated_object (language urdf_blender): bpy link meshes in src/model.py plus a hand-written s
+3dcodeverse | 3dcodeverse | Use for ANY request to make, measure, judge or improve a 3D thing in code: a model, object or prop, a mechanism or robot with joints, a scen
 agent-blender | agent-blender | Expert in building Blender addons (plugins) using Python and the Blender Python API (bpy). Covers addon architecture, operator design, panel
 analog-found-footage-horror | analog-found-footage-horror | Analog, VHS, CRT, and found-footage horror aesthetics for Blender shots including camera imperfections and documentary framing.
 animation | animation | Game-ready animation in Blender including walk/run/idle cycles, combat, mechanical animation, camera animation, constraints, Graph Editor, a
 anime-style | anime-style | Anime and cel-shaded art direction for Blender with hard color breaks, toon shaders, clean silhouettes, and anime proportion language.
+anymachine | anymachine | Build reference-driven mechanical models, articulated rigs and detailed hard-surface props in Blender Python using the AnyMachine pipeline. 
 apocalypse-worlds | apocalypse-worlds | Apocalyptic and dystopian world art direction for Blender including post-apocalyptic, zombie, alien invasion, post-human, dystopian, and uto
 archviz | archviz | Architectural visualization in Blender for interiors/exteriors with real-world scale, camera composition, PBR materials, and still/animation
 asset-optimization | asset-optimization | Validates and optimizes Blender assets for polycount, topology, UV efficiency, material count, naming, collections, and game-ready performan
@@ -45,6 +50,10 @@ blender-weather-fx | blender-weather-fx | Weather effects in Blender 5.3 - loopi
 blender-workflow-recipes | blender-workflow-recipes | End-to-end Blender 5.3 playbooks chaining the blender-* skills with QA gates - game props (mid-poly, high-to-low), game characters (sculpt/A
 body-horror-style | body-horror-style | Body horror art direction for Blender focusing on flesh wrongness, mutation, fusion, and visceral material storytelling.
 brutalist-mood | brutalist-mood | Brutalist and concrete-monument mood direction for Blender architecture and scenes with raw concrete, monumental scale, and austere composit
+c3d-blender-forms | c3d-blender-forms | Open only when a 3dcode finding or score item names this topic, never up front. use when writing Blender bpy code (language blender or urdf_
+c3d-bpy-scene-lighting | c3d-bpy-scene-lighting | Open only when a 3dcode finding or score item names this topic, never up front. use when lighting a scene_blender env, zone, refine or rebui
+c3d-bpy-scene-materials | c3d-bpy-scene-materials | Open only when a 3dcode finding or score item names this topic, never up front. use in every scene_blender env, zone, asset or refine sessio
+c3d-bpy-scene-placement | c3d-bpy-scene-placement | Open only when a 3dcode finding or score item names this topic, never up front. use in every scene_blender env, zone, refine or rebuild sess
 camera-cinematography | camera-cinematography | Cinematic camera work in Blender including framing, lenses, composition, camera animation, and shot language beyond basic rendering setup vi
 cartoon-style | cartoon-style | Cartoon art direction for Blender with squash-stretch readable shapes, bold colors, and graphic silhouettes for games and animation.
 character-archetypes | character-archetypes | Character archetype art direction for Blender covering fantasy races, horror creatures, roles (knight, assassin, detective), and body types 

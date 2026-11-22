@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-atmosphere",
+  "destination": "skills/c3d-scene-atmosphere",
+  "modifications": [],
+  "installed_skill_sha256": "9babe50e21bfa9326b24ca9d022e6678d1216af8c04f0df22a3257028986fd5e"
+}

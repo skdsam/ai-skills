@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-urdf-joints",
+  "destination": "skills/c3d-urdf-joints",
+  "modifications": [],
+  "installed_skill_sha256": "9b69d84b07064d2733fe86e70388528c8a2c948d41081f5651e408e6471a9b37"
+}

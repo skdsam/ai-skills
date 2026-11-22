@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-threejs-forms",
+  "destination": "skills/c3d-threejs-forms",
+  "modifications": [],
+  "installed_skill_sha256": "836a6f3e58aaeec232038e9f9991fbe1f852ea36ea27cd37291f2b829f046feb"
+}

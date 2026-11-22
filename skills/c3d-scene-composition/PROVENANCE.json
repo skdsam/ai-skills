@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-composition",
+  "destination": "skills/c3d-scene-composition",
+  "modifications": [],
+  "installed_skill_sha256": "79b20280e3533db71fd78b8b7f73cc24d724c44132b9b8bf1d6986d6535bc7b3"
+}

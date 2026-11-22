@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-motion",
+  "destination": "skills/c3d-scene-motion",
+  "modifications": [],
+  "installed_skill_sha256": "c4ef1ca7fc010a7dff1f517d222beab0c60fec5f849dc4e00adebcdb981f843a"
+}

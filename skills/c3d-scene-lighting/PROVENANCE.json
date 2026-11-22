@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-lighting",
+  "destination": "skills/c3d-scene-lighting",
+  "modifications": [],
+  "installed_skill_sha256": "41d3420ff0d7c5fd853cac5fef5ae20137e68563994c83d94b4c2ba2f35ef956"
+}

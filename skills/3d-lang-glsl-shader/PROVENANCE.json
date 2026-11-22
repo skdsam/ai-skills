@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-glsl-shader",
+  "destination": "skills/3d-lang-glsl-shader",
+  "modifications": [],
+  "installed_skill_sha256": "e3879349972ff89cf136811c80a3d78675649672eebc8589308ca1795d9249fa"
+}

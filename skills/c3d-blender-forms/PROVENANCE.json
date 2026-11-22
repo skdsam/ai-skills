@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-blender-forms",
+  "destination": "skills/c3d-blender-forms",
+  "modifications": [],
+  "installed_skill_sha256": "72ba4d5ca8bce88ca467c60f388f79c99873a3dfb5af6a6865907e32155053bf"
+}

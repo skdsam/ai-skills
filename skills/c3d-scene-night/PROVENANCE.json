@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-scene-night",
+  "destination": "skills/c3d-scene-night",
+  "modifications": [],
+  "installed_skill_sha256": "76efda6798b793951bf5e9bae5a51e9c25546199b46aa65bb62aa9a762cfe3e3"
+}

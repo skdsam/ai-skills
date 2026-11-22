@@ -1,0 +1,10 @@
+{
+  "repository": "storytold/craft-anything",
+  "commit": "8cec25d02007db604b57ce6735ad4eb44a1a9948",
+  "source_path": "crates/setup/src/skill.md",
+  "destination": "skills/craft-anything",
+  "modifications": [
+    "Renamed upstream skill.md to SKILL.md."
+  ],
+  "installed_skill_sha256": "67af4e9bd3658d277eb057789bdff0d60fbae8df94995d18e444546f1ae1f529"
+}

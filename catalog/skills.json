@@ -74,6 +74,92 @@
       "sha256": "32aec1e104f8ac5a4d9ca549e9cf4188489ace20b9417ed64cd87811533bdc5d"
     },
     {
+      "id": "3d-lang-blender",
+      "name": "3d-lang-blender",
+      "description": "Use when writing, refining or repairing a static_object in Blender bpy (language blender): the files and builder names the lint expects, the Z-up metre frame, naming, the sandbox (allowed imports, forbidden bpy calls), the exact thresholds the contract / connectivity / detail_budget gates of `3dcode check` measure, what the GLB exporter keeps, the Blender 5.2.2 API traps, and the 3dcode loop that ships it.",
+      "category": "blender",
+      "path": "skills/3d-lang-blender/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "138c6b83eb539d3ae0720dd8d37be5bad06d94d8a8f7ce8e52b38ed6bce4887a"
+    },
+    {
+      "id": "3d-lang-cadquery",
+      "name": "3d-lang-cadquery",
+      "description": "Use when writing, refining or repairing a static_object in CadQuery (language cadquery): the module-level `result` assembly the wrapper reads, named parts and instances, the Z-up metre frame, the lint's import and call lists, the thresholds the contract / connectivity / detail_budget gates of `3dcode check` measure, the OCC kernel facts that fail a build, and the 3dcode loop.",
+      "category": "threejs",
+      "path": "skills/3d-lang-cadquery/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "d5d707b52e65d19498eb498a900964535c0c46760166b4a5ca915d73a38bb527"
+    },
+    {
+      "id": "3d-lang-glsl-shader",
+      "name": "3d-lang-glsl-shader",
+      "description": "Use when writing, refining or repairing a graphics-track fragment shader (language glsl_shader): the files (one include file per layer, pasted above shader.frag), the uniform block the build prepends (never redeclare it), the two entry points, the gl-frames gate thresholds (NaN, black/blown, static, flicker, low detail) with their score caps, the lint's GLSL 330 rules, the feedback buffer, the judge's named defects, and the 3dcode loop.",
+      "category": "threejs",
+      "path": "skills/3d-lang-glsl-shader/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "e3879349972ff89cf136811c80a3d78675649672eebc8589308ca1795d9249fa"
+    },
+    {
+      "id": "3d-lang-opengl-python",
+      "name": "3d-lang-opengl-python",
+      "description": "Use when writing, refining or repairing a graphics-track moderngl program (language opengl_python): the two entry points setup/render and their exact signatures, the sampled-time trap (render is called at t = 0, 1, 2.5, 4, 6 s, in any order), the final pass into the supplied fbo, the AST lint's import allow-list and forbidden calls, the moderngl facts that decide whether the build runs, the gl-frames gate caps, and the 3dcode loop.",
+      "category": "threejs",
+      "path": "skills/3d-lang-opengl-python/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "f2ac271529b452ae81ca0b728f5636d032b6575e2317be473d8d91d42d34e75a"
+    },
+    {
+      "id": "3d-lang-scene-blender",
+      "name": "3d-lang-scene-blender",
+      "description": "Use when writing, refining or repairing a scene in Blender bpy (language scene_blender): the module files and their exact functions (env height_at/build_env, zone build, asset build_<snake>), the ctx every builder receives, the Z-up frame and the Y-up plan conversion, allowed imports and the lint's forbidden table, Blender 5.2 API facts, what Cycles does with what you build, motion as keyframes/drivers, the placement and frame gate thresholds, and the 3dcode loop.",
+      "category": "blender",
+      "path": "skills/3d-lang-scene-blender/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "d7c3276dccebe6ac606180dda029b6c4c06302d0143be8aa06e114ad81dc098e"
+    },
+    {
+      "id": "3d-lang-scene-threejs",
+      "name": "3d-lang-scene-threejs",
+      "description": "Use when writing, refining or repairing a scene in three.js (language scene_threejs): the module files and their exact exports (createScene, env heightAt/buildEnv/SUN_AZIMUTH_DEG, zone build, asset build<Name>), the Y-up metre frame, imports and the forbidden list, the harness-owned src/lib toolbox, the thresholds check-placement, scene-views (exposure, camera, motion) and scene-probe measure, naming, and the 3dcode loop.",
+      "category": "threejs",
+      "path": "skills/3d-lang-scene-threejs/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "50f6957973e8e2a8836220085975c2b6786d5f9b66403cc6d6e210f33ab23f59"
+    },
+    {
+      "id": "3d-lang-threejs",
+      "name": "3d-lang-threejs",
+      "description": "Use when writing, refining or repairing a static_object in three.js (language threejs): the ESM files and build* exports the lint expects, the Y-up metre frame and three.js primitive facts (centred on the origin, lathe/torus axes), naming, the import and sandbox rules, what survives GLTFExporter, the thresholds the contract / connectivity / triangle-budget gates of `3dcode check` measure, and the 3dcode loop.",
+      "category": "threejs",
+      "path": "skills/3d-lang-threejs/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "b05523b9fa046b3dd4bc24430b0935af7e20002a6af3396bec6d08cdffd26d00"
+    },
+    {
+      "id": "3d-lang-urdf-blender",
+      "name": "3d-lang-urdf-blender",
+      "description": "Use when writing, refining or repairing an articulated_object (language urdf_blender): bpy link meshes in src/model.py plus a hand-written src/robot.urdf. The frame rule (joint origin in the parent frame, visual origin = minus the pivot), the FK check, limits and the motion-direction check, mimic couplings, the joint-sweep clearance thresholds, allowed/forbidden URDF, and the 3dcode loop.",
+      "category": "blender",
+      "path": "skills/3d-lang-urdf-blender/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "22f3f742b27b333c3f5544beee1980fb0c22b5677b4cfc2e530f778a47274e3e"
+    },
+    {
       "id": "3d-metal-material",
       "name": "3d-metal-material",
       "description": "Create physically based metal materials in Three.js: conductor colors, roughness, anisotropy, wear, and HDR studio reflections. Use for steel, brass, gold, copper, iron, jewelry, hardware, and metal that appears plastic or flat.",
@@ -214,6 +300,18 @@
       "sha256": "0ba0a910347b3079acdb8446954724be07a09b99462b794fa366557acf3e5994"
     },
     {
+      "id": "3dcodeverse",
+      "name": "3dcodeverse",
+      "description": "Use for ANY request to make, measure, judge or improve a 3D thing in code: a model, object or prop, a mechanism or robot with joints, a scene or environment, a shader or OpenGL effect — in Blender bpy, CadQuery, Three.js, URDF, GLSL or moderngl. This is 3D coding with the 3dcodeverse plugin: raw executable 3D code that the 3dcode instruments build, measure, render, gate and score. First step: if a 3DCODEVERSE PRELOADED block is in your context, these files are already read — plan at once; otherwise read, all in ONE step: this file, skills/3d-lang-<language, hyphenated>/SKILL.md and skills/3dcodeverse/references/plan-<static|articulated|scene|graphics>.md (urdf_blender: also skills/3d-lang-blender/SKILL.md and plan-static.md, which it builds on); no c3d-* skill until a 3dcode finding or score item names its topic.",
+      "category": "blender",
+      "path": "skills/3dcodeverse/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "739ccfc7f878ad8b4f1e3f2f5e4c603093c5ddc96df02bc062e5e90308646d2a"
+    },
+    {
       "id": "a11y-debugging",
       "name": "a11y-debugging",
       "description": "Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.",
@@ -352,6 +450,18 @@
         "blender-core"
       ],
       "sha256": "db0cd6332505265cca20828f5a4042db8fb5db5751fb3fc020c49b97f31ea74f"
+    },
+    {
+      "id": "anymachine",
+      "name": "anymachine",
+      "description": "Build reference-driven mechanical models, articulated rigs and detailed hard-surface props in Blender Python using the AnyMachine pipeline. Use for machines with working joints, hydraulics, checked animation and verified GLB export.",
+      "category": "blender",
+      "path": "skills/anymachine/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "d7222ad5ddd12b2e077030de8ace334b033bf2e5bef41e8b794e23bf9bbfb067"
     },
     {
       "id": "apocalypse-worlds",
@@ -1276,6 +1386,214 @@
       "sha256": "b936012249ff84839c86eee32433008814980a5048454ee1c554f6950ab6f31b"
     },
     {
+      "id": "c3d-bbox-contract",
+      "name": "c3d-bbox-contract",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a session owns part sizes, placement or ground contact, or when the contract gate fired: hit the plan's dimensions on the first build. Applies to baseline, part, detail, refine and rebuild sessions on static_object and articulated_object. Covers the tolerance the gate really uses (relative, not a flat millimetre figure), how instanced parts are measured, ground contact and footprint, part-name matching, and how to prove the numbers with measure / check_contract instead of by eye.",
+      "category": "other",
+      "path": "skills/c3d-bbox-contract/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "de0c8d3f704152e05b0013c00780bab6dbfa271e70a9422b719bb7a1f26a6cc9"
+    },
+    {
+      "id": "c3d-blender-forms",
+      "name": "c3d-blender-forms",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when writing Blender bpy code (language blender or urdf_blender): turn a described shape into the right bpy technique. Avoids the five bpy traps this harness's lint and exporter actually catch: join without an active object, a part file model.py never imports, no PascalCase names, modifier_apply out of context, and primitive_cube_add scale doubling the extents. Covers building, detailing, refining and repairing geometry.",
+      "category": "blender",
+      "path": "skills/c3d-blender-forms/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "72ba4d5ca8bce88ca467c60f388f79c99873a3dfb5af6a6865907e32155053bf"
+    },
+    {
+      "id": "c3d-bpy-scene-lighting",
+      "name": "c3d-bpy-scene-lighting",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when lighting a scene_blender env, zone, refine or rebuild session, or when scene_frames called a Blender frame too dark, blown out or flat. The harness renders with Cycles under AgX at exposure 0 and owns every render setting, so lamp energies, the world strength and the albedos are the only dials. Gives what the frame gate measures with its thresholds, the exposure bands measured for sky, sun, night, practical and interior setups under this renderer, the interface facts (the world is build_env's, what the census counts as atmosphere, which ceilings the overview rig lifts), the sky, lamps and fog through bpy.data, why an emissive mesh is not a lamp at 32 samples, and how to prove the band on every camera including the harness rig.",
+      "category": "blender",
+      "path": "skills/c3d-bpy-scene-lighting/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "fb8f92a0ae2194de2b717b63c9707723d6b5f6593e8e5f287a40f2a42b814f99"
+    },
+    {
+      "id": "c3d-bpy-scene-materials",
+      "name": "c3d-bpy-scene-materials",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use in every scene_blender env, zone, asset or refine session that authors a surface — ground, walls, props, foliage, water, glass, a glowing sign, steam. Cycles renders every node you wire, but the harness's census reads only three Principled sockets, so no gate rewards material work and the judge penalises the lack of it. Gives the Blender 5.2 node facts (no use_nodes, the 4.x socket names, ShaderNodeMix), what the judge names and what it measures, the node practices for multi-scale surfaces, variation across copies without identical twins, ground that varies where the brief's surface does, water, glass and emissive done as dielectrics and fixtures, soft particles as volumes, and what to zoom on before you finish.",
+      "category": "blender",
+      "path": "skills/c3d-bpy-scene-materials/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "1e30a86baf3cac7870e65245023c0845bf907a4d4218a620517598069543be18"
+    },
+    {
+      "id": "c3d-bpy-scene-placement",
+      "name": "c3d-bpy-scene-placement",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use in every scene_blender env, zone, refine or rebuild session that places anything, and whenever check_placement or the scene_placement gate reported a floating, sunken, unsupported, interpenetrating, cantilevered or out-of-bounds asset, too many free-tagged ones, or a world that ends at its bounds (world_edge). Everything placed is ONE row in a measured table and its feet are sampled against what is under them. Gives what the gate measures and on which geometry, how a collection instance differs from a geometry-nodes cloud, the requirements with their measurements, how to seat and check what the gate samples, the self-check, and the finding-to-fix table.",
+      "category": "blender",
+      "path": "skills/c3d-bpy-scene-placement/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "6c2fac81df322a9b3367d439a0246b3f1c1c944818c29e47e6297b5cd332ba97"
+    },
+    {
+      "id": "c3d-cadquery-forms",
+      "name": "c3d-cadquery-forms",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when writing CadQuery src/model.py - baseline, part, detail, refine, rebuild or repair: build the planned forms and get past the OCC kernel. Gives the kernel's native makers per form as an optional toolbox, the probed kernel rules that decide whether the script builds at all, a few strong optional practices, and the four traps our own lint and runtime wrapper are written to catch.",
+      "category": "other",
+      "path": "skills/c3d-cadquery-forms/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "2eaa15fa89eb49e0b08c224632c58a9200ad8555b3043b58bc1d1349978fe6d6"
+    },
+    {
+      "id": "c3d-glsl-craft",
+      "name": "c3d-glsl-craft",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when writing, refining or repairing a glsl_shader fragment shader, or when gl_frames reports static, flicker or low detail. What the five sampled frames measure and where the real operating band is, what the shader judge names and charges for, and a short list of strong optional practices behind its recorded complaints: structure that does not alias, motion from the mechanism instead of a uv scroll, light as a path through a volume, exposure before colour.",
+      "category": "other",
+      "path": "skills/c3d-glsl-craft/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "e50b4f73ff129fc908a1fcea4ea049fed27152033fc1ea5d2ad06e33c91a56b5"
+    },
+    {
+      "id": "c3d-opengl-pipeline",
+      "name": "c3d-opengl-pipeline",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when writing an opengl_python / moderngl program, or when the gl_frames gate reported flicker, no motion or a near-flat image. Covers baseline, refine, repair and rebuild sessions: the sampled-time trap that breaks every feedback simulation, what the frame gate and the judge measure on this language (edge density, motion delta, the acceptance items), and a few optional practices — full-screen passes, instancing, textures, your own framebuffers, linear light, GL state.",
+      "category": "other",
+      "path": "skills/c3d-opengl-pipeline/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "23a40b2fd1e5661e767e493e6de3b2f465f26f5c892002124924198a58a36202"
+    },
+    {
+      "id": "c3d-part-contact",
+      "name": "c3d-part-contact",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when an object has two or more parts, or when a connectivity or joint_sweep finding fired: how parts must touch without penetrating. For static_object and articulated_object in any language, before the first build and on every repair round. Gives the contact, weld-overlap, penetration and stray-island numbers the connectivity gate actually measures, and how to add detail without creating new contact pairs.",
+      "category": "other",
+      "path": "skills/c3d-part-contact/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "ed816019076cdc44d4d94cd66eac15708f7226519dbb5ad83ef194bb1f15afb7"
+    },
+    {
+      "id": "c3d-repeats-and-mirrors",
+      "name": "c3d-repeats-and-mirrors",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a part has instances above 1 or symmetry, is a left/right pair or a ring of N, or when contract/instance_bbox or instance_count fired. Build repeated, mirrored and radially arrayed parts so the contract gate passes on the first build. Covers instance naming (Name_0..Name_N), which box the gate compares for an instanced part, mirroring without a negative object scale, and radial angles derived from the count.",
+      "category": "other",
+      "path": "skills/c3d-repeats-and-mirrors/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "4fe65e00f15fed9de018429c6811b756aae0d1ec2b106501c6e1096be9acbae8"
+    },
+    {
+      "id": "c3d-scene-atmosphere",
+      "name": "c3d-scene-atmosphere",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs env, baseline or refine session builds the sky, the environment map, clouds or fog. The sky is not a backdrop: it is the light source every PBR material reflects. States what has to be true (scene.environment set before the first frame and agreeing with the visible sky; clouds that read as volumes; haze that leaves the midground readable) and how it is read, with the library's sky, cloud and fog modules as the strong options and the one-line equirect orientation bug that blackens water.",
+      "category": "other",
+      "path": "skills/c3d-scene-atmosphere/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "9babe50e21bfa9326b24ca9d022e6678d1216af8c04f0df22a3257028986fd5e"
+    },
+    {
+      "id": "c3d-scene-composition",
+      "name": "c3d-scene-composition",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs session owns the environment, a zone's placement or the camera list, or when scene_frames reported a camera problem. States what the harness's deterministic instruments require of a composition - one height function everything samples, a world that does not end in shot, cameras whose eye, clearance and coverage are measured - and how each is measured, so the brief's own place can satisfy them in its own way. Includes the sky/ground/content classifier that silently decides two gate findings, the camera score caps, and a menu of horizon treatments.",
+      "category": "other",
+      "path": "skills/c3d-scene-composition/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "79b20280e3533db71fd78b8b7f73cc24d724c44132b9b8bf1d6986d6535bc7b3"
+    },
+    {
+      "id": "c3d-scene-lighting",
+      "name": "c3d-scene-lighting",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when lighting a scene_threejs baseline, env or refine session, or when scene_frames called a frame too dark, blown out or flat. Light the scene so the frame gate passes and the mood still reads. Gives what the frame gate measures (the exposure band every authored camera has to sit in), the one thing hex colours hide - how dark an albedo really is once the renderer works in linear light - and the sky-lit / practical-lit cases with the starter sunRig as one toolbox.",
+      "category": "other",
+      "path": "skills/c3d-scene-lighting/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "41d3420ff0d7c5fd853cac5fef5ae20137e68563994c83d94b4c2ba2f35ef956"
+    },
+    {
+      "id": "c3d-scene-materials",
+      "name": "c3d-scene-materials",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use in every scene_threejs build or refine session that authors surfaces - terrain, buildings, props, vegetation. The strongest 'plastic toy' tell is a flat albedo; the second is identical twins. States what the judge reads at crop scale (placeholder_material, flat_ground, monotonous_vegetation, undressed_scene, asset_quality_detail) and what the placement gate measures, then offers short optional practices with the shipped library's real API: surface variance, per-copy variation, roughness, edges near the lens, terrain that reads as a landform, vegetation variety, dressing and seating.",
+      "category": "other",
+      "path": "skills/c3d-scene-materials/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "c7ab403504f1460710976512a8ca3627075472338a45231b1c5ddf03d20aed50"
+    },
+    {
+      "id": "c3d-scene-motion",
+      "name": "c3d-scene-motion",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs session authors or refines animation, or when scene_frames reported no motion or the judge said nothing_moves. Make the scene visibly move between the two frames the harness photographs, and survive the four mechanisms that silently freeze it. Applies to baseline, zone, refine and compose sessions. Covers how motion is measured, the single update hook the harness actually calls, the amplitudes measured to read at 1024 x 576, and why clearing the motion gate is not the same as scoring animation_life - that is judged per item against the plan animation list.",
+      "category": "other",
+      "path": "skills/c3d-scene-motion/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "c4ef1ca7fc010a7dff1f517d222beab0c60fec5f849dc4e00adebcdb981f843a"
+    },
+    {
+      "id": "c3d-scene-night",
+      "name": "c3d-scene-night",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs brief says night, dusk, evening, neon, lamplit or moonlit. Night scenes fail two ways: black frames (the gate catches those) and the CHRISTMAS-TREE look - every window a flat glow, light shafts like white tents, twelve competing hues. States what is measured and judged, then the strong options: the library's night windows and neon, glow without postprocessing, fake light pools, the measured shaft ceiling, a wet road with something to mirror, and few light temperatures.",
+      "category": "other",
+      "path": "skills/c3d-scene-night/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "76efda6798b793951bf5e9bae5a51e9c25546199b46aa65bb62aa9a762cfe3e3"
+    },
+    {
+      "id": "c3d-scene-water",
+      "name": "c3d-scene-water",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs session builds water in any form - pond, lake, harbor, river, ocean, pool, canal, waterfall or fountain. Water is a dielectric, not a mirror: the single most common water bug is metalness, and the second is an environment bake it has nothing to reflect. States what has to be true and how the judge and the motion probe read it, then the shared noise block that keeps terrain, shoreline and scatter agreeing, Gerstner for open water, and foam that reads.",
+      "category": "other",
+      "path": "skills/c3d-scene-water/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "4f41cf53bfea8e6ce207b9d2afb6713fa5d68eeb944b833ddfa72ad81929d0a6"
+    },
+    {
+      "id": "c3d-threejs-forms",
+      "name": "c3d-threejs-forms",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when writing three.js object geometry in src/object.js or src/parts/*.js on the static_object track, in any session kind. Maps each FORM word in your manifest to the three.js geometry maker that produces it, names the traps that make a threejs part silently ship nothing, and states that this language has no boolean/CSG at all, so cavities and shells are built into the profile instead of subtracted. Options, not a recipe: what the part is made of is the brief's.",
+      "category": "threejs",
+      "path": "skills/c3d-threejs-forms/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "836a6f3e58aaeec232038e9f9991fbe1f852ea36ea27cd37291f2b829f046feb"
+    },
+    {
+      "id": "c3d-threejs-shader-traps",
+      "name": "c3d-threejs-shader-traps",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs session writes a ShaderMaterial or an onBeforeCompile patch, or when shader_preflight reported an error (on the static threejs track a ShaderMaterial is dropped at GLB export — see that contract). Write custom GLSL that survives this harness's shader gate on the first build. Says which mistakes the harness detects statically, which it detects at runtime, which it cannot see at all, and corrects three widely repeated three.js warnings that do not apply to this renderer.",
+      "category": "threejs",
+      "path": "skills/c3d-threejs-shader-traps/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "658aa475d2f30a4b5bcd166ff87d4070dcde94ee943f8e659b97d483bddb232a"
+    },
+    {
+      "id": "c3d-urdf-joints",
+      "name": "c3d-urdf-joints",
+      "description": "Open only when a 3dcode finding or score item names this topic, never up front. use when authoring or repairing an articulated_object's src/robot.urdf - links, joints, axes, limits, clearances - or when joint_sweep fired. Also covers the rest pose in src/model.py, and applies on every repair round that reported joint_sweep or motion_direction. Explains which pose set the sweep gate tests, why a moved-pose overlap is always an ERROR, and the arithmetic that predicts which way positive q pushes a child before you write the axis.",
+      "category": "other",
+      "path": "skills/c3d-urdf-joints/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "9b69d84b07064d2733fe86e70388528c8a2c948d41081f5651e408e6471a9b37"
+    },
+    {
       "id": "camera-cinematography",
       "name": "camera-cinematography",
       "description": "Cinematic camera work in Blender including framing, lenses, composition, camera animation, and shot language beyond basic rendering setup via MCP.",
@@ -1546,6 +1864,16 @@
         "blender-core"
       ],
       "sha256": "66acfd75a99beb56174e5b318a8af23d364daede3f81999a0525d767ecd2e9c3"
+    },
+    {
+      "id": "craft-anything",
+      "name": "craft-anything",
+      "description": "Investigate how shipped software works (programs, apps, packages, firmware, web bundles) with evidence-backed answers through the Craft Anything MCP tools, keeping a durable brief, plan, hypotheses, findings and handoff in the project.",
+      "category": "other",
+      "path": "skills/craft-anything/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "67af4e9bd3658d277eb057789bdff0d60fbae8df94995d18e444546f1ae1f529"
     },
     {
       "id": "create-game-assets",
@@ -3704,6 +4032,16 @@
       "primary": true,
       "dependencies": [],
       "sha256": "d62e3327dba436b697bfbecf34e7af022e54d3eca451d9fea5d814fe6f791caa"
+    },
+    {
+      "id": "rust-anything",
+      "name": "rust-anything",
+      "description": "Port TypeScript/JavaScript, Python, C, Go, Ruby or Java to Rust with the rust-anything CLI or MCP tools, from one hot function up to a whole app rewritten as a pure Rust app - profile, plan, bridge one unit at a time, record the original's behavior, port, diff, bench, shadow and gate; batch hot loops so they run in Rust on all cores. Use when asked to rewrite, port or migrate code or an app to Rust, to plan such a migration, or to make slow code faster with Rust.",
+      "category": "other",
+      "path": "skills/rust-anything/SKILL.md",
+      "primary": true,
+      "dependencies": [],
+      "sha256": "adcd6cd4b784ca41261af670713eb1843a3d42c2ecb3d4c27105bfe882f6c7aa"
     },
     {
       "id": "save-systems",

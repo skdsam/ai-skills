@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-cadquery-forms",
+  "destination": "skills/c3d-cadquery-forms",
+  "modifications": [],
+  "installed_skill_sha256": "2eaa15fa89eb49e0b08c224632c58a9200ad8555b3043b58bc1d1349978fe6d6"
+}

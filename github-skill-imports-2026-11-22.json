@@ -1,0 +1,268 @@
+{
+  "reviewed_on": "2026-11-22",
+  "method": "User-requested third-party skills reviewed for origin, scope and dependencies; no application-managed skills or runtime tools copied.",
+  "imports": [
+    {
+      "repository": "storytold/craft-anything",
+      "commit": "8cec25d02007db604b57ce6735ad4eb44a1a9948",
+      "source_path": "crates/setup/src/skill.md",
+      "destination": "skills/craft-anything",
+      "modifications": [
+        "Renamed upstream skill.md to SKILL.md."
+      ],
+      "installed_skill_sha256": "67af4e9bd3658d277eb057789bdff0d60fbae8df94995d18e444546f1ae1f529"
+    },
+    {
+      "repository": "erkamyaman/rust-anything",
+      "commit": "d964bdc7e440dc53f84a6d45278fceb23d010448",
+      "source_path": "skills/rust-anything",
+      "destination": "skills/rust-anything",
+      "modifications": [],
+      "installed_skill_sha256": "adcd6cd4b784ca41261af670713eb1843a3d42c2ecb3d4c27105bfe882f6c7aa"
+    },
+    {
+      "repository": "apekshik/anymachine",
+      "commit": "d5e8889eef0b33e0bbe62ddca6f713f94b154b68",
+      "source_path": "PIPELINE.md",
+      "destination": "skills/anymachine",
+      "modifications": [
+        "Added local SKILL.md wrapper; preserved upstream PIPELINE.md."
+      ],
+      "installed_skill_sha256": "d7222ad5ddd12b2e077030de8ace334b033bf2e5bef41e8b794e23bf9bbfb067"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-blender",
+      "destination": "skills/3d-lang-blender",
+      "modifications": [],
+      "installed_skill_sha256": "138c6b83eb539d3ae0720dd8d37be5bad06d94d8a8f7ce8e52b38ed6bce4887a"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-cadquery",
+      "destination": "skills/3d-lang-cadquery",
+      "modifications": [],
+      "installed_skill_sha256": "d5d707b52e65d19498eb498a900964535c0c46760166b4a5ca915d73a38bb527"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-glsl-shader",
+      "destination": "skills/3d-lang-glsl-shader",
+      "modifications": [],
+      "installed_skill_sha256": "e3879349972ff89cf136811c80a3d78675649672eebc8589308ca1795d9249fa"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-opengl-python",
+      "destination": "skills/3d-lang-opengl-python",
+      "modifications": [],
+      "installed_skill_sha256": "f2ac271529b452ae81ca0b728f5636d032b6575e2317be473d8d91d42d34e75a"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-scene-blender",
+      "destination": "skills/3d-lang-scene-blender",
+      "modifications": [],
+      "installed_skill_sha256": "d7c3276dccebe6ac606180dda029b6c4c06302d0143be8aa06e114ad81dc098e"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-scene-threejs",
+      "destination": "skills/3d-lang-scene-threejs",
+      "modifications": [],
+      "installed_skill_sha256": "50f6957973e8e2a8836220085975c2b6786d5f9b66403cc6d6e210f33ab23f59"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-threejs",
+      "destination": "skills/3d-lang-threejs",
+      "modifications": [],
+      "installed_skill_sha256": "b05523b9fa046b3dd4bc24430b0935af7e20002a6af3396bec6d08cdffd26d00"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3d-lang-urdf-blender",
+      "destination": "skills/3d-lang-urdf-blender",
+      "modifications": [],
+      "installed_skill_sha256": "22f3f742b27b333c3f5544beee1980fb0c22b5677b4cfc2e530f778a47274e3e"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/3dcodeverse",
+      "destination": "skills/3dcodeverse",
+      "modifications": [
+        "Added shared-library path and missing-runtime guidance."
+      ],
+      "installed_skill_sha256": "739ccfc7f878ad8b4f1e3f2f5e4c603093c5ddc96df02bc062e5e90308646d2a"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-bbox-contract",
+      "destination": "skills/c3d-bbox-contract",
+      "modifications": [],
+      "installed_skill_sha256": "de0c8d3f704152e05b0013c00780bab6dbfa271e70a9422b719bb7a1f26a6cc9"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-blender-forms",
+      "destination": "skills/c3d-blender-forms",
+      "modifications": [],
+      "installed_skill_sha256": "72ba4d5ca8bce88ca467c60f388f79c99873a3dfb5af6a6865907e32155053bf"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-bpy-scene-lighting",
+      "destination": "skills/c3d-bpy-scene-lighting",
+      "modifications": [],
+      "installed_skill_sha256": "fb8f92a0ae2194de2b717b63c9707723d6b5f6593e8e5f287a40f2a42b814f99"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-bpy-scene-materials",
+      "destination": "skills/c3d-bpy-scene-materials",
+      "modifications": [],
+      "installed_skill_sha256": "1e30a86baf3cac7870e65245023c0845bf907a4d4218a620517598069543be18"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-bpy-scene-placement",
+      "destination": "skills/c3d-bpy-scene-placement",
+      "modifications": [],
+      "installed_skill_sha256": "6c2fac81df322a9b3367d439a0246b3f1c1c944818c29e47e6297b5cd332ba97"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-cadquery-forms",
+      "destination": "skills/c3d-cadquery-forms",
+      "modifications": [],
+      "installed_skill_sha256": "2eaa15fa89eb49e0b08c224632c58a9200ad8555b3043b58bc1d1349978fe6d6"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-glsl-craft",
+      "destination": "skills/c3d-glsl-craft",
+      "modifications": [],
+      "installed_skill_sha256": "e50b4f73ff129fc908a1fcea4ea049fed27152033fc1ea5d2ad06e33c91a56b5"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-opengl-pipeline",
+      "destination": "skills/c3d-opengl-pipeline",
+      "modifications": [],
+      "installed_skill_sha256": "23a40b2fd1e5661e767e493e6de3b2f465f26f5c892002124924198a58a36202"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-part-contact",
+      "destination": "skills/c3d-part-contact",
+      "modifications": [],
+      "installed_skill_sha256": "ed816019076cdc44d4d94cd66eac15708f7226519dbb5ad83ef194bb1f15afb7"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-repeats-and-mirrors",
+      "destination": "skills/c3d-repeats-and-mirrors",
+      "modifications": [],
+      "installed_skill_sha256": "4fe65e00f15fed9de018429c6811b756aae0d1ec2b106501c6e1096be9acbae8"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-atmosphere",
+      "destination": "skills/c3d-scene-atmosphere",
+      "modifications": [],
+      "installed_skill_sha256": "9babe50e21bfa9326b24ca9d022e6678d1216af8c04f0df22a3257028986fd5e"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-composition",
+      "destination": "skills/c3d-scene-composition",
+      "modifications": [],
+      "installed_skill_sha256": "79b20280e3533db71fd78b8b7f73cc24d724c44132b9b8bf1d6986d6535bc7b3"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-lighting",
+      "destination": "skills/c3d-scene-lighting",
+      "modifications": [],
+      "installed_skill_sha256": "41d3420ff0d7c5fd853cac5fef5ae20137e68563994c83d94b4c2ba2f35ef956"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-materials",
+      "destination": "skills/c3d-scene-materials",
+      "modifications": [],
+      "installed_skill_sha256": "c7ab403504f1460710976512a8ca3627075472338a45231b1c5ddf03d20aed50"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-motion",
+      "destination": "skills/c3d-scene-motion",
+      "modifications": [],
+      "installed_skill_sha256": "c4ef1ca7fc010a7dff1f517d222beab0c60fec5f849dc4e00adebcdb981f843a"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-night",
+      "destination": "skills/c3d-scene-night",
+      "modifications": [],
+      "installed_skill_sha256": "76efda6798b793951bf5e9bae5a51e9c25546199b46aa65bb62aa9a762cfe3e3"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-scene-water",
+      "destination": "skills/c3d-scene-water",
+      "modifications": [],
+      "installed_skill_sha256": "4f41cf53bfea8e6ce207b9d2afb6713fa5d68eeb944b833ddfa72ad81929d0a6"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-threejs-forms",
+      "destination": "skills/c3d-threejs-forms",
+      "modifications": [],
+      "installed_skill_sha256": "836a6f3e58aaeec232038e9f9991fbe1f852ea36ea27cd37291f2b829f046feb"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-threejs-shader-traps",
+      "destination": "skills/c3d-threejs-shader-traps",
+      "modifications": [],
+      "installed_skill_sha256": "658aa475d2f30a4b5bcd166ff87d4070dcde94ee943f8e659b97d483bddb232a"
+    },
+    {
+      "repository": "gaoypeng/3dcodeverse",
+      "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+      "source_path": "harness/skills/c3d-urdf-joints",
+      "destination": "skills/c3d-urdf-joints",
+      "modifications": [],
+      "installed_skill_sha256": "9b69d84b07064d2733fe86e70388528c8a2c948d41081f5651e408e6471a9b37"
+    }
+  ]
+}

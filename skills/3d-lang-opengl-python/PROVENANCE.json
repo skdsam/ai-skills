@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-opengl-python",
+  "destination": "skills/3d-lang-opengl-python",
+  "modifications": [],
+  "installed_skill_sha256": "f2ac271529b452ae81ca0b728f5636d032b6575e2317be473d8d91d42d34e75a"
+}

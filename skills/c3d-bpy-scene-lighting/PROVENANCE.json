@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-bpy-scene-lighting",
+  "destination": "skills/c3d-bpy-scene-lighting",
+  "modifications": [],
+  "installed_skill_sha256": "fb8f92a0ae2194de2b717b63c9707723d6b5f6593e8e5f287a40f2a42b814f99"
+}

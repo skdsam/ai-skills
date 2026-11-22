@@ -1,7 +1,7 @@
 SHARED SKILLS WITH SELECTIVE PROJECT ROUTING
 
 One canonical library, available to Codex and Antigravity.
-456 primary additional skills remain in skills/ (466 catalog entries including nested skills).
+488 primary additional skills remain in skills/ (498 catalog entries including nested skills).
 Only project-skill-router is globally discoverable. The complete library stays
 available through bounded metadata search and selected canonical instruction files.
 

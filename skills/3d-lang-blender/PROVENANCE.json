@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/3d-lang-blender",
+  "destination": "skills/3d-lang-blender",
+  "modifications": [],
+  "installed_skill_sha256": "138c6b83eb539d3ae0720dd8d37be5bad06d94d8a8f7ce8e52b38ed6bce4887a"
+}

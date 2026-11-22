@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-threejs-shader-traps",
+  "destination": "skills/c3d-threejs-shader-traps",
+  "modifications": [],
+  "installed_skill_sha256": "658aa475d2f30a4b5bcd166ff87d4070dcde94ee943f8e659b97d483bddb232a"
+}

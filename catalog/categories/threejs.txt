@@ -9,6 +9,11 @@ Generated metadata index; prefer bounded CLI search to reading this entire file.
 3d-harbour-water | 3d-harbour-water | Build sheltered waterfronts in Three.js with depth-aware reflections of docks and signs, rain rings, boats that ride the swell, and wakes th
 3d-high-poly-models | 3d-high-poly-models | Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepa
 3d-high-resolution-textures | 3d-high-resolution-textures | Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps,
+3d-lang-cadquery | 3d-lang-cadquery | Use when writing, refining or repairing a static_object in CadQuery (language cadquery): the module-level `result` assembly the wrapper read
+3d-lang-glsl-shader | 3d-lang-glsl-shader | Use when writing, refining or repairing a graphics-track fragment shader (language glsl_shader): the files (one include file per layer, past
+3d-lang-opengl-python | 3d-lang-opengl-python | Use when writing, refining or repairing a graphics-track moderngl program (language opengl_python): the two entry points setup/render and th
+3d-lang-scene-threejs | 3d-lang-scene-threejs | Use when writing, refining or repairing a scene in three.js (language scene_threejs): the module files and their exact exports (createScene,
+3d-lang-threejs | 3d-lang-threejs | Use when writing, refining or repairing a static_object in three.js (language threejs): the ESM files and build* exports the lint expects, t
 3d-metal-material | 3d-metal-material | Create physically based metal materials in Three.js: conductor colors, roughness, anisotropy, wear, and HDR studio reflections. Use for stee
 3d-modular-buildings | 3d-modular-buildings | Model human-scale buildings for a real-time 3D environment. Use for believable streets, waterfront districts, modular facades, entrances and
 3d-orbit-inspect-demo | 3d-orbit-inspect-demo | Make a 3D object lean around on hover and open a full inspect view on click. Hover is a damped, bounded camera lean; click lifts the piece o
@@ -26,6 +31,8 @@ Generated metadata index; prefer bounded CLI search to reading this entire file.
 build-mobile-threejs-games | build-mobile-threejs-games | Build, tune, or test a Three.js game for mobile web. Use for touch movement, action controls, target selection, touch inventory, safe areas,
 build-threejs-enemy-systems | build-threejs-enemy-systems | Build or refactor reusable, data-driven enemy archetype and moveset systems for Three.js action games. Use for enemy content schemas, model 
 build-threejs-scroll-worlds | build-threejs-scroll-worlds | Build rich, scroll-controlled real-time Three.js experiences as one persistent 3D world whose camera, lighting, atmosphere, materials, objec
+c3d-threejs-forms | c3d-threejs-forms | Open only when a 3dcode finding or score item names this topic, never up front. use when writing three.js object geometry in src/object.js o
+c3d-threejs-shader-traps | c3d-threejs-shader-traps | Open only when a 3dcode finding or score item names this topic, never up front. use when a scene_threejs session writes a ShaderMaterial or 
 game-development/3d-games | 3d-games | 3D game development principles. Rendering, shaders, physics, cameras.
 optimize-threejs-games | optimize-threejs-games | Profile, diagnose, and improve Three.js or WebGL game performance without regressing gameplay. Use for frame-time drops, CPU/GPU pressure, d
 shader-programming | shader-programming | Engine-neutral shader technique in GLSL with HLSL equivalents: how dissolve, outline, fresnel rim and post effects work, and porting GLSL to

@@ -1,0 +1,8 @@
+{
+  "repository": "gaoypeng/3dcodeverse",
+  "commit": "7f322824056e176bcae35fb973e16722be2dd246",
+  "source_path": "harness/skills/c3d-opengl-pipeline",
+  "destination": "skills/c3d-opengl-pipeline",
+  "modifications": [],
+  "installed_skill_sha256": "23a40b2fd1e5661e767e493e6de3b2f465f26f5c892002124924198a58a36202"
+}
