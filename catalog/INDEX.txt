@@ -1,11 +1,11 @@
 SHARED SKILL CATALOG
 
 Start with project-skill-router; query metadata before reading selected instructions.
-488 primary skills; 498 total entries including nested skills.
+489 primary skills; 499 total entries including nested skills.
 All canonical skill files remain in skills/. Only discovery/project-skill-router is globally exposed.
 
 CATEGORIES
-blender: 130 — Blender assets, scenes and add-ons (categories/blender.txt)
+blender: 131 — Blender assets, scenes and add-ons (categories/blender.txt)
 unreal: 7 — Unreal Engine (categories/unreal.txt)
 audio: 39 — Audio, music, JUCE and DSP (categories/audio.txt)
 threejs: 73 — Three.js, shaders and 3D web graphics (categories/threejs.txt)

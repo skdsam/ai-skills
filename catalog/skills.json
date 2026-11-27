@@ -83,7 +83,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "138c6b83eb539d3ae0720dd8d37be5bad06d94d8a8f7ce8e52b38ed6bce4887a"
+      "sha256": "2eea8ee1d6e7237ecf4520b50a979b5243b7e809a1a117de83b4b493c26599fd"
     },
     {
       "id": "3d-lang-cadquery",
@@ -93,7 +93,7 @@
       "path": "skills/3d-lang-cadquery/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d5d707b52e65d19498eb498a900964535c0c46760166b4a5ca915d73a38bb527"
+      "sha256": "18882c1bdde77a17eaa07ece04e98f29ef7796a467c115e1f6762664ad2262ea"
     },
     {
       "id": "3d-lang-glsl-shader",
@@ -103,7 +103,7 @@
       "path": "skills/3d-lang-glsl-shader/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e3879349972ff89cf136811c80a3d78675649672eebc8589308ca1795d9249fa"
+      "sha256": "bd247e682f1f85f8f4f914d1de9c05e686f18cde7eadc452df0e4ce1bd9ee9dd"
     },
     {
       "id": "3d-lang-opengl-python",
@@ -113,7 +113,7 @@
       "path": "skills/3d-lang-opengl-python/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f2ac271529b452ae81ca0b728f5636d032b6575e2317be473d8d91d42d34e75a"
+      "sha256": "ffce85cdfac5ffea8ff72498699c553ba1fe50daf66a9d98f28c8f6c89de6b26"
     },
     {
       "id": "3d-lang-scene-blender",
@@ -125,7 +125,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d7c3276dccebe6ac606180dda029b6c4c06302d0143be8aa06e114ad81dc098e"
+      "sha256": "536edf83e1aee2d209d35a5782490355b4a096843edec8801f1db4c521079144"
     },
     {
       "id": "3d-lang-scene-threejs",
@@ -135,7 +135,7 @@
       "path": "skills/3d-lang-scene-threejs/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "50f6957973e8e2a8836220085975c2b6786d5f9b66403cc6d6e210f33ab23f59"
+      "sha256": "d5a7e5e98122d4c34a27e9cc8cc5b0446e78385bef101638b663fe5e21984260"
     },
     {
       "id": "3d-lang-threejs",
@@ -145,7 +145,7 @@
       "path": "skills/3d-lang-threejs/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b05523b9fa046b3dd4bc24430b0935af7e20002a6af3396bec6d08cdffd26d00"
+      "sha256": "1fc5f5cda19af2b59f7d6053baaf1aa02f517a9bd2b7f8ec1867c29bc4024b73"
     },
     {
       "id": "3d-lang-urdf-blender",
@@ -157,7 +157,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "22f3f742b27b333c3f5544beee1980fb0c22b5677b4cfc2e530f778a47274e3e"
+      "sha256": "17d5763867e1764a42d9142dc0596fcf837dc62df620bdbba512050d36fdc10e"
     },
     {
       "id": "3d-metal-material",
@@ -309,7 +309,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "739ccfc7f878ad8b4f1e3f2f5e4c603093c5ddc96df02bc062e5e90308646d2a"
+      "sha256": "da6444999f16168123808d89d918ae2d2f8dce012022a07fff57b7ea1ee703d9"
     },
     {
       "id": "a11y-debugging",
@@ -319,7 +319,7 @@
       "path": "skills/a11y-debugging/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e6e1620e4c1d54bef04c3de1bdabb327602b62b7b3db703557865eac84b871b1"
+      "sha256": "1b6e347fbff5950c2858794e13d3aabaa118e5adae42db249eccc1065c022da0"
     },
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -351,7 +351,7 @@
       "path": "skills/ai-behavior-trees-utility-ai/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d16da2b8b09893d8fcfef715953aa535b254942fde1495d76cabddc7750d9731"
+      "sha256": "cef89759c9abc932f7c1b058a7620dc7cc838ef01afeb0f3c6f8bd4b38801217"
     },
     {
       "id": "ai-music-generation",
@@ -361,7 +361,7 @@
       "path": "skills/ai-music-generation/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e431c895b26db857e2821b92208ce26cd8de7984baa5d93df0892bfa499f39e2"
+      "sha256": "b719503d4570aa88812cd056691c7ba5c75d9dcb6ce93bc12eb075c3275ab1ee"
     },
     {
       "id": "algorithmic-art",
@@ -371,7 +371,7 @@
       "path": "skills/algorithmic-art/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
+      "sha256": "6688fc81bb2051d3f234385b50ce160834eb0b0510ed8a5816cc412c1d28c352"
     },
     {
       "id": "analog-found-footage-horror",
@@ -383,7 +383,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d847723638791210fa207b08fa97c6b32a096ab2bda779fe4c9aeb475fcd84ae"
+      "sha256": "ed5cd28621a745309bb0bb3b15cd06b0164d29a4d7799b84965042b51e84bf41"
     },
     {
       "id": "animate",
@@ -395,7 +395,7 @@
       "dependencies": [
         "pick-ui-library"
       ],
-      "sha256": "4ce49ea635ec175b45552bae070ea07b2d6aa5367047994250c1c095b71c8585"
+      "sha256": "fd5e5fffd62a152da49d9529b3e12434693e198da1e2fbc3255c2babe7e2f2e8"
     },
     {
       "id": "animate-expo",
@@ -405,7 +405,7 @@
       "path": "skills/animate-expo/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "67e5d2ebe23b3edf52ce9d399532f2ead2bd7eff127919dd1c3bbe489b04dd4d"
+      "sha256": "d7fe823702336012762b70c02b50569ba280d7f1ad25370fae3332315f9b05f4"
     },
     {
       "id": "animation",
@@ -417,7 +417,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "a7c5fcef13d4f68c017a3f5052194cea3b359e38fb0807eb308f8075b1f398d6"
+      "sha256": "a6afdc663d17368b124204092b6885498047b53a7ca0a96ddba70e4b0288ffa7"
     },
     {
       "id": "animation-performance",
@@ -427,7 +427,7 @@
       "path": "skills/animation-performance/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6481e7a611b54c0d1d229ac3ac516c05648e63aa79de88c0a1bdc5ae2666ab80"
+      "sha256": "c346e074f9fc59b55d45540bcd965ee0a567afc107b3266c0f6146d28abea627"
     },
     {
       "id": "animation-vocabulary",
@@ -437,7 +437,7 @@
       "path": "skills/animation-vocabulary/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "42df33f1583483cc441fcd76693b3399148602705d2e9b8a26665d6b1951cd0b"
+      "sha256": "c0cf06e439d4544dce560395264a71cb666b3e0d0bea3bb21f6c4e4845f64a73"
     },
     {
       "id": "anime-style",
@@ -449,7 +449,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "db0cd6332505265cca20828f5a4042db8fb5db5751fb3fc020c49b97f31ea74f"
+      "sha256": "53974d18d469afacb92a4ae5156e1abf39ca225e3df0ebeb4831e83a8331273b"
     },
     {
       "id": "anymachine",
@@ -461,7 +461,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d7222ad5ddd12b2e077030de8ace334b033bf2e5bef41e8b794e23bf9bbfb067"
+      "sha256": "72df3359d994d65c757c7758ffc4ba6c1a26d304f51616cc70256a70d62bce15"
     },
     {
       "id": "apocalypse-worlds",
@@ -473,7 +473,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "20231b4b129f9c07fa169e47a53193152dbaa5b5a861ca283e7c3f63a849ac88"
+      "sha256": "4618e839bf285ac61f102c8db810053265e0522439a7d880564dac9b2f618243"
     },
     {
       "id": "apple-design",
@@ -485,7 +485,7 @@
       "dependencies": [
         "animation-performance"
       ],
-      "sha256": "7fbacf928637e136da6d475358d0639667a3637ba772f03f8e815bb4c0b86946"
+      "sha256": "7fcbc33e46cc7a5451fbd82a883218bd466645ccbba7e20ac1f2cc31fa31c5d9"
     },
     {
       "id": "archviz",
@@ -497,7 +497,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "3b74d2914d7ff31a017d1948fca6c746676f71b4ab80bc87c25c9a7aca1d28b8"
+      "sha256": "ecd4ad73b2768baa422a70de54f633a8d930300e9b8ca9a25dc4c2c17acdc6ee"
     },
     {
       "id": "asset-optimization",
@@ -519,7 +519,7 @@
       "path": "skills/au-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "798cd06b9d5c6978a6ef57a706e9b2b16ae0c504bba0f303b33033ad07358890"
+      "sha256": "24c8425e08ca0c265238d3aadbbecd5b4dc54c0f5fb62c7b6a6a1dcce3fc20d9"
     },
     {
       "id": "audio-artifacts-debug",
@@ -529,7 +529,7 @@
       "path": "skills/audio-artifacts-debug/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b50d6587baec7df6a95de6a09b3b98d8361899e0ea616e185b2fd335913af53d"
+      "sha256": "078dea41f5a0ecc367ccb3326854a4149feba1e8128ddaa7426acf5f2b34e32a"
     },
     {
       "id": "audio-design",
@@ -539,7 +539,7 @@
       "path": "skills/audio-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ad31e41ac14d10a4dfa89403dc96632fcda21bd1710017210846afcd7b52fd5d"
+      "sha256": "3526d25dd1b8c4a33d5d0f9682df510ce09322e1dcff55d760a9bdcfeb75810c"
     },
     {
       "id": "audio-dsp-review",
@@ -549,7 +549,7 @@
       "path": "skills/audio-dsp-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "18f40621e6a383bd944c16635ac70f1a316d63ce78e25f47b917d3bc56ec0fcb"
+      "sha256": "895d67e8ebcf45de983e6a9baef64e7c63aaa3583abe159b612efe5afd2d6c6a"
     },
     {
       "id": "audio-math-explainer",
@@ -559,7 +559,7 @@
       "path": "skills/audio-math-explainer/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4bcbb483b35264417af6d9b6660ac88009d635ebb19a17e07553115182c915ec"
+      "sha256": "bd199c1a2609909c2c3ac37dfb66579891f92d146e5be8415c1f14adc6f66fae"
     },
     {
       "id": "audio-numerics-review",
@@ -569,7 +569,7 @@
       "path": "skills/audio-numerics-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1959446555f9790cbedca103829d6412bc95b09c4c1e16ab501633409f4d7696"
+      "sha256": "89b525cc29a55e91c48eb79947d62ea219c5a257bfb8bd5977e2dc7b9fa65ea5"
     },
     {
       "id": "audio-performance-debug",
@@ -579,7 +579,7 @@
       "path": "skills/audio-performance-debug/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "259cd476f47fbe1e6373ff0403384c89152f8eec00798189ee2f353d6d075eb8"
+      "sha256": "b13b2d7c751e50125085a0917d0b69ae143832eed0f808039258d4812d639952"
     },
     {
       "id": "audio-signal-flow-explainer",
@@ -589,7 +589,7 @@
       "path": "skills/audio-signal-flow-explainer/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "432a5980f7f638c9077045e68e4afde2e8d82691a91fb1f25e0e15df30665c37"
+      "sha256": "f97d75fafa12db25df31969079a2791f9bc567648e3fefdce8cdef793d9e9fad"
     },
     {
       "id": "audio-transcriber",
@@ -661,7 +661,7 @@
       "path": "skills/better-accessibility/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "7f943812c4f3e89372fc2b094f73148dc1eb424676e8532dd57730b89016e32a"
+      "sha256": "3f102a4e809543f701ba0e9209e92f8b8b9e3bf7b05d0a65f6a0d448e8fff6cb"
     },
     {
       "id": "better-colors",
@@ -671,7 +671,7 @@
       "path": "skills/better-colors/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9337ae0216848e5fde233e6aa101c98286d8e70b967c5bd96bde08a29436b17e"
+      "sha256": "57ee0c408648370416dc431881df402e09daafd15a36978885da931bdc7de4e4"
     },
     {
       "id": "better-interface",
@@ -681,7 +681,7 @@
       "path": "skills/better-interface/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e93f1b6e60337ccca0b7caaea9da7cc60ba9dd86b08f958e03b0d1defa23100c"
+      "sha256": "4288c45f3de8c3bb72492fe53a32aba601e30d62f195d990dcc204ec9e566acd"
     },
     {
       "id": "better-layout",
@@ -691,7 +691,7 @@
       "path": "skills/better-layout/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "59599cf3087df9c28a1ada41532274704d16b23a1486288609b8943516d5be31"
+      "sha256": "cf71bcd8fe55aa4cd090ac5deebf550a91c00540d5b95cf66931ffff68248369"
     },
     {
       "id": "better-motion",
@@ -701,7 +701,7 @@
       "path": "skills/better-motion/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "cb2da9e1ad468e2c3c80ec8070c0c3d1ecddd585834418cf0b45cc49e8dc82c3"
+      "sha256": "0985c6b85da26f02b81afc4facdacc761561632878ce52016dcac56fe8b566da"
     },
     {
       "id": "better-typography",
@@ -711,7 +711,7 @@
       "path": "skills/better-typography/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b3ce4facc8a774baa5b456d1f1958e91bf4b12e489789ea4308a25dcdc9bf2b4"
+      "sha256": "a2f7662c872ebdb709270be886ab571e049a97eaf83e492b8e2a4cf33743221d"
     },
     {
       "id": "better-ui",
@@ -721,7 +721,7 @@
       "path": "skills/better-ui/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6e1d613ee9f8fd03cbfb9eb321252855779e88cff2c941e18f84b31f35faaff1"
+      "sha256": "326ba37d07bb0a79dff37a00f89a5936983db91d31a4d4d13b5e5d1ab2a0fe2f"
     },
     {
       "id": "better-writing",
@@ -731,7 +731,7 @@
       "path": "skills/better-writing/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4e7f745ae1f6def19da579cbaa69f19d26ce7c5200d21e7bd14eb4e88fae51ce"
+      "sha256": "8f5ff4db8f8c6efa50573251db6dcd9dbaa3eac3d56e7ce6a2b92227bdea811d"
     },
     {
       "id": "bevy-ecs",
@@ -741,7 +741,7 @@
       "path": "skills/bevy-ecs/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ffd1b30fb9b896600731f7dd7e16fd066b42f12b350520f0bec061b4f14d1be3"
+      "sha256": "8ed07890a4c171af56938114504bac26f9c329e31a65edbb0b357bc02811d3b4"
     },
     {
       "id": "biome-worlds",
@@ -753,7 +753,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "3989f679d289b1d4455fe9b40804a6351d61587caf893c90f04e25469a799423"
+      "sha256": "7726dc8ceddb144c2f87ed1f7bff5ebbfdd5e8416ab3c3286372db7727c33254"
     },
     {
       "id": "blender-addon-development",
@@ -765,7 +765,19 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "ae0ea4aaf11bc431ae43a40f74599fa5a608e5e035256dd7e4c8e674715fac18"
+      "sha256": "2bb365469258b74c4565183f7344fe71497a84ea52a55173e8a433d06f952f93"
+    },
+    {
+      "id": "blender-addon-docs",
+      "name": "blender-addon-docs",
+      "description": "Create gold-standard, 100% offline self-contained interactive HTML documentation (documentation.html) for Blender addons with a clickable N-Panel UI Explorer, live search, operator/option/preset catalogs, and an in-addon Docs launcher button. Strictly requires companion UI/UX skills from this library.",
+      "category": "blender",
+      "path": "skills/blender-addon-docs/SKILL.md",
+      "primary": true,
+      "dependencies": [
+        "blender-core"
+      ],
+      "sha256": "b2e47b18a7afd777ced1249399c6caad8819413052596f8f12f66db5dd7a4b5c"
     },
     {
       "id": "blender-animation",
@@ -777,7 +789,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "f2ec65cdf89f36dbf4066223a68e29990d031f1f9bc3a99ec72f14b51c0861d5"
+      "sha256": "34e709566bcf9cc3c517d1f266865f71ba2cc5e341ed26858dbfbdecaa4fadf1"
     },
     {
       "id": "blender-asset-qa",
@@ -789,7 +801,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "968e4435eeba040f0952cc335c8e9e7182e1d7008aa4295f202ddb836fa49ec9"
+      "sha256": "b9db639b0eb16dc14b1d77a2ed55dd7ce55462221afc78ad04ee983b316e829d"
     },
     {
       "id": "blender-character-rigging",
@@ -801,7 +813,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "c10ccac932b023af9c3252e2a46b0bb9c8bb2cd706ecfcad0ae3ac8eba0a1a3d"
+      "sha256": "0e2a9d28723f591399e0b430ff29cee20c7715bf50a33ab6208b3d7a55e5a3c4"
     },
     {
       "id": "blender-clothing",
@@ -813,7 +825,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "90d6d9704addb022b3f002eeec74c737ecf76d077c84a86b20d5d87ba411c85f"
+      "sha256": "5796121bf6808781508d91b3c0fe4bbb9bbd4b47a4dd7328325e7668b169ef29"
     },
     {
       "id": "blender-core",
@@ -823,7 +835,7 @@
       "path": "skills/blender-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "85c6161bf7a8e648735bd04957caba76f5e9c7b8506b38afd8496cc795563789"
+      "sha256": "a79e97736190891de820bd22af82afdc67b0f9ca9b78d593fff6dbb9ba60aa99"
     },
     {
       "id": "blender-dev-expert",
@@ -859,7 +871,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "11dbeb81d04722bee6413b796546da87761c7460299ab2fb8ae1027e35ec510a"
+      "sha256": "5e71a1c3160206978ac51caac109b55c059eb100e91532c3ffc7e552101275d8"
     },
     {
       "id": "blender-export-pipelines",
@@ -871,7 +883,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "300f2f9d0632744ea73ce68eccd2fbdb485febef0d1743a773b34d2f13080c16"
+      "sha256": "2cc46e89e1fe4e2b23442a5d77bc36f77e7dc7ea3711c37459c06db3905713e2"
     },
     {
       "id": "blender-facial-shapekeys",
@@ -883,7 +895,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "8d86473487e06ddc97a745baa794573a2cc36319c28a426079fd328e0c35b7ea"
+      "sha256": "1aad7397b91cb7162b86fcd6526286611f5d9e5aed2c5b489ed6270a61769566"
     },
     {
       "id": "blender-game-optimization",
@@ -895,7 +907,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "15c900a72556e1a638c95ff78e03021601affa315d710bbdb55429247ffd9b96"
+      "sha256": "7578ee1957ed58e813828ded4ace6ac1443c3bf3a8283cf7289dbf65926181ad"
     },
     {
       "id": "blender-geometry-nodes",
@@ -907,7 +919,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "64cf885688c36a25ae00d8cf7bed2a0ae4c1641f46a16f5904856fbd67818b06"
+      "sha256": "0f7e51b44e3f00b1e0a2ef3e98480862b129250e5e629f7f7ad6dd658b8d29f9"
     },
     {
       "id": "blender-hair-grooming",
@@ -919,7 +931,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "4708ab11848b8f3a7fbf2ec887174d0db2a1756a2db718dee831c6e7236569a9"
+      "sha256": "0654e4693e1b040657b171493c4f71e5666332810767f8273860f65961b18cb9"
     },
     {
       "id": "blender-hardsurface-modeling",
@@ -931,7 +943,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "558d18dc0641975d45f80f48c9371c2c0bef1f3c087a2da38cd2738a9659498f"
+      "sha256": "3464adf5fd8989aed022decc0a31d945f8f5d3edc0ef9228a994c5ee5efd3b91"
     },
     {
       "id": "blender-lighting-lookdev",
@@ -943,7 +955,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "adce74e508559230cd078bf658374a66ed1faa8a975eccfa196ea6d5a59e1e54"
+      "sha256": "7fcf6b9eef234156c1f7101d77e6fbc29191a8937dc4542b60e54041df512f34"
     },
     {
       "id": "blender-mcp-automation",
@@ -955,7 +967,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "4d6dd7f70e771be0f13eefc6ef26841e65618a49510c9a7fd2f3a05e6595bf23"
+      "sha256": "34c58cda801a0718d21dc71af14d1fb9f2085ca5151ad24be057e1de41cc698d"
     },
     {
       "id": "blender-modeler",
@@ -979,7 +991,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "6c02bc13dc33e71d816dc6b498bf38312ed7e17aa2bfcc57446a45efc7c1f318"
+      "sha256": "a673a606b73c3ba870981e3793ab13b8caea649bc821d5ce2044c6a2dba3dd9c"
     },
     {
       "id": "blender-pipeline-automation",
@@ -993,7 +1005,7 @@
         "blender-core",
         "blender-game-optimization"
       ],
-      "sha256": "1b59d80395ebb270347c64f3e148f873a782c2ff68c64e2239720517c15e8abb"
+      "sha256": "11dc5cd273afb08b51695bbdf05bb0c2b104d74126424d0772abc035b02c7140"
     },
     {
       "id": "blender-rendering",
@@ -1005,7 +1017,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "0c1a3b2c9537868dda84d981f26060eeeb159d26769c6344f608641ac6fc1b6f"
+      "sha256": "4bca117e9aeb9c38dc0954b1e059a008585ae5bd36a343db2b27221cc4b82f4e"
     },
     {
       "id": "blender-retopology-uv",
@@ -1017,7 +1029,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "54c4ff16de9873c819ff4ab60dee3b10a2e0bf2c29301a1b2ff1575b5abd7e06"
+      "sha256": "77dc96dbd6412a17af20dec28da95781633efce271364f973624022cf1430782"
     },
     {
       "id": "blender-scene-setup",
@@ -1029,7 +1041,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "fbfc9b4fb42fd3434d4112700eeda86049908cd65e5f9d939f043e5358d69a25"
+      "sha256": "d777dffec4d9acc4875d4abd99e7c92ee0148697c9a9e14a5f96df011d7f1e84"
     },
     {
       "id": "blender-sculpting",
@@ -1041,7 +1053,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "cc5fe10def24140f78a0911b5338c87c489cf38fe6c735385c64330705e1c738"
+      "sha256": "e9c7f2ca4fee8319f911187e10af99badd77e94759c9eb9aab7cf47d0cd953a3"
     },
     {
       "id": "blender-simulation",
@@ -1053,7 +1065,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "b4c80843a7bbc5e6e31266837f16cab973ed7d4cab45d204d8a7dedb9114f5ce"
+      "sha256": "4a47097af2743cf14db05d71ed9c205b74b4a1ca49bfdf04d5796b8fa705b1f8"
     },
     {
       "id": "blender-skills-pipeline",
@@ -1065,7 +1077,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d2d9a344d1537938d6bff4f53c779d19ee011a56c09a210d4bda2e9ecc642a7b"
+      "sha256": "b2591608bd6cc1905bbc05ea9967753935a25e8a37106d39a691ba1a8a3468ca"
     },
     {
       "id": "blender-stylized-npr",
@@ -1077,7 +1089,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "78042e1fbfc1e095767e6c84657668c6e051014ab544d595e12016451e8746dd"
+      "sha256": "eeb19889d8298286d57b821fa7db2f9b0d1ffbf8f88d78c460109359b4535eb8"
     },
     {
       "id": "blender-texture-baking",
@@ -1089,7 +1101,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "bf94f8054b6a9483214d2ceb3e160e44d2593b51154c553defa190272431ccb4"
+      "sha256": "20305837647eb2421ab82e90279558dc2bff1ecdbf63145f05236c1916e2188d"
     },
     {
       "id": "blender-texturing",
@@ -1101,7 +1113,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d1df25354626165849dbaa8905715192318f6044bcdb82381aa4355d602e655d"
+      "sha256": "0e8edc9065d5305b822ef1e84c79c2a410f8d597a526905bc7e65b2cd9b945d9"
     },
     {
       "id": "blender-time-of-day",
@@ -1113,7 +1125,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "f85d1ca60f764cdab11845679fda5cb22190ea1353bf09a03256fb8b8ca6d7f9"
+      "sha256": "b3799f9832abbb2af3c20f6587c24d706db47ff03580069772df8a943f54c56b"
     },
     {
       "id": "blender-video-editing",
@@ -1125,7 +1137,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "aa8c6d53e47b17666383f91497ba1564b5b2537dbca71880619c9ff81e0b82b4"
+      "sha256": "ee8bcc23fceb993d79ea31adcdac38f8ed1241a22eefb870281cb3d6aaf7ace1"
     },
     {
       "id": "blender-weather-fx",
@@ -1137,7 +1149,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "7fa1633e5cfa5f183a6d5a451f9b021a305c53e5d14071708a503ecdac687dc7"
+      "sha256": "bd0549894eb7f170f8d9f01c34bc8775da2264dc69715eed4c2fe0bfb6f6981d"
     },
     {
       "id": "blender-workflow-recipes",
@@ -1149,7 +1161,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "94de00b0a0a7284cd9d997924478be5cc7a8c7e4d26cbdac56adc86634d15324"
+      "sha256": "4cd6e6638635497fa7c7bd48f2280aa71a8f55a9060dcd55fe5a77dc6c170a28"
     },
     {
       "id": "body-horror-style",
@@ -1161,7 +1173,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "a4fb0440ef386441a98eaafdae5b80e9488eae2ec7e8490036fbedfde05317d3"
+      "sha256": "7eef8f6d2df551ca1bc4aebab530a573e88e241ff56d02ed01a2975681f971f7"
     },
     {
       "id": "break-ui",
@@ -1171,7 +1183,7 @@
       "path": "skills/break-ui/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "fb126d176f3b6bf7dfe71f2ae6620ab3dd81e6282c672a1801720055addfce18"
+      "sha256": "939558eb01c9a13856d3963157bae3118c5e2cda86c1e9f6611f16ae92716548"
     },
     {
       "id": "browser-automation",
@@ -1203,7 +1215,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "b59a857a600d8c7c38ae7bf6663dad494ce64f30a03edae527bdb449774e3141"
+      "sha256": "d4a9bf262fd3527ac43f9769914692003bb8d01fc86873a6ae74de6d5364fac6"
     },
     {
       "id": "build-3d-character-selector",
@@ -1233,7 +1245,7 @@
       "path": "skills/build-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "91f92c3dc0a85b882ac83daabd09b47e05770a4f6c8348b1ae830606cf126664"
+      "sha256": "c1e0b62b192e0d8d0ba8c660e775a4869a0d64c7d4a427c8b9d2abeec002e18d"
     },
     {
       "id": "build-game-audio-feedback",
@@ -1393,7 +1405,7 @@
       "path": "skills/c3d-bbox-contract/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "de0c8d3f704152e05b0013c00780bab6dbfa271e70a9422b719bb7a1f26a6cc9"
+      "sha256": "a2ede9aead47eb8163387bb63ceea9ed5a1ec74b1e898979a73c0cb68adcb000"
     },
     {
       "id": "c3d-blender-forms",
@@ -1405,7 +1417,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "72ba4d5ca8bce88ca467c60f388f79c99873a3dfb5af6a6865907e32155053bf"
+      "sha256": "d1c408df73b344e85b6584b6efe67dfb302cc49123056d5ee0215c06ddae02ce"
     },
     {
       "id": "c3d-bpy-scene-lighting",
@@ -1417,7 +1429,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "fb8f92a0ae2194de2b717b63c9707723d6b5f6593e8e5f287a40f2a42b814f99"
+      "sha256": "5c8eed11ec270ca4adf8229300bbafb7270e8742dc608e2d9acd4050fac7ba71"
     },
     {
       "id": "c3d-bpy-scene-materials",
@@ -1429,7 +1441,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1e30a86baf3cac7870e65245023c0845bf907a4d4218a620517598069543be18"
+      "sha256": "eb057dca14d03d4f8cd0370724cd084aeb4f3b102b380c6bb81656e61d86316c"
     },
     {
       "id": "c3d-bpy-scene-placement",
@@ -1441,7 +1453,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "6c2fac81df322a9b3367d439a0246b3f1c1c944818c29e47e6297b5cd332ba97"
+      "sha256": "862153a23ab66cc5ab2f352ac224044a5b696cf644318246ae06903e900d5c1e"
     },
     {
       "id": "c3d-cadquery-forms",
@@ -1451,7 +1463,7 @@
       "path": "skills/c3d-cadquery-forms/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "2eaa15fa89eb49e0b08c224632c58a9200ad8555b3043b58bc1d1349978fe6d6"
+      "sha256": "e8e220308f3dc1f685a362e3b3fd061fda22929e51893c232f2f4b3a2c819b58"
     },
     {
       "id": "c3d-glsl-craft",
@@ -1461,7 +1473,7 @@
       "path": "skills/c3d-glsl-craft/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e50b4f73ff129fc908a1fcea4ea049fed27152033fc1ea5d2ad06e33c91a56b5"
+      "sha256": "609f81508f705915d0d84257c6623e40d08efc071cc90e04dfc1357310455f69"
     },
     {
       "id": "c3d-opengl-pipeline",
@@ -1471,7 +1483,7 @@
       "path": "skills/c3d-opengl-pipeline/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "23a40b2fd1e5661e767e493e6de3b2f465f26f5c892002124924198a58a36202"
+      "sha256": "da125d2c9f92aff1549ae61de1dee73f38d1361f77c0c1e879341916e63d335d"
     },
     {
       "id": "c3d-part-contact",
@@ -1481,7 +1493,7 @@
       "path": "skills/c3d-part-contact/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ed816019076cdc44d4d94cd66eac15708f7226519dbb5ad83ef194bb1f15afb7"
+      "sha256": "09e17e5a29efe32a0069e9a7609edbdbdd6454836bb2c5efd7cacf7493848b9d"
     },
     {
       "id": "c3d-repeats-and-mirrors",
@@ -1491,7 +1503,7 @@
       "path": "skills/c3d-repeats-and-mirrors/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4fe65e00f15fed9de018429c6811b756aae0d1ec2b106501c6e1096be9acbae8"
+      "sha256": "f6fef0cdad60f814ef0d7c67ab832754eb94be5467b1c08b2080680d2e781379"
     },
     {
       "id": "c3d-scene-atmosphere",
@@ -1501,7 +1513,7 @@
       "path": "skills/c3d-scene-atmosphere/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9babe50e21bfa9326b24ca9d022e6678d1216af8c04f0df22a3257028986fd5e"
+      "sha256": "d5fe25efb98130ee3c1e5e96aecf475339dbb2eca4937ae67b3650eb3df646c6"
     },
     {
       "id": "c3d-scene-composition",
@@ -1511,7 +1523,7 @@
       "path": "skills/c3d-scene-composition/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "79b20280e3533db71fd78b8b7f73cc24d724c44132b9b8bf1d6986d6535bc7b3"
+      "sha256": "feef06068ec3a285da91b45a29e240ccc56d442ab4cb636647ae333ed82a11de"
     },
     {
       "id": "c3d-scene-lighting",
@@ -1521,7 +1533,7 @@
       "path": "skills/c3d-scene-lighting/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "41d3420ff0d7c5fd853cac5fef5ae20137e68563994c83d94b4c2ba2f35ef956"
+      "sha256": "2487312b4a796501ada39db75c2d06d606d20eb738cf65cdd58d718c2d5a5d44"
     },
     {
       "id": "c3d-scene-materials",
@@ -1531,7 +1543,7 @@
       "path": "skills/c3d-scene-materials/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c7ab403504f1460710976512a8ca3627075472338a45231b1c5ddf03d20aed50"
+      "sha256": "851dd4987067b85e52ca2ceb6e23e406edbc996eefa6d9ec711cdd586c3a569f"
     },
     {
       "id": "c3d-scene-motion",
@@ -1541,7 +1553,7 @@
       "path": "skills/c3d-scene-motion/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c4ef1ca7fc010a7dff1f517d222beab0c60fec5f849dc4e00adebcdb981f843a"
+      "sha256": "3043d41c94992f414d47d5a79661e1629511c618a2ddfea1de9d4879887932a4"
     },
     {
       "id": "c3d-scene-night",
@@ -1551,7 +1563,7 @@
       "path": "skills/c3d-scene-night/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "76efda6798b793951bf5e9bae5a51e9c25546199b46aa65bb62aa9a762cfe3e3"
+      "sha256": "8164fc261b5c55b44a32e5eeccaa2d09d0991fe7471a170d7b035161b7118093"
     },
     {
       "id": "c3d-scene-water",
@@ -1561,7 +1573,7 @@
       "path": "skills/c3d-scene-water/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4f41cf53bfea8e6ce207b9d2afb6713fa5d68eeb944b833ddfa72ad81929d0a6"
+      "sha256": "7142da51bc90ebe9f19932064f0275a158d7ed549796da9236125591712f77aa"
     },
     {
       "id": "c3d-threejs-forms",
@@ -1571,7 +1583,7 @@
       "path": "skills/c3d-threejs-forms/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "836a6f3e58aaeec232038e9f9991fbe1f852ea36ea27cd37291f2b829f046feb"
+      "sha256": "b8d85d227bc19082e157197af94c7c54e3c4c65e8e5f9613076557eb3f948750"
     },
     {
       "id": "c3d-threejs-shader-traps",
@@ -1581,7 +1593,7 @@
       "path": "skills/c3d-threejs-shader-traps/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "658aa475d2f30a4b5bcd166ff87d4070dcde94ee943f8e659b97d483bddb232a"
+      "sha256": "142889cdfcc294a662cec3912a8fda293c82f34cb408a01bba16109582c90ca8"
     },
     {
       "id": "c3d-urdf-joints",
@@ -1591,7 +1603,7 @@
       "path": "skills/c3d-urdf-joints/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9b69d84b07064d2733fe86e70388528c8a2c948d41081f5651e408e6471a9b37"
+      "sha256": "1dd85aad72e14cdead21d8c5505fecf0e5b6d555ebffc46373a4dbc42e5338f6"
     },
     {
       "id": "camera-cinematography",
@@ -1603,7 +1615,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "0838fe51a882af69b47d598b09ef3c921852e498a394d35b793d607826e43ece"
+      "sha256": "7d743ca9732942c95e545a82a204d9a4dff9312bb1ced8698911382dcb364dd8"
     },
     {
       "id": "camera-systems",
@@ -1613,7 +1625,7 @@
       "path": "skills/camera-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a240892c3a049e19f3fb011c1648896d35fc2bf907906c5f6fcffa1fd37f5f3c"
+      "sha256": "21a86d3e0ae491d5c5a45052047cc87d76ac69c60117bdde8ecee5f9345c6256"
     },
     {
       "id": "canvas-design",
@@ -1623,7 +1635,7 @@
       "path": "skills/canvas-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+      "sha256": "7bebc4a2cf108c55c1e52bb96b1050dc1ab2f9492e9c2d43f1fe57f826728f4d"
     },
     {
       "id": "card-game",
@@ -1633,7 +1645,7 @@
       "path": "skills/card-game/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1f0ca2b470467cb0faa0b80b5a6b48f64112525af4bcda296f38180d5be38e32"
+      "sha256": "146bc49e3a59c5a04f8736086d71ce55ae3c045938af9a25c036e472bb2e0163"
     },
     {
       "id": "cartoon-style",
@@ -1645,7 +1657,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "9825cdd0501fed306ee94f05820d1a84198b9a007c50a16bf3a5aee4ea43b0fe"
+      "sha256": "f0e77e5f1b3a1301cb3cce03fc25945149006abb88c5e4655280fef7b36c5ffa"
     },
     {
       "id": "cc-skill-frontend-patterns",
@@ -1667,7 +1679,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "8a105e03c2b67e6d129cc72016640b0ba0e2cafd36bc8560b1d1c993bebf57d4"
+      "sha256": "41baeb212cbfa2c4959d403c74ab9ba8a8bc014f35ea77790a62368524e6a103"
     },
     {
       "id": "character-artist",
@@ -1691,7 +1703,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "8359bbfaba12b298c4028c7a0bb1d1ed9a0c28ab40ea18d44e021c1ea28030fd"
+      "sha256": "787f726ae6b5ff25c20b510633c98c35bc9c0a770d19d4a66254c76d000b201a"
     },
     {
       "id": "choreograph",
@@ -1701,7 +1713,7 @@
       "path": "skills/choreograph/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "0a6802bb2fd5a3993842d48332b8ab56ae5bab369ffa8700f85f6fcff56b8478"
+      "sha256": "387687d3052b703885d2fbd2459fea46d6312f857535eedfa48172c19475b82c"
     },
     {
       "id": "chrome-devtools",
@@ -1711,7 +1723,7 @@
       "path": "skills/chrome-devtools/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "76a8190930095c7f6fda65f88779384070934e37a2261c5186b145b7611c5af2"
+      "sha256": "b13b0f7af3dc4ca2aeed50747daafa5ce963f231b3f46d810c84be016e5d8fb8"
     },
     {
       "id": "chrome-devtools-cli",
@@ -1721,7 +1733,7 @@
       "path": "skills/chrome-devtools-cli/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3544faec2e9d27ffd4e1f134d7b77e823c913ceae7cdf4e26f7f8418dd27d80f"
+      "sha256": "e9485f506c0e64c5030b281501bf4df34c78611ce3bb4f9bd0ecc122972cd853"
     },
     {
       "id": "chrome-extensions",
@@ -1731,7 +1743,7 @@
       "path": "skills/chrome-extensions/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c67d9e4ba9da93ed0da8b0147235e5890aa24e659548f65b7765c5af0a470c3f"
+      "sha256": "7e8119d67f74e5964fd89c9c95dab84b390131f7ce98017575bca9cfb7a2e5a0"
     },
     {
       "id": "cinematic-gsap-lenis-motion-system",
@@ -1761,7 +1773,7 @@
       "path": "skills/clap-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "da34dcf0f5a5b4fc6d7cfafd0fc2f827875835baf43ac7fbfd752273bdb6d54c"
+      "sha256": "f89a5bb3c395ce035550fc0285e2874b5257c90f870a1070ddcfca0ca97f45d6"
     },
     {
       "id": "claude-d3js-skill",
@@ -1783,7 +1795,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "adc458f300a734c647ff3d4f83ea8c06fbb73859f0be89693d7057848175ea22"
+      "sha256": "a879801766ccdbb9aa2a60a392a9d2dcd3074fc9b4f83d7f5006c86b65017d1c"
     },
     {
       "id": "collision-proxy",
@@ -1795,7 +1807,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "35c3b05ea2b31591cfe9c480730e2963887d7dcc88c80eb891d0c4abdc820af6"
+      "sha256": "0dcfe734e33d68d0ae8cd16d131e0a0eb05302ae0fed7585e8a39764fc718a99"
     },
     {
       "id": "comic-book-style",
@@ -1807,7 +1819,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "82833b34215774d2ee2df3f2ef3055340322e3b0112f869e60fd6f6c4cd09735"
+      "sha256": "5a34526d17597ec9e4925e7a054c96004e68bf898e2d761f1aa36c0b7f9649a4"
     },
     {
       "id": "compositing",
@@ -1819,7 +1831,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "d33e636d269511fb3b4bb5769562ded33533d9d4b2dce7c67b128d6cbe65ddbd"
+      "sha256": "20a0e8ecea5e57a3af0b43bbc288b217744f994931a2779e7977794f25bbccf3"
     },
     {
       "id": "composition-patterns",
@@ -1829,7 +1841,7 @@
       "path": "skills/composition-patterns/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
+      "sha256": "fb8f849b4d46c0c4d364ae6fb398a5cb693b54f9a4c31765a1ec0689c7cb93d5"
     },
     {
       "id": "cookie-debugging",
@@ -1839,7 +1851,7 @@
       "path": "skills/cookie-debugging/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f0f0daa1d75def39492c7430ccd5d98e7ff54ba370f3677147dd3b93b0712e05"
+      "sha256": "0fccf51b4fb325731ca68cc0238a2c2f6fbb4a6fb91e6bc356befcd7172894da"
     },
     {
       "id": "cosmic-eldritch-horror",
@@ -1851,7 +1863,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "e8300004e948d25dfe22fd203234b5788797790e81b71f2bdb8af27f5ba28621"
+      "sha256": "908c3fd0b60e149529808d2f145e58107796cec740e9d3e7756a5cbd6e64d9c5"
     },
     {
       "id": "cozy-wholesome-mood",
@@ -1863,7 +1875,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "66acfd75a99beb56174e5b318a8af23d364daede3f81999a0525d767ecd2e9c3"
+      "sha256": "f019038a42d55ffd42d2d0de86a397a0201f452f5dd0a04a90376e0ab9006f50"
     },
     {
       "id": "craft-anything",
@@ -1873,7 +1885,7 @@
       "path": "skills/craft-anything/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "67af4e9bd3658d277eb057789bdff0d60fbae8df94995d18e444546f1ae1f529"
+      "sha256": "899ffbb02a9759529634ddc647ebac31dd0945ce6af485d34d8e4ec5f8bd37aa"
     },
     {
       "id": "create-game-assets",
@@ -1883,7 +1895,7 @@
       "path": "skills/create-game-assets/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6e023c9f98b1cb292972c05803b624bc8820ca17919176384b2b707c48e53194"
+      "sha256": "cb26989f0079f50d7b64056f88a997172745e9a234b7320ceea0b2d012bf690d"
     },
     {
       "id": "create-game-vfx",
@@ -1903,7 +1915,7 @@
       "path": "skills/creative-motion-animation/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e7cdfb3f18ebbbec0e1c3c9b575f058a78b51100bc30e27eecd5ecd1c0fb26e9"
+      "sha256": "96af8c83f5a185c1f2859eda46d567dae563c1dba073671ef48f22bcc370720b"
     },
     {
       "id": "creature-artist",
@@ -1927,7 +1939,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "30de630a0278f4b0e8690bca0858f127448cfbb4b3884d45b54853f2a5f9c53e"
+      "sha256": "deffdfdb2434c20e2bf0cf61788bc665d765b74f6f1d891220a1253201a81be7"
     },
     {
       "id": "debug-optimize-lcp",
@@ -1937,7 +1949,7 @@
       "path": "skills/debug-optimize-lcp/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d6486b728d7c891ed67280d05880dc396499242b02f3041d9e62c8e83c1ba5f3"
+      "sha256": "b34c72fdb646bf64f4e81c636751792d0b25630c9516aa132689e1f3d8baa6d2"
     },
     {
       "id": "defold-core",
@@ -1947,7 +1959,7 @@
       "path": "skills/defold-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d5f177ecd84a67b61a5df2605e3547fcb396a5ff325b3d775cadcd4a08d3e791"
+      "sha256": "9ae6d6e4ead7f1d43d7d11072dca80044d2734113aeebccf0e3528a2ddec5460"
     },
     {
       "id": "design-action-combat",
@@ -2007,7 +2019,7 @@
       "path": "skills/dialogue-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4df2872fc43e66c9f1844ffceb1479a08d670cff6a7e01e46454fda455a2c621"
+      "sha256": "dc308cf6a7aa9706d99f4f81dc8d3d0840012c0feee8996e3d28c65628522997"
     },
     {
       "id": "dream-surreal-mood",
@@ -2019,7 +2031,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "610484250488b7f5ce6ed0dc0ef2a5567a792550cda8de1209b84ebf65dc1003"
+      "sha256": "7618ae105e4127dd12c1e5cf57d382804822255736e674be07ebe0c8e7b273b3"
     },
     {
       "id": "dream-weirdcore-style",
@@ -2031,7 +2043,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "0d932dc319e043ae748bd99bee57b4a35d587f70633ce396ff6868a38ccb7d72"
+      "sha256": "50cdd06053567a2b204a5004f0f3885936c8456c40a5911df0fad8d38bde151d"
     },
     {
       "id": "dsp-algorithm-guide",
@@ -2041,7 +2053,7 @@
       "path": "skills/dsp-algorithm-guide/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a1d84107cdca2ea3af0ca290c3bfdfc5543c25002101ad2c3f15021e3e1cae89"
+      "sha256": "c2fbcb076d686b1aa6f291c53c0c98803df2bd1aba0f801191b9fe14b3b0103b"
     },
     {
       "id": "earshot",
@@ -2051,7 +2063,7 @@
       "path": "skills/earshot/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "57b984a602ae1881cb3cfe58cedf61cc89b5c443c0b315fe5b8767471cb6c1ec"
+      "sha256": "9870fc3baefb616fa3cf83cd10c3aca333f0008aa546e6dea07a7b9d64c991f9"
     },
     {
       "id": "ebitengine-game",
@@ -2061,7 +2073,7 @@
       "path": "skills/ebitengine-game/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b6b3d5d20d0df515afb9f694a6ef5d6e5333688dba5045a754dad7ca6a39e20b"
+      "sha256": "24bfae2fd6cb3fe35607ff2f9aa10f4e25067d9fae0462e9dd11b779cbd893ef"
     },
     {
       "id": "emil-design-eng",
@@ -2073,7 +2085,7 @@
       "dependencies": [
         "choreograph"
       ],
-      "sha256": "cdbfe467e6c9a4940c3a19e795cecf1ba659378d7412e06c245c6ae49da47da6"
+      "sha256": "9b54d1a70cae6b69c36d7f125a908451b2767706ab6e41a4c575316aff9e9bac"
     },
     {
       "id": "enhance-prompt",
@@ -2083,7 +2095,7 @@
       "path": "skills/enhance-prompt/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ccb200c798072438b642b1fa6a5c515563159e2fab3d56e813d76d8afa9a7ce6"
+      "sha256": "822e45444f6190b71fd095bfe9d36285167b22896e5e3ea01f7494eee50867aa"
     },
     {
       "id": "environment-artist",
@@ -2105,7 +2117,7 @@
       "path": "skills/explain-interface/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6795aff9a133b94c6398a95b5c8958a2eaccade5db18f58e752bc02460a356e0"
+      "sha256": "4d9a31f772b37e9385da0f7dbb7db6d4714de7efe3165f30ce5d9400b0f7f454"
     },
     {
       "id": "export-pipeline",
@@ -2189,7 +2201,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "6586b1353684f32be7a5aee74e7e0746b67d706d155e05395c69622b22412887"
+      "sha256": "2e08716f7c3240164abe091ddd62d36ef00554d36fc794000400ce79c6c6d0c8"
     },
     {
       "id": "find-animation-opportunities",
@@ -2201,7 +2213,7 @@
       "dependencies": [
         "choreograph"
       ],
-      "sha256": "331479e0d867f90d637ef3ef1bdbbd38498d144ab493442afdfbc138abc751b4"
+      "sha256": "f0cb67e5131e31538164b9173ef867817c4b876bc4d4afa2353628b92c06355d"
     },
     {
       "id": "fire-smoke-skill-vfx",
@@ -2233,7 +2245,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "2244503d14789a67ef575110b5021532903649ee057b3d6b41d78cd93bce9987"
+      "sha256": "4e55b5ceb64525a26234ac1fdf4bfeae07fdb1074a64901f0e72993cce8c3c38"
     },
     {
       "id": "forest-floor-specimen",
@@ -2263,7 +2275,7 @@
       "path": "skills/fps-shooter/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d8650c874bb25651c57d8fa12c6421a83c1f4dcbac7fe3db7e09c95cca2215d7"
+      "sha256": "3debc70ff79d6f93f05f0de0df43d495b6102fa066bf95475808586e79f48c60"
     },
     {
       "id": "frontend-design",
@@ -2273,7 +2285,7 @@
       "path": "skills/frontend-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+      "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8"
     },
     {
       "id": "frontend-dev-guidelines",
@@ -2345,7 +2357,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "df1f254eb43008ec596929bf5a4637edca7890efacff01175b0ad29c08be8d4d"
+      "sha256": "aa725b6a23466f9b1f6a368df547deba4ca94999a8e6a9cf23647942ca7ce840"
     },
     {
       "id": "game-ai",
@@ -2355,7 +2367,7 @@
       "path": "skills/game-ai/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "5b36c3d22fbe60b3fdfd4baefaee4a8781cb1067a7ef7fa638cb04b4455491ca"
+      "sha256": "c887b81193036b877977b902a6e57d5276d257d6f1dfe54e9d51f66ce6c2cef9"
     },
     {
       "id": "game-audio-guide",
@@ -2365,7 +2377,7 @@
       "path": "skills/game-audio-guide/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f8f63b14a9c8196ba414d32ae0a4dad625c8d8fbc9280aed67f029b9f0aae2bd"
+      "sha256": "a65f99f6991cca9f0263d323caf3a285dca6e911041aa3681080f559f69f8e92"
     },
     {
       "id": "game-audio-review",
@@ -2375,7 +2387,7 @@
       "path": "skills/game-audio-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "64c7995d78046c1d821725a3456a9da41e3d7109918c3b7f59ab9dd8d0fc3037"
+      "sha256": "4b41bda9d3e03fe13af98340ca8922ad2611eba76f23bf5fd2a7e2dc03147351"
     },
     {
       "id": "game-dev-character-model",
@@ -2525,7 +2537,7 @@
       "path": "skills/game-docs/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "210b192c944357ca24dcc6ca8054a1138f1f60667d0d8a256d26f51fe1873294"
+      "sha256": "bfde0273042fae1cf14b7e9f19d85e307022438ecbe2b527a283664cdf885a11"
     },
     {
       "id": "game-feel",
@@ -2535,7 +2547,7 @@
       "path": "skills/game-feel/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a3591662e732f1540887570f584bd18778f4f728708afa013a33e20bcc949a06"
+      "sha256": "4784addf5bd3f02c0ec3fa11a97b5baddd89f5b281bab9d3253439f2b8e7732d"
     },
     {
       "id": "game-jam",
@@ -2545,7 +2557,7 @@
       "path": "skills/game-jam/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4d76a404c1ccd2439459620295e2aa934e9e48da60d03df0d435301497774d48"
+      "sha256": "bfc8470d4eb5e72cf420273411f3ff7cdbdf5c704fe46d42e4eab8de21040987"
     },
     {
       "id": "game-ui-ux",
@@ -2555,7 +2567,7 @@
       "path": "skills/game-ui-ux/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "69140650cd9a28dc208bd1540358f47829aabb3f0834311c3d39b7a451e8b163"
+      "sha256": "a42f6cf20ae82f752c8a96632925ce81d5d144ce9e5dc79b548b071a89e573e5"
     },
     {
       "id": "gamedev-router",
@@ -2587,7 +2599,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "ddc4f4337e4393a719686fbb361ea301068117785d437bc3786bd84dae6a5874"
+      "sha256": "9a0f81fe39c63a8360706b0caeda704028fa09d69fe17806461f50c4eda354bd"
     },
     {
       "id": "genre-card-party-idle",
@@ -2599,7 +2611,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "c99cc3778d6116478fb5e429145fbbf547f146caa49a61d2fbc7bd903a84b4ae"
+      "sha256": "3ae6261cd48fe3026b1d03d7b2bbb10a90b04331efdb80a6da2b9d5ec17c2d66"
     },
     {
       "id": "genre-metroidvania-roguelike",
@@ -2611,7 +2623,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "76a2081f80e1cae07e0965de51a5598f27faa202c5bfa24dc6dc5ae7ab1d0adf"
+      "sha256": "aa1e2979839f37374f9c5357f5ef96aea82f93f0e4cdebae885005084f368651"
     },
     {
       "id": "genre-narrative-vn",
@@ -2623,7 +2635,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1735186be7eac4a163bb386710935303140b9b643f9595a5e3597eb93f49f122"
+      "sha256": "cc45d267ecb8da6a7734abca0a506641842ba8e71015341dee2f2d4f248fddc2"
     },
     {
       "id": "genre-open-world-sandbox",
@@ -2635,7 +2647,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "13ecd9b25663d115e5295df190c1660c64e467362588ef7c7bd7f34ebf4bc589"
+      "sha256": "17989c97cf2c6c502fa1e08f866fe68bee8dd83075648bf98c2431a74bbf0ea7"
     },
     {
       "id": "genre-puzzle-platformer",
@@ -2647,7 +2659,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "bc84121ef1cbaa8848d7f896e7de50984cafada33781d9cae949ad5b044b6fef"
+      "sha256": "fb59b1e87d84cf8bc7a35632248c96df12b804338fc171673d613d3db41508b3"
     },
     {
       "id": "genre-racing-sports",
@@ -2659,7 +2671,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "76d5979443d3c1064453a1d93c5c99668f7d98fff5081a7c12437b4cb04532c8"
+      "sha256": "8c7fac03e0b7e0300122b6cd91e0db5e7161f052ecaa0ac4bb51e40d39fd831e"
     },
     {
       "id": "genre-rpg",
@@ -2671,7 +2683,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "677769b0c5ecaa6d88922a9f0e388ab78311f600480d076d459dbdd0dc7ef2d9"
+      "sha256": "631bdcbcdc0116089983a9fc8b46957611dcef7d3e17bc94803af880a78b6624"
     },
     {
       "id": "genre-shooter",
@@ -2683,7 +2695,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "2e26afab8838150687ed3120b5f9b62d8bf14f0ad7522f730699fc30ecd5f12e"
+      "sha256": "ac3266d9378dc978ba9958434dd57045c9c76372954dc270475860d2a642569a"
     },
     {
       "id": "genre-soulslike",
@@ -2695,7 +2707,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "5aed9670100a27af1873f29eef7f0438d41c23b46711bac26d5399ca006352c4"
+      "sha256": "7963b26478398b264366c52e61b0b783ae45dc17fb86c70a351c02509a041bba"
     },
     {
       "id": "genre-stealth",
@@ -2707,7 +2719,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "c0f465acb37d661ee9712d85e2a164f8f4f4a2c4a4cdbabe2441ca499385737e"
+      "sha256": "005c290f97d80cc411a3bf063e075f357e650da7865ec2ec069bc5f7f8562cb7"
     },
     {
       "id": "genre-strategy-sim",
@@ -2719,7 +2731,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "18caa20a9f0b306a2bcd72377b5bb82f2dc1a97d0de647e83caaf5269cdea1e5"
+      "sha256": "c436f39389b35750b4d34ee84251394fa988ace8e55b3906e042a9da5b4ce868"
     },
     {
       "id": "genre-survival",
@@ -2731,7 +2743,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "489f09af57c57bfb89a7c08ed37f05ee68a25715953515465cf87859ff31fd53"
+      "sha256": "06b0b04aef2a853e3e985e38222beb9ce79a0aa3c9d4637db8368744021893d7"
     },
     {
       "id": "geometry-nodes",
@@ -2743,7 +2755,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "f04add65d17201c3d58d09575fc1da7408e95e270b35614e66bf0928663196d9"
+      "sha256": "713b224ee6e218af53d2727f698e61272d01b3038778f2cc2c9f1aa24c1f2c76"
     },
     {
       "id": "gestures",
@@ -2755,7 +2767,7 @@
       "dependencies": [
         "pick-ui-library"
       ],
-      "sha256": "1928c86cce924a2a178ddd156ba5ed0f184665a1f95b549724ffb5ae703e994f"
+      "sha256": "fcf2f322f7bb1147f3b917377bca060f674fa48c0e6a149714e9bc534fe5d8e4"
     },
     {
       "id": "gsap-core",
@@ -2765,7 +2777,7 @@
       "path": "skills/gsap-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+      "sha256": "de938eefd9a5bc6335216a17783788cd21408923ead290cda5871b7d61db66b8"
     },
     {
       "id": "gsap-frameworks",
@@ -2775,7 +2787,7 @@
       "path": "skills/gsap-frameworks/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6"
+      "sha256": "3d7e8c2f6bddb32ffc1763b17bba9a8a3dcbc3bd5bf6815d921d3c5a4aded85d"
     },
     {
       "id": "gsap-performance",
@@ -2785,7 +2797,7 @@
       "path": "skills/gsap-performance/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+      "sha256": "2dd51f19a7fcabe1c06caee9e61554485696d05003396c528237aba970a959ce"
     },
     {
       "id": "gsap-plugins",
@@ -2795,7 +2807,7 @@
       "path": "skills/gsap-plugins/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4"
+      "sha256": "a755f587a107ae5c9f4f35702f6e0d870774c6930e28a082c4e9ebb1d2c7bf06"
     },
     {
       "id": "gsap-react",
@@ -2805,7 +2817,7 @@
       "path": "skills/gsap-react/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+      "sha256": "fd1ce4fa883a256e6578f13a4271b494a18dffaaa6111ab64ca1bc97d4dd8b21"
     },
     {
       "id": "gsap-scrolltrigger",
@@ -2815,7 +2827,7 @@
       "path": "skills/gsap-scrolltrigger/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4"
+      "sha256": "e6612777bcce1617d3b9e061b2f671fb0f36379684d0c61f7a1baa06d7f7a989"
     },
     {
       "id": "gsap-scrolltrigger-storytelling",
@@ -2835,7 +2847,7 @@
       "path": "skills/gsap-timeline/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+      "sha256": "fbe7a2b9e66e66d2c956f650583d48385498b677ba1292f1dce9d1ffb1a77ea0"
     },
     {
       "id": "gsap-utils",
@@ -2845,7 +2857,7 @@
       "path": "skills/gsap-utils/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba"
+      "sha256": "f71503f423561eeb5567ae8ee41e4363c85fd3970a8feaeac2c2b18309596bab"
     },
     {
       "id": "hair-groom",
@@ -2857,7 +2869,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "e812c1c8a205515a811dbbd405e2529250bacee7726e8efa222bbd5b58400476"
+      "sha256": "f55bbce3af6835867bae1172672df72595ae2476e9f7dc507a3dcd3e1f7f8974"
     },
     {
       "id": "hand-painted-style",
@@ -2869,7 +2881,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "fd8c4418c2f3c51ddb494d51a558b935dc6c3de7aa9bf65f45349e4b1aa0022f"
+      "sha256": "72daf83ef03eb8abdd8b9b4ceb540c8a8f9389bee325bf8e3aebc717a8354f16"
     },
     {
       "id": "hard-surface",
@@ -2891,7 +2903,7 @@
       "path": "skills/hd-2d-style/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "99e8833cee66d720b662643f51eb5ca42643ed35228d953a178eafe86c25b9c3"
+      "sha256": "8658606c9cb120ac2ab37be255b5e9ea9efc53ac508f51730b598fa9aaaa7e9c"
     },
     {
       "id": "historical-worlds",
@@ -2903,7 +2915,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "4c1dfa736de10462bd362e4f438ce3d8f1862aeb04502d7a3cfbd8b1b3cbb2d3"
+      "sha256": "b124c4a0cf0e90ed5ca35ddb8fc9d746302506888ff54257aa44fdf5f0c04a39"
     },
     {
       "id": "horizontal-scroll-scenes",
@@ -2925,7 +2937,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "ba007d86309da1569e30972f04d67ff2f2ed405b3c6d6a806642c0180ecae847"
+      "sha256": "98d102a60cd22140a324552d5ca74dfa2e11c2f364442bb9bd6462f883db42b0"
     },
     {
       "id": "i18n-localization",
@@ -2965,7 +2977,7 @@
       "path": "skills/impeccable/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "dc7c49c1ad645d0ab8737e852419bba0a9db27cdceebad3630e88d5f772813be"
+      "sha256": "dd42ccc82a6ca4e2b1fee0f98584451e232a5e8b388c2b2b4476e4ad480311ea"
     },
     {
       "id": "improve-animations",
@@ -2977,7 +2989,7 @@
       "dependencies": [
         "review-animations"
       ],
-      "sha256": "632be90e04261192112571b05abd5708fbb846808a4a7780717ee206daa6c6f6"
+      "sha256": "277928e285008f508b06d1440f726b04f0ce097ae461fba1f3869d3a57920f3e"
     },
     {
       "id": "indie-horror-aesthetics",
@@ -2989,7 +3001,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1017c5f6adf8b3b6cc83a7a41ce4fda573f662be6d026641ae6905da509f0e1e"
+      "sha256": "7f7d0e37a3aa996622f18e0392efcad6b478cdbd56fec6556334bcfc518b2fd8"
     },
     {
       "id": "input-systems",
@@ -2999,7 +3011,7 @@
       "path": "skills/input-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3fccea4c4d81061538d5844b918f1193ceb5e753d4e4b2fa8ef53a853742c949"
+      "sha256": "443d2c575fab06e8e3b90a3d39a0ba8ce24b93693a31a7b5a9dfcfc992f73636"
     },
     {
       "id": "inspect-in-devtools",
@@ -3009,7 +3021,7 @@
       "path": "skills/inspect-in-devtools/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "8db63e9a5dd93a1f77df31c786c5d0815614533a5321de0904eff9887f7c5f18"
+      "sha256": "60e5d12979acca0a86a526a64e59677d592634c9b893afe58a08e455f6981e3b"
     },
     {
       "id": "interactive-portfolio",
@@ -3029,7 +3041,7 @@
       "path": "skills/interface-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "57dbc1dae8b3386a4dbd8ff8b359af255af4b9d3abea905a8959544a10b8efea"
+      "sha256": "2451f87df8a03ecc8ce5751f48dcb7b7909c47280c8a2d9badc0a2aa0f1f3410"
     },
     {
       "id": "ios-developer",
@@ -3051,7 +3063,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "e6d15bb0b630709116109a60176c96e284a6a7760aacd53c6578c1f6c3e04a91"
+      "sha256": "b15f5ce3bbf3d46d8da73d7196cf502dec5bec78cc78cac83b6ef61bd605bcf3"
     },
     {
       "id": "itch-publish",
@@ -3061,7 +3073,7 @@
       "path": "skills/itch-publish/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3ae1d2c6e3ac5fffdbe2b444a8f148cf8bff7163e38ca91c2e106a1399336631"
+      "sha256": "64cf616ba46fce00fdc232a262610bbfbd657f01bc5d2bad62432d7a481e24d2"
     },
     {
       "id": "juce-auto-updates",
@@ -3111,7 +3123,7 @@
       "path": "skills/juce-guide/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e13cf9f8714a646db290e1fbde9c2b0eae328bb316d49f54388b22dc17347a33"
+      "sha256": "a1e890ccacaa97be36ab2c4d419b47d855726c193732cf6fa382b7d86f297afc"
     },
     {
       "id": "juce-project-create",
@@ -3141,7 +3153,7 @@
       "path": "skills/juce-project-starter/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "729eba5c3f1866b34e1c5c8e6767a56630f2e92c74f7114dd40479ad167ac608"
+      "sha256": "663465020768e9af8700d7c9033c20dd12a60583b1711ef1dd89b87416d35b35"
     },
     {
       "id": "juce-review",
@@ -3151,7 +3163,7 @@
       "path": "skills/juce-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "93fc3f875c761986f6bc8cb8ff08fb7f0a86641b84cf5653bfc8eb1d139d8cc8"
+      "sha256": "bd2320b47b593b2b73e4f0bd7993473444be901dc96e121ff2c16af77cef2b43"
     },
     {
       "id": "juce-setup-ios",
@@ -3181,7 +3193,7 @@
       "path": "skills/juce-ui-fidelity/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f10e412a9fae3df09f58a6e7fb4605d62a7be3aca542bcfd876e8b0acbb38999"
+      "sha256": "817b1ac832e125447d3b7af10c834b843de5edc409f27f85f67028ec6a2ca8af"
     },
     {
       "id": "juce-visage-ui",
@@ -3191,7 +3203,7 @@
       "path": "skills/juce-visage-ui/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "cb5b34ac60e796b1e33b74761a7fad058df497861285be72421f71308b72a38c"
+      "sha256": "d5dccb158ff52f6de61ac15e51596d3270d9d6f531fea194e21f83612afe9ef4"
     },
     {
       "id": "kpi-dashboard-design",
@@ -3221,7 +3233,7 @@
       "path": "skills/learn-taste/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d624b8cd475eec24c5dc3f49b0380b56c8dab8399df11b92d7c9685aa8d4d33e"
+      "sha256": "d0103d9a673a218fadfde560197c0af762cb28d17dbcdccf58e7db45eff96649"
     },
     {
       "id": "level-design",
@@ -3231,7 +3243,7 @@
       "path": "skills/level-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "aa5d7a8f97987e12b7127460735da9ec73141452068c15801965057006ba8bec"
+      "sha256": "c7ee1d53e6aacc528e95bfe82205b094b66078ab00febcc605a197f47284e534"
     },
     {
       "id": "lighting",
@@ -3243,7 +3255,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "a9ad1a183a4294c3e87101b63d26303ea499cfe8edc25c3b9a4c73f5e7b34232"
+      "sha256": "31963d3326c704a34be1ecdae8564f2e9b32e0b999573be362c11806f5601d93"
     },
     {
       "id": "lightning-energy-skill-vfx",
@@ -3265,7 +3277,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "b048ac56ef898ef3a4c528cc91581f51bb73e8a43442abf9d00a71f7ab31c6eb"
+      "sha256": "20d5ca701404f8dafb34ec6885c615df24b5e7915a0b3674ffcee2c2e048201a"
     },
     {
       "id": "lod-pipeline",
@@ -3277,7 +3289,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "8025238b3ef5238e9d5304d8014645df2889e0fc09aa5d86de5fea57eafd5b0e"
+      "sha256": "54899b08195c892420cd4c5326724954f04d69590eb948d4e53d547d6b197894"
     },
     {
       "id": "lookdev",
@@ -3289,7 +3301,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "7eb0de0bebf2c3235f46272f93aafc66c72b10493e0e84d42a5cb7c79395e6ce"
+      "sha256": "1afedfcd75805db0b46dd604c2f9b78fabb31fef59c3755dc56a6614a993aac2"
     },
     {
       "id": "love2d-core",
@@ -3299,7 +3311,7 @@
       "path": "skills/love2d-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "dd0333a6bb44d7949bc74f176b3092b0d7086c949ca85b0621ed101c447779c8"
+      "sha256": "69770e2960b9f916f1206c6c16942f9c4ce1f6401c27d5b308527ea5210fc907"
     },
     {
       "id": "lowpoly-style",
@@ -3333,7 +3345,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "32895485256920528b4d56794f4dfbbf4a317e6b5f0d328ea5088df438b6da08"
+      "sha256": "be47f9a2d4c55a1b2875bde3724ec93f890e9f6fa6cb484c753c0dbc8622f91d"
     },
     {
       "id": "mascot-puppet-horror",
@@ -3345,7 +3357,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "21de6064e1a8dafea6be9a4050f033d47b49db93db604dbd58f35eae075efd47"
+      "sha256": "ec1bb900e450b393452cb05ce6f957a560011b6b2c3b27eede7cd98ac3780d7b"
     },
     {
       "id": "materials",
@@ -3357,7 +3369,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "fc86c8f2e292791a3bc4f238ae0f2120c52d61b393ef922c55860dd2b78e43b6"
+      "sha256": "3f9d37fe0585c64bbd123f4e45fff7807909d28237a29917afa0de4eaff005dd"
     },
     {
       "id": "memory-leak-debugging",
@@ -3367,7 +3379,7 @@
       "path": "skills/memory-leak-debugging/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "895127ac55a3f2c4e0ca9be496e84165eee6408637c2bcc5516d69170a8de80e"
+      "sha256": "a05efb7e19234a84d30ed3334a83777268bd1da2d1ef5f2d828f6bebe1abcaa9"
     },
     {
       "id": "minimalist-style",
@@ -3379,7 +3391,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "cd4cf9141a1c5c0b16b25c53c7fa9958addaddb4051e8eb9ce24f95565001b6d"
+      "sha256": "dbbea371a4baf6909540090b64180f9ad63a5b1dfd4528bcc7e493f6158cc26b"
     },
     {
       "id": "mobile-design",
@@ -3409,7 +3421,7 @@
       "path": "skills/mobile-native/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "705e267bc47ea61e4c6f94d121efeebdb994055f482673b8a72f4a0dd62f1968"
+      "sha256": "dfdc6a90bf9fdb3bc2665f09a3a00318e8fe99c92b739044e665eb926233773c"
     },
     {
       "id": "modern-web-design-systems",
@@ -3419,7 +3431,7 @@
       "path": "skills/modern-web-design-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "fe4a7171c6b3aa147b1fd54700275442cc96338239a4077a7d8b78fc1ecfa3a2"
+      "sha256": "52c83c291219564b68296bfd8eb24b90713f2b83a348f1c26602d343a9acd5d5"
     },
     {
       "id": "modern-web-guidance",
@@ -3429,7 +3441,7 @@
       "path": "skills/modern-web-guidance/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1292f0ce14794a5bc49af58e99d5f6d4edf10acd9472cade94ab0c5590892716"
+      "sha256": "6a42a59d15220c75aef8d81b951bdea9511d7f818f23b9b6ee1c46aa088cc1b1"
     },
     {
       "id": "moss-glass-controls",
@@ -3449,7 +3461,7 @@
       "path": "skills/music-composition-producer/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f639a069833641b95db44d9b4735829447e3c336613991f9db40b7fd2ed544b8"
+      "sha256": "a576d521bce7ba2a26191f457a6dfbe46c65beb8f6a5af86d0de79eb62f295c5"
     },
     {
       "id": "neon-retrofuturism",
@@ -3461,7 +3473,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "06cf7b0d833b698e2129bf4285791ff616c45a738af84f3212fdbc4c45a4aed5"
+      "sha256": "a73c579887448bed5b7ca889008c9416ca322718c1abdb926e1da0bc34f20588"
     },
     {
       "id": "nextjs-app-router-patterns",
@@ -3513,7 +3525,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "f8179d4612fa288606116dfa42ac95bdba5cc9117677dc092ef716070616e039"
+      "sha256": "44901d56110475b127459f87eed8cd6fb400632256786a53c23a149703b74434"
     },
     {
       "id": "optimize-threejs-games",
@@ -3535,7 +3547,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "a5b263460a1a384d56151bedf7163611df1df6bcb9fe298b74066c87ffbadbbe"
+      "sha256": "883d3faff9127470705181a672acd747bbf6cc75b74bbd643cab26505f850b39"
     },
     {
       "id": "perching-butterfly",
@@ -3555,7 +3567,7 @@
       "path": "skills/performance-optimization/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "61538ac2e3ef68aca3194aec7eb9f54510762e86ac81ff1a4451e9fead31a3be"
+      "sha256": "a5e0d0fae132ed0ed9b5e1686454e69827d24d27281fe0d0f978b88231eddc46"
     },
     {
       "id": "phaser-arcade-physics",
@@ -3565,7 +3577,7 @@
       "path": "skills/phaser-arcade-physics/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "272819281e6ca95222bd0cc73bd84601c2e19acf277bad47231de65ac04c9b10"
+      "sha256": "13ef8af0f4df247149778d0132d026479e19bc780113d0999caf15c56ef71ebe"
     },
     {
       "id": "phaser-core",
@@ -3575,7 +3587,7 @@
       "path": "skills/phaser-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "bf03dae45e690dfa78f255a0580ff8b331c81232bf1fba45ea6e431bd0796e7c"
+      "sha256": "9410831ca5ab4426884c745005310acccec9191f95804ab52db90f804d5d49e4"
     },
     {
       "id": "physics-sim",
@@ -3587,7 +3599,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "fa6a137145e5917b819b9948fcbae3614d3373190175193269ad152c67082d7c"
+      "sha256": "91d9b557d1874817276811988bdb1e3bb8b203e9cccb87045c593daa5e4fa0fd"
     },
     {
       "id": "physics-tuning",
@@ -3597,7 +3609,7 @@
       "path": "skills/physics-tuning/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "0a1731f5752670547e10e0fa894cf6d383a07c2a691d4ee62e7155092b35ab27"
+      "sha256": "33e2ce7519eed6b34a5654f27a4ade2ad53d7840bc16aef2313d6233d1fc6bbd"
     },
     {
       "id": "pick-ui-library",
@@ -3607,7 +3619,7 @@
       "path": "skills/pick-ui-library/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "db10dc6b2a0c340d873f69e35140ceb3c929e15664b33fcacd1ecb25c5574df3"
+      "sha256": "623a898038c1a71b9455a9b664cce75cf1bc45b1f23560f58c3aae8ac022f1e4"
     },
     {
       "id": "pixel-art-style",
@@ -3619,7 +3631,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "456abb3101ed885ec733ecbdeb9b9834b77d48e3fdb0b13a10e0040d54f15a34"
+      "sha256": "7820ff5f02be6d403a1242532fc1ebb5036a75f8ffa6d09a6bd0a75922e4c76d"
     },
     {
       "id": "pixijs-rendering",
@@ -3629,7 +3641,7 @@
       "path": "skills/pixijs-rendering/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b707d1ee6968ef45115c84a4e15db129280b46e0e5d82fb704c45ea7c38b9141"
+      "sha256": "83f96d7f66f3204c4dfb968f10a1ca9ba87fe20bc518fed5b575dff7050c9c4f"
     },
     {
       "id": "platformer",
@@ -3639,7 +3651,7 @@
       "path": "skills/platformer/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "dbc4fbcbcdedc5f1630bd709afc5da0a814207661d87909af259ac264361c8cb"
+      "sha256": "240fb39924fb02b53d6bbe101d22ee1e690ef1835dccb4e305b270a46bbd03cf"
     },
     {
       "id": "playwright",
@@ -3649,7 +3661,7 @@
       "path": "skills/playwright/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
+      "sha256": "c52cc95125b720cdc3c9829b0294c2752d4ae9b85a5282aa153da8bba929af87"
     },
     {
       "id": "playwright-skill",
@@ -3679,7 +3691,7 @@
       "path": "skills/procedural-gen/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9b6d6c8e64313b1d05bed7aa64cf2afb8163d9dadec85a0f8197e572efadb8f3"
+      "sha256": "52b7420983e401d1fd89f8bc128ee98f676e03f486f8ceada5d4fe34c2a19d56"
     },
     {
       "id": "procedural-modeling",
@@ -3693,7 +3705,7 @@
         "environment-artist",
         "geometry-nodes"
       ],
-      "sha256": "143556702f08e2bcab1d61dc38c0ee953bf90835483ebbaf1058c9e8c2364e03"
+      "sha256": "8deea1c9acaf5b0dedfaeb7a374a2897e35e870ab7c7dbdf69bbd9ecee147f01"
     },
     {
       "id": "progressive-blur",
@@ -3713,7 +3725,7 @@
       "path": "skills/prop-artist/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f8db44db9707474893cf265592242148cbe7b4a597eed1f017c25131fb2b91ff"
+      "sha256": "53fe5b2f6a1af811bb1c66f7cdecc5560486b3bd69411542d0aff15598078c58"
     },
     {
       "id": "prototype",
@@ -3723,7 +3735,7 @@
       "path": "skills/prototype/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "30def86c5a5a0794a954b2a046d24c847c7129f316d79892abff73d54d79adc0"
+      "sha256": "ab9b7cd8c730606218b95df8f8ff22fa0989f7fa829c418eeb4474996d75aeca"
     },
     {
       "id": "prototype-fast",
@@ -3733,7 +3745,7 @@
       "path": "skills/prototype-fast/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "7ec735cb0d87631ea482ea134caf7f5293918cf72a18b77b9e7d677d6aff3bb2"
+      "sha256": "7331cf86b78a63c222dde94db3abccc01821faeb663ae541649861c06e371533"
     },
     {
       "id": "psx-horror-style",
@@ -3745,7 +3757,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "50e981f2544c40cebd765d13ea487568b9ff50ac173e38d167d5373fa303d815"
+      "sha256": "1263c25e1e2b2c2b2d0ab735ad11e3a085e82c4ddbfe4a545c75d0822907605c"
     },
     {
       "id": "puzzle",
@@ -3755,7 +3767,7 @@
       "path": "skills/puzzle/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c361d9b010c4ad74c72391e1f36f7433d96f88b2b6f75ebfc5726feeb11a30ba"
+      "sha256": "9c70bcec3d5c460bd3111b83b651f90e5229f13b9c33cdfe69935e268261ddfd"
     },
     {
       "id": "pygame-core",
@@ -3765,7 +3777,7 @@
       "path": "skills/pygame-core/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "38369a63fb48bb2d0e1fd011ebb16868f95485d187fecfe7da44edf5f7e871fe"
+      "sha256": "e2e48df01dd0633454847d7bfc605b909f70cf081ea4cce9e3dd8a83905d57fd"
     },
     {
       "id": "qa-review",
@@ -3797,7 +3809,7 @@
       "path": "skills/react-best-practices/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355"
+      "sha256": "3286ace648b4d740317b9c1cb7fbd38600eaacc62a8b57ea5e06fd2992b5582e"
     },
     {
       "id": "react-flow-node-ts",
@@ -3837,7 +3849,7 @@
       "path": "skills/react-native-skills/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66"
+      "sha256": "aff91057282facb41ddc8873a482e19cfb928056fc32b350e1b084b16cb58dc2"
     },
     {
       "id": "react-patterns",
@@ -3877,7 +3889,7 @@
       "path": "skills/react-vite-dashboard/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "87b624265ad4509ce8a3d31e7394749bce088a44f92498bfb65f096afb98701b"
+      "sha256": "136e05587c76633e6033817b1b3c9e50a8e11765aa9f82df32b991f550a78a51"
     },
     {
       "id": "real-sound",
@@ -3887,7 +3899,7 @@
       "path": "skills/real-sound/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4810cd9a42676d927ca3cee29933bdbf2ddb92976e869fa439f38531bbc59a0e"
+      "sha256": "ab74dd09f5e2a36cfd54f1a4db4c05f461795b91b41147d029271bcd864f3b26"
     },
     {
       "id": "realistic-style",
@@ -3899,7 +3911,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1e61757ec4f9fed5502e7a2c145bf1a8b01da3a6e0988b32c042d1eeeab1b491"
+      "sha256": "c113d2277481d7bd3b81425f1a174a928e1f510c23050fbc184e28daa77f21e8"
     },
     {
       "id": "relight-painted-surfaces",
@@ -3919,7 +3931,7 @@
       "path": "skills/remotion/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "7147fc5a627081fceb7b6ab6191426643747e738bb857587de1d3c1b6eecd755"
+      "sha256": "bf3e280ee4a88132c4ed8e16a1ba6a3ce1b8af38977f6907ce11d22e5d2a4c3d"
     },
     {
       "id": "remotion-best-practices",
@@ -3939,7 +3951,7 @@
       "path": "skills/remove-animations/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "228d98a3d05637f2ff8fc2d1c2bd88c14783c8c901105cac39a7ae24a4d3e408"
+      "sha256": "b4bb5ab3d620efd9fc6fc471098b41fa5588ac70f9178f077c6998f9ea680bb9"
     },
     {
       "id": "rendering",
@@ -3975,7 +3987,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "ed44909913fc534a1960533b82381a35baca326830a52f2969af2a52997f7223"
+      "sha256": "e9869385d814c258017019c9e4939cabfa1663846a0f73708c1d19dd993cdf6e"
     },
     {
       "id": "retro-8bit-style",
@@ -3987,7 +3999,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "0a079ab1525070e824d19da58f691a42ea9768e7ed17b37e6a0c2cf9d45eaa4a"
+      "sha256": "d539dcdba13936097147d07bf4c1649619667382b7f68d29628bb2d707f94b8b"
     },
     {
       "id": "review-animations",
@@ -3999,7 +4011,7 @@
       "dependencies": [
         "choreograph"
       ],
-      "sha256": "9ceb5072ce5d5e51b07efa60817c66d06fc6492b7900b44dff5ff0f8f7bcf188"
+      "sha256": "665d19fe80592bf7c9d0b073c2fed287ee86eee0c8197f2dfd82fb217aa65b57"
     },
     {
       "id": "rigging",
@@ -4011,7 +4023,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "a5469b3a46f46e659b17e0afd0fb0b1c41751e60246205af785d1dc316a32f9a"
+      "sha256": "f30ad93a154215a9ca76ef1ea304d9f560414a0a1a90efc49c1de7cbefa5819b"
     },
     {
       "id": "roguelike",
@@ -4021,7 +4033,7 @@
       "path": "skills/roguelike/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "45d5fd26ec2bbf35620af873bf437473816c6771b30426b446f0415ec1aad052"
+      "sha256": "dc01796208e5bd0cf34881fcadd830de2568815fef8e8ed591b65254c0f74597"
     },
     {
       "id": "rpg",
@@ -4031,7 +4043,7 @@
       "path": "skills/rpg/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "d62e3327dba436b697bfbecf34e7af022e54d3eca451d9fea5d814fe6f791caa"
+      "sha256": "1f10b714e96abefde03c5ab3c54a9b68c736f23431b4a0be6639f7038607d471"
     },
     {
       "id": "rust-anything",
@@ -4041,7 +4053,7 @@
       "path": "skills/rust-anything/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "adcd6cd4b784ca41261af670713eb1843a3d42c2ecb3d4c27105bfe882f6c7aa"
+      "sha256": "59d25521ae5b119bf5208fbf6c2dacbeb9a6fa26f12d35e5a240e95217109aa1"
     },
     {
       "id": "save-systems",
@@ -4051,7 +4063,7 @@
       "path": "skills/save-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "84620777d23dd018665ba86254fcf52fbd88e517d4cfe41b112c720711d6c908"
+      "sha256": "6457b8b28e0a9cbbe6191d40f4553903fe8590a54e0c1a7c7470b79ad0842e08"
     },
     {
       "id": "scene-assembly",
@@ -4063,7 +4075,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "9aad0ebdeac897304989b9a06efdaa566a76962ef9409e6e4076474dec23e34f"
+      "sha256": "cd005adc8424c8dae7688a39647af7c880276ee0747d8287bad7d1b94d6a2723"
     },
     {
       "id": "sci-fi-punk-worlds",
@@ -4075,7 +4087,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "e1aaeddf86711bad2547b8ef445347a3f51c1e580472a06c91612fc60e2356f9"
+      "sha256": "e3fef80d6731b841c5f5f52573b3b89803b7d2611610f48f1f1f3e8c9beae5e7"
     },
     {
       "id": "screenshot",
@@ -4085,7 +4097,7 @@
       "path": "skills/screenshot/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5"
+      "sha256": "2fb7b2d8010517699b1a44f1d587d028b9dad2e2770366d2052238d46c9a9e36"
     },
     {
       "id": "screenshots",
@@ -4118,7 +4130,7 @@
         "blender-core",
         "texture-workflow"
       ],
-      "sha256": "fa84c5b530fe66ab335c6c766ffb10e49152b05b45adfbe316b0de306e3a98a0"
+      "sha256": "668df36bec89f47179f8720a11a72a59fc874a7346ae35ba623480d6de962da1"
     },
     {
       "id": "segmented-field-menu",
@@ -4138,7 +4150,7 @@
       "path": "skills/set-dressing/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c35d19573a97282de73f1fe1e1ab9e447d279052a98db76c8faec8a3cd3fbd6b"
+      "sha256": "d8473653cb47ee9793c23d416e50ebac89017ece4c134064cc202983ff2a60db"
     },
     {
       "id": "shadcn-ui",
@@ -4148,7 +4160,7 @@
       "path": "skills/shadcn-ui/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "2ddfe599ac2ba631ca019f7b6e37ee5df9cd34f83fc016f6ea9d4ba5bbfa0304"
+      "sha256": "d4d76696c3ecead8ffb6d03fb0d8905391bc621337a547c4781a8c4986ad5c18"
     },
     {
       "id": "shader-programming",
@@ -4158,7 +4170,7 @@
       "path": "skills/shader-programming/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "85ed2918a801afd183361a3452f6879a711cabcc6b0ed3da60de3b07b9ad8c52"
+      "sha256": "f18e7ef13b3e6babff1a2138a0a1edb0d665a70d833541b68f3e6d5a1165e3a1"
     },
     {
       "id": "ship-web-games",
@@ -4178,7 +4190,7 @@
       "path": "skills/site-md/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "679a0020ea2fbfdc4c4db84c32936eaea203263ebccb4d217eff1cf418d3de60"
+      "sha256": "fed568e9bf559f293330c895da42a8c3c8d870c9f2dc84f64712ba88421e2c32"
     },
     {
       "id": "skeuomorphic-ui",
@@ -4198,7 +4210,7 @@
       "path": "skills/sound-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ada1b0ba9dc1de61fa3e3a19a6b3a3e80000966f02d40e4727a650040261dd07"
+      "sha256": "f7054e5448e06eb9eddaf99933178afbfc090a46522a27f7b1b2f854c22fccf0"
     },
     {
       "id": "state-machine",
@@ -4208,7 +4220,7 @@
       "path": "skills/state-machine/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "658ff671aaa710424520a99734adf44fc8b97baaf69e604b38776e7e96a7ae7e"
+      "sha256": "04109574d85fc657b8e3e190ad947562f3b328963fe2f9235e0d5cc06760573b"
     },
     {
       "id": "steam-publish",
@@ -4218,7 +4230,7 @@
       "path": "skills/steam-publish/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "997f46efe8f63a1865fecd1b5b188279fefbe864c734418adeedf3ed778d3373"
+      "sha256": "ba6ed1e423bfbf859e2c9da80bc0b1e9227ab443f561811206a06c9d7fd30fc3"
     },
     {
       "id": "stitch-code-to-design",
@@ -4268,7 +4280,7 @@
       "path": "skills/stitch-loop/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "05f39ecf81b0664872e6f3d6be01c53cf8c1f8b9ef14c741fe01d1ac424ce634"
+      "sha256": "5df1b0bb98ae27e70a8f06a5ec4be34ffa927f88608be207b10acc1e4e84d4b2"
     },
     {
       "id": "stitch-manage-design-system",
@@ -4330,7 +4342,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "4459f37cfbbd0f9c812fa9c36c1a7206296413ec998ddb5d25f5299c29443cce"
+      "sha256": "444f3cfa1744b99e7a331a844f32cb6f09e20033a287d46ecb8938a652755a32"
     },
     {
       "id": "stylized-style",
@@ -4342,7 +4354,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "3e819081e503a6de37ae4f2e9ffc2fa54ba4b08808eeb764c2f2a19519094129"
+      "sha256": "50768e415e3bafb63c8013bc46b4f7e825b7230acff54913ce24b4df6557d828"
     },
     {
       "id": "survival-crafting",
@@ -4352,7 +4364,7 @@
       "path": "skills/survival-crafting/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "371227f620b439b0047355bd7b3cccd22f965574bc25ab89dc671ce5857b4601"
+      "sha256": "e1922912b9c032c89f0d16059935fbb916dc155f4f8adfbf67919499e9bef3ea"
     },
     {
       "id": "swiftui-expert-skill",
@@ -4402,7 +4414,7 @@
       "path": "skills/taste-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e425fdb7ab250764f6229c48941f97e20bd6a7ba9e25a628f1e0ebeb008e8bff"
+      "sha256": "b8d06276272de59118801915ef8121519756273162534bba0c84f8a0d9b5e0cc"
     },
     {
       "id": "taste-skill",
@@ -4412,7 +4424,7 @@
       "path": "skills/taste-skill/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "0c7a5852a5217be79cab422c6d58329b776f0c25bd6da8a7a01707ce75be6206"
+      "sha256": "dfd1190acb78995c35294bc8bdd36aa14ce54aee9b0707ce9d6d12524209721f"
     },
     {
       "id": "test-playable-web-games",
@@ -4444,7 +4456,7 @@
       "path": "skills/theme-factory/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552"
+      "sha256": "7c765e6626bf61eca30224ceeb0da51ac003c7c2f1c1743ace9b3baa305ea632"
     },
     {
       "id": "threejs",
@@ -4464,7 +4476,7 @@
       "path": "skills/threejs-3d-generator/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f0ace24708a44297183d1763534c0f21cc00b12ffa59ff8882f7ffff60e1c1a7"
+      "sha256": "1c403e3f89fd9dd97eec64f1a3d60fd1fcd41e098ec72876fe6e7035403a1c9a"
     },
     {
       "id": "threejs-aaa-graphics-builder",
@@ -4474,7 +4486,7 @@
       "path": "skills/threejs-aaa-graphics-builder/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6656c3a0c3553cf78e0e64665bd6e697e06eeebbe2276b10538483820688f7b6"
+      "sha256": "0607460dd603644d471fcad9b579b99e042ab2a939a52eaaf1000892836ce920"
     },
     {
       "id": "threejs-atmosphere-aerial-perspective",
@@ -4484,7 +4496,7 @@
       "path": "skills/threejs-atmosphere-aerial-perspective/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "5ccdc777c0e38794c212011da8c8f8b69c183aab35872550bd1e8c82b9b96bca"
+      "sha256": "bb7099aa18ee1127cc158cf14142ea42d08400d974905a32df4a664312c5739f"
     },
     {
       "id": "threejs-audio-generator",
@@ -4494,7 +4506,7 @@
       "path": "skills/threejs-audio-generator/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6510cdece14c9652f24930d1281f2d1c2aa56d80ea0f18390028a2de9ac3d3bd"
+      "sha256": "7602dd274c1bbf24d943e06c6f3aa38de738e9c3a7a120e3118649b8bcc154bb"
     },
     {
       "id": "threejs-bloom",
@@ -4504,7 +4516,7 @@
       "path": "skills/threejs-bloom/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "c5dffc98490a527d225ef304b58961331cdddbb658e0f99c49e3e8176df2ad37"
+      "sha256": "8096e7738cc8bcab65a7a179fa568cc536ac6759a2e3e9083bc6a0ce826c2cdf"
     },
     {
       "id": "threejs-camera-direction",
@@ -4514,7 +4526,7 @@
       "path": "skills/threejs-camera-direction/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "9559e63ade85dc5084284d4f10cce45685d08bc6c0268b6a900333af91207bb1"
+      "sha256": "2cb2432eda6c33cd1a6462df7db4f7fa41eea0a17c129d8b4e3930dd24a97248"
     },
     {
       "id": "threejs-debug-profiler",
@@ -4524,7 +4536,7 @@
       "path": "skills/threejs-debug-profiler/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1cf28e596eec23a88d310cb9ca3b652aebb3e70f889202ddd5988f591ff243bf"
+      "sha256": "20b1dc50ed5872698c27e03e379d8695d47e1515062ecc8589b3bb3cdcc7d27b"
     },
     {
       "id": "threejs-exposure-color-grading",
@@ -4534,7 +4546,7 @@
       "path": "skills/threejs-exposure-color-grading/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a66e5171232e5483fadaff14b74f2a852e7b50cadc563c21ec867f240e140b9a"
+      "sha256": "701a13fc0174e99326e1d4fe26d10743a80d86d37d9c8762e533c1f66ac694eb"
     },
     {
       "id": "threejs-game-director",
@@ -4544,7 +4556,7 @@
       "path": "skills/threejs-game-director/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1c7a19cc1af9208bc63913e9b09fd9dbf95511fdb69d5212154aed960bca27e6"
+      "sha256": "88c4810af05d20f180af993adae65632bf8b70cf35218fdd7c9a21169f1a5d6c"
     },
     {
       "id": "threejs-game-ui-designer",
@@ -4554,7 +4566,7 @@
       "path": "skills/threejs-game-ui-designer/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f68b6a0ad4347ed30fb416d3e5d9ee21e63af6c43dc05a3784f3e333f21e4f85"
+      "sha256": "190f9e29ad0b12adaaea4226bb6efa30ebdc0446ff229202a8de5f05efcf6453"
     },
     {
       "id": "threejs-gameplay-systems",
@@ -4564,7 +4576,7 @@
       "path": "skills/threejs-gameplay-systems/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4d3501c0356673ca99d7559e6b8804bdd8ef79175f546bfdc43bd0ebd4ece245"
+      "sha256": "782480029079d0ec321ee555417e901760b863fff816ff7eb5ddc650f06f014f"
     },
     {
       "id": "threejs-gltf-loading",
@@ -4574,7 +4586,7 @@
       "path": "skills/threejs-gltf-loading/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "416fdd451118f72c867993e0f44716c0570ab8859d7c5db09b1b5c597c4b4bf4"
+      "sha256": "4d801fd93f3151c72ea6e09cad87cf28094bc64032ef28bc5cdd6bcc3d5f6d75"
     },
     {
       "id": "threejs-image-generator",
@@ -4584,7 +4596,7 @@
       "path": "skills/threejs-image-generator/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3abbf9e964133d11bb347ea703ede931ac356f16da29b21499e02f4911117159"
+      "sha256": "84661fa9a0b8a3dcba3ac236017c9dfec2deebd081d91c88b1852b8df5fc83f1"
     },
     {
       "id": "threejs-image-pipeline",
@@ -4594,7 +4606,7 @@
       "path": "skills/threejs-image-pipeline/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "db5a77f701f7d2b46cab04399cda52b509dca5b536732b208dfcf6270f7daf92"
+      "sha256": "476278cbe1345f0c958a9e79ed8b9e13bfc8f80c335dd8ba2019acf4ae7e48f4"
     },
     {
       "id": "threejs-materials-lighting",
@@ -4604,7 +4616,7 @@
       "path": "skills/threejs-materials-lighting/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1384f42a7b05571e2c6f22f98fe82084b3021f1900d01144ed01da86aa9aca01"
+      "sha256": "dd9b8df6b151c8b6d7f05f5cce852bb9be49ca411f0a55fc9a43f0cfd6ddce1a"
     },
     {
       "id": "threejs-parallax-occlusion-mapping",
@@ -4614,7 +4626,7 @@
       "path": "skills/threejs-parallax-occlusion-mapping/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "8ebde265af7526deeafe83b86d5ddd3b7395cc40c49ae31c13c0a30d1dc8d54c"
+      "sha256": "1222725eb492e7b601c318c494679db1566dda412a542b0b905139f108d408f7"
     },
     {
       "id": "threejs-precipitation-surfaces",
@@ -4624,7 +4636,7 @@
       "path": "skills/threejs-precipitation-surfaces/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b8d725c8561b6f59cd34a6bef17dea90a5d446bda642922f1789b3304178a8e6"
+      "sha256": "7ba9eb34f8f2782ce225e91132190f5ac5912fc4e1eb7817d9a08f1aac686591"
     },
     {
       "id": "threejs-procedural-animation",
@@ -4634,7 +4646,7 @@
       "path": "skills/threejs-procedural-animation/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ffff08ac650e8aebd24f769a653e9baab322876feec75c32fd8184011d469f54"
+      "sha256": "5e45deb3ec6c2fb04a93913e9b8d51c3a55a5c51b8c0bded286bd6f6d5e9578a"
     },
     {
       "id": "threejs-procedural-architecture",
@@ -4644,7 +4656,7 @@
       "path": "skills/threejs-procedural-architecture/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "66d22d96bfff2352e1b81ae0685b1e63a192bca34cdfdf313a6cbbfaf7f012bf"
+      "sha256": "a235b60592dd267d89ee022831dd7ec8f8702e9415b70b9dfcc7b2d0b27d6421"
     },
     {
       "id": "threejs-procedural-fields",
@@ -4656,7 +4668,7 @@
       "dependencies": [
         "threejs-procedural-planets"
       ],
-      "sha256": "4adda9ecf13be183a30c106834204ae6b96418deb3e254965b3e8ab52f0f9358"
+      "sha256": "a2d19411a412d4ee651d4387664ac608b05dfb1e4b5c8ea12f64dbf911ae804e"
     },
     {
       "id": "threejs-procedural-geometry",
@@ -4668,7 +4680,7 @@
       "dependencies": [
         "threejs-procedural-architecture"
       ],
-      "sha256": "16615084f535169cba2c18352e12316c54e2d918ac73ecc8d82983a63c77271f"
+      "sha256": "d61a5cc452c9cbb2a36ecae803d20a19c9184a81e0886dfcd75da10a00a21c41"
     },
     {
       "id": "threejs-procedural-materials",
@@ -4682,7 +4694,7 @@
         "threejs-procedural-planets",
         "threejs-water-optics"
       ],
-      "sha256": "1bed7c5d389254e7e20404e61468c65be7c40639d2e6018d9ed18f2f3861a1d0"
+      "sha256": "ff8b34c3f5796ba774f10d56381cfee45916e5aa8feefe6512c850495c5e05ae"
     },
     {
       "id": "threejs-procedural-planets",
@@ -4692,7 +4704,7 @@
       "path": "skills/threejs-procedural-planets/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "bab1167ae8f783101b3505658b7580925355ba450ccc14e177569fe6b0444862"
+      "sha256": "f0ed8b85464d17b247be15b04846f813ab19409703f3aa78d84dfe59e4bebb1d"
     },
     {
       "id": "threejs-procedural-vegetation",
@@ -4702,7 +4714,7 @@
       "path": "skills/threejs-procedural-vegetation/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "06137118217d37b006cc87f03fc822e2c8050cee4d413f50508c7fa166558e38"
+      "sha256": "6c9df0c60f4304f18e342d1c7d714d092a6a01725880bf777de9aad2c7ba738e"
     },
     {
       "id": "threejs-procedural-vfx",
@@ -4712,7 +4724,7 @@
       "path": "skills/threejs-procedural-vfx/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f668ec8b147c14121810ba9950e86bac3d198405e97e3c4ba5ba8c2024b82583"
+      "sha256": "2086352e1e9e425ed70b783c04dad4ebcf5821059bb98ba2d1c810570ef3a0dc"
     },
     {
       "id": "threejs-qa-release",
@@ -4722,7 +4734,7 @@
       "path": "skills/threejs-qa-release/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "21042d59f3983e487c436f77ce3be0cba6ac4c183e49b40ed495de3a1cdd2d61"
+      "sha256": "cf86ea23ea77839a81374dd66bc8f70c5284f8556398c08292e24c706c35863e"
     },
     {
       "id": "threejs-raymarched-space-effects",
@@ -4732,7 +4744,7 @@
       "path": "skills/threejs-raymarched-space-effects/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "2ef92b6358b9a7fea395a6df7e266a93b9cac9e220b48c9efba446bf066182c0"
+      "sha256": "f1c728e038f7b6b3d819e7d01ea1ec269e46779a9593ca50c6e70c9c24efa30c"
     },
     {
       "id": "threejs-scene-setup",
@@ -4742,7 +4754,7 @@
       "path": "skills/threejs-scene-setup/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "2792b17391e64cbbc9ec2b6339f2c4bc85bfc784a083eb16d69512da15e4828f"
+      "sha256": "f856b6677e52cce279379d7766ac2c283964ee9d323590a50fffe82aede9094a"
     },
     {
       "id": "threejs-screen-space-ambient-occlusion",
@@ -4752,7 +4764,7 @@
       "path": "skills/threejs-screen-space-ambient-occlusion/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6a02c9b10d17cf15969a4696abdf4bdda7ed90463fb5d237583fe85863ccd9f5"
+      "sha256": "34e45c5b19f831f6cf546fc9e2290d7d6738a2d0f99afb4c5ec5068e5e4c0348"
     },
     {
       "id": "threejs-shadow-systems",
@@ -4764,7 +4776,7 @@
       "dependencies": [
         "threejs-procedural-architecture"
       ],
-      "sha256": "0d0ca70a37b2e03488aad0a6153881e1bdfad756412c0abe8fa83907cb9eded4"
+      "sha256": "5c9299a4e499ea08cb5b8caecc76afc54daaf6321f0b7b6653142ae1338ff855"
     },
     {
       "id": "threejs-skill-router",
@@ -4774,7 +4786,7 @@
       "path": "skills/threejs-skill-router/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "1045d8134a7ea29fa954f66fbe12b13a0c1cbcab6d7b8349da4d0d2970e1cc69"
+      "sha256": "a392604d0d4cccd826b950a5f1dafa1c3cc4949e6137f2a7a8c17c2c0ecf62ed"
     },
     {
       "id": "threejs-skills",
@@ -4794,7 +4806,7 @@
       "path": "skills/threejs-spectral-ocean/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "728e6b4bbdeea3ca362fea76d6b7be21caaa2ec3abe4852e3d736d8a0f6ff906"
+      "sha256": "c4acd572db85beba2c681c30c41150ea0443debc5dc4eaf03c4779fc2bebaf4a"
     },
     {
       "id": "threejs-temporal-surfaces",
@@ -4804,7 +4816,7 @@
       "path": "skills/threejs-temporal-surfaces/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "a03effbf1efe86db30060018251dc2953cb98e4a3d949a571cd5e25f55023be1"
+      "sha256": "8e9197fb77fb7fc55c3a4e7bec0b11f68912e76d4d19c2bdb6b2368d11a9a4e5"
     },
     {
       "id": "threejs-visual-validation",
@@ -4814,7 +4826,7 @@
       "path": "skills/threejs-visual-validation/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e5532e7fcc0bf704a761444513d758c6bb036d7dde7035cc439e011b02fba2e8"
+      "sha256": "1acd9dc6eb528a7558a0d66b0e84096e98f2966f9ffb2fa0c66a42a1e4ab1501"
     },
     {
       "id": "threejs-volumetric-clouds",
@@ -4824,7 +4836,7 @@
       "path": "skills/threejs-volumetric-clouds/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "b4eea25f5ab75ceba6a7ec983f88514c166e30a48643828f626170123b975436"
+      "sha256": "cf79652d5321693cc7dfffc1ffe46843892f4026ab96d08b955e15637514d321"
     },
     {
       "id": "threejs-water-optics",
@@ -4834,7 +4846,7 @@
       "path": "skills/threejs-water-optics/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "7cd4d52c0f03c756a2922e3c2f06366955e5554177fb45e66ccb6c53956461ce"
+      "sha256": "61fc3477424dd337678fa602e0d81501c92b5e46250607469fda62f66c95a3a8"
     },
     {
       "id": "tower-defense",
@@ -4844,7 +4856,7 @@
       "path": "skills/tower-defense/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "28fa0f7e5d0421085d484d817b31119f9732358044516cad5bc73ecfbd239598"
+      "sha256": "306e4c6d1cac94e42d5e57cb5c8953aa7d714a90db7010fc46d5fb730bbf9deb"
     },
     {
       "id": "troubleshooting",
@@ -4854,7 +4866,7 @@
       "path": "skills/troubleshooting/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "80357d865f9604c12403b9754c1a513d4ee8afcfda84423c7a0e62a246c472f7"
+      "sha256": "577a601152a8a49d990981b75bdc36ad9287a3d4af340487951a5fe45c85f543"
     },
     {
       "id": "tune-enemy-ai",
@@ -4914,7 +4926,7 @@
       "path": "skills/unreal-behavior-trees/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "994f58a4e1dc8383bd2925c460da2111f65700ac7ea99037d7e83c7d57bcb528"
+      "sha256": "8d42beff0f86dda2e6228f73467e9123d76ca475117c449a1cef31dace7c119e"
     },
     {
       "id": "unreal-blueprints",
@@ -4924,7 +4936,7 @@
       "path": "skills/unreal-blueprints/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "0e178ac57915bc0ef7ee47391912b78dceff245906aa612f75471b155f381cea"
+      "sha256": "470453911741b428521264880a11acab524897ce81131776fe88a5f09455a9b0"
     },
     {
       "id": "unreal-cpp-gameplay",
@@ -4934,7 +4946,7 @@
       "path": "skills/unreal-cpp-gameplay/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "21d3876da34e70baa9b4c18c3ed7536b2462d8e3b170680388590833811ff708"
+      "sha256": "385730c124b937a07646df11ad4b1e9faebcb259a86528c86ba737c42b72d818"
     },
     {
       "id": "unreal-engine-cpp-pro",
@@ -4954,7 +4966,7 @@
       "path": "skills/unreal-enhanced-input/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "8a636bb233cd1f9f1235b0c395c14d6df6c4819b1ee48810c5eb45f95e65f426"
+      "sha256": "c78844bdf500d4fbebe4615a96f52000e5b64634a8e6a8bcd40e7277fad02aa6"
     },
     {
       "id": "unreal-export",
@@ -4966,7 +4978,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "9109f7964bb14d3bbad2a5f97fc7a0612317f5790dff638642801d1ea81f5a01"
+      "sha256": "6b05e1869c9d55d0c106e82db77eb62e8459106d35dff25c6f5c80369f0d6f75"
     },
     {
       "id": "unreal-niagara",
@@ -4976,7 +4988,7 @@
       "path": "skills/unreal-niagara/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "8213c467ffa60ab698dfa9c7531da54bc51593ac6bad401931e4e61f88db887e"
+      "sha256": "8f3cdc1f64ac1e4a5257ad87e513d180e255f81573f97b34bd77ec68f738e349"
     },
     {
       "id": "unreal-packaging",
@@ -4986,7 +4998,7 @@
       "path": "skills/unreal-packaging/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ffcf2214e19ad8d4170a249e4a9db1b43409a658eaf03eefa6bebe7d6190b8db"
+      "sha256": "f3088038228bb20b756e4a55a501b2b36dc9d9919d6f0adb869151ea9277fb49"
     },
     {
       "id": "uv-workflow",
@@ -4998,7 +5010,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1e55a08843199640cc9d6a957ff40f96d077c00d74d6e1d95b81da8adceaba8b"
+      "sha256": "498e2c193fdf91e16664477b07e601187516fa3a294373ad9e6603b66ed80587"
     },
     {
       "id": "variant",
@@ -5008,7 +5020,7 @@
       "path": "skills/variant/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "4cfaf9113efa0ce3b41d6ece1c077067fbf1d4baf9bbd1f4ef902e69eff3abea"
+      "sha256": "44b63b1bd1753ebd6110bc3c79238b07356dd13522ac38838147eb8e8ba7517c"
     },
     {
       "id": "vector-style",
@@ -5020,7 +5032,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "ed736c9aaeb13152087dd743e3b3d9dadbbc14b10f764545413bb596338767e9"
+      "sha256": "0eb03cd1b58dc71c36a0dd00ff39a07ea77a18098c7acbc43f23339088059e11"
     },
     {
       "id": "vegetation-artist",
@@ -5032,7 +5044,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "3b1f43f0f456b95f5c00f1372f64db75f34967c581b02068d80ee6ef63d476ec"
+      "sha256": "b51b58de505f12995dca5a9d0e55b58b963463db84cbe4b0aef916488886739d"
     },
     {
       "id": "vehicle-artist",
@@ -5044,7 +5056,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "5a2414566399167883d947e0cbf5149ca056b52334d2a5ad341948f6241db6b8"
+      "sha256": "af6e1797f0a6f0489f7843ee65272001f50ea9bdce4ca59c30e811c1b45ddb2a"
     },
     {
       "id": "vfx-fx",
@@ -5056,7 +5068,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "4ea783380362cab44aa635f5cc967e46d6b1bf74061341a576aa4f37b3c72b0c"
+      "sha256": "99827208abc1a53bc7d0c860a467c4b738e3808ee69d70945aa1212742ef58ee"
     },
     {
       "id": "visual-console-eras",
@@ -5068,7 +5080,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1f8b5bd4909902ae48f3408cc8f5aa15f027fe95a35dc4929318a15ba315be6a"
+      "sha256": "efa92059ccd2bd5dab61d0d3ffbb9c2237fec504c38486b9706db512fbeed3da"
     },
     {
       "id": "visual-novel",
@@ -5078,7 +5090,7 @@
       "path": "skills/visual-novel/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "265c29c18250a83c429d24aebb8fe2f26265107815c75708b2296b14a5f3e957"
+      "sha256": "e11c4970ba08f808b65fc7beecfb0c5472cd77842a470930b9a71bba421102d7"
     },
     {
       "id": "voxel-style",
@@ -5090,7 +5102,7 @@
       "dependencies": [
         "blender-core"
       ],
-      "sha256": "1c1f73db79a3b1bab0a6ca90805a766328b1200965c6b4d70a34268514e52309"
+      "sha256": "534c90f8a3718f3a24ee89875d624d7fc95165a42dbb2a8f719a0bbbeaf357e7"
     },
     {
       "id": "vst3-review",
@@ -5100,7 +5112,7 @@
       "path": "skills/vst3-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "2ecf9490cc053759552d22a0b9715f75f8f6ff8bf207ec276f5d9096064df256"
+      "sha256": "30fa03e2e14a770149da800ebc336b1b777409caae5fff315482e7fe88c7e9ce"
     },
     {
       "id": "water-crystal-skill-vfx",
@@ -5140,7 +5152,7 @@
       "path": "skills/web-audio-sound-design/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "6a7c4bda1fbe3e97b4f5f72c26f4f2d7da9e5644e1922752d7a2ee4f6e808fcd"
+      "sha256": "312c1c7ef70f11ac4fb9f0dd8a2124b7485a70ce005a2d88339d1b794f469236"
     },
     {
       "id": "web-design-guidelines",
@@ -5150,7 +5162,7 @@
       "path": "skills/web-design-guidelines/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+      "sha256": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29"
     },
     {
       "id": "web-performance-optimization",
@@ -5170,7 +5182,7 @@
       "path": "skills/webapp-testing/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
+      "sha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34"
     },
     {
       "id": "webaudio-guide",
@@ -5180,7 +5192,7 @@
       "path": "skills/webaudio-guide/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "38c9985fca1ba4bf055f0c81645c111101f5d1515cd5087fb7961c7ea1b2ac10"
+      "sha256": "655860a621be0680dddfae3abe7b73f4910911078969e09b14a27b2707c7be4b"
     },
     {
       "id": "webaudio-review",
@@ -5190,7 +5202,7 @@
       "path": "skills/webaudio-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "60f3b2342635a328652f9b8ab6cbca31ed8f25f71bf4e4b7001395212f84af9a"
+      "sha256": "ce30112145116069479b76ca6bf7ffe5a1fc2fbfd5137cb1b7749ba83ebf1c5d"
     },
     {
       "id": "webgl-3d-object",
@@ -5210,7 +5222,7 @@
       "path": "skills/webgl-threejs-creative-dev/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "3f219283d82a9df5b5764e5177fa729693809ae7b32ec9b92312af039c76b7d7"
+      "sha256": "dd90f04c8057b58a9577e4363377ef97db644dfab2b7b9ecc32196f9f21751bf"
     },
     {
       "id": "winui-app",
@@ -5220,7 +5232,7 @@
       "path": "skills/winui-app/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "917341ec9eb688d73e21362910a7178a92b2ae49544b7d8f17ee9e19adfe2ea8"
+      "sha256": "69e4e697a60403b587b4eb36c8fa2d3699f4943ed66747bce268828a5ef9de4c"
     },
     {
       "id": "woodland-chapter-cameras",
@@ -5240,7 +5252,7 @@
       "path": "skills/write-swift/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "ad8f3af70b627c165ecd73ecdba49449e35301dd845c397cf813f06582bbdac2"
+      "sha256": "7c42f49aa17872b269196f817c4cf33d18aba743127d3e5d3674724785125ebd"
     },
     {
       "id": "yup-guide",
@@ -5250,7 +5262,7 @@
       "path": "skills/yup-guide/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "963335d384cc2bfa6f70475477a4a077a918fde49680c69ed4a8136d4969599e"
+      "sha256": "c26485df87b3a06f21e25fa7e9a2a791e14792aabc435a14a9d4705765830f09"
     },
     {
       "id": "yup-review",
@@ -5260,7 +5272,7 @@
       "path": "skills/yup-review/SKILL.md",
       "primary": true,
       "dependencies": [],
-      "sha256": "e7341d1c83de46c1c101f5c36905d71b8afe4f2141d8edda4fc7375d856a5ae8"
+      "sha256": "82ce47db754876879d5d34630e1927bd6b0f33b1646711fae10b8c515223069d"
     },
     {
       "id": "zustand-store-ts",

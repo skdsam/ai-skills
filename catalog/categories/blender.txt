@@ -16,6 +16,7 @@ archviz | archviz | Architectural visualization in Blender for interiors/exterio
 asset-optimization | asset-optimization | Validates and optimizes Blender assets for polycount, topology, UV efficiency, material count, naming, collections, and game-ready performan
 biome-worlds | biome-worlds | Biome and setting art direction for Blender covering underwater, desert, arctic, jungle, underground, and floating-island environments.
 blender-addon-development | blender-addon-development | Master framework for creating production-ready Blender addons supporting Blender 3.6 LTS through 5.2+ in a Single Unified Codebase. Implemen
+blender-addon-docs | blender-addon-docs | Create gold-standard, 100% offline self-contained interactive HTML documentation (documentation.html) for Blender addons with a clickable N-
 blender-animation | blender-animation | Animation in Blender 5.3 - slotted/layered actions and the channelbag API, Python keyframing, F-curves, game loops with pop/hitch checks, NL
 blender-asset-qa | blender-asset-qa | Mandatory review gate for any mesh or asset created or edited in Blender. Detects z-fighting, floating/detached parts, inverted or inconsist
 blender-character-rigging | blender-character-rigging | Character rigging in Blender 5.3 - Rigify metarig fit/generate, bone naming/roll/collections, DEF/MCH/control layers, IK/FK, robust skinning

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ADDON_NAME}} — Interactive UI/UX &amp; Architecture Documentation</title>
+  <style>
+    :root {
+      --background: #0b0f17;
+      --sidebar: #111827;
+      --card: #161f30;
+      --card-border: #263248;
+      --border: #2d3b55;
+      --foreground: #f1f5f9;
+      --muted-foreground: #94a3b8;
+      --placeholder: #64748b;
+      --code-foreground: #38bdf8;
+      --primary: #3b82f6;
+      --primary-foreground: #ffffff;
+      --success: #22c55e;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: var(--font-sans);
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    code { font-family: var(--font-mono); color: var(--code-foreground); font-size: 12px; }
+    button { font-family: inherit; color: inherit; cursor: pointer; }
+    button:focus-visible, input:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    .hidden { display: none !important; }
+    .container { max-width: 1280px; margin: 0 auto; }
+
+    /* Sticky Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: var(--sidebar);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+    }
+    .header-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand { display: flex; align-items: flex-start; gap: 12px; }
+    .brand-badge {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-md);
+      background: var(--primary);
+      color: var(--primary-foreground);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    .brand-title-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+    .brand-title { margin: 0; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+    .brand-sub { margin: 2px 0 0; font-size: 12px; color: var(--muted-foreground); }
+
+    .pill {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 11px;
+      border-radius: var(--radius-sm);
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      color: var(--muted-foreground);
+    }
+    .pill-primary { color: var(--primary); font-family: var(--font-mono); }
+    .pill-success { color: var(--success); }
+
+    /* Global Search */
+    .search-wrap { position: relative; width: 100%; max-width: 300px; }
+    .search-input {
+      width: 100%;
+      padding: 7px 28px 7px 12px;
+      font-size: 12px;
+      border-radius: var(--radius-sm);
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      color: var(--foreground);
+    }
+    .search-input::placeholder { color: var(--placeholder); }
+    .search-clear {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--muted-foreground);
+      font-size: 12px;
+      padding: 2px 4px;
+    }
+
+    /* Navigation Tabs */
+    .tab-nav {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+    }
+    .tab-btn, .drawer-pill {
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+      background: var(--card);
+      color: var(--foreground);
+      white-space: nowrap;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .tab-btn:hover, .drawer-pill:hover { border-color: var(--primary); }
+    .tab-btn[aria-selected="true"], .drawer-pill[aria-pressed="true"] {
+      background: var(--primary);
+      color: var(--primary-foreground);
+      border-color: var(--primary);
+    }
+
+    /* Main Content */
+    .main-content { padding: 24px; }
+    .stack > * + * { margin-top: 20px; }
+    .stack-sm > * + * { margin-top: 10px; }
+
+    .search-banner {
+      padding: 12px 16px;
+      border-radius: var(--radius-md);
+      background: var(--card);
+      border: 1px solid var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--primary);
+      background: var(--primary);
+      color: var(--primary-foreground);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* Cards & Grids */
+    .card {
+      padding: 18px;
+      border-radius: var(--radius-md);
+      background: var(--card);
+      border: 1px solid var(--border);
+    }
+    .subcard {
+      padding: 12px;
+      border-radius: var(--radius-sm);
+      background: var(--sidebar);
+      border: 1px solid var(--card-border);
+    }
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+    }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+
+    /* Interactive N-Panel Explorer */
+    .explorer-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 5fr) minmax(340px, 7fr);
+      gap: 20px;
+      align-items: start;
+    }
+    @media (max-width: 960px) {
+      .explorer-layout { grid-template-columns: 1fr; }
+    }
+    .inspector-sticky { position: sticky; top: 120px; }
+
+    .sim-ctrl {
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+      background: var(--card);
+      color: var(--foreground);
+      font-size: 12px;
+      padding: 6px 10px;
+      text-align: left;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .sim-ctrl:hover { border-color: var(--primary); }
+    .sim-ctrl.is-active {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 1px var(--primary);
+    }
+    .sim-ctrl-primary {
+      background: var(--primary);
+      color: var(--primary-foreground);
+      border-color: var(--primary);
+      font-weight: 600;
+      text-align: center;
+    }
+    .sim-row { display: flex; gap: 6px; align-items: center; }
+    .sim-row-between { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+
+    /* Tables */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; }
+    th {
+      padding: 8px 12px;
+      color: var(--muted-foreground);
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+    }
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--card-border);
+      vertical-align: top;
+    }
+    tbody tr:hover { background: var(--sidebar); }
+
+    .muted { color: var(--muted-foreground); }
+    .mono { font-family: var(--font-mono); }
+    .section-title { margin: 0 0 4px; font-size: 15px; font-weight: 700; }
+    .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="brand">
+          <div class="brand-badge">{{MONOGRAM}}</div>
+          <div>
+            <div class="brand-title-row">
+              <h1 class="brand-title">{{ADDON_NAME}}</h1>
+              <span class="pill pill-primary">{{MODULE_ID}} {{VERSION}}</span>
+              <span class="pill">{{BLENDER_VERSIONS}}</span>
+              <span class="pill pill-success">{{RENDER_ENGINES_OR_CATEGORY}}</span>
+            </div>
+            <p class="brand-sub">{{ADDON_TAGLINE}}</p>
+          </div>
+        </div>
+
+        <div class="search-wrap">
+          <input id="globalSearch" class="search-input" type="text" placeholder="Search any button, slider, property, or preset..." aria-label="Search documentation" />
+          <button id="clearSearch" class="search-clear hidden" title="Clear search" aria-label="Clear search">✕</button>
+        </div>
+      </div>
+
+      <nav class="tab-nav" role="tablist" aria-label="Documentation Sections">
+        <button class="tab-btn" role="tab" data-tab="overview" aria-selected="true">1. How It Works &amp; Architecture</button>
+        <button class="tab-btn" role="tab" data-tab="simulator" aria-selected="false">2. Interactive N-Panel UI Explorer</button>
+        <button class="tab-btn" role="tab" data-tab="buttons" aria-selected="false">3. All Buttons &amp; Operators</button>
+        <button class="tab-btn" role="tab" data-tab="options" aria-selected="false">4. All Options &amp; Sliders</button>
+        <button class="tab-btn" role="tab" data-tab="presets" aria-selected="false">5. Presets &amp; Catalog</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content container">
+    <!-- Live Search Banner -->
+    <div id="searchBanner" class="search-banner hidden" role="status" aria-live="polite">
+      <div><strong style="color: var(--primary);">Live Search Active:</strong> <span id="searchSummary"></span></div>
+      <button id="resetSearchBtn" class="btn-primary">Reset Filter</button>
+    </div>
+
+    <!-- TAB 1: ARCHITECTURE -->
+    <section id="tab-overview" class="tab-panel stack" role="tabpanel">
+      <div class="kpi-grid">
+        <!-- Populate 4-6 KPI summary cards -->
+        <div class="card">
+          <div class="muted">Operators</div>
+          <div style="font-size: 20px; font-weight: 700; color: var(--primary);">{{OP_COUNT}}</div>
+          <div class="muted">Action buttons</div>
+        </div>
+      </div>
+
+      <div class="card stack-sm">
+        <h2 class="section-title">How the Addon Works</h2>
+        <div class="grid-4">
+          <!-- Populate pipeline steps -->
+          <div class="subcard">
+            <strong style="color: var(--primary);">STEP 1 · UI &amp; State</strong>
+            <p class="muted">Describe how RNA properties and UI controls trigger updates.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card stack-sm">
+        <h2 class="section-title">Codebase Module Architecture</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Module File</th><th>Primary Responsibility</th><th>Key Functions / Classes</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="mono" style="color: var(--primary);">__init__.py</td>
+                <td>Addon metadata and class registration</td>
+                <td class="mono">bl_info, register(), unregister()</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: INTERACTIVE N-PANEL EXPLORER -->
+    <section id="tab-simulator" class="tab-panel hidden" role="tabpanel">
+      <div class="explorer-layout">
+        <!-- Left: Clickable N-Panel Replica -->
+        <div class="card stack-sm">
+          <div class="sim-row-between" style="border-bottom: 1px solid var(--card-border); padding-bottom: 8px;">
+            <strong style="font-size: 12px; text-transform: uppercase;">Blender 3D Viewport → N-Panel: "{{PANEL_TAB_NAME}}"</strong>
+            <span class="muted" style="font-size: 11px;">Click any control</span>
+          </div>
+
+          <div class="subcard stack-sm">
+            <div class="sim-row">
+              <button data-inspect="btn-primary-action" class="sim-ctrl sim-ctrl-primary is-active" style="flex: 1;">Primary Action</button>
+              <button data-inspect="btn-docs" class="sim-ctrl" title="Open Documentation">? Docs</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Sticky Live Inspector Card -->
+        <div class="card stack-sm inspector-sticky">
+          <div class="sim-row-between" style="border-bottom: 1px solid var(--card-border); padding-bottom: 10px;">
+            <div>
+              <span id="inspBadge" class="pill pill-primary">OPERATOR BUTTON</span>
+              <h3 id="inspTitle" class="section-title" style="margin-top: 6px;">Primary Action</h3>
+            </div>
+            <code id="inspId" class="pill">my_addon.primary_action</code>
+          </div>
+
+          <div class="subcard">
+            <strong>What It Does</strong>
+            <p id="inspWhat" class="muted" style="margin: 4px 0 0;">Click any control on the left to inspect its behavior.</p>
+          </div>
+
+          <div class="subcard">
+            <strong>How It Works Under the Hood</strong>
+            <p id="inspHow" class="muted" style="margin: 4px 0 0;">Exact internal functions, shader sockets, or Blender API calls.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="subcard">
+              <div class="muted">Source File &amp; Handler</div>
+              <div id="inspSource" class="mono" style="margin-top: 4px;">operators.py → MYADDON_OT_primary_action</div>
+            </div>
+            <div class="subcard">
+              <div class="muted">Affected Data / Target</div>
+              <div id="inspTarget" class="mono" style="margin-top: 4px;">context.scene</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: ALL BUTTONS & OPERATORS -->
+    <section id="tab-buttons" class="tab-panel hidden stack" role="tabpanel">
+      <div id="operatorsGrid" class="grid-2"></div>
+    </section>
+
+    <!-- TAB 4: ALL OPTIONS & SLIDERS -->
+    <section id="tab-options" class="tab-panel hidden stack" role="tabpanel">
+      <div class="filter-bar" role="group" aria-label="Filter options by section">
+        <button class="drawer-pill" data-drawer="ALL" aria-pressed="true">All Sections</button>
+        <!-- Add one pill per drawer/section -->
+      </div>
+      <div id="optionsContainer" class="stack"></div>
+    </section>
+
+    <!-- TAB 5: PRESETS & CATALOG -->
+    <section id="tab-presets" class="tab-panel hidden stack" role="tabpanel">
+      <div id="presetsGrid" class="grid-3"></div>
+    </section>
+  </main>
+
+  <script>
+    const INSPECTOR_DATA = {
+      "btn-primary-action": {
+        badge: "OPERATOR BUTTON",
+        title: "Primary Action",
+        id: "my_addon.primary_action",
+        what: "Describe what this button does for the artist.",
+        how: "Describe the exact Python handler and Blender API calls.",
+        source: "operators.py → MYADDON_OT_primary_action",
+        target: "context.scene"
+      },
+      "btn-docs": {
+        badge: "OPERATOR BUTTON",
+        title: "Open Documentation",
+        id: "my_addon.open_documentation",
+        what: "Opens this offline interactive HTML documentation in your default web browser.",
+        how: "Resolves documentation.html inside the addon package via Path(doc_path).as_uri() and calls bpy.ops.wm.url_open() with webbrowser.open() fallback.",
+        source: "operators.py → MYADDON_OT_open_documentation",
+        target: "System Web Browser"
+      }
+    };
+
+    const OPERATORS_DATA = [
+      {
+        label: "Open Documentation",
+        idname: "my_addon.open_documentation",
+        location: "N-Panel Header",
+        cls: "MYADDON_OT_open_documentation",
+        what: "Opens the bundled offline HTML documentation in the user's browser.",
+        how: "Uses Path(doc_path).as_uri() and bpy.ops.wm.url_open() with webbrowser.open() fallback.",
+        params: "None"
+      }
+    ];
+
+    const OPTIONS_DATA = [
+      {
+        drawerId: "section-1",
+        drawerTitle: "1. General Settings",
+        items: [
+          {
+            name: "Example Toggle",
+            prop: "scene.my_addon.enabled",
+            type: "BoolProperty",
+            def: "True",
+            what: "Enables or disables the core feature.",
+            how: "Triggers update callback to sync scene state."
+          }
+        ]
+      }
+    ];
+
+    const PRESETS_DATA = [
+      {
+        name: "Default Preset",
+        cat: "General",
+        badge: "Default",
+        desc: "Baseline starting configuration.",
+        highlights: "key_param=1.0"
+      }
+    ];
+
+    let searchQuery = "";
+    let activeDrawerFilter = "ALL";
+
+    function renderOperators() {
+      const container = document.getElementById("operatorsGrid");
+      const q = searchQuery.toLowerCase();
+      const filtered = OPERATORS_DATA.filter(op =>
+        !q || [op.label, op.idname, op.cls, op.what, op.how, op.location].some(v => v.toLowerCase().includes(q))
+      );
+      if (!filtered.length) {
+        container.innerHTML = `<div class="card muted">No operators match "${searchQuery}".</div>`;
+        return 0;
+      }
+      container.innerHTML = filtered.map(op => `
+        <div class="card stack-sm">
+          <div class="sim-row-between">
+            <strong>${op.label}</strong>
+            <code class="pill pill-primary">${op.idname}</code>
+          </div>
+          <div class="filter-bar">
+            <span class="pill">${op.location}</span>
+            <span class="pill mono">${op.cls}</span>
+          </div>
+          <div class="subcard"><strong>What It Does:</strong><p class="muted" style="margin:4px 0 0;">${op.what}</p></div>
+          <div class="subcard"><strong>How It Works:</strong><p class="muted" style="margin:4px 0 0;">${op.how}</p></div>
+          <div class="mono" style="font-size:11px; color:var(--code-foreground);">Params: ${op.params}</div>
+        </div>
+      `).join("");
+      return filtered.length;
+    }
+
+    function renderOptions() {
+      const container = document.getElementById("optionsContainer");
+      const q = searchQuery.toLowerCase();
+      let total = 0;
+      const blocks = OPTIONS_DATA
+        .filter(g => activeDrawerFilter === "ALL" || g.drawerId === activeDrawerFilter)
+        .map(g => {
+          const items = g.items.filter(it =>
+            !q || [it.name, it.prop, it.what, it.how].some(v => v.toLowerCase().includes(q))
+          );
+          total += items.length;
+          if (!items.length) return "";
+          const rows = items.map(it => `
+            <tr>
+              <td><strong>${it.name}</strong></td>
+              <td class="mono" style="color:var(--primary);">${it.prop}</td>
+              <td class="mono muted">${it.type}<br/><code>Def: ${it.def}</code></td>
+              <td>${it.what}</td>
+              <td class="muted">${it.how}</td>
+            </tr>
+          `).join("");
+          return `
+            <div class="card" style="padding:0; overflow:hidden;">
+              <div class="sim-row-between" style="padding:12px 16px; background:var(--sidebar); border-bottom:1px solid var(--card-border);">
+                <strong>${g.drawerTitle}</strong>
+                <span class="mono muted">${items.length} control(s)</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>UI Label</th><th>RNA Property</th><th>Type &amp; Default</th><th>What It Controls</th><th>How It Works</th></tr></thead>
+                  <tbody>${rows}</tbody>
+                </table>
+              </div>
+            </div>
+          `;
+        }).filter(Boolean).join("");
+      container.innerHTML = blocks || `<div class="card muted">No options match your current filter.</div>`;
+      return total;
+    }
+
+    function renderPresets() {
+      const container = document.getElementById("presetsGrid");
+      const q = searchQuery.toLowerCase();
+      const filtered = PRESETS_DATA.filter(p =>
+        !q || [p.name, p.cat, p.desc, p.highlights].some(v => v.toLowerCase().includes(q))
+      );
+      if (!filtered.length) {
+        container.innerHTML = `<div class="card muted">No presets match "${searchQuery}".</div>`;
+        return 0;
+      }
+      container.innerHTML = filtered.map((p, i) => `
+        <div class="subcard stack-sm">
+          <div class="sim-row-between">
+            <strong>${i + 1}. ${p.name}</strong>
+            <span class="pill pill-primary">${p.badge}</span>
+          </div>
+          <p class="muted" style="margin:0;">${p.desc}</p>
+          <div class="mono" style="font-size:11px; color:var(--code-foreground); border-top:1px solid var(--card-border); padding-top:6px;">${p.highlights}</div>
+        </div>
+      `).join("");
+      return filtered.length;
+    }
+
+    // Tab switching
+    const tabBtns = document.querySelectorAll(".tab-btn");
+    const tabPanels = document.querySelectorAll(".tab-panel");
+    tabBtns.forEach(btn => btn.addEventListener("click", () => {
+      const id = btn.dataset.tab;
+      tabBtns.forEach(b => b.setAttribute("aria-selected", b.dataset.tab === id ? "true" : "false"));
+      tabPanels.forEach(p => p.classList.toggle("hidden", p.id !== `tab-${id}`));
+    }));
+
+    // Inspector click handler
+    const simCtrls = document.querySelectorAll(".sim-ctrl");
+    simCtrls.forEach(ctrl => ctrl.addEventListener("click", () => {
+      const info = INSPECTOR_DATA[ctrl.dataset.inspect];
+      if (!info) return;
+      simCtrls.forEach(c => c.classList.remove("is-active"));
+      ctrl.classList.add("is-active");
+      document.getElementById("inspBadge").textContent = info.badge;
+      document.getElementById("inspTitle").textContent = info.title;
+      document.getElementById("inspId").textContent = info.id;
+      document.getElementById("inspWhat").textContent = info.what;
+      document.getElementById("inspHow").textContent = info.how;
+      document.getElementById("inspSource").textContent = info.source;
+      document.getElementById("inspTarget").textContent = info.target;
+    }));
+
+    // Drawer filter pills
+    document.querySelectorAll(".drawer-pill").forEach(pill => pill.addEventListener("click", () => {
+      activeDrawerFilter = pill.dataset.drawer;
+      document.querySelectorAll(".drawer-pill").forEach(p =>
+        p.setAttribute("aria-pressed", p.dataset.drawer === activeDrawerFilter ? "true" : "false")
+      );
+      renderOptions();
+    }));
+
+    // Live search
+    const searchInput = document.getElementById("globalSearch");
+    const clearSearch = document.getElementById("clearSearch");
+    const searchBanner = document.getElementById("searchBanner");
+    const searchSummary = document.getElementById("searchSummary");
+    function updateAllFilters() {
+      searchQuery = searchInput.value.trim();
+      clearSearch.classList.toggle("hidden", !searchQuery);
+      const opCount = renderOperators();
+      const optCount = renderOptions();
+      const preCount = renderPresets();
+      searchBanner.classList.toggle("hidden", !searchQuery);
+      if (searchQuery) {
+        searchSummary.textContent = `"${searchQuery}" matched ${opCount} operator(s), ${optCount} option(s), and ${preCount} preset(s).`;
+      }
+    }
+    searchInput.addEventListener("input", updateAllFilters);
+    clearSearch.addEventListener("click", () => { searchInput.value = ""; updateAllFilters(); });
+    document.getElementById("resetSearchBtn").addEventListener("click", () => { searchInput.value = ""; updateAllFilters(); });
+    updateAllFilters();
+  </script>
+</body>
+</html>
